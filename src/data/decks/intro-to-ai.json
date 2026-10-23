@@ -1,0 +1,620 @@
+{
+  "id": "intro-to-ai",
+  "title": "Intro to AI",
+  "category": "Computer Science",
+  "description": "Learn GRE words through agents, search, logic, knowledge representation, planning, reasoning under uncertainty and machine learning.",
+  "cards": [
+    {
+      "id": "intro-to-ai-gullible",
+      "word": "gullible",
+      "partOfSpeech": "adjective",
+      "definition": "easily deceived",
+      "sentence": "ELIZA, a 1966 pattern-matching chatbot, convinced some gullible users that it understood them.",
+      "explanation": "Weizenbaum's ELIZA turned user statements into questions with scripted rules, and its DOCTOR script imitated a psychotherapist. The Turing test, proposed in 1950 as the 'imitation game', has the same weakness: judges can be fooled by surface fluency without real understanding.",
+      "citations": [
+        {
+          "title": "ELIZA (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/ELIZA"
+        },
+        {
+          "title": "Turing test (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Turing_test"
+        }
+      ]
+    },
+    {
+      "id": "intro-to-ai-audacious",
+      "word": "audacious",
+      "partOfSpeech": "adjective",
+      "definition": "daring; bold",
+      "sentence": "The 1955 proposal for the Dartmouth workshop made the audacious claim that every feature of intelligence could be described precisely enough for a machine to simulate it.",
+      "explanation": "Proposed by McCarthy, Minsky, Rochester and Shannon, the 1956 summer workshop is where the term 'artificial intelligence' was coined, and it is usually treated as the field's founding event.",
+      "citations": [
+        {
+          "title": "Dartmouth workshop (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Dartmouth_workshop"
+        }
+      ]
+    },
+    {
+      "id": "intro-to-ai-torpor",
+      "word": "torpor",
+      "partOfSpeech": "noun",
+      "definition": "lethargy; sluggishness; dormancy",
+      "sentence": "Cuts in funding after unmet promises pushed AI into a torpor in the 1970s and again in the late 1980s, periods known as AI winters.",
+      "explanation": "The first followed critiques such as the 1973 Lighthill report in the UK, and the second followed the collapse of the market for expert-system hardware and software. Interest recovered with machine learning, more data and faster computers.",
+      "citations": [
+        {
+          "title": "AI winter (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/AI_winter"
+        }
+      ]
+    },
+    {
+      "id": "intro-to-ai-fledgling",
+      "word": "fledgling",
+      "partOfSpeech": "adjective",
+      "definition": "inexperienced",
+      "sentence": "A fledgling learning agent starts with little knowledge and improves through experience.",
+      "explanation": "Russell and Norvig describe a learning agent with four parts: a performance element that selects actions, a learning element that improves it, a critic that gives feedback, and a problem generator that suggests exploratory actions.",
+      "citations": [
+        {
+          "title": "Artificial Intelligence: A Modern Approach (Russell & Norvig)",
+          "url": "https://aima.cs.berkeley.edu/"
+        }
+      ]
+    },
+    {
+      "id": "intro-to-ai-paragon",
+      "word": "paragon",
+      "partOfSpeech": "noun",
+      "definition": "model of perfection",
+      "sentence": "Perfect rationality is a paragon that real agents cannot reach, because they have limited time and computation.",
+      "explanation": "A rational agent chooses the action expected to maximize its performance measure given what it has perceived. Bounded rationality, a term from Herbert Simon, accepts good-enough decisions made within resource limits.",
+      "citations": [
+        {
+          "title": "Rational agent (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Rational_agent"
+        },
+        {
+          "title": "Bounded rationality (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Bounded_rationality"
+        }
+      ]
+    },
+    {
+      "id": "intro-to-ai-sage",
+      "word": "sage",
+      "partOfSpeech": "noun",
+      "definition": "person celebrated for wisdom",
+      "sentence": "Expert systems tried to capture the rules of a human sage, such as an experienced physician, in an if-then knowledge base.",
+      "explanation": "MYCIN, built in the 1970s, used several hundred rules to recommend antibiotics for bacterial infections and could explain its reasoning. Building and maintaining such rule bases was costly, a problem called the knowledge acquisition bottleneck.",
+      "citations": [
+        {
+          "title": "Mycin (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Mycin"
+        },
+        {
+          "title": "Expert system (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Expert_system"
+        }
+      ]
+    },
+    {
+      "id": "intro-to-ai-assiduous",
+      "word": "assiduous",
+      "partOfSpeech": "adjective",
+      "definition": "diligent",
+      "sentence": "Breadth-first search is assiduous, expanding every node at depth d before any node at depth d + 1.",
+      "explanation": "It finds the shallowest goal, so it is optimal when every step costs the same, but its memory use grows as b^d for branching factor b. Uniform-cost search generalizes it to steps with different costs.",
+      "citations": [
+        {
+          "title": "Breadth-first search (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Breadth-first_search"
+        }
+      ]
+    },
+    {
+      "id": "intro-to-ai-goad",
+      "word": "goad",
+      "partOfSpeech": "verb",
+      "definition": "urge on",
+      "sentence": "In greedy best-first search, the heuristic goads the search toward nodes that look closest to the goal.",
+      "explanation": "Greedy search expands the node with the lowest estimated distance h(n) to the goal. It is fast but neither complete nor optimal in general. A* uses f(n) = g(n) + h(n) to balance the cost so far against the estimated cost remaining.",
+      "citations": [
+        {
+          "title": "Best-first search (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Best-first_search"
+        },
+        {
+          "title": "A* search algorithm (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/A*_search_algorithm"
+        }
+      ]
+    },
+    {
+      "id": "intro-to-ai-gouge",
+      "word": "gouge",
+      "partOfSpeech": "verb",
+      "definition": "overcharge; by extension, overestimate",
+      "sentence": "A heuristic that gouges by overestimating the true remaining cost is inadmissible and can make A* return a suboptimal path.",
+      "explanation": "An admissible heuristic never overestimates, which makes A* tree search optimal. A consistent heuristic satisfies h(n) ≤ c(n, n′) + h(n′), which keeps A* graph search optimal without re-expanding nodes.",
+      "citations": [
+        {
+          "title": "Admissible heuristic (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Admissible_heuristic"
+        },
+        {
+          "title": "A* search algorithm (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/A*_search_algorithm"
+        }
+      ]
+    },
+    {
+      "id": "intro-to-ai-vacillate",
+      "word": "vacillate",
+      "partOfSpeech": "verb",
+      "definition": "waver; fluctuate",
+      "sentence": "Hill climbing can vacillate on a plateau, moving between equal-valued states without making progress.",
+      "explanation": "Local search keeps only a current state and moves to a better neighbor. It can stall at local maxima and plateaus, so variants add random restarts, limits on sideways moves, tabu lists, or simulated annealing, which sometimes accepts worse moves with a probability that falls over time.",
+      "citations": [
+        {
+          "title": "Hill climbing (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Hill_climbing"
+        },
+        {
+          "title": "Simulated annealing (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Simulated_annealing"
+        }
+      ]
+    },
+    {
+      "id": "intro-to-ai-implacable",
+      "word": "implacable",
+      "partOfSpeech": "adjective",
+      "definition": "incapable of being pacified",
+      "sentence": "Minimax assumes an implacable opponent who always plays the move that is best for them.",
+      "explanation": "In a two-player zero-sum game, MAX picks the move that maximizes the worst-case outcome, assuming MIN plays optimally. That is optimal against a perfect opponent but can be too cautious against a weaker one.",
+      "citations": [
+        {
+          "title": "Minimax (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Minimax"
+        }
+      ]
+    },
+    {
+      "id": "intro-to-ai-dismiss",
+      "word": "dismiss",
+      "partOfSpeech": "verb",
+      "definition": "eliminate from consideration; reject",
+      "sentence": "Alpha-beta pruning can dismiss whole branches of the game tree once they cannot change the final decision.",
+      "explanation": "It returns the same move as plain minimax. With good move ordering it examines about b^(m/2) nodes instead of b^m, which roughly doubles the depth that can be searched in the same time.",
+      "citations": [
+        {
+          "title": "Alpha-beta pruning (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Alpha%E2%80%93beta_pruning"
+        }
+      ]
+    },
+    {
+      "id": "intro-to-ai-quiescent",
+      "word": "quiescent",
+      "partOfSpeech": "adjective",
+      "definition": "at rest; dormant; temporarily inactive",
+      "sentence": "Chess programs keep searching past the nominal depth until the position is quiescent, so they do not judge a position in the middle of a capture sequence.",
+      "explanation": "This is quiescence search. It reduces the horizon effect, in which a fixed-depth search misses a looming loss just beyond its cutoff, by evaluating only positions with no pending captures or checks.",
+      "citations": [
+        {
+          "title": "Quiescence search (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Quiescence_search"
+        },
+        {
+          "title": "Horizon effect (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Horizon_effect"
+        }
+      ]
+    },
+    {
+      "id": "intro-to-ai-daunt",
+      "word": "daunt",
+      "partOfSpeech": "verb",
+      "definition": "intimidate; frighten",
+      "sentence": "Shannon estimated chess at about 10¹²⁰ possible games, a number that would daunt any exhaustive search.",
+      "explanation": "Real programs rely on heuristic evaluation, pruning and depth limits. Deep Blue beat Garry Kasparov in a 1997 match using specialized hardware that searched on the order of 200 million positions per second.",
+      "citations": [
+        {
+          "title": "Shannon number (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Shannon_number"
+        },
+        {
+          "title": "Deep Blue (chess computer) (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Deep_Blue_(chess_computer)"
+        }
+      ]
+    },
+    {
+      "id": "intro-to-ai-guileless",
+      "word": "guileless",
+      "partOfSpeech": "adjective",
+      "definition": "without deceit; by extension, never leading to false conclusions",
+      "sentence": "A sound inference procedure is guileless: from true premises it never derives a false conclusion.",
+      "explanation": "Soundness means everything derived is entailed by the knowledge base, and completeness means everything entailed can be derived. Resolution refutation is both sound and refutation-complete for first-order logic.",
+      "citations": [
+        {
+          "title": "Soundness (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Soundness"
+        },
+        {
+          "title": "Completeness (logic) (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Completeness_(logic)"
+        }
+      ]
+    },
+    {
+      "id": "intro-to-ai-conciliatory",
+      "word": "conciliatory",
+      "partOfSpeech": "adjective",
+      "definition": "reconciling; soothing",
+      "sentence": "Unification is conciliatory: it finds a substitution that makes two logical expressions identical.",
+      "explanation": "For example, unifying Knows(John, x) with Knows(y, Mary) gives the substitution {y/John, x/Mary}. Unification is the key step in first-order resolution and in the backward chaining used by Prolog.",
+      "citations": [
+        {
+          "title": "Unification (computer science) (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Unification_(computer_science)"
+        },
+        {
+          "title": "Prolog (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Prolog"
+        }
+      ]
+    },
+    {
+      "id": "intro-to-ai-discordant",
+      "word": "discordant",
+      "partOfSpeech": "adjective",
+      "definition": "not harmonious; conflicting",
+      "sentence": "A knowledge base containing discordant facts is inconsistent, and in classical logic anything follows from a contradiction.",
+      "explanation": "This is the principle of explosion. Practical systems therefore check consistency, use reason-maintenance systems to retract beliefs, or use probabilistic or paraconsistent methods that tolerate conflicts.",
+      "citations": [
+        {
+          "title": "Principle of explosion (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Principle_of_explosion"
+        },
+        {
+          "title": "Reason maintenance (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Reason_maintenance"
+        }
+      ]
+    },
+    {
+      "id": "intro-to-ai-precipitate",
+      "word": "precipitate",
+      "partOfSpeech": "adjective",
+      "definition": "rash, premature, hasty, sudden",
+      "sentence": "Concluding that every bird flies from a few observed birds is a precipitate inference: plausible, but not guaranteed.",
+      "explanation": "Deduction preserves truth, while induction generalizes from examples and can be wrong. Penguins and ostriches are counterexamples, which is why inductive conclusions carry uncertainty.",
+      "citations": [
+        {
+          "title": "Inductive reasoning (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Inductive_reasoning"
+        },
+        {
+          "title": "Deductive reasoning (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Deductive_reasoning"
+        }
+      ]
+    },
+    {
+      "id": "intro-to-ai-qualified",
+      "word": "qualified",
+      "partOfSpeech": "adjective",
+      "definition": "limited; restricted",
+      "sentence": "Default rules such as 'birds fly' are qualified by exceptions like penguins, so reasoning with them must be able to retract conclusions.",
+      "explanation": "Classical logic is monotonic: adding facts never removes conclusions. Default logic and other nonmonotonic formalisms let an agent conclude that Tweety flies until it learns that Tweety is a penguin.",
+      "citations": [
+        {
+          "title": "Non-monotonic logic (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Non-monotonic_logic"
+        },
+        {
+          "title": "Default logic (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Default_logic"
+        }
+      ]
+    },
+    {
+      "id": "intro-to-ai-presumptuous",
+      "word": "presumptuous",
+      "partOfSpeech": "adjective",
+      "definition": "arrogant; taking liberties",
+      "sentence": "The closed-world assumption is presumptuous: anything not known to be true is treated as false.",
+      "explanation": "Databases and Prolog use negation as failure, which is efficient but wrong when the knowledge is incomplete. The open-world assumption, used in OWL and the semantic web, treats unknown facts as unknown.",
+      "citations": [
+        {
+          "title": "Closed-world assumption (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Closed-world_assumption"
+        },
+        {
+          "title": "OWL Web Ontology Language (W3C)",
+          "url": "https://www.w3.org/OWL/"
+        }
+      ]
+    },
+    {
+      "id": "intro-to-ai-inert",
+      "word": "inert",
+      "partOfSpeech": "adjective",
+      "definition": "inactive; lacking power to move",
+      "sentence": "The frame problem asks how to say that most facts remain inert after an action without listing them all.",
+      "explanation": "Moving a block does not change its color or the weather. Situation calculus needed frame axioms for every unchanged fact. Successor-state axioms address this, and so do planning languages such as STRIPS, which assume anything not mentioned is unchanged.",
+      "citations": [
+        {
+          "title": "Frame problem (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Frame_problem"
+        },
+        {
+          "title": "STRIPS (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Stanford_Research_Institute_Problem_Solver"
+        }
+      ]
+    },
+    {
+      "id": "intro-to-ai-recant",
+      "word": "recant",
+      "partOfSpeech": "verb",
+      "definition": "disclaim or disavow; retract a previous statement; openly confess error",
+      "sentence": "When a partial assignment leads to a dead end, a backtracking CSP solver must recant its last choice and try another value.",
+      "explanation": "A constraint satisfaction problem has variables, domains and constraints. Backtracking search assigns one variable at a time, and heuristics such as minimum remaining values, forward checking and arc consistency (AC-3) prune the search.",
+      "citations": [
+        {
+          "title": "Constraint satisfaction problem (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Constraint_satisfaction_problem"
+        },
+        {
+          "title": "AC-3 algorithm (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/AC-3_algorithm"
+        }
+      ]
+    },
+    {
+      "id": "intro-to-ai-itinerary",
+      "word": "itinerary",
+      "partOfSpeech": "noun",
+      "definition": "plan of a trip; by extension, a planned sequence of steps",
+      "sentence": "A plan is an itinerary of actions that leads from the initial state to the goal.",
+      "explanation": "In STRIPS-style planning each action has preconditions and effects, and the planner searches for a sequence whose effects achieve the goal. PDDL is the standard language for describing planning problems.",
+      "citations": [
+        {
+          "title": "Planning Domain Definition Language (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Planning_Domain_Definition_Language"
+        },
+        {
+          "title": "Automated planning and scheduling (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Automated_planning_and_scheduling"
+        }
+      ]
+    },
+    {
+      "id": "intro-to-ai-indolent",
+      "word": "indolent",
+      "partOfSpeech": "adjective",
+      "definition": "lazy",
+      "sentence": "Partial-order planners are deliberately indolent about ordering: they leave steps unordered until a conflict forces a decision.",
+      "explanation": "This least-commitment strategy avoids early arbitrary choices and backtracking. The plan keeps causal links and ordering constraints, and threats to a link are resolved by adding orderings.",
+      "citations": [
+        {
+          "title": "Partial-order planning (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Partial-order_planning"
+        }
+      ]
+    },
+    {
+      "id": "intro-to-ai-skeptic",
+      "word": "skeptic",
+      "partOfSpeech": "noun",
+      "definition": "doubter; person who suspends judgment until having examined evidence supporting a point of view",
+      "sentence": "A Bayesian agent behaves like a skeptic who updates its beliefs in proportion to the strength of the evidence.",
+      "explanation": "Bayes' rule gives P(H | e) = P(e | H) P(H) / P(e). A rare disease stays unlikely even after a positive test that has false positives, which is why base rates matter.",
+      "citations": [
+        {
+          "title": "Bayes' theorem (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Bayes%27_theorem"
+        },
+        {
+          "title": "Bayesian network (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Bayesian_network"
+        }
+      ]
+    },
+    {
+      "id": "intro-to-ai-ingenuous",
+      "word": "ingenuous",
+      "partOfSpeech": "adjective",
+      "definition": "naive and trusting; young; unsophisticated",
+      "sentence": "Naive Bayes rests on an ingenuous assumption that features are independent given the class, yet it often classifies well.",
+      "explanation": "The assumption turns P(features | class) into a simple product, so training and prediction are cheap. The probabilities can be poorly calibrated when features are strongly correlated, but the ranking of classes is often still right.",
+      "citations": [
+        {
+          "title": "Naive Bayes classifier (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Naive_Bayes_classifier"
+        }
+      ]
+    },
+    {
+      "id": "intro-to-ai-impermeable",
+      "word": "impermeable",
+      "partOfSpeech": "adjective",
+      "definition": "impervious; not permitting passage through its substance",
+      "sentence": "In a Bayesian network, observing the middle node of a chain can make the path impermeable, so its two ends become independent.",
+      "explanation": "This is d-separation. In A → B → C, knowing B blocks influence between A and C. In a collider A → B ← C, observing B or one of its descendants makes A and C dependent, an effect called explaining away.",
+      "citations": [
+        {
+          "title": "Conditional independence (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Conditional_independence"
+        },
+        {
+          "title": "Bayesian network (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Bayesian_network"
+        }
+      ]
+    },
+    {
+      "id": "intro-to-ai-penchant",
+      "word": "penchant",
+      "partOfSpeech": "noun",
+      "definition": "strong inclination; liking",
+      "sentence": "A risk-averse agent has a penchant for sure things, which a concave utility function captures.",
+      "explanation": "Expected-utility theory says to choose the action with the highest expected utility. With concave utility, a guaranteed $50 can be preferred to a coin flip for $100 or nothing, even though both have the same expected value.",
+      "citations": [
+        {
+          "title": "Expected utility hypothesis (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Expected_utility_hypothesis"
+        },
+        {
+          "title": "Risk aversion (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Risk_aversion"
+        }
+      ]
+    },
+    {
+      "id": "intro-to-ai-derivative",
+      "word": "derivative",
+      "partOfSpeech": "adjective",
+      "definition": "unoriginal; obtained from another source",
+      "sentence": "In the Bellman equation, a state's value is derivative: it is computed from the values of its successor states.",
+      "explanation": "In a Markov decision process, V(s) = max over a of the sum over s′ of P(s′ | s, a) [R(s, a, s′) + γV(s′)]. Value iteration applies this update repeatedly until the values converge, and the greedy policy for the converged values is optimal.",
+      "citations": [
+        {
+          "title": "Markov decision process (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Markov_decision_process"
+        },
+        {
+          "title": "Bellman equation (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Bellman_equation"
+        }
+      ]
+    },
+    {
+      "id": "intro-to-ai-occlude",
+      "word": "occlude",
+      "partOfSpeech": "verb",
+      "definition": "shut; close",
+      "sentence": "In a POMDP, walls or poor sensors can occlude the agent's view, so it must keep a belief state over where it might be.",
+      "explanation": "A partially observable MDP replaces the known state with a probability distribution over states, updated after each action and observation. Solving POMDPs exactly is computationally very hard, so approximate methods are used.",
+      "citations": [
+        {
+          "title": "Partially observable Markov decision process (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Partially_observable_Markov_decision_process"
+        }
+      ]
+    },
+    {
+      "id": "intro-to-ai-desultory",
+      "word": "desultory",
+      "partOfSpeech": "adjective",
+      "definition": "aimless; haphazard; digressing at random",
+      "sentence": "A purely random policy is desultory: it explores widely but never uses what it has learned.",
+      "explanation": "Epsilon-greedy balances exploration and exploitation by choosing a random action with probability ε and the best-known action otherwise. The value of ε is often decayed over time.",
+      "citations": [
+        {
+          "title": "Multi-armed bandit (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Multi-armed_bandit"
+        },
+        {
+          "title": "Reinforcement Learning: An Introduction (Sutton & Barto)",
+          "url": "http://incompleteideas.net/book/the-book-2nd.html"
+        }
+      ]
+    },
+    {
+      "id": "intro-to-ai-dogmatic",
+      "word": "dogmatic",
+      "partOfSpeech": "adjective",
+      "definition": "opinionated; arbitrary; doctrinal",
+      "sentence": "An agent that is dogmatic about exploiting its current best action may never discover a better one.",
+      "explanation": "In a multi-armed bandit, always pulling the apparently best arm can lock in an early lucky estimate. Methods such as UCB and Thompson sampling explore in proportion to their uncertainty.",
+      "citations": [
+        {
+          "title": "Multi-armed bandit (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Multi-armed_bandit"
+        },
+        {
+          "title": "Reinforcement Learning: An Introduction (Sutton & Barto)",
+          "url": "http://incompleteideas.net/book/the-book-2nd.html"
+        }
+      ]
+    },
+    {
+      "id": "intro-to-ai-castigation",
+      "word": "castigation",
+      "partOfSpeech": "noun",
+      "definition": "punishment; severe criticism",
+      "sentence": "In reinforcement learning, a negative reward acts as castigation, discouraging the actions that led to it.",
+      "explanation": "Q-learning updates Q(s, a) toward r + γ max Q(s′, a′), so negative rewards lower the value of actions that lead to bad outcomes. A badly designed reward can be exploited, with the agent maximizing it in unintended ways.",
+      "citations": [
+        {
+          "title": "Q-learning (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Q-learning"
+        },
+        {
+          "title": "Reinforcement Learning: An Introduction (Sutton & Barto)",
+          "url": "http://incompleteideas.net/book/the-book-2nd.html"
+        }
+      ]
+    },
+    {
+      "id": "intro-to-ai-distend",
+      "word": "distend",
+      "partOfSpeech": "verb",
+      "definition": "expand; swell out",
+      "sentence": "An unpruned decision tree can distend until every leaf holds a single training example, which memorizes noise.",
+      "explanation": "Tree learners choose splits that maximize information gain or reduce Gini impurity. Limiting depth, requiring a minimum leaf size, or pruning on validation data reduces overfitting.",
+      "citations": [
+        {
+          "title": "Decision tree learning (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Decision_tree_learning"
+        },
+        {
+          "title": "Decision Trees (scikit-learn)",
+          "url": "https://scikit-learn.org/stable/modules/tree.html"
+        }
+      ]
+    },
+    {
+      "id": "intro-to-ai-esoteric",
+      "word": "esoteric",
+      "partOfSpeech": "adjective",
+      "definition": "hard to understand; known only to the chosen few",
+      "sentence": "The learned weights of a deep network are esoteric: even its designers cannot easily read off why a particular decision was made.",
+      "explanation": "Explainable AI methods such as LIME and SHAP approximate which input features drove a prediction. Their explanations are themselves approximations, so they should be validated before being trusted.",
+      "citations": [
+        {
+          "title": "Why Should I Trust You? (LIME) (arXiv)",
+          "url": "https://arxiv.org/abs/1602.04938"
+        },
+        {
+          "title": "A Unified Approach to Interpreting Model Predictions (SHAP) (arXiv)",
+          "url": "https://arxiv.org/abs/1705.07874"
+        }
+      ]
+    },
+    {
+      "id": "intro-to-ai-beneficent",
+      "word": "beneficent",
+      "partOfSpeech": "adjective",
+      "definition": "kindly; doing good",
+      "sentence": "A beneficent AI system should pursue goals that actually match human values, which is the value alignment problem.",
+      "explanation": "Specifying objectives exactly is hard, and an agent that optimizes a flawed proxy, such as a poorly written reward function, can find loopholes. Approaches include learning from human feedback and inverse reinforcement learning to infer what people want.",
+      "citations": [
+        {
+          "title": "Concrete Problems in AI Safety (arXiv)",
+          "url": "https://arxiv.org/abs/1606.06565"
+        },
+        {
+          "title": "Deep Reinforcement Learning from Human Preferences (arXiv)",
+          "url": "https://arxiv.org/abs/1706.03741"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,412 @@
+{
+  "id": "intro-to-computer-programming",
+  "title": "Intro to Computer Programming",
+  "category": "Computer Science",
+  "description": "Learn GRE words through variables, control flow, functions, arrays, classes, file input and output, testing and debugging, with examples in C++.",
+  "cards": [
+    {
+      "id": "intro-to-computer-programming-neophyte",
+      "word": "neophyte",
+      "partOfSpeech": "noun",
+      "definition": "recent convert; beginner",
+      "sentence": "An introductory programming course assumes no prior experience, so even a complete neophyte can keep up.",
+      "explanation": "Most first courses start with variables, expressions and simple input and output. They then build up to functions, loops, arrays and classes.",
+      "citations": [
+        {
+          "title": "Computer programming (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Computer_programming"
+        }
+      ]
+    },
+    {
+      "id": "intro-to-computer-programming-stipulate",
+      "word": "stipulate",
+      "partOfSpeech": "verb",
+      "definition": "make express conditions; specify",
+      "sentence": "The assignment specification stipulates exactly how each line of output must be formatted, down to the spaces.",
+      "explanation": "A specification describes the required inputs, outputs and behavior before any code is written. Reading it carefully matters, because automated tests usually expect output that matches exactly.",
+      "citations": [
+        {
+          "title": "Software requirements specification (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Software_requirements_specification"
+        }
+      ]
+    },
+    {
+      "id": "intro-to-computer-programming-inchoate",
+      "word": "inchoate",
+      "partOfSpeech": "adjective",
+      "definition": "recently begun; rudimentary; elementary",
+      "sentence": "Rather than writing the whole program at once, compile and test your inchoate code after each small function.",
+      "explanation": "Incremental development means writing one small piece, compiling it, and testing it before adding the next. When something breaks, the bug is almost always in the few lines you just added.",
+      "citations": [
+        {
+          "title": "Iterative and incremental development (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Iterative_and_incremental_development"
+        }
+      ]
+    },
+    {
+      "id": "intro-to-computer-programming-delineate",
+      "word": "delineate",
+      "partOfSpeech": "verb",
+      "definition": "portray; depict; sketch",
+      "sentence": "Before writing any code, delineate the algorithm in pseudocode so each step is clear.",
+      "explanation": "An algorithm is a finite, ordered set of steps that turns input into the desired output. Working a small example by hand and writing down each step often reveals the loops and conditions the code will need.",
+      "citations": [
+        {
+          "title": "Algorithm (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Algorithm"
+        },
+        {
+          "title": "Pseudocode (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Pseudocode"
+        }
+      ]
+    },
+    {
+      "id": "intro-to-computer-programming-ambiguous",
+      "word": "ambiguous",
+      "partOfSpeech": "adjective",
+      "definition": "unclear or doubtful in meaning",
+      "sentence": "Without braces, a nested if-else can look ambiguous, but C++ always pairs an else with the nearest unmatched if.",
+      "explanation": "This is known as the dangling else problem. Indentation does not change how the compiler reads the code, so putting braces on every if and else is the safest habit.",
+      "citations": [
+        {
+          "title": "if statement (cppreference)",
+          "url": "https://en.cppreference.com/w/cpp/language/if"
+        }
+      ]
+    },
+    {
+      "id": "intro-to-computer-programming-inadvertently",
+      "word": "inadvertently",
+      "partOfSpeech": "adverb",
+      "definition": "unintentionally; by oversight; carelessly",
+      "sentence": "Writing if (x = 5) inadvertently assigns 5 to x instead of comparing it, so the condition is always true.",
+      "explanation": "= is assignment and == is comparison. The assignment expression evaluates to the assigned value, and any nonzero value converts to true; most compilers warn about this when warnings are turned on.",
+      "citations": [
+        {
+          "title": "Assignment operators (cppreference)",
+          "url": "https://en.cppreference.com/w/cpp/language/operator_assignment"
+        },
+        {
+          "title": "Comparison operators (cppreference)",
+          "url": "https://en.cppreference.com/w/cpp/language/operator_comparison"
+        }
+      ]
+    },
+    {
+      "id": "intro-to-computer-programming-obviate",
+      "word": "obviate",
+      "partOfSpeech": "verb",
+      "definition": "make unnecessary; get rid of",
+      "sentence": "If the left side of && is false, that obviates evaluating the right side, so C++ skips it entirely.",
+      "explanation": "This is short-circuit evaluation: && stops at the first false operand and || stops at the first true one. It lets you write guards such as (i < size && arr[i] > 0) that check the index before using it.",
+      "citations": [
+        {
+          "title": "Logical operators (cppreference)",
+          "url": "https://en.cppreference.com/w/cpp/language/operator_logical"
+        }
+      ]
+    },
+    {
+      "id": "intro-to-computer-programming-analogous",
+      "word": "analogous",
+      "partOfSpeech": "adjective",
+      "definition": "comparable",
+      "sentence": "A for loop is analogous to a while loop with the initialization placed before it and the update placed at the end of its body.",
+      "explanation": "Use a for loop when you know how many times to repeat, such as stepping through an array, and a while loop when you repeat until something changes, such as reading until input runs out. Either can usually be rewritten as the other.",
+      "citations": [
+        {
+          "title": "for loop (cppreference)",
+          "url": "https://en.cppreference.com/w/cpp/language/for"
+        },
+        {
+          "title": "while loop (cppreference)",
+          "url": "https://en.cppreference.com/w/cpp/language/while"
+        }
+      ]
+    },
+    {
+      "id": "intro-to-computer-programming-discrete",
+      "word": "discrete",
+      "partOfSpeech": "adjective",
+      "definition": "separate; unconnected; consisting of distinct parts",
+      "sentence": "Because an int holds only discrete whole numbers, 7 / 2 evaluates to 3, not 3.5.",
+      "explanation": "When both operands are integers, C++ performs integer division and discards the fractional part, rounding toward zero. Write 7.0 / 2 or cast one operand to double to get 3.5, and use % when you want the remainder.",
+      "citations": [
+        {
+          "title": "Arithmetic operators (cppreference)",
+          "url": "https://en.cppreference.com/w/cpp/language/operator_arithmetic"
+        }
+      ]
+    },
+    {
+      "id": "intro-to-computer-programming-implicit",
+      "word": "implicit",
+      "partOfSpeech": "adjective",
+      "definition": "understood but not stated",
+      "sentence": "Assigning 3.9 to an int variable triggers an implicit conversion that silently truncates it to 3.",
+      "explanation": "C++ converts between numeric types automatically in assignments, function arguments and mixed expressions. Converting a double to an int drops the fractional part, so use an explicit static_cast when the conversion is intended.",
+      "citations": [
+        {
+          "title": "Implicit conversions (cppreference)",
+          "url": "https://en.cppreference.com/w/cpp/language/implicit_conversion"
+        }
+      ]
+    },
+    {
+      "id": "intro-to-computer-programming-indeterminate",
+      "word": "indeterminate",
+      "partOfSpeech": "adjective",
+      "definition": "uncertain; not clearly fixed; indefinite",
+      "sentence": "A local int declared without an initializer holds an indeterminate value until you assign one.",
+      "explanation": "Reading that value is a bug: the program may print garbage, behave differently on another machine, or appear to work by luck. Initialize variables when you declare them, for example int count = 0;.",
+      "citations": [
+        {
+          "title": "Default initialization (cppreference)",
+          "url": "https://en.cppreference.com/w/cpp/language/default_initialization"
+        }
+      ]
+    },
+    {
+      "id": "intro-to-computer-programming-ephemeral",
+      "word": "ephemeral",
+      "partOfSpeech": "adjective",
+      "definition": "short-lived; fleeting",
+      "sentence": "A variable declared inside a loop body is ephemeral; it is created and destroyed on every iteration.",
+      "explanation": "A local variable's scope ends at the closing brace of the block where it was declared, and using it after that is a compile error. Declare the variable before the loop if you need its value after the loop ends.",
+      "citations": [
+        {
+          "title": "Scope (cppreference)",
+          "url": "https://en.cppreference.com/w/cpp/language/scope"
+        }
+      ]
+    },
+    {
+      "id": "intro-to-computer-programming-dichotomy",
+      "word": "dichotomy",
+      "partOfSpeech": "noun",
+      "definition": "split; branching into two parts (especially contradictory ones)",
+      "sentence": "Beginners must learn the dichotomy between pass by value, which copies the argument, and pass by reference, which shares it.",
+      "explanation": "A parameter declared int x receives a copy, while int &x becomes another name for the caller's variable. Use a reference when the function needs to change the caller's variable or hand back more than one result.",
+      "citations": [
+        {
+          "title": "Reference declaration (cppreference)",
+          "url": "https://en.cppreference.com/w/cpp/language/reference"
+        }
+      ]
+    },
+    {
+      "id": "intro-to-computer-programming-impervious",
+      "word": "impervious",
+      "partOfSpeech": "adjective",
+      "definition": "impenetrable; incapable of being damaged or distressed",
+      "sentence": "Because the parameter is passed by value, the caller's variable is impervious to anything the function does to its copy.",
+      "explanation": "If void addOne(int n) runs n++, only the local copy changes and the original stays the same. That protects the caller's data, but it is a common bug when the function was supposed to update it.",
+      "citations": [
+        {
+          "title": "References FAQ (isocpp.org)",
+          "url": "https://isocpp.org/wiki/faq/references"
+        }
+      ]
+    },
+    {
+      "id": "intro-to-computer-programming-immutable",
+      "word": "immutable",
+      "partOfSpeech": "adjective",
+      "definition": "unchangeable",
+      "sentence": "Passing a large string as const string &s makes it immutable inside the function while avoiding a copy.",
+      "explanation": "const tells the compiler to reject any code that tries to modify the value. A const reference combines the speed of pass by reference with the safety of pass by value.",
+      "citations": [
+        {
+          "title": "cv (const and volatile) type qualifiers (cppreference)",
+          "url": "https://en.cppreference.com/w/cpp/language/cv"
+        }
+      ]
+    },
+    {
+      "id": "intro-to-computer-programming-homogeneous",
+      "word": "homogeneous",
+      "partOfSpeech": "adjective",
+      "definition": "of the same kind",
+      "sentence": "An array is a homogeneous collection: every element of int scores[10] must be an int.",
+      "explanation": "Elements sit side by side in memory and are accessed by an index from 0 to size minus 1. To group values of different types, such as a name and a GPA, use a class or struct instead.",
+      "citations": [
+        {
+          "title": "Array declaration (cppreference)",
+          "url": "https://en.cppreference.com/w/cpp/language/array"
+        }
+      ]
+    },
+    {
+      "id": "intro-to-computer-programming-precarious",
+      "word": "precarious",
+      "partOfSpeech": "adjective",
+      "definition": "uncertain; risky",
+      "sentence": "Accessing scores[10] in a ten-element array is precarious because C++ does not check the index for you.",
+      "explanation": "Reading or writing past the end of an array is undefined behavior: the program may crash, corrupt other variables, or seem fine. Off-by-one loop bounds such as i <= size are the usual cause.",
+      "citations": [
+        {
+          "title": "Undefined behavior (cppreference)",
+          "url": "https://en.cppreference.com/w/cpp/language/ub"
+        }
+      ]
+    },
+    {
+      "id": "intro-to-computer-programming-aggregate",
+      "word": "aggregate",
+      "partOfSpeech": "verb",
+      "definition": "gather; accumulate",
+      "sentence": "A loop that aggregates the values of an array into a running total is one of the most common patterns in programming.",
+      "explanation": "Set an accumulator such as sum to 0 before the loop, add each element inside it, and use the result after the loop ends. The standard library's std::accumulate does the same job in one call.",
+      "citations": [
+        {
+          "title": "std::accumulate (cppreference)",
+          "url": "https://en.cppreference.com/w/cpp/algorithm/accumulate"
+        }
+      ]
+    },
+    {
+      "id": "intro-to-computer-programming-elicit",
+      "word": "elicit",
+      "partOfSpeech": "verb",
+      "definition": "draw out by discussion",
+      "sentence": "The program prints a prompt to elicit the user's age, then reads it with cin >> age.",
+      "explanation": "cin >> skips leading whitespace and reads one value of the variable's type. If the user types something that does not fit, such as letters for an int, cin enters a fail state and later reads do nothing until it is cleared.",
+      "citations": [
+        {
+          "title": "std::cin (cppreference)",
+          "url": "https://en.cppreference.com/w/cpp/io/cin"
+        }
+      ]
+    },
+    {
+      "id": "intro-to-computer-programming-wary",
+      "word": "wary",
+      "partOfSpeech": "adjective",
+      "definition": "very cautious",
+      "sentence": "Be wary of reading from an ifstream before checking that the file actually opened.",
+      "explanation": "If the file name is wrong or the file is missing, the stream fails silently and every read afterward fails too. Check is_open(), and loop with while (inFile >> value) so reading stops when input runs out.",
+      "citations": [
+        {
+          "title": "std::basic_ifstream (cppreference)",
+          "url": "https://en.cppreference.com/w/cpp/io/basic_ifstream"
+        }
+      ]
+    },
+    {
+      "id": "intro-to-computer-programming-log",
+      "word": "log",
+      "partOfSpeech": "noun",
+      "definition": "record of a voyage or flight; record of day-to-day activities",
+      "sentence": "The simulation writes a log of every move to an ofstream so the results can be inspected later.",
+      "explanation": "An ofstream works like cout but sends output to a file instead of the screen. By default, opening an existing file this way replaces its contents.",
+      "citations": [
+        {
+          "title": "std::basic_ofstream (cppreference)",
+          "url": "https://en.cppreference.com/w/cpp/io/basic_ofstream"
+        }
+      ]
+    },
+    {
+      "id": "intro-to-computer-programming-proscribe",
+      "word": "proscribe",
+      "partOfSpeech": "verb",
+      "definition": "ostracize; banish; outlaw",
+      "sentence": "The compiler proscribes any attempt by main() to read a private member variable of a class directly.",
+      "explanation": "Private members can be used only inside the class's own member functions, while public members form the interface everyone else calls. Classes usually expose private data through public getter and setter functions.",
+      "citations": [
+        {
+          "title": "Access specifiers (cppreference)",
+          "url": "https://en.cppreference.com/w/cpp/language/access"
+        }
+      ]
+    },
+    {
+      "id": "intro-to-computer-programming-pristine",
+      "word": "pristine",
+      "partOfSpeech": "adjective",
+      "definition": "characteristic of earlier times; primitive; unspoiled",
+      "sentence": "A default constructor ensures that each new object starts in a pristine, valid state.",
+      "explanation": "A constructor runs automatically when an object is created and has no return type. Setting every member variable there, for example to 0 or an empty string, keeps objects from carrying indeterminate values.",
+      "citations": [
+        {
+          "title": "Constructors and member initializer lists (cppreference)",
+          "url": "https://en.cppreference.com/w/cpp/language/constructor"
+        }
+      ]
+    },
+    {
+      "id": "intro-to-computer-programming-spectrum",
+      "word": "spectrum",
+      "partOfSpeech": "noun",
+      "definition": "colored band produced when a beam of light passes through a prism; by extension, a full range",
+      "sentence": "Good test cases span the full spectrum of inputs: typical values, boundary values and invalid ones.",
+      "explanation": "Bugs cluster at the edges, such as 0, negative numbers, the first and last array element, or empty input. Boundary-value testing deliberately probes these limits instead of only trying easy cases.",
+      "citations": [
+        {
+          "title": "Boundary-value analysis (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Boundary-value_analysis"
+        }
+      ]
+    },
+    {
+      "id": "intro-to-computer-programming-discrepancy",
+      "word": "discrepancy",
+      "partOfSpeech": "noun",
+      "definition": "lack of consistency; difference",
+      "sentence": "Running diff on the expected and actual output files reveals any discrepancy, even a single missing space.",
+      "explanation": "Verifying a program means feeding it test inputs and comparing what it prints against known correct output. A tool like diff lists only the lines that differ, which is far more reliable than comparing by eye.",
+      "citations": [
+        {
+          "title": "Comparing and Merging Files (GNU diffutils manual)",
+          "url": "https://www.gnu.org/software/diffutils/manual/diffutils.html"
+        }
+      ]
+    },
+    {
+      "id": "intro-to-computer-programming-anomalous",
+      "word": "anomalous",
+      "partOfSpeech": "adjective",
+      "definition": "abnormal; irregular",
+      "sentence": "Setting a breakpoint and stepping through the loop showed exactly when the counter took an anomalous value.",
+      "explanation": "The debugger in Visual Studio or Xcode pauses your program at a breakpoint and lets you step one line at a time while watching variable values. This is usually faster than guessing or scattering print statements.",
+      "citations": [
+        {
+          "title": "Quickstart: Debug with C++ using the Visual Studio debugger (Microsoft Learn)",
+          "url": "https://learn.microsoft.com/en-us/visualstudio/debugger/quickstart-debug-with-cplusplus"
+        }
+      ]
+    },
+    {
+      "id": "intro-to-computer-programming-lucid",
+      "word": "lucid",
+      "partOfSpeech": "adjective",
+      "definition": "easily understood; clear; intelligible",
+      "sentence": "A name like totalPrice keeps code lucid, while a name like tp forces readers to guess.",
+      "explanation": "Style guides ask for descriptive names, consistent indentation, and comments that explain why the code does something. Readable code matters because other people, including your future self, have to understand it.",
+      "citations": [
+        {
+          "title": "Google C++ Style Guide",
+          "url": "https://google.github.io/styleguide/cppguide.html"
+        }
+      ]
+    },
+    {
+      "id": "intro-to-computer-programming-convoluted",
+      "word": "convoluted",
+      "partOfSpeech": "adjective",
+      "definition": "coiled around; involved; intricate",
+      "sentence": "Five levels of nested if statements make a function convoluted; splitting it into helper functions makes it readable.",
+      "explanation": "Each function should do one clear job and be short enough to understand at a glance. Small helper functions can also be tested on their own, which fits the habit of building a program one piece at a time.",
+      "citations": [
+        {
+          "title": "Google C++ Style Guide",
+          "url": "https://google.github.io/styleguide/cppguide.html"
+        }
+      ]
+    }
+  ]
+}

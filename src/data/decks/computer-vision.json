@@ -1,0 +1,584 @@
+{
+  "id": "computer-vision",
+  "title": "Computer Vision",
+  "category": "Computer Science",
+  "description": "Learn GRE words through cameras, multiple-view geometry, 3D reconstruction, image processing, object recognition and scene understanding.",
+  "cards": [
+    {
+      "id": "computer-vision-intransigence",
+      "word": "intransigence",
+      "partOfSpeech": "noun",
+      "definition": "refusal of any compromise; stubbornness",
+      "sentence": "A rigid-body transform shows intransigence: rotation and translation move an object's points but never stretch or bend it.",
+      "explanation": "A camera's extrinsic parameters are a rotation R and translation t that map world coordinates into the camera's frame, X_cam = R X + t. R is orthogonal with determinant +1, so distances and angles are preserved. Combined with the intrinsic matrix K, the projection is x ~ K [R | t] X.",
+      "citations": [
+        {
+          "title": "Camera resectioning (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Camera_resectioning"
+        },
+        {
+          "title": "Pinhole camera model (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Pinhole_camera_model"
+        },
+        {
+          "title": "Multiple View Geometry in Computer Vision (Hartley & Zisserman)",
+          "url": "https://www.robots.ox.ac.uk/~vgg/hzbook/"
+        }
+      ]
+    },
+    {
+      "id": "computer-vision-divest",
+      "word": "divest",
+      "partOfSpeech": "verb",
+      "definition": "strip; deprive",
+      "sentence": "Perspective projection divests the scene of its depth: each pixel records a ray, not a distance.",
+      "explanation": "In the pinhole model a 3D point (X, Y, Z) lands at (fX/Z, fY/Z), so every point along the same ray from the camera center maps to the same pixel. Recovering depth needs extra information, such as a second view, motion, shading, or a depth sensor.",
+      "citations": [
+        {
+          "title": "Pinhole camera model (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Pinhole_camera_model"
+        },
+        {
+          "title": "3D projection (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/3D_projection"
+        }
+      ]
+    },
+    {
+      "id": "computer-vision-levee",
+      "word": "levee",
+      "partOfSpeech": "noun",
+      "definition": "stone embankment to prevent flooding",
+      "sentence": "The epipolar constraint acts like a levee: it confines the search for a matching point to a single line instead of letting it flood across the whole second image.",
+      "explanation": "For a point in one image, its match in the other lies on the corresponding epipolar line, given by the fundamental matrix F through x′ᵀ F x = 0. After rectification those lines become horizontal scanlines, which turns stereo matching into a one-dimensional search.",
+      "citations": [
+        {
+          "title": "Epipolar geometry (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Epipolar_geometry"
+        },
+        {
+          "title": "Fundamental matrix (computer vision) (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Fundamental_matrix_(computer_vision)"
+        }
+      ]
+    },
+    {
+      "id": "computer-vision-repudiate",
+      "word": "repudiate",
+      "partOfSpeech": "verb",
+      "definition": "disown; disavow",
+      "sentence": "RANSAC repudiates outlier matches: it fits a model to random minimal samples and keeps the model that the most matches agree with.",
+      "explanation": "To estimate a homography or fundamental matrix from noisy matches, RANSAC repeatedly picks the minimum number of correspondences (4 for a homography, 7 or 8 for F), fits a model, and counts inliers. The model with the most inliers wins, and outliers have no influence on it. Fischler and Bolles introduced it in 1981.",
+      "citations": [
+        {
+          "title": "Random sample consensus (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Random_sample_consensus"
+        },
+        {
+          "title": "Camera Calibration and 3D Reconstruction (OpenCV)",
+          "url": "https://docs.opencv.org/4.x/d9/d0c/group__calib3d.html"
+        }
+      ]
+    },
+    {
+      "id": "computer-vision-discredit",
+      "word": "discredit",
+      "partOfSpeech": "verb",
+      "definition": "defame; destroy confidence in; disbelieve",
+      "sentence": "Lowe's ratio test discredits ambiguous feature matches: if the best match is not clearly better than the second best, it is discarded.",
+      "explanation": "In SIFT matching, a match is kept only if the distance to the nearest descriptor is below about 0.8 times the distance to the second nearest. This removes most false matches in repetitive or low-texture areas, and RANSAC then removes what remains.",
+      "citations": [
+        {
+          "title": "Distinctive Image Features from Scale-Invariant Keypoints (Lowe, 2004)",
+          "url": "https://www.cs.ubc.ca/~lowe/papers/ijcv04.pdf"
+        },
+        {
+          "title": "Scale-invariant feature transform (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Scale-invariant_feature_transform"
+        }
+      ]
+    },
+    {
+      "id": "computer-vision-endemic",
+      "word": "endemic",
+      "partOfSpeech": "adjective",
+      "definition": "prevailing among a specific group of people or in a specific area or country",
+      "sentence": "Scale ambiguity is endemic to structure from motion with a single camera: the reconstruction is correct only up to an unknown scale factor.",
+      "explanation": "A small nearby scene and a large faraway one can produce identical images, so images alone cannot give metric size. Scale is fixed with a known object size, a stereo baseline, an inertial sensor, or a depth sensor.",
+      "citations": [
+        {
+          "title": "Structure from motion (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Structure_from_motion"
+        },
+        {
+          "title": "COLMAP",
+          "url": "https://colmap.github.io/"
+        }
+      ]
+    },
+    {
+      "id": "computer-vision-enhance",
+      "word": "enhance",
+      "partOfSpeech": "verb",
+      "definition": "increase; improve",
+      "sentence": "Bundle adjustment enhances an initial reconstruction by jointly refining all camera poses and 3D points to minimize reprojection error.",
+      "explanation": "Reprojection error is the image distance between where a 3D point is observed and where the current estimate projects it. Bundle adjustment solves this nonlinear least-squares problem, typically with Levenberg–Marquardt, and exploits the sparse structure of the problem to stay tractable.",
+      "citations": [
+        {
+          "title": "Bundle adjustment (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Bundle_adjustment"
+        },
+        {
+          "title": "Bundle Adjustment (Ceres Solver)",
+          "url": "http://ceres-solver.org/nnls_tutorial.html#bundle-adjustment"
+        }
+      ]
+    },
+    {
+      "id": "computer-vision-problematic",
+      "word": "problematic",
+      "partOfSpeech": "adjective",
+      "definition": "doubtful; unsettled; questionable; perplexing",
+      "sentence": "Specular highlights are problematic for stereo matching, because a shiny surface looks different from each viewpoint.",
+      "explanation": "Most matching methods assume brightness constancy, meaning a surface point has the same appearance in both views. Mirror-like reflections, transparent objects and repeated patterns break that assumption, so reconstructions of glass or polished metal tend to have holes or errors.",
+      "citations": [
+        {
+          "title": "Specular reflection (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Specular_reflection"
+        },
+        {
+          "title": "Computer stereo vision (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Computer_stereo_vision"
+        }
+      ]
+    },
+    {
+      "id": "computer-vision-indigence",
+      "word": "indigence",
+      "partOfSpeech": "noun",
+      "definition": "poverty",
+      "sentence": "An indigence of texture, such as a blank white wall, leaves stereo matching with nothing distinctive to lock onto.",
+      "explanation": "Block matching compares small patches, so uniform regions look identical at every disparity and the match is ambiguous. Active systems project a pattern onto the surface (structured light) to add artificial texture.",
+      "citations": [
+        {
+          "title": "Structured-light 3D scanner (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Structured-light_3D_scanner"
+        },
+        {
+          "title": "Computer stereo vision (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Computer_stereo_vision"
+        }
+      ]
+    },
+    {
+      "id": "computer-vision-dissonance",
+      "word": "dissonance",
+      "partOfSpeech": "noun",
+      "definition": "discord; opposite of harmony",
+      "sentence": "When depth cues disagree, for example stereo says near while shading says far, the dissonance must be resolved by a fusion model.",
+      "explanation": "People combine cues such as binocular disparity, motion parallax, shading, texture and occlusion, weighting each by its reliability. Vision systems do the same, for instance with learned depth estimators that fuse several signals.",
+      "citations": [
+        {
+          "title": "Depth perception (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Depth_perception"
+        },
+        {
+          "title": "Shape from shading (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Shape_from_shading"
+        }
+      ]
+    },
+    {
+      "id": "computer-vision-impassive",
+      "word": "impassive",
+      "partOfSpeech": "adjective",
+      "definition": "without feeling; imperturbable; stoical",
+      "sentence": "LiDAR is impassive to darkness, because it supplies its own light and measures how long each pulse takes to return.",
+      "explanation": "Time-of-flight distance is d = c·t/2, where c is the speed of light and t is the round-trip time. Active sensors work at night, but they can struggle with rain, fog, very dark or highly reflective surfaces, and bright sunlight.",
+      "citations": [
+        {
+          "title": "Lidar (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Lidar"
+        },
+        {
+          "title": "Time-of-flight camera (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Time-of-flight_camera"
+        }
+      ]
+    },
+    {
+      "id": "computer-vision-mollify",
+      "word": "mollify",
+      "partOfSpeech": "verb",
+      "definition": "soothe",
+      "sentence": "A Gaussian blur can mollify pixel noise, but it also softens real edges.",
+      "explanation": "Convolving with a Gaussian kernel averages each pixel with its neighbors, weighting nearby pixels more. A larger σ removes more noise and more detail, so edge-preserving filters such as the median or bilateral filter are used when edges matter.",
+      "citations": [
+        {
+          "title": "Gaussian blur (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Gaussian_blur"
+        },
+        {
+          "title": "Bilateral filter (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Bilateral_filter"
+        }
+      ]
+    },
+    {
+      "id": "computer-vision-dissemble",
+      "word": "dissemble",
+      "partOfSpeech": "verb",
+      "definition": "disguise; pretend",
+      "sentence": "Aliasing makes high-frequency detail dissemble as low-frequency patterns when an image is downsampled without first blurring it.",
+      "explanation": "Sampling below the Nyquist rate folds high frequencies into lower ones, producing moiré patterns and jagged edges. The fix is to low-pass filter before reducing the resolution, which is why image pyramids blur before they downsample.",
+      "citations": [
+        {
+          "title": "Aliasing (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Aliasing"
+        },
+        {
+          "title": "Nyquist–Shannon sampling theorem (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Nyquist%E2%80%93Shannon_sampling_theorem"
+        }
+      ]
+    },
+    {
+      "id": "computer-vision-stolid",
+      "word": "stolid",
+      "partOfSpeech": "adjective",
+      "definition": "dull; impassive",
+      "sentence": "Histogram equalization spreads out the intensities of a stolid, low-contrast image so that its details become visible.",
+      "explanation": "It remaps intensities using the cumulative distribution of the image's histogram. CLAHE applies the idea to small tiles with a clip limit, so that noise in flat regions is not over-amplified.",
+      "citations": [
+        {
+          "title": "Histogram equalization (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Histogram_equalization"
+        },
+        {
+          "title": "Histograms - 2: Histogram Equalization (OpenCV)",
+          "url": "https://docs.opencv.org/4.x/d5/daf/tutorial_py_histogram_equalization.html"
+        }
+      ]
+    },
+    {
+      "id": "computer-vision-phlegmatic",
+      "word": "phlegmatic",
+      "partOfSpeech": "adjective",
+      "definition": "calm; not easily disturbed",
+      "sentence": "A good local descriptor stays phlegmatic when the lighting, scale or rotation changes.",
+      "explanation": "SIFT finds keypoints at extrema of a difference-of-Gaussians scale space, assigns each an orientation, and builds a histogram-of-gradients descriptor. This gives invariance to scale and rotation and partial robustness to illumination. ORB is a faster, free alternative.",
+      "citations": [
+        {
+          "title": "Distinctive Image Features from Scale-Invariant Keypoints (Lowe, 2004)",
+          "url": "https://www.cs.ubc.ca/~lowe/papers/ijcv04.pdf"
+        },
+        {
+          "title": "ORB (Oriented FAST and Rotated BRIEF) (OpenCV)",
+          "url": "https://docs.opencv.org/4.x/d1/d89/tutorial_py_orb.html"
+        }
+      ]
+    },
+    {
+      "id": "computer-vision-rarefied",
+      "word": "rarefied",
+      "partOfSpeech": "adjective",
+      "definition": "made less dense (of a gas)",
+      "sentence": "Each level of an image pyramid is a more rarefied version of the one below it, with fewer pixels.",
+      "explanation": "A Gaussian pyramid repeatedly blurs and downsamples an image. Detecting features or matching at the coarse levels first and then refining at finer levels handles large motions and objects of different sizes efficiently.",
+      "citations": [
+        {
+          "title": "Pyramid (image processing) (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Pyramid_(image_processing)"
+        },
+        {
+          "title": "Scale space (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Scale_space"
+        }
+      ]
+    },
+    {
+      "id": "computer-vision-ingenuous",
+      "word": "ingenuous",
+      "partOfSpeech": "adjective",
+      "definition": "naive and trusting; young; unsophisticated",
+      "sentence": "In 1966 the MIT Summer Vision Project was ingenuous about its goal, expecting a team of students to build a significant part of a visual system in one summer.",
+      "explanation": "The project memo assigned subtasks such as separating figure from ground and identifying objects. Half a century later these are still active research areas, a reminder that perception feels effortless to people only because the brain does an enormous amount of hidden work.",
+      "citations": [
+        {
+          "title": "Computer vision: History (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Computer_vision#History"
+        },
+        {
+          "title": "Moravec's paradox (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Moravec%27s_paradox"
+        }
+      ]
+    },
+    {
+      "id": "computer-vision-venerate",
+      "word": "venerate",
+      "partOfSpeech": "verb",
+      "definition": "revere",
+      "sentence": "David Marr's 1982 book Vision is still venerated for describing vision at three levels: computational theory, representation and algorithm, and physical implementation.",
+      "explanation": "Marr proposed a pipeline from a primal sketch to a 2.5D sketch of surfaces to a 3D object model. Modern systems learn much of this end to end, but separating what a system computes from how it computes it still guides research.",
+      "citations": [
+        {
+          "title": "David Marr (neuroscientist) (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/David_Marr_(neuroscientist)"
+        }
+      ]
+    },
+    {
+      "id": "computer-vision-deride",
+      "word": "deride",
+      "partOfSpeech": "verb",
+      "definition": "ridicule; make fun of",
+      "sentence": "Through the 2000s, many vision researchers derided neural networks as hard to train and inferior to hand-designed features.",
+      "explanation": "LeNet-5 (1998) used convolutions to read handwritten digits and was applied to bank checks, yet the field mostly preferred SIFT, HOG and SVMs until larger datasets and GPUs let deep networks win.",
+      "citations": [
+        {
+          "title": "Gradient-based learning applied to document recognition (LeCun et al., 1998)",
+          "url": "http://yann.lecun.com/exdb/publis/pdf/lecun-98.pdf"
+        },
+        {
+          "title": "LeNet (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/LeNet"
+        }
+      ]
+    },
+    {
+      "id": "computer-vision-iconoclastic",
+      "word": "iconoclastic",
+      "partOfSpeech": "adjective",
+      "definition": "attacking cherished traditions",
+      "sentence": "AlexNet's iconoclastic win at the 2012 ImageNet challenge overturned the belief that hand-crafted features were required.",
+      "explanation": "AlexNet, a deep convolutional network trained on GPUs, cut the top-5 error to about 15.3%, compared with about 26.2% for the runner-up. After that, almost every competitive entry used deep networks.",
+      "citations": [
+        {
+          "title": "ImageNet Classification with Deep Convolutional Neural Networks (NeurIPS 2012)",
+          "url": "https://papers.nips.cc/paper/2012/hash/c399862d3b9d6b76c8436e924a68c45b-Abstract.html"
+        },
+        {
+          "title": "ImageNet Large Scale Visual Recognition Challenge (arXiv)",
+          "url": "https://arxiv.org/abs/1409.0575"
+        }
+      ]
+    },
+    {
+      "id": "computer-vision-satiate",
+      "word": "satiate",
+      "partOfSpeech": "verb",
+      "definition": "satisfy fully",
+      "sentence": "ImageNet's 1.2 million labeled training images could satiate a deep network's appetite for data in a way earlier datasets could not.",
+      "explanation": "Deep networks have millions of parameters and overfit small datasets. ImageNet (ILSVRC) has about 1.28 million training images in 1,000 classes, and pretraining on it became the default starting point for many vision tasks.",
+      "citations": [
+        {
+          "title": "ImageNet",
+          "url": "https://www.image-net.org/"
+        },
+        {
+          "title": "ImageNet Large Scale Visual Recognition Challenge (arXiv)",
+          "url": "https://arxiv.org/abs/1409.0575"
+        }
+      ]
+    },
+    {
+      "id": "computer-vision-assuage",
+      "word": "assuage",
+      "partOfSpeech": "verb",
+      "definition": "ease or lessen (pain); satisfy (hunger); soothe (anger)",
+      "sentence": "Data augmentation, such as random flips, crops and color jitter, assuages a network's hunger for more labeled images.",
+      "explanation": "Each transformed copy keeps its label but looks different, which acts as a regularizer and teaches invariances the task needs. Flips suit natural photos but not digits or text, where mirroring changes the meaning.",
+      "citations": [
+        {
+          "title": "Data augmentation (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Data_augmentation"
+        },
+        {
+          "title": "Transforming and augmenting images (torchvision)",
+          "url": "https://pytorch.org/vision/stable/transforms.html"
+        }
+      ]
+    },
+    {
+      "id": "computer-vision-coagulate",
+      "word": "coagulate",
+      "partOfSpeech": "verb",
+      "definition": "thicken; congeal; clot",
+      "sentence": "Before non-maximum suppression, overlapping candidate boxes coagulate around each object.",
+      "explanation": "A detector often fires many times near one object. Non-maximum suppression keeps the highest-scoring box and removes others whose intersection over union (IoU) with it exceeds a threshold, such as 0.5.",
+      "citations": [
+        {
+          "title": "Faster R-CNN (arXiv)",
+          "url": "https://arxiv.org/abs/1506.01497"
+        },
+        {
+          "title": "You Only Look Once (arXiv)",
+          "url": "https://arxiv.org/abs/1506.02640"
+        },
+        {
+          "title": "Jaccard index (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Jaccard_index"
+        }
+      ]
+    },
+    {
+      "id": "computer-vision-strut",
+      "word": "strut",
+      "partOfSpeech": "noun",
+      "definition": "supporting bar",
+      "sentence": "Pose estimation models a body as a skeleton of rigid struts joined at keypoints such as shoulders, elbows and knees.",
+      "explanation": "Models such as OpenPose and MediaPipe Pose predict a heatmap for each keypoint and link the keypoints into a skeleton. The output feeds fitness apps, animation and gesture control.",
+      "citations": [
+        {
+          "title": "OpenPose (arXiv)",
+          "url": "https://arxiv.org/abs/1812.08008"
+        },
+        {
+          "title": "Pose landmark detection (MediaPipe)",
+          "url": "https://developers.google.com/mediapipe/solutions/vision/pose_landmarker"
+        }
+      ]
+    },
+    {
+      "id": "computer-vision-incongruity",
+      "word": "incongruity",
+      "partOfSpeech": "noun",
+      "definition": "lack of harmony; absurdity",
+      "sentence": "A cow in a living room is an incongruity that a scene-understanding model should notice, since objects are usually predictable from context.",
+      "explanation": "Scene understanding goes beyond naming objects to modeling relationships, such as a cup on a table or a person riding a bike. Context helps detection, but models that lean on it too much can wrongly report objects that usually co-occur with the scene.",
+      "citations": [
+        {
+          "title": "Visual Genome (arXiv)",
+          "url": "https://arxiv.org/abs/1602.07332"
+        }
+      ]
+    },
+    {
+      "id": "computer-vision-dissolution",
+      "word": "dissolution",
+      "partOfSpeech": "noun",
+      "definition": "disintegration; looseness in morals",
+      "sentence": "Diffusion models start from the gradual dissolution of an image into random noise, and then learn to reverse it.",
+      "explanation": "The forward process adds a little Gaussian noise at each step until only noise remains, and a neural network is trained to predict and remove that noise. Sampling starts from pure noise and applies the learned denoising step by step.",
+      "citations": [
+        {
+          "title": "Denoising Diffusion Probabilistic Models (arXiv)",
+          "url": "https://arxiv.org/abs/2006.11239"
+        },
+        {
+          "title": "High-Resolution Image Synthesis with Latent Diffusion Models (arXiv)",
+          "url": "https://arxiv.org/abs/2112.10752"
+        }
+      ]
+    },
+    {
+      "id": "computer-vision-connoisseur",
+      "word": "connoisseur",
+      "partOfSpeech": "noun",
+      "definition": "person competent to act as a judge of art; a lover of art",
+      "sentence": "A network trained on paintings can act as a connoisseur, telling Impressionism from Cubism by texture and brushwork.",
+      "explanation": "Style classifiers and neural style transfer use feature correlations, called Gram matrices, from CNN layers to describe style separately from content. Gatys et al. introduced neural style transfer in 2015.",
+      "citations": [
+        {
+          "title": "A Neural Algorithm of Artistic Style (arXiv)",
+          "url": "https://arxiv.org/abs/1508.06576"
+        },
+        {
+          "title": "Neural style transfer (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Neural_style_transfer"
+        }
+      ]
+    },
+    {
+      "id": "computer-vision-contentious",
+      "word": "contentious",
+      "partOfSpeech": "adjective",
+      "definition": "quarrelsome",
+      "sentence": "Face recognition is contentious: it can unlock a phone, but police use and mass surveillance raise privacy and fairness concerns.",
+      "explanation": "The 2018 Gender Shades study found that commercial gender-classification systems had much higher error rates for darker-skinned women than for lighter-skinned men, and some cities and countries now restrict public-sector use. Testing across demographic groups is a baseline requirement.",
+      "citations": [
+        {
+          "title": "Gender Shades",
+          "url": "http://gendershades.org/"
+        },
+        {
+          "title": "Face Recognition Vendor Test (NIST)",
+          "url": "https://www.nist.gov/programs-projects/face-recognition-vendor-test-frvt"
+        }
+      ]
+    },
+    {
+      "id": "computer-vision-prevaricate",
+      "word": "prevaricate",
+      "partOfSpeech": "verb",
+      "definition": "lie",
+      "sentence": "Adversarial examples make a classifier prevaricate: a nearly invisible change to a panda photo made one model call it a gibbon with high confidence.",
+      "explanation": "Goodfellow et al. showed that adding a small perturbation computed from the gradient of the loss can flip a prediction. Defenses include adversarial training and certified robustness, but robustness remains an open problem.",
+      "citations": [
+        {
+          "title": "Explaining and Harnessing Adversarial Examples (arXiv)",
+          "url": "https://arxiv.org/abs/1412.6572"
+        },
+        {
+          "title": "Adversarial machine learning (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Adversarial_machine_learning"
+        }
+      ]
+    },
+    {
+      "id": "computer-vision-salubrious",
+      "word": "salubrious",
+      "partOfSpeech": "adjective",
+      "definition": "healthful",
+      "sentence": "Computer vision can have salubrious uses in medicine, such as screening retinal photographs for diabetic retinopathy.",
+      "explanation": "A 2016 study in JAMA reported a deep network that detected referable diabetic retinopathy with sensitivity and specificity above 90% on its test sets. Such tools support clinicians, and they need validation on the populations and cameras where they will be used.",
+      "citations": [
+        {
+          "title": "Development and Validation of a Deep Learning Algorithm for Detection of Diabetic Retinopathy (JAMA)",
+          "url": "https://doi.org/10.1001/jama.2016.17216"
+        },
+        {
+          "title": "Diabetic retinopathy (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Diabetic_retinopathy"
+        }
+      ]
+    },
+    {
+      "id": "computer-vision-loquacious",
+      "word": "loquacious",
+      "partOfSpeech": "adjective",
+      "definition": "talkative",
+      "sentence": "A captioning model can be loquacious, describing objects that are not in the image.",
+      "explanation": "Captioning systems pair an image encoder with a language decoder. They can hallucinate objects that often co-occur with a scene, which the CHAIR metric measures by counting objects named in captions but absent from the image.",
+      "citations": [
+        {
+          "title": "Object Hallucination in Image Captioning (arXiv)",
+          "url": "https://arxiv.org/abs/1809.02156"
+        },
+        {
+          "title": "Show and Tell (arXiv)",
+          "url": "https://arxiv.org/abs/1411.4555"
+        }
+      ]
+    },
+    {
+      "id": "computer-vision-soporific",
+      "word": "soporific",
+      "partOfSpeech": "adjective",
+      "definition": "sleep-causing; marked by sleepiness",
+      "sentence": "A long, monotonous highway can be soporific, so driver-monitoring cameras watch eye closure to detect drowsiness.",
+      "explanation": "Systems detect the face and eye landmarks and compute measures such as the eye aspect ratio or PERCLOS, the percentage of time the eyes are closed. Some vehicles use them to warn drivers, and they must work at night and with glasses.",
+      "citations": [
+        {
+          "title": "Driver drowsiness detection (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Driver_drowsiness_detection"
+        },
+        {
+          "title": "Face landmark detection (MediaPipe)",
+          "url": "https://developers.google.com/mediapipe/solutions/vision/face_landmarker"
+        }
+      ]
+    }
+  ]
+}

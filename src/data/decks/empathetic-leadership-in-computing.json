@@ -1,0 +1,630 @@
+{
+  "id": "empathetic-leadership-in-computing",
+  "title": "Empathetic Leadership in Computing",
+  "category": "Computer Science",
+  "description": "Learn GRE words through algorithmic bias, privacy, dark patterns, content moderation and responsible design.",
+  "cards": [
+    {
+      "id": "empathetic-leadership-in-computing-specious",
+      "word": "specious",
+      "partOfSpeech": "adjective",
+      "definition": "seemingly reasonable but incorrect; misleading (often intentionally)",
+      "sentence": "The claim that technology is neutral is specious when design choices decide who benefits and who is exposed to risk.",
+      "explanation": "Melvin Kranzberg's first law of technology says it is \"neither good nor bad; nor is it neutral\": the same tool has different effects depending on how it is designed, deployed and by whom. That is why the course starts from design choices rather than good or bad intentions.",
+      "citations": [
+        {
+          "title": "Melvin Kranzberg (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Melvin_Kranzberg"
+        },
+        {
+          "title": "Value sensitive design (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Value_sensitive_design"
+        }
+      ]
+    },
+    {
+      "id": "empathetic-leadership-in-computing-solicitous",
+      "word": "solicitous",
+      "partOfSpeech": "adjective",
+      "definition": "worried; concerned",
+      "sentence": "A solicitous design team interviews the people a product might harm, not only the people who will buy it.",
+      "explanation": "Empathy in design means seeking out the experiences of people affected by a system, including those who never chose to use it. Interviews, field observation and participatory methods all serve this goal.",
+      "citations": [
+        {
+          "title": "Participatory design (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Participatory_design"
+        },
+        {
+          "title": "Inclusive Design (Microsoft)",
+          "url": "https://inclusive.microsoft.design/"
+        }
+      ]
+    },
+    {
+      "id": "empathetic-leadership-in-computing-misanthrope",
+      "word": "misanthrope",
+      "partOfSpeech": "noun",
+      "definition": "one who hates mankind",
+      "sentence": "To anticipate abuse, a team must briefly think like a misanthrope and ask how each feature could be used to hurt someone.",
+      "explanation": "Harms modeling and abuse-case brainstorming ask who might misuse a feature, who could be harmed even without misusing it, and how severe and how reversible the harm is. The exercise is deliberately pessimistic so the risks surface before launch.",
+      "citations": [
+        {
+          "title": "Harms modeling (Microsoft Learn)",
+          "url": "https://learn.microsoft.com/en-us/azure/architecture/guide/responsible-innovation/harms-modeling/"
+        },
+        {
+          "title": "Threat model (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Threat_model"
+        }
+      ]
+    },
+    {
+      "id": "empathetic-leadership-in-computing-latent",
+      "word": "latent",
+      "partOfSpeech": "adjective",
+      "definition": "potential but undeveloped; dormant; hidden",
+      "sentence": "Apple's AirTag, released in 2021, showed latent risk: a small tracker meant for lost keys was also used to stalk people.",
+      "explanation": "Risks that stay hidden at small scale can appear once a product is widely adopted. Apple added unknown-tracker alerts, and in 2024 Apple and Google proposed an industry specification for detecting unwanted trackers across platforms.",
+      "citations": [
+        {
+          "title": "AirTag (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/AirTag"
+        }
+      ]
+    },
+    {
+      "id": "empathetic-leadership-in-computing-forestall",
+      "word": "forestall",
+      "partOfSpeech": "verb",
+      "definition": "prevent by taking action in advance",
+      "sentence": "A pre-mortem asks a team to imagine that the product has already failed badly and to explain why, which helps forestall harms before launch.",
+      "explanation": "Gary Klein described the technique in the Harvard Business Review in 2007. It builds on research into \"prospective hindsight\": people generate more concrete reasons for failure when they treat the failure as having already happened.",
+      "citations": [
+        {
+          "title": "Performing a Project Premortem (Gary Klein, HBR)",
+          "url": "https://hbr.org/2007/09/performing-a-project-premortem"
+        }
+      ]
+    },
+    {
+      "id": "empathetic-leadership-in-computing-mitigate",
+      "word": "mitigate",
+      "partOfSpeech": "verb",
+      "definition": "appease; moderate",
+      "sentence": "Privacy by design asks teams to mitigate risks from the start, for example by collecting less data and making the safest setting the one users get automatically.",
+      "explanation": "Ann Cavoukian's principles include being proactive rather than reactive and making privacy the default. The EU's GDPR turns a version of this into law as \"data protection by design and by default\" (Article 25).",
+      "citations": [
+        {
+          "title": "Privacy by design (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Privacy_by_design"
+        },
+        {
+          "title": "GDPR Article 25",
+          "url": "https://gdpr-info.eu/art-25-gdpr/"
+        }
+      ]
+    },
+    {
+      "id": "empathetic-leadership-in-computing-tangential",
+      "word": "tangential",
+      "partOfSpeech": "adjective",
+      "definition": "peripheral; only slightly connected; digressing",
+      "sentence": "Indirect stakeholders, such as bystanders and family members, can seem tangential to a product yet still bear its harms.",
+      "explanation": "Value sensitive design separates direct stakeholders, who use the system, from indirect ones, who are affected without using it. A workplace monitoring tool, for instance, affects employees' families and coworkers as well as managers.",
+      "citations": [
+        {
+          "title": "Value sensitive design (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Value_sensitive_design"
+        }
+      ]
+    },
+    {
+      "id": "empathetic-leadership-in-computing-elicit",
+      "word": "elicit",
+      "partOfSpeech": "verb",
+      "definition": "draw out by discussion",
+      "sentence": "Participatory design methods elicit needs and concerns directly from the communities a product will affect.",
+      "explanation": "The approach grew out of Scandinavian workplace projects in the 1970s, where workers helped shape the systems they would use. The disability-rights slogan \"nothing about us without us\" expresses the same principle.",
+      "citations": [
+        {
+          "title": "Participatory design (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Participatory_design"
+        }
+      ]
+    },
+    {
+      "id": "empathetic-leadership-in-computing-anomalous",
+      "word": "anomalous",
+      "partOfSpeech": "adjective",
+      "definition": "abnormal; irregular",
+      "sentence": "Teams often dismiss users who do not fit the average as anomalous, even though they are real people.",
+      "explanation": "Microsoft's Inclusive Design toolkit describes a persona spectrum of permanent, temporary and situational limitations: a person with one arm, a person with an arm injury and a person holding a baby all face the same mismatch. Designing for the edge often improves the product for everyone.",
+      "citations": [
+        {
+          "title": "Inclusive Design (Microsoft)",
+          "url": "https://inclusive.microsoft.design/"
+        }
+      ]
+    },
+    {
+      "id": "empathetic-leadership-in-computing-denigrate",
+      "word": "denigrate",
+      "partOfSpeech": "verb",
+      "definition": "blacken",
+      "sentence": "Search results that denigrate a group, as Safiya Noble documented in Algorithms of Oppression, turn a technical ranking into a social harm.",
+      "explanation": "Noble's 2018 book examined how commercial search results could reproduce racist and sexist stereotypes, for example when searches about Black girls returned sexualized content. Her argument is that ranking systems reflect the interests and blind spots of those who build and fund them.",
+      "citations": [
+        {
+          "title": "Algorithms of Oppression (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Algorithms_of_Oppression"
+        }
+      ]
+    },
+    {
+      "id": "empathetic-leadership-in-computing-paucity",
+      "word": "paucity",
+      "partOfSpeech": "noun",
+      "definition": "Scarcity",
+      "sentence": "A benchmark with a paucity of darker-skinned faces can hide a system's worst failures.",
+      "explanation": "The Gender Shades audit (Buolamwini and Gebru, 2018) found that two common face datasets were roughly 80 and 86 percent lighter-skinned. It then tested three commercial gender classifiers and found error rates of up to 34.7 percent for darker-skinned women, against 0.8 percent for lighter-skinned men.",
+      "citations": [
+        {
+          "title": "Gender Shades (Buolamwini and Gebru, PMLR 2018)",
+          "url": "http://proceedings.mlr.press/v81/buolamwini18a.html"
+        },
+        {
+          "title": "Joy Buolamwini (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Joy_Buolamwini"
+        }
+      ]
+    },
+    {
+      "id": "empathetic-leadership-in-computing-discrepancy",
+      "word": "discrepancy",
+      "partOfSpeech": "noun",
+      "definition": "lack of consistency; difference",
+      "sentence": "ProPublica's 2016 analysis of the COMPAS risk score found a stark discrepancy in false positive rates between Black and white defendants.",
+      "explanation": "Among defendants who did not reoffend within two years, ProPublica found 44.9 percent of Black defendants had been labeled higher risk, against 23.5 percent of white defendants. The vendor replied that the scores were equally calibrated across groups, and later research showed that when base rates differ, several reasonable fairness criteria cannot all hold at once.",
+      "citations": [
+        {
+          "title": "Machine Bias (ProPublica)",
+          "url": "https://www.propublica.org/article/machine-bias-risk-assessments-in-criminal-sentencing"
+        },
+        {
+          "title": "Inherent Trade-Offs in the Fair Determination of Risk Scores (arXiv)",
+          "url": "https://arxiv.org/abs/1609.05807"
+        }
+      ]
+    },
+    {
+      "id": "empathetic-leadership-in-computing-problematic",
+      "word": "problematic",
+      "partOfSpeech": "adjective",
+      "definition": "doubtful; unsettled; questionable; perplexing",
+      "sentence": "Using ZIP code as a model input can be problematic because it can act as a proxy for race, even when race itself is excluded.",
+      "explanation": "Residential segregation, shaped by practices such as redlining, means location correlates with race and income. Removing a sensitive attribute therefore does not remove its influence, and teams need to test outcomes across groups instead.",
+      "citations": [
+        {
+          "title": "Redlining (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Redlining"
+        },
+        {
+          "title": "Algorithmic bias (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Algorithmic_bias"
+        }
+      ]
+    },
+    {
+      "id": "empathetic-leadership-in-computing-inherent",
+      "word": "inherent",
+      "partOfSpeech": "adjective",
+      "definition": "firmly established by nature or habit",
+      "sentence": "A model trained on past hiring decisions learns the bias inherent in them; Reuters reported in 2018 that Amazon abandoned an experimental résumé screener after it downgraded résumés containing the word \"women's\".",
+      "explanation": "The system learned patterns from roughly a decade of résumés submitted mostly by men. Fixing one biased term did not guarantee the model would not find other proxies, which is why the project was reportedly shut down.",
+      "citations": [
+        {
+          "title": "Amazon scraps secret AI recruiting tool (Reuters)",
+          "url": "https://www.reuters.com/article/us-amazon-com-jobs-automation-insight-idUSKCN1MK08G"
+        },
+        {
+          "title": "Algorithmic bias (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Algorithmic_bias"
+        }
+      ]
+    },
+    {
+      "id": "empathetic-leadership-in-computing-stigma",
+      "word": "stigma",
+      "partOfSpeech": "noun",
+      "definition": "token of disgrace; brand",
+      "sentence": "The Dutch childcare-benefits scandal branded thousands of families with the stigma of fraud after a risk-scoring system flagged them.",
+      "explanation": "Roughly 26,000 parents were wrongly accused of benefit fraud and ordered to repay large sums, and the Dutch data protection authority found the tax authority's processing was unlawful and discriminatory. The Dutch government resigned in January 2021.",
+      "citations": [
+        {
+          "title": "Dutch childcare benefits scandal (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Dutch_childcare_benefits_scandal"
+        }
+      ]
+    },
+    {
+      "id": "empathetic-leadership-in-computing-deference",
+      "word": "deference",
+      "partOfSpeech": "noun",
+      "definition": "courteous regard for another’s wishes; by extension, excessive trust",
+      "sentence": "Automation bias is the deference people show to a computer's output even when their own judgment or other evidence says it is wrong.",
+      "explanation": "Studies by Skitka and colleagues in 1999 found that people using automated aids both missed problems the aid failed to flag and followed its mistaken advice. Showing uncertainty, asking users to give reasons, and training reviewers to override the system can reduce the effect.",
+      "citations": [
+        {
+          "title": "Automation bias (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Automation_bias"
+        }
+      ]
+    },
+    {
+      "id": "empathetic-leadership-in-computing-inadvertently",
+      "word": "inadvertently",
+      "partOfSpeech": "adverb",
+      "definition": "unintentionally; by oversight; carelessly",
+      "sentence": "Users who took a personality quiz inadvertently exposed data about their friends, which the political consultancy Cambridge Analytica later obtained.",
+      "explanation": "At the time, Facebook's platform let apps collect some data about a user's friends. The quiz app was installed by roughly 270,000 people, and Facebook later estimated the data of up to 87 million users was involved; the FTC fined Facebook $5 billion in 2019.",
+      "citations": [
+        {
+          "title": "Facebook-Cambridge Analytica data scandal (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Facebook%E2%80%93Cambridge_Analytica_data_scandal"
+        }
+      ]
+    },
+    {
+      "id": "empathetic-leadership-in-computing-ambivalence",
+      "word": "ambivalence",
+      "partOfSpeech": "noun",
+      "definition": "the state of having contradictory or conflicting emotional attitudes",
+      "sentence": "Users' ambivalence about sharing location, wanting the convenience yet worrying about being tracked, is part of what is called the privacy paradox.",
+      "explanation": "Surveys show people say they care about privacy, yet they often share data anyway. Researchers debate whether that is a real paradox or a result of missing information, high friction and few genuine choices.",
+      "citations": [
+        {
+          "title": "Privacy paradox (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Privacy_paradox"
+        }
+      ]
+    },
+    {
+      "id": "empathetic-leadership-in-computing-tacit",
+      "word": "tacit",
+      "partOfSpeech": "adjective",
+      "definition": "understood; not put into words",
+      "sentence": "Burying consent in a long terms-of-service page gives at best tacit consent, not informed consent.",
+      "explanation": "The GDPR defines valid consent as freely given, specific, informed and unambiguous. Good consent design uses plain language, separates choices, and makes declining as easy as accepting.",
+      "citations": [
+        {
+          "title": "GDPR Article 4: Definitions",
+          "url": "https://gdpr-info.eu/art-4-gdpr/"
+        },
+        {
+          "title": "Informed consent (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Informed_consent"
+        }
+      ]
+    },
+    {
+      "id": "empathetic-leadership-in-computing-chicanery",
+      "word": "chicanery",
+      "partOfSpeech": "noun",
+      "definition": "trickery; deception",
+      "sentence": "Dark patterns use chicanery, such as a hidden cancel button or a pre-checked box, to steer users into choices they would not otherwise make.",
+      "explanation": "Harry Brignull coined the term \"dark patterns\" in 2010. The US Federal Trade Commission's 2022 report Bringing Dark Patterns to Light describes examples, and regulators in the US and EU can treat some of them as unfair or deceptive practices.",
+      "citations": [
+        {
+          "title": "Bringing Dark Patterns to Light (FTC)",
+          "url": "https://www.ftc.gov/reports/bringing-dark-patterns-light"
+        },
+        {
+          "title": "Dark pattern (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Dark_pattern"
+        }
+      ]
+    },
+    {
+      "id": "empathetic-leadership-in-computing-euphemism",
+      "word": "euphemism",
+      "partOfSpeech": "noun",
+      "definition": "mild expression in place of an unpleasant one",
+      "sentence": "Calling constant tracking \"personalization\" is a euphemism that hides what data is collected and why.",
+      "explanation": "Wording shapes consent. Shoshana Zuboff's The Age of Surveillance Capitalism (2019) argues that terms like \"personalization\" obscure data extraction, and a useful design habit is to describe data practices in the plainest terms a user would recognize.",
+      "citations": [
+        {
+          "title": "Surveillance capitalism (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Surveillance_capitalism"
+        },
+        {
+          "title": "Euphemism (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Euphemism"
+        }
+      ]
+    },
+    {
+      "id": "empathetic-leadership-in-computing-pervasive",
+      "word": "pervasive",
+      "partOfSpeech": "adjective",
+      "definition": "spread throughout",
+      "sentence": "Pervasive cameras with facial recognition can chill free assembly, which is why San Francisco banned its city agencies from using the technology in 2019.",
+      "explanation": "People who know they can be identified in public may avoid protests or sensitive places. Concerns include accuracy gaps across demographic groups as well as the loss of anonymity, and several US cities have adopted limits on government use.",
+      "citations": [
+        {
+          "title": "Facial recognition system (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Facial_recognition_system"
+        }
+      ]
+    },
+    {
+      "id": "empathetic-leadership-in-computing-innocuous",
+      "word": "innocuous",
+      "partOfSpeech": "adjective",
+      "definition": "Harmless",
+      "sentence": "A seemingly innocuous feature such as shared location or read receipts can become dangerous in an abusive relationship.",
+      "explanation": "Technology-facilitated abuse often uses ordinary features rather than hacking. Groups such as the National Network to End Domestic Violence's Safety Net project advise designers to ask who could use a feature against someone they know and to let people stop sharing quietly and safely.",
+      "citations": [
+        {
+          "title": "Safety Net: Technology Safety (NNEDV)",
+          "url": "https://www.techsafety.org/"
+        }
+      ]
+    },
+    {
+      "id": "empathetic-leadership-in-computing-foment",
+      "word": "foment",
+      "partOfSpeech": "verb",
+      "definition": "stir up; instigate",
+      "sentence": "Engagement-optimized feeds can foment outrage, because posts with strong moral emotion tend to spread further.",
+      "explanation": "Brady and colleagues (2017) found that each moral-emotional word in a tweet increased its retweets by roughly 20 percent. If a ranking system rewards whatever spreads, it can amplify the most inflammatory content unless the objective is changed.",
+      "citations": [
+        {
+          "title": "Emotion shapes the diffusion of moralized content (PNAS, 2017)",
+          "url": "https://www.pnas.org/doi/10.1073/pnas.1618923114"
+        }
+      ]
+    },
+    {
+      "id": "empathetic-leadership-in-computing-disseminate",
+      "word": "disseminate",
+      "partOfSpeech": "verb",
+      "definition": "distribute; spread; scatter (like seeds)",
+      "sentence": "In Myanmar, Facebook was used to disseminate hate speech against the Rohingya, and a 2018 assessment commissioned by Facebook concluded it had not done enough to prevent that.",
+      "explanation": "The independent assessment, by the nonprofit BSR, found the company had not done enough to keep its platform from being used to incite offline violence. Having reviewers who speak the local language and a way to listen to local civil society are design and staffing choices, not afterthoughts.",
+      "citations": [
+        {
+          "title": "An Independent Assessment of the Human Rights Impact of Facebook in Myanmar",
+          "url": "https://about.fb.com/news/2018/11/myanmar-hria/"
+        },
+        {
+          "title": "Rohingya genocide (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Rohingya_genocide"
+        }
+      ]
+    },
+    {
+      "id": "empathetic-leadership-in-computing-vituperative",
+      "word": "vituperative",
+      "partOfSpeech": "adjective",
+      "definition": "abusive; scolding",
+      "sentence": "Within a day of its 2016 launch, users had taught Microsoft's Tay chatbot to post vituperative tweets, and the company took it offline.",
+      "explanation": "Tay was built to learn from its conversations, so coordinated users fed it offensive material. The lesson is to assume that some people will try to break or abuse a system and to test for that before release.",
+      "citations": [
+        {
+          "title": "Tay (chatbot) (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Tay_(chatbot)"
+        }
+      ]
+    },
+    {
+      "id": "empathetic-leadership-in-computing-tirade",
+      "word": "tirade",
+      "partOfSpeech": "noun",
+      "definition": "extended scolding; denunciation; harangue",
+      "sentence": "Content moderators who face a daily tirade of abuse and graphic material can suffer lasting psychological harm.",
+      "explanation": "In 2020 Facebook agreed to pay $52 million to current and former US moderators who developed conditions such as PTSD. Mitigations include limits on exposure, access to counseling, and tools that blur or mute disturbing content.",
+      "citations": [
+        {
+          "title": "Content moderation (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Content_moderation"
+        }
+      ]
+    },
+    {
+      "id": "empathetic-leadership-in-computing-dupe",
+      "word": "dupe",
+      "partOfSpeech": "noun",
+      "definition": "someone easily fooled",
+      "sentence": "A fabricated video of a trusted public figure can turn viewers into dupes before any fact-check appears.",
+      "explanation": "Deepfakes also create a \"liar's dividend\", since real footage can be dismissed as fake. Provenance standards such as C2PA content credentials attach signed information about how media was made, though they work only if platforms and tools adopt them.",
+      "citations": [
+        {
+          "title": "Deepfake (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Deepfake"
+        },
+        {
+          "title": "C2PA",
+          "url": "https://c2pa.org/"
+        }
+      ]
+    },
+    {
+      "id": "empathetic-leadership-in-computing-morose",
+      "word": "morose",
+      "partOfSpeech": "adjective",
+      "definition": "ill-humored; sullen; melancholy",
+      "sentence": "Hours of doomscrolling distressing news can leave a user morose, and designers can add friction such as a prompt to take a break.",
+      "explanation": "Some studies link compulsive consumption of negative news to anxiety and low mood, though the evidence on cause and effect is mixed. Design choices such as infinite scroll and autoplay make stopping harder, so defaults that help people stop are worth testing.",
+      "citations": [
+        {
+          "title": "Doomscrolling (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Doomscrolling"
+        }
+      ]
+    },
+    {
+      "id": "empathetic-leadership-in-computing-engender",
+      "word": "engender",
+      "partOfSpeech": "verb",
+      "definition": "cause; produce",
+      "sentence": "An automated decision with no explanation or appeal engenders distrust, even when it is usually right.",
+      "explanation": "The GDPR's Article 22 gives people rights regarding decisions based solely on automated processing that significantly affect them, including safeguards such as human intervention. Designing for contestability means giving reasons, a way to correct errors, and a real person who can change the outcome.",
+      "citations": [
+        {
+          "title": "GDPR Article 22",
+          "url": "https://gdpr-info.eu/art-22-gdpr/"
+        },
+        {
+          "title": "Algorithmic bias (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Algorithmic_bias"
+        }
+      ]
+    },
+    {
+      "id": "empathetic-leadership-in-computing-negate",
+      "word": "negate",
+      "partOfSpeech": "verb",
+      "definition": "cancel out; nullify; deny",
+      "sentence": "In the Therac-25 radiation machine, removing the hardware interlocks of earlier models negated an independent safeguard, and software flaws contributed to at least six overdoses between 1985 and 1987.",
+      "explanation": "The accidents involved race conditions and poor error handling, and the manufacturer's early responses were slow. Leveson and Turner's 1993 investigation is a standard case study on relying on software alone and on listening to reports of harm.",
+      "citations": [
+        {
+          "title": "An Investigation of the Therac-25 Accidents (Leveson and Turner)",
+          "url": "http://sunnyday.mit.edu/papers/therac.pdf"
+        },
+        {
+          "title": "Therac-25 (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Therac-25"
+        }
+      ]
+    },
+    {
+      "id": "empathetic-leadership-in-computing-autonomous",
+      "word": "autonomous",
+      "partOfSpeech": "adjective",
+      "definition": "self-governing; independent",
+      "sentence": "When an autonomous test vehicle struck and killed a pedestrian in Tempe, Arizona in 2018, the NTSB faulted Uber's safety culture as well as its software.",
+      "explanation": "The NTSB cited an inadequate safety culture at the company, along with the safety driver's distraction and weak oversight of safety drivers. Responsibility for harm often lies in organizational choices, not only in code.",
+      "citations": [
+        {
+          "title": "Death of Elaine Herzberg (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Death_of_Elaine_Herzberg"
+        },
+        {
+          "title": "NTSB investigation HWY18MH010",
+          "url": "https://www.ntsb.gov/investigations/Pages/HWY18MH010.aspx"
+        }
+      ]
+    },
+    {
+      "id": "empathetic-leadership-in-computing-prohibitive",
+      "word": "prohibitive",
+      "partOfSpeech": "adjective",
+      "definition": "tending to prevent the purchase or use of something; inclined to prevent or forbid",
+      "sentence": "Retrofitting accessibility late in development can be prohibitively expensive, so teams that build in screen-reader support and sufficient color contrast from the start avoid both cost and exclusion.",
+      "explanation": "The Web Content Accessibility Guidelines (WCAG) require a contrast ratio of at least 4.5:1 for normal text at level AA, among many other criteria. Accessibility also helps people with temporary or situational limits, such as a broken arm or bright sunlight.",
+      "citations": [
+        {
+          "title": "WCAG 2.2 (W3C)",
+          "url": "https://www.w3.org/TR/WCAG22/"
+        },
+        {
+          "title": "Web accessibility (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Web_accessibility"
+        }
+      ]
+    },
+    {
+      "id": "empathetic-leadership-in-computing-relegate",
+      "word": "relegate",
+      "partOfSpeech": "verb",
+      "definition": "banish to an inferior position; delegate; assign",
+      "sentence": "Platforms often relegate the people who label data and moderate content to invisibility, even though AI products depend on their work.",
+      "explanation": "Mary Gray and Siddharth Suri call this \"ghost work\". Questions worth asking include who does the hidden labor behind a feature, how they are paid and protected, and whether the product's marketing acknowledges them.",
+      "citations": [
+        {
+          "title": "Ghost Work (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Ghost_Work"
+        }
+      ]
+    },
+    {
+      "id": "empathetic-leadership-in-computing-appease",
+      "word": "appease",
+      "partOfSpeech": "verb",
+      "definition": "pacify or soothe; relieve",
+      "sentence": "Publishing a list of AI principles only to appease critics, without changing any product, is sometimes called ethics washing.",
+      "explanation": "Principles matter when they are tied to review steps, named owners and the authority to delay or cancel a launch. Without that, they work as public relations rather than as a constraint on design.",
+      "citations": [
+        {
+          "title": "Ethics of artificial intelligence (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Ethics_of_artificial_intelligence"
+        }
+      ]
+    },
+    {
+      "id": "empathetic-leadership-in-computing-reticent",
+      "word": "reticent",
+      "partOfSpeech": "adjective",
+      "definition": "reserved; uncommunicative; inclined to silence",
+      "sentence": "Psychological safety, the shared belief that raising concerns will not be punished, helps reticent team members speak up about risks.",
+      "explanation": "Amy Edmondson introduced the concept in a 1999 study of work teams. Leaders build it by inviting dissent, thanking people who report problems, and responding to bad news with questions instead of blame.",
+      "citations": [
+        {
+          "title": "Psychological Safety and Learning Behavior in Work Teams (Edmondson, 1999)",
+          "url": "https://doi.org/10.2307/2666999"
+        },
+        {
+          "title": "Psychological safety (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Psychological_safety"
+        }
+      ]
+    },
+    {
+      "id": "empathetic-leadership-in-computing-probity",
+      "word": "probity",
+      "partOfSpeech": "noun",
+      "definition": "uprightness; incorruptibility",
+      "sentence": "The ACM Code of Ethics asks computing professionals to act with probity: contribute to society, avoid harm, and be honest and trustworthy.",
+      "explanation": "The code was updated in 2018. Its first principles, 1.1 through 1.3, cover contributing to society and human well-being, avoiding harm, and being honest, and later sections extend these duties to leaders and to people who build systems.",
+      "citations": [
+        {
+          "title": "ACM Code of Ethics and Professional Conduct",
+          "url": "https://www.acm.org/code-of-ethics"
+        }
+      ]
+    },
+    {
+      "id": "empathetic-leadership-in-computing-document",
+      "word": "document",
+      "partOfSpeech": "verb",
+      "definition": "provide written evidence",
+      "sentence": "Model cards and datasheets document a system's intended use, training data and known limits so others can judge whether it fits their situation.",
+      "explanation": "Mitchell and colleagues proposed model cards in 2019, and Gebru and colleagues proposed datasheets for datasets, modeled on the spec sheets electronics come with. Documentation makes it easier to notice, for example, that a model was never tested on a group that now uses it.",
+      "citations": [
+        {
+          "title": "Model Cards for Model Reporting (arXiv)",
+          "url": "https://arxiv.org/abs/1810.03993"
+        },
+        {
+          "title": "Datasheets for Datasets (arXiv)",
+          "url": "https://arxiv.org/abs/1803.09010"
+        }
+      ]
+    },
+    {
+      "id": "empathetic-leadership-in-computing-piety",
+      "word": "piety",
+      "partOfSpeech": "noun",
+      "definition": "devoutness; reverence for God",
+      "sentence": "The industry's piety about connecting everyone is no substitute for measuring who is actually harmed.",
+      "explanation": "Evgeny Morozov criticizes \"technological solutionism\", the habit of treating complex social problems as engineering problems with app-shaped answers. Empathetic leadership pairs ambitious mission statements with evidence about real outcomes for real people.",
+      "citations": [
+        {
+          "title": "Technological solutionism (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Technological_solutionism"
+        }
+      ]
+    }
+  ]
+}

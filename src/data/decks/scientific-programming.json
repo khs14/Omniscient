@@ -1,0 +1,552 @@
+{
+  "id": "scientific-programming",
+  "title": "Scientific Programming",
+  "category": "Computer Science",
+  "description": "Learn GRE words through numerical computing, algorithms, debugging, testing, data handling and reproducible code.",
+  "cards": [
+    {
+      "id": "scientific-programming-preamble",
+      "word": "preamble",
+      "partOfSpeech": "noun",
+      "definition": "introductory statement",
+      "sentence": "Put the imports and constants in the preamble at the top of a script so readers can see its dependencies at a glance.",
+      "explanation": "In Python that means the import lines, and in C++ the #include directives. Listing what the program needs up front also shows which packages and versions must be installed.",
+      "citations": [
+        {
+          "title": "PEP 8: Imports",
+          "url": "https://peps.python.org/pep-0008/#imports"
+        }
+      ]
+    },
+    {
+      "id": "scientific-programming-welter",
+      "word": "welter",
+      "partOfSpeech": "noun",
+      "definition": "turmoil; bewildering jumble",
+      "sentence": "A single missing semicolon can trigger a welter of compiler error messages, but the first one is usually the real problem.",
+      "explanation": "Compilers often report follow-on errors caused by the first mistake. Fix the earliest error, recompile, and repeat. Turning on warnings (-Wall -Wextra in GCC and Clang) catches suspicious code early.",
+      "citations": [
+        {
+          "title": "Warning options (GCC manual)",
+          "url": "https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html"
+        }
+      ]
+    },
+    {
+      "id": "scientific-programming-pragmatic",
+      "word": "pragmatic",
+      "partOfSpeech": "adjective",
+      "definition": "practical (as opposed to idealistic); concerned with the practical worth or impact of something",
+      "sentence": "Choose a language pragmatically: MATLAB or Python for quick analysis, C++ or Fortran when speed matters, and R when its statistics libraries are the point.",
+      "explanation": "No language is best for every job. Weigh the available libraries, your team's skills, the performance needed, and how long the code must be maintained.",
+      "citations": [
+        {
+          "title": "List of numerical-analysis software (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/List_of_numerical-analysis_software"
+        }
+      ]
+    },
+    {
+      "id": "scientific-programming-eclectic",
+      "word": "eclectic",
+      "partOfSpeech": "adjective",
+      "definition": "selective; composed of elements drawn from disparate sources",
+      "sentence": "Working scientists often keep an eclectic toolkit: Python for glue code, Fortran for a legacy solver, and shell scripts for batch jobs.",
+      "explanation": "Languages can be combined. f2py wraps Fortran for use from Python, and tools such as pybind11 wrap C++. Each interface adds a build step and some data-conversion cost.",
+      "citations": [
+        {
+          "title": "F2PY user guide (NumPy docs)",
+          "url": "https://numpy.org/doc/stable/f2py/"
+        },
+        {
+          "title": "pybind11 documentation",
+          "url": "https://pybind11.readthedocs.io/"
+        }
+      ]
+    },
+    {
+      "id": "scientific-programming-perennial",
+      "word": "perennial",
+      "partOfSpeech": "adjective",
+      "definition": "something long-lasting",
+      "sentence": "Fortran, first released in 1957, is a perennial presence in weather, climate and physics codes.",
+      "explanation": "Decades of validated numerical code, strong array support and well-tuned compilers keep it in use in high-performance computing. Modern standards add modules, array syntax and coarrays for parallel programming.",
+      "citations": [
+        {
+          "title": "Fortran (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Fortran"
+        },
+        {
+          "title": "Fortran-lang",
+          "url": "https://fortran-lang.org/"
+        }
+      ]
+    },
+    {
+      "id": "scientific-programming-plethora",
+      "word": "plethora",
+      "partOfSpeech": "noun",
+      "definition": "excess; overabundance",
+      "sentence": "Python offers a plethora of scientific libraries, including NumPy for arrays, SciPy for numerical routines and matplotlib for plots.",
+      "explanation": "Reusing well-tested libraries is usually faster and more accurate than writing your own linear solver or FFT. Read the documentation to learn which algorithm is used and what its limits are.",
+      "citations": [
+        {
+          "title": "NumPy",
+          "url": "https://numpy.org/"
+        },
+        {
+          "title": "SciPy",
+          "url": "https://scipy.org/"
+        }
+      ]
+    },
+    {
+      "id": "scientific-programming-pervasive",
+      "word": "pervasive",
+      "partOfSpeech": "adjective",
+      "definition": "spread throughout",
+      "sentence": "The NumPy array is pervasive in Python science: nearly every scientific library accepts or returns one.",
+      "explanation": "An ndarray stores same-type elements contiguously in memory, which makes operations on whole arrays fast. SciPy, pandas and scikit-learn are all built on it.",
+      "citations": [
+        {
+          "title": "What is NumPy? (NumPy docs)",
+          "url": "https://numpy.org/doc/stable/user/whatisnumpy.html"
+        }
+      ]
+    },
+    {
+      "id": "scientific-programming-supersede",
+      "word": "supersede",
+      "partOfSpeech": "verb",
+      "definition": "cause to be set aside; replace; make obsolete",
+      "sentence": "Python 3 superseded Python 2, which reached end of life on January 1, 2020, so new scientific code should target Python 3.",
+      "explanation": "Unsupported versions get no bug or security fixes, and libraries stop supporting them. Record the interpreter and package versions in an environment or requirements file so results can be reproduced later.",
+      "citations": [
+        {
+          "title": "Sunsetting Python 2 (python.org)",
+          "url": "https://www.python.org/doc/sunset-python-2/"
+        }
+      ]
+    },
+    {
+      "id": "scientific-programming-compliant",
+      "word": "compliant",
+      "partOfSpeech": "adjective",
+      "definition": "yielding; conforming to requirements",
+      "sentence": "Nearly all modern CPUs are IEEE 754 compliant, so 0.1 + 0.2 gives 0.30000000000000004 in Python, C++ and JavaScript alike.",
+      "explanation": "IEEE 754 stores numbers in binary floating point, and neither 0.1 nor 0.2 has an exact binary representation. Compare floats with a tolerance, such as math.isclose(a, b), instead of ==.",
+      "citations": [
+        {
+          "title": "IEEE 754 (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/IEEE_754"
+        },
+        {
+          "title": "Floating-point arithmetic: issues and limitations (Python docs)",
+          "url": "https://docs.python.org/3/tutorial/floatingpoint.html"
+        }
+      ]
+    },
+    {
+      "id": "scientific-programming-proliferate",
+      "word": "proliferate",
+      "partOfSpeech": "verb",
+      "definition": "grow rapidly; spread; multiply",
+      "sentence": "Tiny round-off errors can proliferate over millions of floating-point operations until they dominate the result.",
+      "explanation": "Double precision carries about 16 decimal digits (machine epsilon is about 2.2e-16), and each operation can add an error of that relative size. Unstable algorithms and subtracting nearly equal numbers can magnify it, so prefer numerically stable formulations.",
+      "citations": [
+        {
+          "title": "Round-off error (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Round-off_error"
+        },
+        {
+          "title": "Numerical stability (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Numerical_stability"
+        }
+      ]
+    },
+    {
+      "id": "scientific-programming-meticulous",
+      "word": "meticulous",
+      "partOfSpeech": "adjective",
+      "definition": "excessively careful; painstaking; scrupulous",
+      "sentence": "Scientific code needs meticulous attention to units: mixing English and metric units in navigation software contributed to the loss of NASA's Mars Climate Orbiter in 1999.",
+      "explanation": "One team's software reported thruster impulse in pound-force seconds while another's expected newton-seconds. Putting units in variable names (distance_m) or using a units library such as Pint catches such mismatches.",
+      "citations": [
+        {
+          "title": "Mars Climate Orbiter (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Mars_Climate_Orbiter"
+        },
+        {
+          "title": "Pint documentation",
+          "url": "https://pint.readthedocs.io/"
+        }
+      ]
+    },
+    {
+      "id": "scientific-programming-diverge",
+      "word": "diverge",
+      "partOfSpeech": "verb",
+      "definition": "vary; go in different directions from the same point",
+      "sentence": "Newton's method can diverge if the starting guess is far from the root or the derivative is near zero.",
+      "explanation": "The iteration x ← x − f(x)/f′(x) converges quickly near a simple root but can bounce away otherwise. Robust solvers combine safe steps, such as bisection on a bracketing interval, with fast ones.",
+      "citations": [
+        {
+          "title": "Newton's method (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Newton%27s_method"
+        },
+        {
+          "title": "scipy.optimize.root_scalar (SciPy docs)",
+          "url": "https://docs.scipy.org/doc/scipy/reference/generated/scipy.optimize.root_scalar.html"
+        }
+      ]
+    },
+    {
+      "id": "scientific-programming-emulate",
+      "word": "emulate",
+      "partOfSpeech": "verb",
+      "definition": "imitate; rival",
+      "sentence": "A simulation tries to emulate a physical system by stepping its governing equations forward in time.",
+      "explanation": "For an ODE dy/dt = f(t, y), SciPy's solve_ivp advances the solution with adaptive step sizes. Check the results against analytic solutions and by tightening the tolerances to see whether the answer changes.",
+      "citations": [
+        {
+          "title": "scipy.integrate.solve_ivp (SciPy docs)",
+          "url": "https://docs.scipy.org/doc/scipy/reference/generated/scipy.integrate.solve_ivp.html"
+        }
+      ]
+    },
+    {
+      "id": "scientific-programming-subside",
+      "word": "subside",
+      "partOfSpeech": "verb",
+      "definition": "settle down; descend; grow quiet",
+      "sentence": "In a damped oscillator simulation the transient subsides, and the solution settles to its steady state.",
+      "explanation": "Damping removes energy from the oscillation, so the early transient decays. A common stopping rule is to run until the change between steps falls below a chosen tolerance.",
+      "citations": [
+        {
+          "title": "Damping (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Damping"
+        }
+      ]
+    },
+    {
+      "id": "scientific-programming-prohibitive",
+      "word": "prohibitive",
+      "partOfSpeech": "adjective",
+      "definition": "tending to prevent the purchase or use of something",
+      "sentence": "Comparing every pair among 10 million particles is prohibitive, since the work grows as n².",
+      "explanation": "With n = 10⁷ there are about 10¹⁴ pairs. Cell lists, k-d trees and the Barnes–Hut method avoid most distant pairs and bring the cost down to roughly n log n or better.",
+      "citations": [
+        {
+          "title": "Big O notation (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Big_O_notation"
+        },
+        {
+          "title": "Barnes–Hut simulation (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Barnes%E2%80%93Hut_simulation"
+        }
+      ]
+    },
+    {
+      "id": "scientific-programming-pathological",
+      "word": "pathological",
+      "partOfSpeech": "adjective",
+      "definition": "pertaining to disease; by extension, an extreme worst case",
+      "sentence": "Quicksort that always picks the first element as its pivot meets a pathological input when the list is already sorted, and its running time becomes quadratic.",
+      "explanation": "Quicksort averages O(n log n) time but is O(n²) in the worst case. Random or median-of-three pivots make the bad case unlikely, and NumPy's default 'quicksort' is actually an introsort, which guarantees O(n log n).",
+      "citations": [
+        {
+          "title": "Quicksort (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Quicksort"
+        },
+        {
+          "title": "numpy.sort (NumPy docs)",
+          "url": "https://numpy.org/doc/stable/reference/generated/numpy.sort.html"
+        }
+      ]
+    },
+    {
+      "id": "scientific-programming-efficacy",
+      "word": "efficacy",
+      "partOfSpeech": "noun",
+      "definition": "power to produce desired effect",
+      "sentence": "Profile before optimizing, then measure the efficacy of each change against the original timing.",
+      "explanation": "Profilers such as Python's cProfile show where the time goes. Often a few lines dominate, and a change that looks clever may speed up nothing.",
+      "citations": [
+        {
+          "title": "The Python Profilers (Python docs)",
+          "url": "https://docs.python.org/3/library/profile.html"
+        }
+      ]
+    },
+    {
+      "id": "scientific-programming-warranted",
+      "word": "warranted",
+      "partOfSpeech": "adjective",
+      "definition": "justified; authorized",
+      "sentence": "Rewriting a routine in C++ is warranted only when profiling shows it dominates the run time.",
+      "explanation": "Donald Knuth warned that premature optimization is the root of much evil. Write clear code first, then speed up measured hotspots, often by vectorizing or by using a compiler-based tool such as Numba or Cython.",
+      "citations": [
+        {
+          "title": "Program optimization (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Program_optimization"
+        },
+        {
+          "title": "Numba",
+          "url": "https://numba.pydata.org/"
+        }
+      ]
+    },
+    {
+      "id": "scientific-programming-laconic",
+      "word": "laconic",
+      "partOfSpeech": "adjective",
+      "definition": "brief and to the point",
+      "sentence": "A vectorized NumPy expression such as np.mean((y - y_fit)**2) is laconic compared with an explicit loop.",
+      "explanation": "The expression applies each operation to the whole array at once in compiled code, so it is shorter and typically much faster. Brevity helps only if the intent stays clear, so name intermediate results when needed.",
+      "citations": [
+        {
+          "title": "What is NumPy? (NumPy docs)",
+          "url": "https://numpy.org/doc/stable/user/whatisnumpy.html"
+        }
+      ]
+    },
+    {
+      "id": "scientific-programming-verbose",
+      "word": "verbose",
+      "partOfSpeech": "adjective",
+      "definition": "wordy",
+      "sentence": "C++ code that visits a 3D grid with nested for loops is verbose, but it shows exactly how memory is accessed.",
+      "explanation": "Low-level loops give control over access order, which matters because cache-friendly access can change run time by large factors. C and C++ store arrays in row-major order, while Fortran and MATLAB use column-major order.",
+      "citations": [
+        {
+          "title": "Row- and column-major order (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Row-_and_column-major_order"
+        }
+      ]
+    },
+    {
+      "id": "scientific-programming-autonomous",
+      "word": "autonomous",
+      "partOfSpeech": "adjective",
+      "definition": "self-governing; independent",
+      "sentence": "Write each function as an autonomous unit that receives its inputs as parameters and returns its results instead of reading hidden state.",
+      "explanation": "A function that depends only on its arguments gives the same output for the same input, apart from random numbers. That makes it easy to test, reuse and run in parallel.",
+      "citations": [
+        {
+          "title": "Pure function (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Pure_function"
+        }
+      ]
+    },
+    {
+      "id": "scientific-programming-impede",
+      "word": "impede",
+      "partOfSpeech": "verb",
+      "definition": "hinder; block",
+      "sentence": "Global variables impede testing because a function's result depends on state that a test cannot easily set up.",
+      "explanation": "Passing values as arguments makes dependencies visible. Fixed constants, such as physical constants, are fine at module level, but mutable global state hurts reproducibility and parallel code.",
+      "citations": [
+        {
+          "title": "Global variable (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Global_variable"
+        }
+      ]
+    },
+    {
+      "id": "scientific-programming-forestall",
+      "word": "forestall",
+      "partOfSpeech": "verb",
+      "definition": "prevent by taking action in advance",
+      "sentence": "Automated regression tests forestall a familiar problem: a fix in one routine silently breaks another.",
+      "explanation": "Frameworks such as pytest rerun the tests after every change. Good scientific tests compare against known analytic solutions, conservation laws or saved reference outputs within a tolerance.",
+      "citations": [
+        {
+          "title": "pytest documentation",
+          "url": "https://docs.pytest.org/"
+        },
+        {
+          "title": "Regression testing (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Regression_testing"
+        }
+      ]
+    },
+    {
+      "id": "scientific-programming-refute",
+      "word": "refute",
+      "partOfSpeech": "verb",
+      "definition": "disprove",
+      "sentence": "A single test in which the solver violates energy conservation can refute the assumption that the implementation is correct.",
+      "explanation": "Tests can reveal bugs but can never prove their absence, so varied tests build confidence. For simulations, check limiting cases, symmetries, and whether the error shrinks as the step size shrinks.",
+      "citations": [
+        {
+          "title": "Software testing (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Software_testing"
+        }
+      ]
+    },
+    {
+      "id": "scientific-programming-supposition",
+      "word": "supposition",
+      "partOfSpeech": "noun",
+      "definition": "hypothesis; surmise",
+      "sentence": "Before changing code, test your supposition about a bug with a print statement, an assertion or a debugger breakpoint.",
+      "explanation": "Debugging works best like an experiment: form a hypothesis, predict what you should see, then check. Shrinking the failure to a minimal reproducible example often reveals the cause.",
+      "citations": [
+        {
+          "title": "Debugging (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Debugging"
+        },
+        {
+          "title": "How to create a minimal reproducible example (Stack Overflow)",
+          "url": "https://stackoverflow.com/help/minimal-reproducible-example"
+        }
+      ]
+    },
+    {
+      "id": "scientific-programming-sporadic",
+      "word": "sporadic",
+      "partOfSpeech": "adjective",
+      "definition": "occurring irregularly",
+      "sentence": "Sporadic crashes that vanish when you add print statements often come from uninitialized variables, out-of-bounds writes or race conditions.",
+      "explanation": "These bugs depend on what happens to be in memory or on thread timing. Tools such as Valgrind, AddressSanitizer (-fsanitize=address) and ThreadSanitizer can find them.",
+      "citations": [
+        {
+          "title": "AddressSanitizer (Clang docs)",
+          "url": "https://clang.llvm.org/docs/AddressSanitizer.html"
+        },
+        {
+          "title": "Valgrind",
+          "url": "https://valgrind.org/"
+        }
+      ]
+    },
+    {
+      "id": "scientific-programming-volatile",
+      "word": "volatile",
+      "partOfSpeech": "adjective",
+      "definition": "changeable; liable to change without notice",
+      "sentence": "In C and C++, declaring a variable volatile tells the compiler that its value can change outside the program's control, such as a hardware sensor register.",
+      "explanation": "The compiler then re-reads the variable every time instead of caching it. volatile is meant for memory-mapped hardware and similar cases, and it is not a substitute for atomic operations or locks in multithreaded code.",
+      "citations": [
+        {
+          "title": "cv (const and volatile) type qualifiers (cppreference)",
+          "url": "https://en.cppreference.com/w/cpp/language/cv"
+        }
+      ]
+    },
+    {
+      "id": "scientific-programming-aberrant",
+      "word": "aberrant",
+      "partOfSpeech": "adjective",
+      "definition": "abnormal, or deviant",
+      "sentence": "Filter out aberrant sensor readings, such as a temperature of −999 used as a missing-data code, before computing averages.",
+      "explanation": "Many datasets use sentinel values for missing data. Convert them to NaN or use masked arrays, and use NaN-aware functions such as np.nanmean so they do not skew the results.",
+      "citations": [
+        {
+          "title": "numpy.nanmean (NumPy docs)",
+          "url": "https://numpy.org/doc/stable/reference/generated/numpy.nanmean.html"
+        }
+      ]
+    },
+    {
+      "id": "scientific-programming-inundate",
+      "word": "inundate",
+      "partOfSpeech": "verb",
+      "definition": "overwhelm; flood; submerge",
+      "sentence": "Modern instruments can inundate a lab with data, so analysis scripts must read files in pieces instead of loading everything into memory.",
+      "explanation": "When a dataset is bigger than RAM, process it in chunks, use memory-mapped arrays (np.memmap), or store it in a format such as HDF5 that allows partial reads.",
+      "citations": [
+        {
+          "title": "numpy.memmap (NumPy docs)",
+          "url": "https://numpy.org/doc/stable/reference/generated/numpy.memmap.html"
+        },
+        {
+          "title": "HDF5 (The HDF Group)",
+          "url": "https://www.hdfgroup.org/solutions/hdf5/"
+        }
+      ]
+    },
+    {
+      "id": "scientific-programming-adulterate",
+      "word": "adulterate",
+      "partOfSpeech": "verb",
+      "definition": "make impure by adding inferior or tainted substances",
+      "sentence": "Never adulterate raw data files: keep the originals read-only and write cleaned results to new files.",
+      "explanation": "Scripts that go from raw data to final figures can be rerun and audited, which is what makes an analysis reproducible. Version control and consistent file names record which script produced which output.",
+      "citations": [
+        {
+          "title": "Best Practices for Scientific Computing (arXiv)",
+          "url": "https://arxiv.org/abs/1210.0530"
+        }
+      ]
+    },
+    {
+      "id": "scientific-programming-mundane",
+      "word": "mundane",
+      "partOfSpeech": "adjective",
+      "definition": "worldly as opposed to spiritual; everyday",
+      "sentence": "Writing a short script to automate mundane tasks such as renaming files or converting formats saves hours and removes typing mistakes.",
+      "explanation": "Shell scripts, Python's pathlib and glob, or make can run the same steps on hundreds of files. An automated procedure is also documented and repeatable.",
+      "citations": [
+        {
+          "title": "pathlib (Python docs)",
+          "url": "https://docs.python.org/3/library/pathlib.html"
+        }
+      ]
+    },
+    {
+      "id": "scientific-programming-document",
+      "word": "document",
+      "partOfSpeech": "verb",
+      "definition": "provide written evidence; by extension, explain in writing",
+      "sentence": "Document each function with a docstring stating its inputs, outputs and units.",
+      "explanation": "In Python, a string placed right after the def line becomes the output of help(func), and tools such as Sphinx build web documentation from it. Comments should explain why the code does something, since the code itself shows what.",
+      "citations": [
+        {
+          "title": "PEP 257: Docstring Conventions",
+          "url": "https://peps.python.org/pep-0257/"
+        },
+        {
+          "title": "Sphinx documentation",
+          "url": "https://www.sphinx-doc.org/"
+        }
+      ]
+    },
+    {
+      "id": "scientific-programming-disseminate",
+      "word": "disseminate",
+      "partOfSpeech": "verb",
+      "definition": "distribute; spread; scatter (like seeds)",
+      "sentence": "Researchers disseminate code through public repositories, and a license file tells others how they may reuse it.",
+      "explanation": "Git tracks changes, sites such as GitHub host them, and a service such as Zenodo can issue a DOI for a release so it can be cited. Without a license, default copyright usually means others may not legally reuse the code.",
+      "citations": [
+        {
+          "title": "Git documentation",
+          "url": "https://git-scm.com/doc"
+        },
+        {
+          "title": "Choose a License",
+          "url": "https://choosealicense.com/"
+        },
+        {
+          "title": "Zenodo",
+          "url": "https://zenodo.org/"
+        }
+      ]
+    },
+    {
+      "id": "scientific-programming-cogent",
+      "word": "cogent",
+      "partOfSpeech": "adjective",
+      "definition": "convincing",
+      "sentence": "A cogent plot labels its axes with units, uses readable fonts and shows the uncertainty in the data.",
+      "explanation": "In matplotlib, ax.set_xlabel adds labels, ax.errorbar draws error bars, and savefig('fig.pdf') writes a vector figure for papers. Plot the data points themselves, not only a fitted curve.",
+      "citations": [
+        {
+          "title": "Matplotlib documentation",
+          "url": "https://matplotlib.org/stable/"
+        }
+      ]
+    }
+  ]
+}

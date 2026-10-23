@@ -1,0 +1,662 @@
+{
+  "id": "intro-to-database-management-systems",
+  "title": "Intro to Database Management Systems",
+  "category": "Computer Science",
+  "description": "Learn GRE words through SQL, database design, indexing, query optimization, transactions and recovery.",
+  "cards": [
+    {
+      "id": "intro-to-database-management-systems-proliferate",
+      "word": "proliferate",
+      "partOfSpeech": "verb",
+      "definition": "grow rapidly; spread; multiply",
+      "sentence": "Since the 2000s, specialized data models have proliferated beyond relational tables, including document, key-value and graph stores.",
+      "explanation": "The relational model Codd proposed in 1970 still dominates transactional enterprise data, but NoSQL systems trade some guarantees for scale or flexibility. Many organizations now use several kinds together.",
+      "citations": [
+        {
+          "title": "Database (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Database"
+        },
+        {
+          "title": "NoSQL (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/NoSQL"
+        }
+      ]
+    },
+    {
+      "id": "intro-to-database-management-systems-homogeneous",
+      "word": "homogeneous",
+      "partOfSpeech": "adjective",
+      "definition": "of the same kind",
+      "sentence": "A relation is a homogeneous collection of tuples: every row has the same attributes drawn from the same domains.",
+      "explanation": "Codd's 1970 paper described data as relations, which SQL implements as tables with typed columns. Because the structure is uniform, a declarative query can be applied to any table.",
+      "citations": [
+        {
+          "title": "Codd (1970), A Relational Model of Data for Large Shared Data Banks",
+          "url": "https://dl.acm.org/doi/10.1145/362384.362685"
+        },
+        {
+          "title": "Relational model (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Relational_model"
+        }
+      ]
+    },
+    {
+      "id": "intro-to-database-management-systems-delineate",
+      "word": "delineate",
+      "partOfSpeech": "verb",
+      "definition": "portray; depict; sketch",
+      "sentence": "An entity-relationship diagram delineates the entities, their attributes and the relationships between them before any tables are created.",
+      "explanation": "Peter Chen introduced the ER model in 1976. In the usual mapping to tables, entities become tables, many-to-many relationships become junction tables, and keys link them together.",
+      "citations": [
+        {
+          "title": "Entity-relationship model (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Entity%E2%80%93relationship_model"
+        }
+      ]
+    },
+    {
+      "id": "intro-to-database-management-systems-discrepancy",
+      "word": "discrepancy",
+      "partOfSpeech": "noun",
+      "definition": "lack of consistency; difference",
+      "sentence": "A discrepancy between vendors' SQL dialects can mean a query that runs on PostgreSQL may need changes for Oracle or SQL Server.",
+      "explanation": "SQL has been an ANSI standard since 1986 and an ISO standard since 1987, but vendors add extensions and implement parts differently (the syntax for limiting rows is a common example). Portable code sticks to the common subset or isolates dialect-specific parts.",
+      "citations": [
+        {
+          "title": "SQL (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/SQL"
+        },
+        {
+          "title": "SQL Conformance (PostgreSQL docs)",
+          "url": "https://www.postgresql.org/docs/current/features.html"
+        }
+      ]
+    },
+    {
+      "id": "intro-to-database-management-systems-stipulate",
+      "word": "stipulate",
+      "partOfSpeech": "verb",
+      "definition": "make express conditions; specify",
+      "sentence": "A foreign key stipulates that each value in the child column must match an existing key in the parent table.",
+      "explanation": "This is referential integrity. The DBMS rejects inserts and updates that would create an orphan row, and ON DELETE options (CASCADE, SET NULL, RESTRICT) say what happens when a parent row is removed.",
+      "citations": [
+        {
+          "title": "Referential integrity (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Referential_integrity"
+        },
+        {
+          "title": "Constraints (PostgreSQL docs)",
+          "url": "https://www.postgresql.org/docs/current/ddl-constraints.html"
+        }
+      ]
+    },
+    {
+      "id": "intro-to-database-management-systems-default",
+      "word": "default",
+      "partOfSpeech": "noun",
+      "definition": "failure to act; by extension, a preset value used when none is supplied",
+      "sentence": "When an INSERT omits a column, the DBMS applies the column's DEFAULT clause, or NULL if there is none.",
+      "explanation": "Defaults sit beside NOT NULL, UNIQUE, CHECK and PRIMARY KEY as declarative rules. Declaring them in the schema lets the DBMS enforce them for every application that touches the data.",
+      "citations": [
+        {
+          "title": "Default Values (PostgreSQL docs)",
+          "url": "https://www.postgresql.org/docs/current/ddl-default.html"
+        },
+        {
+          "title": "Constraints (PostgreSQL docs)",
+          "url": "https://www.postgresql.org/docs/current/ddl-constraints.html"
+        }
+      ]
+    },
+    {
+      "id": "intro-to-database-management-systems-apprise",
+      "word": "apprise",
+      "partOfSpeech": "verb",
+      "definition": "inform",
+      "sentence": "An AFTER UPDATE trigger can apprise an audit table whenever a salary changes.",
+      "explanation": "A trigger is a procedure the DBMS runs automatically on INSERT, UPDATE or DELETE. It is used for audit trails and for enforcing rules too complex for a CHECK constraint, but hidden logic can surprise developers.",
+      "citations": [
+        {
+          "title": "Triggers (PostgreSQL docs)",
+          "url": "https://www.postgresql.org/docs/current/trigger-definition.html"
+        },
+        {
+          "title": "Database trigger (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Database_trigger"
+        }
+      ]
+    },
+    {
+      "id": "intro-to-database-management-systems-confound",
+      "word": "confound",
+      "partOfSpeech": "verb",
+      "definition": "confuse; puzzle",
+      "sentence": "NULL confounds simple logic: NULL = NULL evaluates to unknown rather than true, so queries must use IS NULL.",
+      "explanation": "SQL uses three-valued logic (true, false, unknown), and a WHERE clause keeps only rows for which the condition is true. A related trap is that NOT IN with a subquery that returns a NULL can match no rows at all.",
+      "citations": [
+        {
+          "title": "Null (SQL) (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Null_(SQL)"
+        },
+        {
+          "title": "Comparison Functions and Operators (PostgreSQL docs)",
+          "url": "https://www.postgresql.org/docs/current/functions-comparison.html"
+        }
+      ]
+    },
+    {
+      "id": "intro-to-database-management-systems-distill",
+      "word": "distill",
+      "partOfSpeech": "verb",
+      "definition": "purify; refine; concentrate; by extension, in SQL, to reduce a list of candidates to the first non-null value",
+      "sentence": "The COALESCE function can distill a list of candidates into the first non-null one, so a report can show 0 where data would otherwise be missing.",
+      "explanation": "COALESCE(a, b, c) evaluates its arguments left to right and returns the first that is not NULL. It is standard SQL and supported by the major systems, unlike vendor-specific variants such as NVL or ISNULL.",
+      "citations": [
+        {
+          "title": "Conditional Expressions (PostgreSQL docs)",
+          "url": "https://www.postgresql.org/docs/current/functions-conditional.html"
+        }
+      ]
+    },
+    {
+      "id": "intro-to-database-management-systems-aggregate",
+      "word": "aggregate",
+      "partOfSpeech": "verb",
+      "definition": "gather; accumulate",
+      "sentence": "GROUP BY lets a query aggregate rows into one result per group, such as total sales per region.",
+      "explanation": "Aggregate functions such as COUNT, SUM, AVG, MIN and MAX collapse many rows into one value. WHERE filters rows before grouping, while HAVING filters the groups afterward.",
+      "citations": [
+        {
+          "title": "Aggregate Functions (PostgreSQL docs)",
+          "url": "https://www.postgresql.org/docs/current/functions-aggregate.html"
+        },
+        {
+          "title": "Group by (SQL) (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Group_by_(SQL)"
+        }
+      ]
+    },
+    {
+      "id": "intro-to-database-management-systems-indeterminate",
+      "word": "indeterminate",
+      "partOfSpeech": "adjective",
+      "definition": "uncertain; not clearly fixed; indefinite",
+      "sentence": "Without an ORDER BY clause, the order of the rows a query returns is indeterminate.",
+      "explanation": "Relations are sets, so SQL promises no row order unless the query asks for one. The order you happen to see depends on the plan and on physical storage, and it can change after an index is added or a table is rewritten.",
+      "citations": [
+        {
+          "title": "Sorting Rows (PostgreSQL docs)",
+          "url": "https://www.postgresql.org/docs/current/queries-order.html"
+        },
+        {
+          "title": "Relational model (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Relational_model"
+        }
+      ]
+    },
+    {
+      "id": "intro-to-database-management-systems-convoluted",
+      "word": "convoluted",
+      "partOfSpeech": "adjective",
+      "definition": "coiled around; involved; intricate",
+      "sentence": "A convoluted query with five levels of nested subqueries can often be rewritten with joins or common table expressions.",
+      "explanation": "Readable rewrites help people, and the optimizer often flattens subqueries into joins anyway. CTEs (WITH clauses) name intermediate results, and recursive CTEs can walk hierarchies such as organization charts.",
+      "citations": [
+        {
+          "title": "WITH Queries (PostgreSQL docs)",
+          "url": "https://www.postgresql.org/docs/current/queries-with.html"
+        },
+        {
+          "title": "Hierarchical and recursive queries in SQL (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Hierarchical_and_recursive_queries_in_SQL"
+        }
+      ]
+    },
+    {
+      "id": "intro-to-database-management-systems-insinuate",
+      "word": "insinuate",
+      "partOfSpeech": "verb",
+      "definition": "hint; imply; creep in",
+      "sentence": "SQL injection lets an attacker insinuate extra SQL into a query through a form field, and the application runs it.",
+      "explanation": "It occurs when user input is concatenated into a query string. Prepared statements with bound parameters, as used in embedded SQL, JDBC or Python's DB-API, keep data separate from code, and OWASP lists parameterized queries as the primary defense.",
+      "citations": [
+        {
+          "title": "SQL Injection Prevention Cheat Sheet (OWASP)",
+          "url": "https://cheatsheetseries.owasp.org/cheatsheets/SQL_Injection_Prevention_Cheat_Sheet.html"
+        },
+        {
+          "title": "SQL injection (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/SQL_injection"
+        }
+      ]
+    },
+    {
+      "id": "intro-to-database-management-systems-disparage",
+      "word": "disparage",
+      "partOfSpeech": "verb",
+      "definition": "belittle",
+      "sentence": "Some developers disparage object-relational mappers for generating inefficient SQL, while others value the boilerplate they remove.",
+      "explanation": "An ORM maps tables to objects in the application language. A common pitfall is the N+1 query problem, where loading a list triggers one extra query per row; eager loading or an explicit join fixes it.",
+      "citations": [
+        {
+          "title": "Object-relational mapping (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Object%E2%80%93relational_mapping"
+        },
+        {
+          "title": "Object-relational impedance mismatch (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Object%E2%80%93relational_impedance_mismatch"
+        }
+      ]
+    },
+    {
+      "id": "intro-to-database-management-systems-sanction",
+      "word": "sanction",
+      "partOfSpeech": "verb",
+      "definition": "approve; ratify",
+      "sentence": "GRANT and REVOKE let the administrator sanction which users may read or change each table.",
+      "explanation": "SQL's access control assigns privileges (SELECT, INSERT, UPDATE, DELETE) on objects to users or roles. Views add finer control by exposing only some columns or rows.",
+      "citations": [
+        {
+          "title": "Privileges (PostgreSQL docs)",
+          "url": "https://www.postgresql.org/docs/current/ddl-priv.html"
+        },
+        {
+          "title": "Data control language (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Data_control_language"
+        }
+      ]
+    },
+    {
+      "id": "intro-to-database-management-systems-plethora",
+      "word": "plethora",
+      "partOfSpeech": "noun",
+      "definition": "excess; overabundance",
+      "sentence": "Storing a customer's address in every order row creates a plethora of copies, and normalization removes them.",
+      "explanation": "Redundant copies can drift apart, causing update, insertion and deletion anomalies. The normal forms (1NF, 2NF, 3NF, BCNF) give rules for removing them; informally, every non-key attribute should depend on the key, the whole key, and nothing but the key.",
+      "citations": [
+        {
+          "title": "Database normalization (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Database_normalization"
+        },
+        {
+          "title": "Third normal form (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Third_normal_form"
+        }
+      ]
+    },
+    {
+      "id": "intro-to-database-management-systems-specious",
+      "word": "specious",
+      "partOfSpeech": "adjective",
+      "definition": "seemingly reasonable but incorrect; misleading (often intentionally)",
+      "sentence": "A careless split of a table can produce specious results: the join returns extra tuples that look plausible but were never in the original.",
+      "explanation": "A lossless-join decomposition lets the original table be rebuilt exactly. Decomposing on a functional dependency, as BCNF and 3NF do, guarantees this; arbitrary splits do not.",
+      "citations": [
+        {
+          "title": "Boyce-Codd normal form (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Boyce%E2%80%93Codd_normal_form"
+        },
+        {
+          "title": "Database normalization (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Database_normalization"
+        }
+      ]
+    },
+    {
+      "id": "intro-to-database-management-systems-ameliorate",
+      "word": "ameliorate",
+      "partOfSpeech": "verb",
+      "definition": "improve",
+      "sentence": "Denormalization can ameliorate slow joins in reporting systems by deliberately storing some values more than once.",
+      "explanation": "Data warehouses often use star schemas with a wide fact table and denormalized dimension tables. The price is extra storage and the job of keeping the copies consistent.",
+      "citations": [
+        {
+          "title": "Denormalization (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Denormalization"
+        },
+        {
+          "title": "Star schema (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Star_schema"
+        }
+      ]
+    },
+    {
+      "id": "intro-to-database-management-systems-facilitate",
+      "word": "facilitate",
+      "partOfSpeech": "verb",
+      "definition": "help bring about; make less difficult",
+      "sentence": "A B+-tree index facilitates both exact lookups and range scans by keeping keys sorted in linked leaf pages.",
+      "explanation": "B+-trees have high fan-out, so even a table with millions of rows needs only about three or four page reads to reach a leaf. Hash indexes handle equality only and cannot serve range queries.",
+      "citations": [
+        {
+          "title": "B+ tree (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/B%2B_tree"
+        },
+        {
+          "title": "Use The Index, Luke",
+          "url": "https://use-the-index-luke.com/"
+        }
+      ]
+    },
+    {
+      "id": "intro-to-database-management-systems-impede",
+      "word": "impede",
+      "partOfSpeech": "verb",
+      "definition": "hinder; block",
+      "sentence": "Each additional index impedes writes, since every INSERT or UPDATE must also maintain the index.",
+      "explanation": "Indexes speed reads but cost storage and write time, so they should match real query patterns. Dropping indexes nobody uses is routine maintenance.",
+      "citations": [
+        {
+          "title": "Database index (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Database_index"
+        },
+        {
+          "title": "Use The Index, Luke",
+          "url": "https://use-the-index-luke.com/"
+        }
+      ]
+    },
+    {
+      "id": "intro-to-database-management-systems-obviate",
+      "word": "obviate",
+      "partOfSpeech": "verb",
+      "definition": "make unnecessary; get rid of",
+      "sentence": "A covering index can obviate the extra trip to the table because it holds every column the query needs.",
+      "explanation": "An index-only scan reads just the index. In PostgreSQL it also needs the visibility map to confirm that the pages are all-visible to the current transaction.",
+      "citations": [
+        {
+          "title": "Index-Only Scans and Covering Indexes (PostgreSQL docs)",
+          "url": "https://www.postgresql.org/docs/current/indexes-index-only-scans.html"
+        },
+        {
+          "title": "Use The Index, Luke",
+          "url": "https://use-the-index-luke.com/"
+        }
+      ]
+    },
+    {
+      "id": "intro-to-database-management-systems-inundate",
+      "word": "inundate",
+      "partOfSpeech": "verb",
+      "definition": "overwhelm; flood; submerge",
+      "sentence": "A single large table scan can inundate the buffer pool and push out the pages other queries need.",
+      "explanation": "The buffer manager caches disk pages in memory and evicts them with LRU-like policies. Systems add scan-resistant behavior, such as PostgreSQL's small ring buffer for large sequential scans, so one query does not flush the cache.",
+      "citations": [
+        {
+          "title": "Cache replacement policies (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Cache_replacement_policies"
+        },
+        {
+          "title": "Page replacement algorithm (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Page_replacement_algorithm"
+        }
+      ]
+    },
+    {
+      "id": "intro-to-database-management-systems-pungent",
+      "word": "pungent",
+      "partOfSpeech": "adjective",
+      "definition": "stinging; sharp in taste or smell; caustic; by extension, figuratively, an unmistakable warning sign",
+      "sentence": "A pungent warning in EXPLAIN output is a sequential scan of a huge table, which usually signals a missing index.",
+      "explanation": "EXPLAIN shows the plan the optimizer chose, with cost estimates; EXPLAIN ANALYZE also runs the query and reports actual times and row counts. A scan is not always bad: for small tables, or queries that return most rows, it is the cheapest plan.",
+      "citations": [
+        {
+          "title": "Using EXPLAIN (PostgreSQL docs)",
+          "url": "https://www.postgresql.org/docs/current/using-explain.html"
+        },
+        {
+          "title": "Query plan (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Query_plan"
+        }
+      ]
+    },
+    {
+      "id": "intro-to-database-management-systems-frugality",
+      "word": "frugality",
+      "partOfSpeech": "noun",
+      "definition": "thrift; economy",
+      "sentence": "A cost-based optimizer practices frugality with I/O: it estimates the cost of candidate plans and picks the cheapest.",
+      "explanation": "The approach comes from IBM's System R (Selinger et al., 1979). The optimizer uses table statistics, such as row counts and value distributions, to estimate intermediate result sizes and chooses the join order, join method and access paths.",
+      "citations": [
+        {
+          "title": "Query optimization (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Query_optimization"
+        },
+        {
+          "title": "IBM System R (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/IBM_System_R"
+        }
+      ]
+    },
+    {
+      "id": "intro-to-database-management-systems-propitiate",
+      "word": "propitiate",
+      "partOfSpeech": "verb",
+      "definition": "appease",
+      "sentence": "When estimates are wrong, developers propitiate the optimizer by refreshing statistics with ANALYZE or by adding hints.",
+      "explanation": "Stale statistics lead to poor cardinality estimates and bad join orders. ANALYZE (PostgreSQL) or UPDATE STATISTICS (SQL Server) collects fresh ones; hints exist in some systems but are a last resort.",
+      "citations": [
+        {
+          "title": "ANALYZE (PostgreSQL docs)",
+          "url": "https://www.postgresql.org/docs/current/sql-analyze.html"
+        },
+        {
+          "title": "Query optimization (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Query_optimization"
+        }
+      ]
+    },
+    {
+      "id": "intro-to-database-management-systems-levity",
+      "word": "levity",
+      "partOfSpeech": "noun",
+      "definition": "lack of seriousness or steadiness; frivolity",
+      "sentence": "Treating a money transfer with levity, as two separate statements outside a transaction, risks losing the money if the system fails between them.",
+      "explanation": "A transfer debits one account and credits another. Wrapped in BEGIN ... COMMIT, the two updates succeed or fail together; without a transaction, a crash between them leaves the books out of balance.",
+      "citations": [
+        {
+          "title": "Database transaction (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Database_transaction"
+        },
+        {
+          "title": "Transactions (PostgreSQL tutorial)",
+          "url": "https://www.postgresql.org/docs/current/tutorial-transactions.html"
+        }
+      ]
+    },
+    {
+      "id": "intro-to-database-management-systems-compliant",
+      "word": "compliant",
+      "partOfSpeech": "adjective",
+      "definition": "yielding; conforming to requirements",
+      "sentence": "An ACID-compliant database guarantees atomicity, consistency, isolation and durability for every transaction.",
+      "explanation": "Atomicity means all or nothing, consistency means constraints hold before and after, isolation means concurrent transactions do not interfere, and durability means committed data survives a crash. The acronym was coined by Haerder and Reuter in 1983.",
+      "citations": [
+        {
+          "title": "ACID (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/ACID"
+        },
+        {
+          "title": "Database transaction (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Database_transaction"
+        }
+      ]
+    },
+    {
+      "id": "intro-to-database-management-systems-impair",
+      "word": "impair",
+      "partOfSpeech": "verb",
+      "definition": "injure; hurt",
+      "sentence": "Dirty reads impair isolation, because one transaction sees changes that another may still roll back.",
+      "explanation": "The SQL standard defines isolation levels by which anomalies they allow: dirty reads, non-repeatable reads and phantoms. READ UNCOMMITTED permits dirty reads, while SERIALIZABLE permits none.",
+      "citations": [
+        {
+          "title": "Isolation (database systems) (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Isolation_(database_systems)"
+        },
+        {
+          "title": "Transaction Isolation (PostgreSQL docs)",
+          "url": "https://www.postgresql.org/docs/current/transaction-iso.html"
+        }
+      ]
+    },
+    {
+      "id": "intro-to-database-management-systems-exacerbate",
+      "word": "exacerbate",
+      "partOfSpeech": "verb",
+      "definition": "worsen; embitter",
+      "sentence": "Long-running transactions exacerbate lock contention, since they hold their locks until they commit.",
+      "explanation": "Under strict two-phase locking a transaction keeps its exclusive locks until commit or abort, which prevents cascading rollbacks and gives serializability, but other transactions pile up behind it. Keeping transactions short is a basic tuning rule.",
+      "citations": [
+        {
+          "title": "Two-phase locking (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Two-phase_locking"
+        },
+        {
+          "title": "Concurrency control (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Concurrency_control"
+        }
+      ]
+    },
+    {
+      "id": "intro-to-database-management-systems-malingerer",
+      "word": "malingerer",
+      "partOfSpeech": "noun",
+      "definition": "one who feigns illness to escape duty; by extension, here, a session that does no work yet still holds resources",
+      "sentence": "An idle-in-transaction session is a malingerer: it does no work, yet it holds locks and keeps VACUUM from cleaning up old row versions.",
+      "explanation": "In PostgreSQL, a client that issues BEGIN and then stalls keeps its snapshot open, which prevents removal of dead row versions. The idle_in_transaction_session_timeout setting terminates such sessions.",
+      "citations": [
+        {
+          "title": "Client Connection Defaults (PostgreSQL docs)",
+          "url": "https://www.postgresql.org/docs/current/runtime-config-client.html"
+        },
+        {
+          "title": "Multiversion concurrency control (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Multiversion_concurrency_control"
+        }
+      ]
+    },
+    {
+      "id": "intro-to-database-management-systems-resolution",
+      "word": "resolution",
+      "partOfSpeech": "noun",
+      "definition": "Determination; by extension, here, the settling of a conflict",
+      "sentence": "Deadlock detection ends with resolution: the DBMS picks a victim transaction, rolls it back and lets the others proceed.",
+      "explanation": "The lock manager keeps a waits-for graph, and a cycle in it means deadlock. The usual victim is the transaction that has done the least work, and the application should be prepared to retry the aborted one.",
+      "citations": [
+        {
+          "title": "Explicit Locking: Deadlocks (PostgreSQL docs)",
+          "url": "https://www.postgresql.org/docs/current/explicit-locking.html#LOCKING-DEADLOCKS"
+        },
+        {
+          "title": "Deadlock (computer science) (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Deadlock_(computer_science)"
+        }
+      ]
+    },
+    {
+      "id": "intro-to-database-management-systems-supersede",
+      "word": "supersede",
+      "partOfSpeech": "verb",
+      "definition": "cause to be set aside; replace; make obsolete",
+      "sentence": "Under MVCC, each update creates a new row version that supersedes the old one, which VACUUM later reclaims.",
+      "explanation": "Multiversion concurrency control lets readers see a consistent snapshot without blocking writers, because each update creates a new row version. Old versions are kept until no transaction can still see them.",
+      "citations": [
+        {
+          "title": "Introduction to MVCC (PostgreSQL docs)",
+          "url": "https://www.postgresql.org/docs/current/mvcc-intro.html"
+        },
+        {
+          "title": "Multiversion concurrency control (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Multiversion_concurrency_control"
+        }
+      ]
+    },
+    {
+      "id": "intro-to-database-management-systems-volatile",
+      "word": "volatile",
+      "partOfSpeech": "adjective",
+      "definition": "changeable; explosive; evaporation rapidly; by extension, of memory, losing its contents when power is lost",
+      "sentence": "Main memory is volatile, so the DBMS writes a log record to disk before the data page it describes.",
+      "explanation": "This is write-ahead logging (WAL): a commit is durable once its log records reach stable storage, and dirty pages can be flushed later. Sequential log writes cost much less than random page writes.",
+      "citations": [
+        {
+          "title": "Write-ahead logging (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Write-ahead_logging"
+        },
+        {
+          "title": "Write-Ahead Logging (PostgreSQL docs)",
+          "url": "https://www.postgresql.org/docs/current/wal-intro.html"
+        }
+      ]
+    },
+    {
+      "id": "intro-to-database-management-systems-repudiate",
+      "word": "repudiate",
+      "partOfSpeech": "verb",
+      "definition": "disown; disavow",
+      "sentence": "Rolling back a transaction repudiates all of its changes, using undo information from the log.",
+      "explanation": "ARIES (Mohan et al., 1992) recovers from a crash in three passes: analysis finds which transactions and pages were active, redo repeats history, and undo rolls back transactions that had not committed.",
+      "citations": [
+        {
+          "title": "Mohan et al. (1992), ARIES (ACM TODS)",
+          "url": "https://dl.acm.org/doi/10.1145/128765.128770"
+        },
+        {
+          "title": "Algorithms for Recovery and Isolation Exploiting Semantics (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Algorithms_for_Recovery_and_Isolation_Exploiting_Semantics"
+        }
+      ]
+    },
+    {
+      "id": "intro-to-database-management-systems-quiescent",
+      "word": "quiescent",
+      "partOfSpeech": "adjective",
+      "definition": "at rest; dormant; temporarily inactive",
+      "sentence": "A sharp checkpoint needs a quiescent system, while a fuzzy checkpoint lets transactions keep running.",
+      "explanation": "After a checkpoint, recovery only needs to replay the log from that point. Fuzzy checkpoints record which pages are dirty instead of stopping the world, so normal processing continues.",
+      "citations": [
+        {
+          "title": "WAL Configuration (PostgreSQL docs)",
+          "url": "https://www.postgresql.org/docs/current/wal-configuration.html"
+        },
+        {
+          "title": "Mohan et al. (1992), ARIES (ACM TODS)",
+          "url": "https://dl.acm.org/doi/10.1145/128765.128770"
+        }
+      ]
+    },
+    {
+      "id": "intro-to-database-management-systems-equivocate",
+      "word": "equivocate",
+      "partOfSpeech": "verb",
+      "definition": "lie; mislead; attempt to conceal the truth",
+      "sentence": "In two-phase commit, a participant that has voted yes may not equivocate: it must commit if the coordinator says so.",
+      "explanation": "Phase 1 collects votes; in phase 2 the coordinator sends commit if everyone voted yes, otherwise abort. A prepared participant must hold its locks until it hears the outcome, so a coordinator crash can leave it blocked.",
+      "citations": [
+        {
+          "title": "Two-phase commit protocol (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Two-phase_commit_protocol"
+        }
+      ]
+    },
+    {
+      "id": "intro-to-database-management-systems-eclectic",
+      "word": "eclectic",
+      "partOfSpeech": "adjective",
+      "definition": "selective; composed of elements drawn from disparate sources",
+      "sentence": "Many enterprises run an eclectic mix of databases, such as a relational store for orders, a cache for sessions and a search index for text.",
+      "explanation": "Using several specialized stores is sometimes called polyglot persistence. It lets each workload use a suitable engine, at the cost of operating several systems and keeping data consistent across them.",
+      "citations": [
+        {
+          "title": "NoSQL (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/NoSQL"
+        },
+        {
+          "title": "Database (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Database"
+        }
+      ]
+    }
+  ]
+}

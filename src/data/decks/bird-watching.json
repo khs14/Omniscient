@@ -1,0 +1,502 @@
+{
+  "id": "bird-watching",
+  "title": "Bird Watching",
+  "category": "Nature",
+  "description": "Learn GRE words through flocks, songs, camouflage, courtship and migration.",
+  "cards": [
+    {
+      "id": "bird-watching-gregarious",
+      "word": "gregarious",
+      "partOfSpeech": "adjective",
+      "definition": "fond of company; living in flocks or groups",
+      "sentence": "European Starlings are so gregarious that winter roosts can hold thousands of birds, which swirl together in murmurations at dusk.",
+      "explanation": "A murmuration is a huge, shape-shifting flock in which each starling reacts to its nearest neighbours. Only a very gregarious species, one that feeds and roosts in large groups, can produce these displays.",
+      "citations": [
+        {
+          "title": "European Starling overview (All About Birds, Cornell Lab)",
+          "url": "https://www.allaboutbirds.org/guide/European_Starling/overview"
+        },
+        {
+          "title": "Murmuration (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Murmuration"
+        }
+      ]
+    },
+    {
+      "id": "bird-watching-cryptic",
+      "word": "cryptic",
+      "partOfSpeech": "adjective",
+      "definition": "having a meaning or appearance that is hidden or hard to make out",
+      "sentence": "Nightjars roost on the ground by day, relying on cryptic, bark-patterned plumage that makes them almost invisible against leaf litter.",
+      "explanation": "In biology, cryptic coloration (crypsis) is camouflage that lets an animal blend into its background. Nightjars sit still on the ground or along branches during the day, and their mottled browns and greys hide them from predators and birders alike.",
+      "citations": [
+        {
+          "title": "Nightjar (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Nightjar"
+        },
+        {
+          "title": "Crypsis (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Crypsis"
+        }
+      ]
+    },
+    {
+      "id": "bird-watching-itinerant",
+      "word": "itinerant",
+      "partOfSpeech": "adjective",
+      "definition": "travelling from place to place",
+      "sentence": "In winter, itinerant flocks of Bohemian Waxwings roam in search of fruit, turning up wherever berry trees are loaded and leaving once they are stripped.",
+      "explanation": "Unlike species with fixed migration routes and wintering grounds, Bohemian Waxwings wander unpredictably outside the breeding season, following fruit crops. Their itinerant habits are why a flock can appear in a town one winter and not return for years.",
+      "citations": [
+        {
+          "title": "Bohemian Waxwing overview (All About Birds, Cornell Lab)",
+          "url": "https://www.allaboutbirds.org/guide/Bohemian_Waxwing/overview"
+        }
+      ]
+    },
+    {
+      "id": "bird-watching-cacophony",
+      "word": "cacophony",
+      "partOfSpeech": "noun",
+      "definition": "a harsh, discordant mixture of sounds",
+      "sentence": "To a beginner the spring dawn chorus is a cacophony, but practised birders can pick out each species' song from the din.",
+      "explanation": "The dawn chorus is the burst of song many birds produce around sunrise in the breeding season, largely to defend territories and attract mates. Learning to separate individual songs from the overlapping cacophony is one of the core skills of birding by ear.",
+      "citations": [
+        {
+          "title": "Dawn chorus (birds) (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Dawn_chorus_(birds)"
+        }
+      ]
+    },
+    {
+      "id": "bird-watching-surreptitious",
+      "word": "surreptitious",
+      "partOfSpeech": "adjective",
+      "definition": "kept secret, especially because it would not be approved of",
+      "sentence": "A female Common Cuckoo makes a surreptitious visit to a host's nest, laying one egg that often closely mimics the host's own.",
+      "explanation": "The Common Cuckoo is a brood parasite: it never raises its own young, but slips its eggs into other species' nests while the owners are away. Each female's eggs tend to resemble those of the host she targets, so the deception goes unnoticed and the hosts raise the cuckoo chick.",
+      "citations": [
+        {
+          "title": "Common cuckoo (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Common_cuckoo"
+        },
+        {
+          "title": "Brood parasite (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Brood_parasite"
+        }
+      ]
+    },
+    {
+      "id": "bird-watching-perennial",
+      "word": "perennial",
+      "partOfSpeech": "adjective",
+      "definition": "something long-lasting",
+      "sentence": "Black-capped Chickadees are perennial visitors to winter feeders, because they stay in the north all year instead of migrating.",
+      "explanation": "Chickadees survive cold nights by roosting in cavities and lowering their body temperature to save energy. They also cache seeds and insects in many hidden spots and remember where they put them.",
+      "citations": [
+        {
+          "title": "Black-capped Chickadee overview (All About Birds, Cornell Lab)",
+          "url": "https://www.allaboutbirds.org/guide/Black-capped_Chickadee/overview"
+        }
+      ]
+    },
+    {
+      "id": "bird-watching-converge",
+      "word": "converge",
+      "partOfSpeech": "verb",
+      "definition": "approach; tend to meet; come together",
+      "sentence": "Each May, thousands of shorebirds converge on Delaware Bay to feast on horseshoe crab eggs, refuelling for the next leg of their migration.",
+      "explanation": "Red Knots of the rufa subspecies fly from southern South America to the Arctic, and the crab-egg bonanza lets them gain weight quickly during a short stopover. The subspecies is listed as threatened in the United States, in part because of declines in horseshoe crabs and other threats to stopover habitat.",
+      "citations": [
+        {
+          "title": "Red Knot overview (All About Birds, Cornell Lab)",
+          "url": "https://www.allaboutbirds.org/guide/Red_Knot/overview"
+        },
+        {
+          "title": "Delaware Bay (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Delaware_Bay"
+        }
+      ]
+    },
+    {
+      "id": "bird-watching-ephemeral",
+      "word": "ephemeral",
+      "partOfSpeech": "adjective",
+      "definition": "short-lived; fleeting",
+      "sentence": "Spring songbird migration is ephemeral at any one site: a wave of warblers may pass through in a day or two and then be gone for months.",
+      "explanation": "Many songbirds migrate at night, and a storm front can force a large number to land at once, a phenomenon birders call a fallout. Radar-based forecasts such as BirdCast help birders anticipate these brief windows.",
+      "citations": [
+        {
+          "title": "Bird migration (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Bird_migration"
+        },
+        {
+          "title": "BirdCast",
+          "url": "https://birdcast.info/"
+        }
+      ]
+    },
+    {
+      "id": "bird-watching-rarefied",
+      "word": "rarefied",
+      "partOfSpeech": "adjective",
+      "definition": "made less dense (of a gas)",
+      "sentence": "Bar-headed Geese fly over the Himalayas through rarefied air, where each breath contains far less oxygen than at sea level.",
+      "explanation": "These geese migrate between wintering grounds in South Asia and breeding grounds on the Tibetan Plateau. They cope with thin air thanks to adaptations such as haemoglobin that binds oxygen especially well and highly efficient lungs.",
+      "citations": [
+        {
+          "title": "Bar-headed goose (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Bar-headed_goose"
+        }
+      ]
+    },
+    {
+      "id": "bird-watching-endemic",
+      "word": "endemic",
+      "partOfSpeech": "adjective",
+      "definition": "prevailing among a specific group of people or in a specific area or country",
+      "sentence": "Hawaiian honeycreepers are endemic to the islands, and most of the more than fifty known species are now extinct.",
+      "explanation": "Found nowhere else, these finch-like birds evolved into a striking variety of bill shapes. Avian malaria, spread by introduced mosquitoes, is a major threat to the survivors, which now mostly live at high elevations where mosquitoes are scarcer.",
+      "citations": [
+        {
+          "title": "Hawaiian honeycreeper (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Hawaiian_honeycreeper"
+        }
+      ]
+    },
+    {
+      "id": "bird-watching-diverge",
+      "word": "diverge",
+      "partOfSpeech": "verb",
+      "definition": "vary; go in different directions from the same point",
+      "sentence": "Darwin's finches diverged from a common ancestor on the Galapagos Islands, their bills adapting to different foods.",
+      "explanation": "Long-term studies by Peter and Rosemary Grant on Daphne Major showed bill size shifting within a few generations after a drought changed which seeds were available. The finches are a classic example of adaptive radiation.",
+      "citations": [
+        {
+          "title": "Darwin's finches (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Darwin%27s_finches"
+        },
+        {
+          "title": "Adaptive radiation (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Adaptive_radiation"
+        }
+      ]
+    },
+    {
+      "id": "bird-watching-precursor",
+      "word": "precursor",
+      "partOfSpeech": "noun",
+      "definition": "forerunner",
+      "sentence": "Small feathered theropod dinosaurs were the precursors of modern birds, and Archaeopteryx, about 150 million years old, shows both reptilian and avian traits.",
+      "explanation": "Birds are living dinosaurs, the descendants of a group of theropods. Fossils from China and elsewhere show that feathers evolved in dinosaurs well before flight.",
+      "citations": [
+        {
+          "title": "Origin of birds (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Origin_of_birds"
+        },
+        {
+          "title": "Archaeopteryx (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Archaeopteryx"
+        }
+      ]
+    },
+    {
+      "id": "bird-watching-plummet",
+      "word": "plummet",
+      "partOfSpeech": "verb",
+      "definition": "fall sharply",
+      "sentence": "A Peregrine Falcon plummets toward its prey in a steep dive called a stoop, reaching speeds that can exceed 300 km/h.",
+      "explanation": "The stoop is probably the fastest movement of any animal. The falcon tucks in its wings and strikes with its feet, and small bony cones in its nostrils are thought to help it breathe at such speeds.",
+      "citations": [
+        {
+          "title": "Peregrine Falcon overview (All About Birds, Cornell Lab)",
+          "url": "https://www.allaboutbirds.org/guide/Peregrine_Falcon/overview"
+        },
+        {
+          "title": "Peregrine falcon (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Peregrine_falcon"
+        }
+      ]
+    },
+    {
+      "id": "bird-watching-audacious",
+      "word": "audacious",
+      "partOfSpeech": "adjective",
+      "definition": "daring; bold",
+      "sentence": "Magnificent Frigatebirds are audacious pirates, sometimes chasing other seabirds in flight until they drop or regurgitate their catch.",
+      "explanation": "Stealing food from other animals is called kleptoparasitism. Frigatebirds also catch their own fish and squid, skimming the surface without landing, since their feathers are not well suited to getting wet.",
+      "citations": [
+        {
+          "title": "Frigatebird (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Frigatebird"
+        },
+        {
+          "title": "Kleptoparasitism (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Kleptoparasitism"
+        }
+      ]
+    },
+    {
+      "id": "bird-watching-oscillate",
+      "word": "oscillate",
+      "partOfSpeech": "verb",
+      "definition": "vibrate; waver",
+      "sentence": "American Goldfinches oscillate up and down in flight, flapping and then folding their wings, and often call \"per-chic-o-ree\" with each dip.",
+      "explanation": "This undulating flight pattern alternates bursts of flapping with brief glides, and it helps birders identify goldfinches at a distance. Goldfinches also nest late in summer, when thistle and other seed supplies are plentiful.",
+      "citations": [
+        {
+          "title": "American Goldfinch overview (All About Birds, Cornell Lab)",
+          "url": "https://www.allaboutbirds.org/guide/American_Goldfinch/overview"
+        }
+      ]
+    },
+    {
+      "id": "bird-watching-torpor",
+      "word": "torpor",
+      "partOfSpeech": "noun",
+      "definition": "lethargy; sluggishness; dormancy",
+      "sentence": "On cold nights hummingbirds can enter torpor, lowering their body temperature and metabolism so they do not starve before morning.",
+      "explanation": "A hummingbird's metabolism is so fast that it can burn through its energy reserves overnight. In torpor its heart rate and breathing slow sharply, and it warms back up at dawn.",
+      "citations": [
+        {
+          "title": "Hummingbird (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Hummingbird"
+        },
+        {
+          "title": "Torpor (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Torpor"
+        }
+      ]
+    },
+    {
+      "id": "bird-watching-secrete",
+      "word": "secrete",
+      "partOfSpeech": "verb",
+      "definition": "hide away or cache; produce and release a substance into an organism",
+      "sentence": "Most birds secrete an oily substance from the preen gland near the base of the tail and spread it over their feathers while preening.",
+      "explanation": "The oil helps keep feathers in good condition, and in many species it contributes to water resistance. Some birds, such as many owls and bustards, have a reduced gland or none at all.",
+      "citations": [
+        {
+          "title": "Uropygial gland (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Uropygial_gland"
+        }
+      ]
+    },
+    {
+      "id": "bird-watching-porous",
+      "word": "porous",
+      "partOfSpeech": "adjective",
+      "definition": "full of pores; like a sieve",
+      "sentence": "A bird's eggshell is porous, with thousands of microscopic openings that let the embryo take in oxygen and release carbon dioxide.",
+      "explanation": "Even though it looks solid, the shell must allow gas exchange while also keeping the egg from drying out. Egg shape, shell thickness and pore number vary among species, which is part of why eggs from different nests look so different.",
+      "citations": [
+        {
+          "title": "Eggshell (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Eggshell"
+        }
+      ]
+    },
+    {
+      "id": "bird-watching-fledgling",
+      "word": "fledgling",
+      "partOfSpeech": "noun",
+      "definition": "inexperienced; by extension, a young bird that has grown its flight feathers and just left the nest",
+      "sentence": "A fledgling that has just left the nest can hop and flutter but not fly well, and its parents keep feeding it, so it should usually be left alone.",
+      "explanation": "Nestlings are mostly bare and belong in the nest, while fledglings are feathered and are learning to fly on the ground or in low branches. Picking one up is rarely necessary and often does more harm than good.",
+      "citations": [
+        {
+          "title": "Fledge (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Fledge"
+        }
+      ]
+    },
+    {
+      "id": "bird-watching-dirge",
+      "word": "dirge",
+      "partOfSpeech": "noun",
+      "definition": "Lament with music",
+      "sentence": "The soft, drawn-out coo of the Mourning Dove sounds like a dirge, which is how the bird got its name.",
+      "explanation": "Males perch and coo to attract mates, and the mournful tone is just a quality of the call, not a sign of sadness. Mourning Doves are among the most abundant birds in North America and are common at feeders.",
+      "citations": [
+        {
+          "title": "Mourning Dove overview (All About Birds, Cornell Lab)",
+          "url": "https://www.allaboutbirds.org/guide/Mourning_Dove/overview"
+        }
+      ]
+    },
+    {
+      "id": "bird-watching-emulate",
+      "word": "emulate",
+      "partOfSpeech": "verb",
+      "definition": "imitate; rival",
+      "sentence": "Northern Mockingbirds emulate the songs of dozens of other bird species, along with other sounds they hear in their surroundings.",
+      "explanation": "A mockingbird often repeats each phrase several times before moving on to the next, which helps tell it apart from a thrasher, which repeats each phrase twice. Males with larger repertoires may have an advantage in attracting mates.",
+      "citations": [
+        {
+          "title": "Northern Mockingbird overview (All About Birds, Cornell Lab)",
+          "url": "https://www.allaboutbirds.org/guide/Northern_Mockingbird/overview"
+        }
+      ]
+    },
+    {
+      "id": "bird-watching-garrulous",
+      "word": "garrulous",
+      "partOfSpeech": "adjective",
+      "definition": "loquacious; talkative; wordy",
+      "sentence": "The Blue Jay is garrulous, with a wide repertoire of calls that includes imitations of hawks.",
+      "explanation": "Jays are intelligent, social members of the crow family. Their hawk-like calls may serve as a warning or a deception, and researchers are still working out which.",
+      "citations": [
+        {
+          "title": "Blue Jay overview (All About Birds, Cornell Lab)",
+          "url": "https://www.allaboutbirds.org/guide/Blue_Jay/overview"
+        }
+      ]
+    },
+    {
+      "id": "bird-watching-deterrent",
+      "word": "deterrent",
+      "partOfSpeech": "noun",
+      "definition": "Something that discourages; hindrance",
+      "sentence": "Mobbing serves as a deterrent: small birds that swarm and scold an owl or hawk may drive it from the area.",
+      "explanation": "Chickadees add more \"dee\" notes to their calls when the predator is small and dangerous, and other birds respond by joining the mob. A 2005 study of Black-capped Chickadees found that their calls convey detailed information about a predator's size and threat.",
+      "citations": [
+        {
+          "title": "Mobbing (animal behavior) (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Mobbing_(animal_behavior)"
+        },
+        {
+          "title": "Black-capped Chickadee overview (All About Birds, Cornell Lab)",
+          "url": "https://www.allaboutbirds.org/guide/Black-capped_Chickadee/overview"
+        }
+      ]
+    },
+    {
+      "id": "bird-watching-wary",
+      "word": "wary",
+      "partOfSpeech": "adjective",
+      "definition": "very cautious",
+      "sentence": "Shorebirds can be wary, so birders approach slowly, keep their distance and use binoculars or a scope rather than flushing the flock.",
+      "explanation": "Repeatedly disturbing birds wastes energy they need for migration and breeding. The American Birding Association's Code of Birding Ethics asks birders to respect wildlife and avoid stressing the birds they watch.",
+      "citations": [
+        {
+          "title": "ABA Code of Birding Ethics",
+          "url": "https://www.aba.org/aba-code-of-birding-ethics/"
+        }
+      ]
+    },
+    {
+      "id": "bird-watching-ostentatious",
+      "word": "ostentatious",
+      "partOfSpeech": "adjective",
+      "definition": "showy; pretentious; trying to attract attention",
+      "sentence": "The male Indian Peafowl's ostentatious train, covered in eyespots, is fanned and shaken in courtship.",
+      "explanation": "The train is a classic example of a sexually selected ornament, a feature that helps a male win mates even though it makes him more conspicuous. Researchers still debate how much females rely on it in different populations.",
+      "citations": [
+        {
+          "title": "Indian peafowl (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Indian_peafowl"
+        },
+        {
+          "title": "Sexual selection (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Sexual_selection"
+        }
+      ]
+    },
+    {
+      "id": "bird-watching-strut",
+      "word": "strut",
+      "partOfSpeech": "verb",
+      "definition": "pompous walk; by extension, to walk in a showy, exaggerated way, as in courtship",
+      "sentence": "Male Greater Sage-Grouse strut across a display ground, inflating yellow air sacs on their chests and making popping sounds to attract females.",
+      "explanation": "Such gatherings are called leks. Females visit and often choose the same few males, so a small number of males may fertilise most of the eggs in a season.",
+      "citations": [
+        {
+          "title": "Greater Sage-Grouse overview (All About Birds, Cornell Lab)",
+          "url": "https://www.allaboutbirds.org/guide/Greater_Sage-Grouse/overview"
+        },
+        {
+          "title": "Lek (mating system) (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Lek_(mating_system)"
+        }
+      ]
+    },
+    {
+      "id": "bird-watching-luminous",
+      "word": "luminous",
+      "partOfSpeech": "adjective",
+      "definition": "shining; issuing light",
+      "sentence": "In direct light, the gorget of a male Anna's Hummingbird turns a luminous rose-red, but from other angles it looks dark.",
+      "explanation": "This is structural colour: microscopic layers in the feathers reflect certain wavelengths and the colour shifts with the angle of light and the viewer. Pigments alone cannot produce such a changeable shine.",
+      "citations": [
+        {
+          "title": "Anna's Hummingbird overview (All About Birds, Cornell Lab)",
+          "url": "https://www.allaboutbirds.org/guide/Annas_Hummingbird/overview"
+        },
+        {
+          "title": "Iridescence (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Iridescence"
+        }
+      ]
+    },
+    {
+      "id": "bird-watching-discerning",
+      "word": "discerning",
+      "partOfSpeech": "adjective",
+      "definition": "mentally quick and observant; having insight",
+      "sentence": "Female Satin Bowerbirds are discerning, visiting several males' bowers and inspecting them before choosing a mate.",
+      "explanation": "Each male builds a bower of sticks and decorates it, favouring blue objects. The bower is not a nest, but a display structure, and it is part of how females judge a male's quality.",
+      "citations": [
+        {
+          "title": "Satin bowerbird (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Satin_bowerbird"
+        }
+      ]
+    },
+    {
+      "id": "bird-watching-meticulous",
+      "word": "meticulous",
+      "partOfSpeech": "adjective",
+      "definition": "excessively careful; painstaking; scrupulous",
+      "sentence": "Male Village Weavers are meticulous builders, weaving hanging nests from strips of grass, and a female may reject a nest that does not meet her standards.",
+      "explanation": "Weaving is a learned skill that improves with practice. A rejected nest may be torn down and rebuilt, which shows how nest quality can matter in mate choice.",
+      "citations": [
+        {
+          "title": "Village weaver (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Village_weaver"
+        }
+      ]
+    },
+    {
+      "id": "bird-watching-dissemble",
+      "word": "dissemble",
+      "partOfSpeech": "verb",
+      "definition": "disguise; pretend",
+      "sentence": "A Killdeer will dissemble an injury, dragging a wing and calling as if wounded, to lure a predator away from its nest.",
+      "explanation": "This is called a distraction display. The parent leads the predator away from the eggs or chicks and then flies off once the threat is far enough from the nest.",
+      "citations": [
+        {
+          "title": "Killdeer overview (All About Birds, Cornell Lab)",
+          "url": "https://www.allaboutbirds.org/guide/Killdeer/overview"
+        },
+        {
+          "title": "Distraction display (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Distraction_display"
+        }
+      ]
+    },
+    {
+      "id": "bird-watching-ambiguous",
+      "word": "ambiguous",
+      "partOfSpeech": "adjective",
+      "definition": "unclear or doubtful in meaning",
+      "sentence": "Field marks can be ambiguous: Empidonax flycatchers look so alike that birders often rely on song and call to tell them apart.",
+      "explanation": "Birders identify tricky species from a combination of voice, habitat, behaviour and range as well as plumage. When a bird cannot be identified with confidence, it is fine to record it as just \"Empidonax sp.\".",
+      "citations": [
+        {
+          "title": "Empidonax (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Empidonax"
+        }
+      ]
+    }
+  ]
+}

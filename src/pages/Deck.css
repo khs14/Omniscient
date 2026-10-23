@@ -1,0 +1,142 @@
+.deck__header {
+  max-width: var(--width-reading);
+}
+
+.deck__category {
+  margin-bottom: var(--space-1);
+  color: var(--color-text-muted);
+  font-size: var(--text-sm);
+  font-weight: 600;
+}
+
+.deck__description {
+  margin-top: var(--space-3);
+  color: var(--color-text-muted);
+  font-size: var(--text-md);
+}
+
+.deck__overview {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-5);
+  margin: var(--space-6) 0 var(--space-7);
+  padding: var(--space-5);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg);
+  background: var(--color-surface);
+}
+
+.deck__stats {
+  display: flex;
+  gap: var(--space-6);
+}
+
+.deck__stat {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.deck__stat dt {
+  color: var(--color-text-muted);
+  font-size: var(--text-sm);
+}
+
+.deck__stat dd {
+  font-family: var(--font-serif);
+  font-size: var(--text-2xl);
+  font-weight: 600;
+  line-height: 1.1;
+  font-variant-numeric: tabular-nums;
+}
+
+.deck__stat--due dd {
+  color: var(--color-accent);
+}
+
+.deck__actions {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: var(--space-2);
+}
+
+.deck__caught-up {
+  color: var(--color-text-muted);
+  font-size: var(--text-sm);
+}
+
+.deck__words-title {
+  margin-bottom: var(--space-3);
+}
+
+.deck__words-count {
+  color: var(--color-text-muted);
+  font-weight: 400;
+}
+
+.deck__list {
+  list-style: none;
+  border-top: 1px solid var(--color-border);
+}
+
+.deck__item {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--space-4);
+  padding: var(--space-4) 0;
+  border-bottom: 1px solid var(--color-border);
+}
+
+.deck__item-main {
+  min-width: 0;
+}
+
+.deck__item-word {
+  margin-right: var(--space-2);
+  font-family: var(--font-serif);
+  font-size: var(--text-md);
+  font-weight: 600;
+}
+
+.deck__item-pos {
+  color: var(--color-text-muted);
+  font-family: var(--font-serif);
+  font-size: var(--text-sm);
+  font-style: italic;
+}
+
+.deck__item-definition {
+  margin-top: var(--space-1);
+  color: var(--color-text-muted);
+}
+
+.deck__badge {
+  flex-shrink: 0;
+  padding: var(--space-1) var(--space-3);
+  border-radius: var(--radius-pill);
+  background: var(--color-surface-sunken);
+  color: var(--color-text-muted);
+  font-size: var(--text-xs);
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.deck__badge--due,
+.deck__badge--learning {
+  background: var(--color-accent-soft);
+  color: var(--color-accent);
+}
+
+@media (max-width: 560px) {
+  .deck__actions {
+    align-items: stretch;
+    width: 100%;
+  }
+
+  .deck__study {
+    width: 100%;
+  }
+}

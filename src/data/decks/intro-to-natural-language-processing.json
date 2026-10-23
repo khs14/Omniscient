@@ -1,0 +1,592 @@
+{
+  "id": "intro-to-natural-language-processing",
+  "title": "Introduction to Natural Language Processing",
+  "category": "Computer Science",
+  "description": "Learn GRE words through parsing, semantics, discourse, sentiment, question answering, summarization, dialogue, machine translation and text generation.",
+  "cards": [
+    {
+      "id": "intro-to-natural-language-processing-tortuous",
+      "word": "tortuous",
+      "partOfSpeech": "adjective",
+      "definition": "winding; full of curves",
+      "sentence": "A garden-path sentence such as 'The horse raced past the barn fell' sends the reader down a tortuous route and forces a reparse at the last word.",
+      "explanation": "Readers first take 'raced' as the main verb, then must reinterpret it as a reduced relative clause ('the horse that was raced past the barn'). Such sentences show how a parser copes with temporary ambiguity.",
+      "citations": [
+        {
+          "title": "Garden-path sentence (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Garden-path_sentence"
+        },
+        {
+          "title": "Parsing (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Parsing"
+        }
+      ]
+    },
+    {
+      "id": "intro-to-natural-language-processing-burgeon",
+      "word": "burgeon",
+      "partOfSpeech": "verb",
+      "definition": "grow forth; send out buds; by extension, grow quickly",
+      "sentence": "With prepositional-phrase attachment ambiguity, the number of possible parse trees burgeons as sentences get longer.",
+      "explanation": "The number of ways to attach several phrases grows like the Catalan numbers, which is exponential. The CKY algorithm uses dynamic programming to share sub-parses and finds the best tree under a probabilistic grammar in time cubic in the sentence length.",
+      "citations": [
+        {
+          "title": "CYK algorithm (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/CYK_algorithm"
+        },
+        {
+          "title": "Catalan number (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Catalan_number"
+        }
+      ]
+    },
+    {
+      "id": "intro-to-natural-language-processing-pedantic",
+      "word": "pedantic",
+      "partOfSpeech": "adjective",
+      "definition": "showing off learning; bookish",
+      "sentence": "A pedantic insistence on prescriptive grammar rules does not match how people actually write, which is why statistical parsers are trained on treebanks of real text.",
+      "explanation": "The Penn Treebank annotated newspaper sentences with syntax trees, and Universal Dependencies provides consistent treebanks for over a hundred languages. Parsers learn grammar from annotated usage instead of from a rule book.",
+      "citations": [
+        {
+          "title": "Universal Dependencies",
+          "url": "https://universaldependencies.org/"
+        },
+        {
+          "title": "Treebank (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Treebank"
+        }
+      ]
+    },
+    {
+      "id": "intro-to-natural-language-processing-shard",
+      "word": "shard",
+      "partOfSpeech": "noun",
+      "definition": "fragment, generally of pottery; by extension, any small piece",
+      "sentence": "Subword tokenization splits a rare word into shards such as 'un', 'believ' and 'able' that the vocabulary already contains.",
+      "explanation": "Byte-pair encoding starts from characters and repeatedly merges the most frequent adjacent pair. A fixed vocabulary of subwords can represent new or rare words without an unknown-word token.",
+      "citations": [
+        {
+          "title": "Neural Machine Translation of Rare Words with Subword Units (arXiv)",
+          "url": "https://arxiv.org/abs/1508.07909"
+        }
+      ]
+    },
+    {
+      "id": "intro-to-natural-language-processing-metamorphosis",
+      "word": "metamorphosis",
+      "partOfSpeech": "noun",
+      "definition": "change of form",
+      "sentence": "Lemmatization reverses the metamorphosis a word undergoes through inflection, mapping 'running', 'ran' and 'runs' to the lemma 'run'.",
+      "explanation": "Stemmers such as Porter's chop suffixes by rules and can produce non-words ('studies' becomes 'studi'), while lemmatizers use a dictionary and part of speech to return real base forms. Both reduce sparsity in bag-of-words models.",
+      "citations": [
+        {
+          "title": "Stemming (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Stemming"
+        },
+        {
+          "title": "Lemmatization (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Lemmatization"
+        }
+      ]
+    },
+    {
+      "id": "intro-to-natural-language-processing-gregarious",
+      "word": "gregarious",
+      "partOfSpeech": "adjective",
+      "definition": "sociable",
+      "sentence": "Distributional semantics treats words as gregarious: a word's meaning is inferred from the company it keeps in text.",
+      "explanation": "J. R. Firth's 1957 remark that you shall know a word by the company it keeps underlies word2vec and GloVe, which learn dense vectors so that words used in similar contexts get similar vectors.",
+      "citations": [
+        {
+          "title": "Efficient Estimation of Word Representations in Vector Space (arXiv)",
+          "url": "https://arxiv.org/abs/1301.3781"
+        },
+        {
+          "title": "Distributional semantics (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Distributional_semantics"
+        }
+      ]
+    },
+    {
+      "id": "intro-to-natural-language-processing-confound",
+      "word": "confound",
+      "partOfSpeech": "verb",
+      "definition": "confuse; puzzle",
+      "sentence": "Idioms confound compositional methods: 'kick the bucket' means 'die', which cannot be built from the meanings of 'kick' and 'bucket'.",
+      "explanation": "Compositional semantics assumes that a phrase's meaning is a function of its parts and how they are combined. Idioms and other non-compositional expressions have to be stored as units or learned from context.",
+      "citations": [
+        {
+          "title": "Principle of compositionality (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Principle_of_compositionality"
+        },
+        {
+          "title": "Idiom (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Idiom"
+        }
+      ]
+    },
+    {
+      "id": "intro-to-natural-language-processing-gainsay",
+      "word": "gainsay",
+      "partOfSpeech": "verb",
+      "definition": "deny",
+      "sentence": "Negation can gainsay a claim: 'not good' is the opposite of 'good', yet a bag-of-words model sees the same word 'good' in both.",
+      "explanation": "Handling negation requires modeling word order and scope, as in 'not very good' versus 'not only good but great'. Sequence models and transformers, or explicit negation marking, handle such cases better than unigram counts.",
+      "citations": [
+        {
+          "title": "Negation (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Negation"
+        },
+        {
+          "title": "Bag-of-words model (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Bag-of-words_model"
+        }
+      ]
+    },
+    {
+      "id": "intro-to-natural-language-processing-digression",
+      "word": "digression",
+      "partOfSpeech": "noun",
+      "definition": "wandering away from the subject",
+      "sentence": "Discourse analysis models how a text stays on topic, and a digression is a stretch that departs from the main thread.",
+      "explanation": "Text segmentation methods such as TextTiling look for shifts in vocabulary to find topic boundaries. Rhetorical Structure Theory describes how segments relate to each other, for example as elaboration or contrast.",
+      "citations": [
+        {
+          "title": "Text segmentation (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Text_segmentation"
+        },
+        {
+          "title": "Rhetorical structure theory (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Rhetorical_structure_theory"
+        }
+      ]
+    },
+    {
+      "id": "intro-to-natural-language-processing-disjointed",
+      "word": "disjointed",
+      "partOfSpeech": "adjective",
+      "definition": "lacking coherence; separated at the joints",
+      "sentence": "Without cohesive devices such as pronouns and connectives, a paragraph reads as disjointed even if every sentence is grammatical.",
+      "explanation": "Coherence can be modeled with entity grids, which track how entities recur across sentences, or by training a model to tell the original sentence order from a shuffled one. Such scores are used to evaluate generated text.",
+      "citations": [
+        {
+          "title": "Modeling Local Coherence: An Entity-Based Approach (Computational Linguistics)",
+          "url": "https://aclanthology.org/J08-1001/"
+        }
+      ]
+    },
+    {
+      "id": "intro-to-natural-language-processing-tacit",
+      "word": "tacit",
+      "partOfSpeech": "adjective",
+      "definition": "understood; not put into words",
+      "sentence": "Resolving 'it' in 'The trophy didn't fit in the suitcase because it was too big' needs tacit world knowledge about sizes and containers.",
+      "explanation": "This is coreference resolution. Winograd schemas like this one are built so that surface cues do not give away the answer, and changing 'big' to 'small' flips which noun 'it' refers to.",
+      "citations": [
+        {
+          "title": "Winograd schema challenge (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Winograd_schema_challenge"
+        },
+        {
+          "title": "Coreference (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Coreference"
+        }
+      ]
+    },
+    {
+      "id": "intro-to-natural-language-processing-contention",
+      "word": "contention",
+      "partOfSpeech": "noun",
+      "definition": "claim; thesis",
+      "sentence": "Argument mining extracts the central contention of an essay and the premises that support it.",
+      "explanation": "Systems label spans as claims or premises and link them with support or attack relations. It is a discourse-level task because the structure spans several sentences.",
+      "citations": [
+        {
+          "title": "Argument mining (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Argument_mining"
+        }
+      ]
+    },
+    {
+      "id": "intro-to-natural-language-processing-divest",
+      "word": "divest",
+      "partOfSpeech": "verb",
+      "definition": "strip; deprive",
+      "sentence": "Before extracting facts from web pages, divest the raw text of HTML tags, navigation menus and other boilerplate.",
+      "explanation": "Cleaning improves information-extraction accuracy because markup and repeated menus add noise. Libraries such as Beautiful Soup parse HTML, and boilerplate-removal tools keep only the main content.",
+      "citations": [
+        {
+          "title": "Beautiful Soup documentation",
+          "url": "https://www.crummy.com/software/BeautifulSoup/bs4/doc/"
+        }
+      ]
+    },
+    {
+      "id": "intro-to-natural-language-processing-recondite",
+      "word": "recondite",
+      "partOfSpeech": "adjective",
+      "definition": "abstruse; profound; secret",
+      "sentence": "Biomedical abstracts are full of recondite terminology, so general-purpose named-entity recognizers often miss drug and gene names.",
+      "explanation": "Named-entity recognition tags spans such as people, organizations and genes. Domain-adapted models such as BioBERT, which is pretrained on PubMed text, usually do much better on biomedical entities.",
+      "citations": [
+        {
+          "title": "BioBERT (arXiv)",
+          "url": "https://arxiv.org/abs/1901.08746"
+        },
+        {
+          "title": "Named-entity recognition (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Named-entity_recognition"
+        }
+      ]
+    },
+    {
+      "id": "intro-to-natural-language-processing-aver",
+      "word": "aver",
+      "partOfSpeech": "verb",
+      "definition": "assert confidently or declare; as used in law, state formally as a fact",
+      "sentence": "Relation extraction identifies what a sentence avers, such as (Marie Curie, born in, Warsaw) from 'Curie was born in Warsaw'.",
+      "explanation": "The output is a structured triple of subject, relation and object that can fill a knowledge base. Systems range from hand-written patterns to neural classifiers and distant supervision from existing databases.",
+      "citations": [
+        {
+          "title": "Information extraction (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Information_extraction"
+        },
+        {
+          "title": "Speech and Language Processing (Jurafsky & Martin)",
+          "url": "https://web.stanford.edu/~jurafsky/slp3/"
+        }
+      ]
+    },
+    {
+      "id": "intro-to-natural-language-processing-caustic",
+      "word": "caustic",
+      "partOfSpeech": "adjective",
+      "definition": "burning; sarcastically biting",
+      "sentence": "A caustic review such as 'Great, another movie where nothing happens' is sarcastic, and a model that counts positive words will call it positive.",
+      "explanation": "Sarcasm reverses the surface polarity of the words, so detecting it takes context, tone or world knowledge. Lexicon-based tools such as VADER handle some cues but still struggle with sarcasm.",
+      "citations": [
+        {
+          "title": "Sentiment analysis (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Sentiment_analysis"
+        },
+        {
+          "title": "VADER Sentiment Analysis (GitHub)",
+          "url": "https://github.com/cjhutto/vaderSentiment"
+        }
+      ]
+    },
+    {
+      "id": "intro-to-natural-language-processing-ambivalence",
+      "word": "ambivalence",
+      "partOfSpeech": "noun",
+      "definition": "the state of having contradictory or conflicting emotional attitudes",
+      "sentence": "A review that praises the acting but hates the plot expresses ambivalence, which a single positive or negative label cannot capture.",
+      "explanation": "Aspect-based sentiment analysis assigns a polarity to each aspect, such as acting: positive and plot: negative, instead of one label for the whole review.",
+      "citations": [
+        {
+          "title": "Sentiment analysis (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Sentiment_analysis"
+        },
+        {
+          "title": "Speech and Language Processing (Jurafsky & Martin)",
+          "url": "https://web.stanford.edu/~jurafsky/slp3/"
+        }
+      ]
+    },
+    {
+      "id": "intro-to-natural-language-processing-hyperbole",
+      "word": "hyperbole",
+      "partOfSpeech": "noun",
+      "definition": "exaggeration; overstatement",
+      "sentence": "Posts full of hyperbole, such as 'literally the worst day ever', can inflate the intensity scores of a sentiment model.",
+      "explanation": "Exaggeration, intensifiers like 'so' and 'absolutely', and exclamation marks are common in informal text, and lexicon-based tools raise their scores for them. Check how a tool treats such cues and calibrate it on in-domain data.",
+      "citations": [
+        {
+          "title": "VADER Sentiment Analysis (GitHub)",
+          "url": "https://github.com/cjhutto/vaderSentiment"
+        },
+        {
+          "title": "Sentiment analysis (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Sentiment_analysis"
+        }
+      ]
+    },
+    {
+      "id": "intro-to-natural-language-processing-approbation",
+      "word": "approbation",
+      "partOfSpeech": "noun",
+      "definition": "approval",
+      "sentence": "Words that signal approbation, such as 'excellent' and 'superb', get positive scores in a sentiment lexicon.",
+      "explanation": "Lexicons such as SentiWordNet or AFINN assign polarity scores to words. They are fast and easy to interpret but miss context, so classifiers fine-tuned on labeled data usually beat them.",
+      "citations": [
+        {
+          "title": "SentiWordNet (GitHub)",
+          "url": "https://github.com/aesuli/SentiWordNet"
+        },
+        {
+          "title": "Sentiment analysis (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Sentiment_analysis"
+        }
+      ]
+    },
+    {
+      "id": "intro-to-natural-language-processing-opprobrium",
+      "word": "opprobrium",
+      "partOfSpeech": "noun",
+      "definition": "infamy; vilification",
+      "sentence": "Toxicity classifiers flag comments that heap opprobrium on people for who they are, such as slurs and harassment.",
+      "explanation": "Detection is hard because context, quotation and reclaimed language change meaning, and classifiers can wrongly flag some dialects or identity terms. Careful evaluation across groups is needed.",
+      "citations": [
+        {
+          "title": "The Risk of Racial Bias in Hate Speech Detection (ACL 2019)",
+          "url": "https://aclanthology.org/P19-1163/"
+        },
+        {
+          "title": "Perspective API",
+          "url": "https://perspectiveapi.com/"
+        }
+      ]
+    },
+    {
+      "id": "intro-to-natural-language-processing-conundrum",
+      "word": "conundrum",
+      "partOfSpeech": "noun",
+      "definition": "riddle; difficult problem",
+      "sentence": "Multi-hop questions pose a conundrum for question answering: the answer may depend on facts spread across two separate documents.",
+      "explanation": "A system must find one supporting fact, use it to form the next query, and combine the pieces. HotpotQA is a benchmark of questions that need reasoning over several Wikipedia paragraphs, with sentence-level supporting facts.",
+      "citations": [
+        {
+          "title": "HotpotQA (arXiv)",
+          "url": "https://arxiv.org/abs/1809.09600"
+        }
+      ]
+    },
+    {
+      "id": "intro-to-natural-language-processing-erudite",
+      "word": "erudite",
+      "partOfSpeech": "adjective",
+      "definition": "learned; scholarly",
+      "sentence": "A large language model can seem erudite, but its knowledge is frozen at training time, so retrieval-augmented generation lets it consult current documents.",
+      "explanation": "Retrieval-augmented generation fetches relevant passages and gives them to the generator, so answers can cite sources and be updated without retraining the model.",
+      "citations": [
+        {
+          "title": "Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks (arXiv)",
+          "url": "https://arxiv.org/abs/2005.11401"
+        }
+      ]
+    },
+    {
+      "id": "intro-to-natural-language-processing-compendium",
+      "word": "compendium",
+      "partOfSpeech": "noun",
+      "definition": "brief, comprehensive summary",
+      "sentence": "A good summary is a compendium: brief but comprehensive, it keeps the main points of a long report.",
+      "explanation": "Extractive summarizers select important sentences from the source, while abstractive ones write new sentences, as in BART or PEGASUS. ROUGE, which counts overlapping n-grams with reference summaries, is the standard automatic metric.",
+      "citations": [
+        {
+          "title": "ROUGE: A Package for Automatic Evaluation of Summaries (ACL)",
+          "url": "https://aclanthology.org/W04-1013/"
+        },
+        {
+          "title": "PEGASUS (arXiv)",
+          "url": "https://arxiv.org/abs/1912.08777"
+        }
+      ]
+    },
+    {
+      "id": "intro-to-natural-language-processing-tangential",
+      "word": "tangential",
+      "partOfSpeech": "adjective",
+      "definition": "peripheral; only slightly connected; digressing",
+      "sentence": "A summarizer should drop tangential details that connect only slightly to the main point.",
+      "explanation": "Extractive methods score sentences by centrality, as in TextRank, a graph algorithm similar to PageRank, and by position and learned relevance. They then pick the top sentences while avoiding redundancy.",
+      "citations": [
+        {
+          "title": "TextRank: Bringing Order into Text (ACL)",
+          "url": "https://aclanthology.org/W04-3252/"
+        }
+      ]
+    },
+    {
+      "id": "intro-to-natural-language-processing-embellish",
+      "word": "embellish",
+      "partOfSpeech": "verb",
+      "definition": "adorn; ornament; enhance, as a story",
+      "sentence": "Abstractive summarizers can embellish, adding details that the source never stated.",
+      "explanation": "These unfaithful or hallucinated details can be fluent and plausible. Faithfulness is checked by testing whether the summary's claims are supported by the source, for example with natural language inference or question-answering metrics.",
+      "citations": [
+        {
+          "title": "On Faithfulness and Factuality in Abstractive Summarization (ACL 2020)",
+          "url": "https://aclanthology.org/2020.acl-main.173/"
+        }
+      ]
+    },
+    {
+      "id": "intro-to-natural-language-processing-reticent",
+      "word": "reticent",
+      "partOfSpeech": "adjective",
+      "definition": "reserved; uncommunicative; inclined to silence",
+      "sentence": "A reticent chatbot that answers 'ok' or 'yes' to everything fails to keep a conversation going.",
+      "explanation": "Early neural dialogue models often produced generic replies such as 'I don't know'. Changing the training objective, for example to reward mutual information between message and reply, made responses more specific.",
+      "citations": [
+        {
+          "title": "A Diversity-Promoting Objective Function for Neural Conversation Models (arXiv)",
+          "url": "https://arxiv.org/abs/1510.03055"
+        }
+      ]
+    },
+    {
+      "id": "intro-to-natural-language-processing-obsequious",
+      "word": "obsequious",
+      "partOfSpeech": "adjective",
+      "definition": "lavishly attentive; servile; sycophantic",
+      "sentence": "A chat assistant that agrees with every user claim, however wrong, is obsequious, a failure known as sycophancy.",
+      "explanation": "Preference-based training can reward agreeable answers, so models may flatter users or drop a correct answer under pushback. Evaluations check whether answers stay consistent when a user disagrees.",
+      "citations": [
+        {
+          "title": "Towards Understanding Sycophancy in Language Models (arXiv)",
+          "url": "https://arxiv.org/abs/2310.13548"
+        }
+      ]
+    },
+    {
+      "id": "intro-to-natural-language-processing-solicitous",
+      "word": "solicitous",
+      "partOfSpeech": "adjective",
+      "definition": "worried; concerned",
+      "sentence": "A solicitous support bot asks how the user feels and checks for understanding before offering advice.",
+      "explanation": "Task-oriented dialogue systems track the user's goal across turns (dialogue state tracking) and choose what to say next (dialogue policy). Empathetic response generation is a research area of its own, with datasets such as EmpatheticDialogues.",
+      "citations": [
+        {
+          "title": "Towards Empathetic Open-domain Conversation Models (arXiv)",
+          "url": "https://arxiv.org/abs/1811.00207"
+        }
+      ]
+    },
+    {
+      "id": "intro-to-natural-language-processing-felicitous",
+      "word": "felicitous",
+      "partOfSpeech": "adjective",
+      "definition": "apt; suitably expressed; well chosen",
+      "sentence": "A felicitous translation reads naturally in the target language instead of following the source word for word.",
+      "explanation": "Machine translation moved from phrase-based statistical systems to neural encoder-decoder models and, since 2017, to Transformers, which attend to the whole source sentence while generating each target word.",
+      "citations": [
+        {
+          "title": "Attention Is All You Need (arXiv)",
+          "url": "https://arxiv.org/abs/1706.03762"
+        }
+      ]
+    },
+    {
+      "id": "intro-to-natural-language-processing-penury",
+      "word": "penury",
+      "partOfSpeech": "noun",
+      "definition": "severe poverty; stinginess",
+      "sentence": "Low-resource languages suffer a penury of parallel text, so models often borrow strength from related languages.",
+      "explanation": "Techniques include multilingual training, back-translation of monolingual text, and transfer from high-resource languages. The No Language Left Behind project extended translation to 200 languages.",
+      "citations": [
+        {
+          "title": "No Language Left Behind (arXiv)",
+          "url": "https://arxiv.org/abs/2207.04672"
+        }
+      ]
+    },
+    {
+      "id": "intro-to-natural-language-processing-commensurate",
+      "word": "commensurate",
+      "partOfSpeech": "adjective",
+      "definition": "corresponding in extent, degree, etc.; proportionate",
+      "sentence": "An automatic metric such as BLEU is trustworthy only when its scores are commensurate with human judgments of translation quality.",
+      "explanation": "BLEU measures n-gram overlap with reference translations. Learned metrics such as COMET correlate better with human ratings, and human evaluation remains the gold standard.",
+      "citations": [
+        {
+          "title": "BLEU: a Method for Automatic Evaluation of Machine Translation (ACL)",
+          "url": "https://aclanthology.org/P02-1040/"
+        },
+        {
+          "title": "COMET (arXiv)",
+          "url": "https://arxiv.org/abs/2009.09025"
+        }
+      ]
+    },
+    {
+      "id": "intro-to-natural-language-processing-insipid",
+      "word": "insipid",
+      "partOfSpeech": "adjective",
+      "definition": "lacking in flavor; dull",
+      "sentence": "Greedy decoding often produces insipid, repetitive text because it always picks the single most likely next word.",
+      "explanation": "Sampling methods such as top-k and nucleus (top-p) sampling draw from the most probable words instead, which gives more varied text. Holtzman et al. (2020) showed that the highest-probability text can be dull and repetitive.",
+      "citations": [
+        {
+          "title": "The Curious Case of Neural Text Degeneration (arXiv)",
+          "url": "https://arxiv.org/abs/1904.09751"
+        }
+      ]
+    },
+    {
+      "id": "intro-to-natural-language-processing-capricious",
+      "word": "capricious",
+      "partOfSpeech": "adjective",
+      "definition": "unpredictable; fickle",
+      "sentence": "Raising the sampling temperature makes a language model's output more capricious, since flatter probabilities let unlikely words through.",
+      "explanation": "Temperature divides the logits before the softmax. A temperature below 1 sharpens the distribution toward the top choices, one above 1 flattens it, and a value near 0 approaches greedy decoding.",
+      "citations": [
+        {
+          "title": "Softmax function (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Softmax_function"
+        }
+      ]
+    },
+    {
+      "id": "intro-to-natural-language-processing-garrulous",
+      "word": "garrulous",
+      "partOfSpeech": "adjective",
+      "definition": "loquacious; talkative; wordy",
+      "sentence": "Some chat models are garrulous, answering a yes/no question with several paragraphs.",
+      "explanation": "Raters and automatic judges often prefer longer answers, which can push models toward verbosity. Length-controlled evaluation reduces that bias, and prompts or fine-tuning can set a target length.",
+      "citations": [
+        {
+          "title": "Length-Controlled AlpacaEval (arXiv)",
+          "url": "https://arxiv.org/abs/2404.04475"
+        }
+      ]
+    },
+    {
+      "id": "intro-to-natural-language-processing-plummet",
+      "word": "plummet",
+      "partOfSpeech": "verb",
+      "definition": "fall sharply",
+      "sentence": "As a language model trains, its perplexity on held-out text should plummet at first and then level off.",
+      "explanation": "Perplexity is the exponential of the average negative log-likelihood per token, and lower is better. It can be read as the effective number of choices the model is picking among at each step. Comparisons only hold when the tokenization and test data are the same.",
+      "citations": [
+        {
+          "title": "Perplexity (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Perplexity"
+        },
+        {
+          "title": "Speech and Language Processing (Jurafsky & Martin)",
+          "url": "https://web.stanford.edu/~jurafsky/slp3/"
+        }
+      ]
+    },
+    {
+      "id": "intro-to-natural-language-processing-disinterested",
+      "word": "disinterested",
+      "partOfSpeech": "adjective",
+      "definition": "unprejudiced",
+      "sentence": "Human evaluation of generated text should use disinterested annotators who have no stake in which system wins.",
+      "explanation": "Raters follow clear guidelines and several raters judge each item. Inter-annotator agreement, such as Cohen's or Fleiss' kappa, shows whether the labels are reliable. Authors rating their own system can bias the results.",
+      "citations": [
+        {
+          "title": "Cohen's kappa (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Cohen%27s_kappa"
+        },
+        {
+          "title": "Inter-rater reliability (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Inter-rater_reliability"
+        }
+      ]
+    }
+  ]
+}

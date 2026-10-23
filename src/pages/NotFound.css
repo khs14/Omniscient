@@ -1,0 +1,4 @@
+.not-found__text {
+  margin-top: var(--space-4);
+  color: var(--color-text-muted);
+}

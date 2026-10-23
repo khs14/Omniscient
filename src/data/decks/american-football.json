@@ -1,0 +1,600 @@
+{
+  "id": "american-football",
+  "title": "American Football",
+  "category": "Sports",
+  "description": "Learn GRE words through Super Bowl LX, the 2025 season, the 2026 draft and today's NFL.",
+  "cards": [
+    {
+      "id": "american-football-neophyte",
+      "word": "neophyte",
+      "partOfSpeech": "noun",
+      "definition": "recent convert; beginner",
+      "sentence": "The Las Vegas Raiders opened the 2026 NFL Draft by taking a neophyte quarterback, Indiana's Fernando Mendoza, the reigning Heisman Trophy winner, with the first overall pick.",
+      "explanation": "Mendoza was the first Indiana player taken in the first round since 1994. Ty Simpson of Alabama went No. 13 to the Rams, so two quarterbacks went in the first round.",
+      "citations": [
+        {
+          "title": "2026 NFL draft (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/2026_NFL_draft"
+        },
+        {
+          "title": "Heisman Trophy (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Heisman_Trophy"
+        }
+      ]
+    },
+    {
+      "id": "american-football-inundate",
+      "word": "inundate",
+      "partOfSpeech": "verb",
+      "definition": "overwhelm; flood; submerge",
+      "sentence": "Pittsburgh was inundated by a record crowd of roughly 805,000 fans over the three days of the 2026 NFL Draft in late April.",
+      "explanation": "The event was held outdoors near Point State Park, and it was the first draft in the city since 1948. The time between first-round picks was also cut from 10 minutes to 8.",
+      "citations": [
+        {
+          "title": "2026 NFL draft (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/2026_NFL_draft"
+        }
+      ]
+    },
+    {
+      "id": "american-football-volatile",
+      "word": "volatile",
+      "partOfSpeech": "adjective",
+      "definition": "changeable; explosive; evaporation rapidly",
+      "sentence": "The first round of the 2026 draft was volatile, with trades such as Cleveland sending the No. 6 pick to Kansas City and Miami sending No. 11 to Dallas.",
+      "explanation": "Draft-day trades change who gets which player, and teams often move up to take a quarterback or another premium position. David Bailey (Jets), Jeremiyah Love (Cardinals), Carnell Tate (Titans) and Arvell Reese (Giants) went in the next four picks.",
+      "citations": [
+        {
+          "title": "2026 NFL draft (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/2026_NFL_draft"
+        }
+      ]
+    },
+    {
+      "id": "american-football-divest",
+      "word": "divest",
+      "partOfSpeech": "verb",
+      "definition": "strip; deprive",
+      "sentence": "In 2025 Dallas divested itself of pass rusher Micah Parsons, trading him to the Green Bay Packers.",
+      "explanation": "Trades of star players were a feature of the 2025 season. The Jets also traded Sauce Gardner to the Colts and Quinnen Williams to the Cowboys.",
+      "citations": [
+        {
+          "title": "2025 NFL season (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/2025_NFL_season"
+        },
+        {
+          "title": "Micah Parsons (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Micah_Parsons"
+        }
+      ]
+    },
+    {
+      "id": "american-football-metamorphosis",
+      "word": "metamorphosis",
+      "partOfSpeech": "noun",
+      "definition": "change of form",
+      "sentence": "The New England Patriots' metamorphosis from 4-13 in 2024 to 14-3 in 2025 earned Mike Vrabel Coach of the Year.",
+      "explanation": "With second-year quarterback Drake Maye leading the league in passer rating (113.5), New England won the AFC as the No. 2 seed before losing Super Bowl LX. The turnaround is among the biggest year-over-year jumps in recent NFL history.",
+      "citations": [
+        {
+          "title": "2025 NFL season (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/2025_NFL_season"
+        },
+        {
+          "title": "Mike Vrabel (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Mike_Vrabel"
+        }
+      ]
+    },
+    {
+      "id": "american-football-perennial",
+      "word": "perennial",
+      "partOfSpeech": "adjective",
+      "definition": "something long-lasting",
+      "sentence": "The Pittsburgh Steelers remain perennial contenders for a playoff spot: in 2025 they extended their record streak to 22 consecutive seasons at .500 or better.",
+      "explanation": "The streak is a league record. Even without a deep playoff run in recent years, a team that never has a losing season stays in the conversation every year.",
+      "citations": [
+        {
+          "title": "2025 NFL season (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/2025_NFL_season"
+        },
+        {
+          "title": "Pittsburgh Steelers (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Pittsburgh_Steelers"
+        }
+      ]
+    },
+    {
+      "id": "american-football-flag",
+      "word": "flag",
+      "partOfSpeech": "verb",
+      "definition": "droop; grow feeble",
+      "sentence": "The Indianapolis Colts started 2025 at 8-2 but began to flag down the stretch, becoming the first team to start 8-2 and still finish with a losing record.",
+      "explanation": "A strong start is no guarantee of a playoff spot, since the last seven or eight games count as much as the first ones. The word is also a pun: officials throw a yellow flag to mark a penalty.",
+      "citations": [
+        {
+          "title": "2025 NFL season (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/2025_NFL_season"
+        }
+      ]
+    },
+    {
+      "id": "american-football-lethargic",
+      "word": "lethargic",
+      "partOfSpeech": "adjective",
+      "definition": "drowsy; dull",
+      "sentence": "The 2025 Jets' defense was lethargic at taking the ball away: zero interceptions and just four takeaways, the fewest in a season, in a 3-14 year.",
+      "explanation": "Turnovers swing field position and points, so a defense that creates almost none gives its offense little help.",
+      "citations": [
+        {
+          "title": "2025 NFL season (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/2025_NFL_season"
+        }
+      ]
+    },
+    {
+      "id": "american-football-futile",
+      "word": "futile",
+      "partOfSpeech": "adjective",
+      "definition": "useless; hopeless; ineffectual",
+      "sentence": "Buffalo's January trips through the AFC bracket have so far proved futile for Josh Allen, who has eight playoff wins but no Super Bowl appearance in 15 postseason starts.",
+      "explanation": "Allen has been one of the league's most productive quarterbacks, but Buffalo has not yet broken through in January. Buffalo started the 2026 season 5-1.",
+      "citations": [
+        {
+          "title": "2025 NFL season (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/2025_NFL_season"
+        },
+        {
+          "title": "Josh Allen (quarterback) (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Josh_Allen_(quarterback)"
+        }
+      ]
+    },
+    {
+      "id": "american-football-oscillate",
+      "word": "oscillate",
+      "partOfSpeech": "verb",
+      "definition": "vibrate; waver",
+      "sentence": "The lead oscillated back and forth in the 2025 Wild Card round, which had a postseason-record 12 fourth-quarter lead changes.",
+      "explanation": "Close playoff games are decided in the final minutes by field goals, turnovers and clock management. Records like this give fans the sense that anything can happen once the playoffs begin.",
+      "citations": [
+        {
+          "title": "2025 NFL season (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/2025_NFL_season"
+        }
+      ]
+    },
+    {
+      "id": "american-football-laud",
+      "word": "laud",
+      "partOfSpeech": "verb",
+      "definition": "praise",
+      "sentence": "At the 15th NFL Honors in February 2026, the league lauded Matthew Stafford as MVP, Myles Garrett as Defensive Player of the Year and Mike Vrabel as Coach of the Year.",
+      "explanation": "Other winners included Jaxon Smith-Njigba (Offensive Player of the Year), Tetairoa McMillan and Carson Schwesinger (rookies of the year) and Christian McCaffrey (Comeback Player of the Year).",
+      "citations": [
+        {
+          "title": "2025 NFL season (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/2025_NFL_season"
+        }
+      ]
+    },
+    {
+      "id": "american-football-sage",
+      "word": "sage",
+      "partOfSpeech": "noun",
+      "definition": "person celebrated for wisdom",
+      "sentence": "Matthew Stafford, the sage of the Rams' offense in his 17th NFL season, won the 2025 MVP after leading the league with 4,707 passing yards.",
+      "explanation": "Veteran quarterbacks win by reading defenses and getting the ball out quickly, not by running. Stafford's Rams were one of three NFC West teams to win at least 12 games, the first time a division has done that.",
+      "citations": [
+        {
+          "title": "2025 NFL season (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/2025_NFL_season"
+        },
+        {
+          "title": "Matthew Stafford (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Matthew_Stafford"
+        }
+      ]
+    },
+    {
+      "id": "american-football-implacable",
+      "word": "implacable",
+      "partOfSpeech": "adjective",
+      "definition": "incapable of being pacified",
+      "sentence": "Cleveland's Myles Garrett was implacable in 2025, setting a single-season record with 23 sacks, including 14 in a five-game stretch.",
+      "explanation": "The previous record of 22.5 was held by Michael Strahan, and T.J. Watt later tied it. Garrett's season earned him Defensive Player of the Year.",
+      "citations": [
+        {
+          "title": "2025 NFL season (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/2025_NFL_season"
+        },
+        {
+          "title": "Myles Garrett (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Myles_Garrett"
+        }
+      ]
+    },
+    {
+      "id": "american-football-burgeon",
+      "word": "burgeon",
+      "partOfSpeech": "verb",
+      "definition": "grow forth; send out buds",
+      "sentence": "Seattle receiver Jaxon Smith-Njigba's career burgeoned in 2025, when he led the league with 1,793 receiving yards and won Offensive Player of the Year.",
+      "explanation": "He was part of a Seahawks team that finished 14-3 and went on to win Super Bowl LX. His season was among the best by a receiver in recent years.",
+      "citations": [
+        {
+          "title": "2025 NFL season (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/2025_NFL_season"
+        },
+        {
+          "title": "Jaxon Smith-Njigba (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Jaxon_Smith-Njigba"
+        }
+      ]
+    },
+    {
+      "id": "american-football-plethora",
+      "word": "plethora",
+      "partOfSpeech": "noun",
+      "definition": "excess; overabundance",
+      "sentence": "The 2025 season had a plethora of receiving stars: Puka Nacua led the league with 129 catches, and Trey McBride set a tight-end record with 119.",
+      "explanation": "Receivers have become the focal point of many offenses. Nacua plays for the Rams and McBride for the Cardinals.",
+      "citations": [
+        {
+          "title": "2025 NFL season (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/2025_NFL_season"
+        },
+        {
+          "title": "Puka Nacua (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Puka_Nacua"
+        }
+      ]
+    },
+    {
+      "id": "american-football-audacious",
+      "word": "audacious",
+      "partOfSpeech": "adjective",
+      "definition": "daring; bold",
+      "sentence": "Jacksonville's Cam Little made an audacious 68-yard field goal in Week 9, the longest in NFL history.",
+      "explanation": "Kickers have been getting better with improved technique and training, and it has changed how coaches think about long attempts. Little also made a 67-yarder at an outdoor stadium, another record.",
+      "citations": [
+        {
+          "title": "2025 NFL season (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/2025_NFL_season"
+        },
+        {
+          "title": "Cam Little (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Cam_Little"
+        }
+      ]
+    },
+    {
+      "id": "american-football-meticulous",
+      "word": "meticulous",
+      "partOfSpeech": "adjective",
+      "definition": "excessively careful; painstaking; scrupulous",
+      "sentence": "Dallas kicker Brandon Aubrey is meticulous about his craft: he became the first player to make three field goals of 55 yards or more in a single game.",
+      "explanation": "Kickers spend large parts of practice repeating the same motion and working with the holder and long snapper to keep the timing exact. A good kicker can win close games.",
+      "citations": [
+        {
+          "title": "2025 NFL season (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/2025_NFL_season"
+        },
+        {
+          "title": "Brandon Aubrey (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Brandon_Aubrey"
+        }
+      ]
+    },
+    {
+      "id": "american-football-paragon",
+      "word": "paragon",
+      "partOfSpeech": "noun",
+      "definition": "model of perfection",
+      "sentence": "Washington linebacker Bobby Wagner is a paragon of longevity and character: he became the third player with 2,000 career tackles and won the Walter Payton Man of the Year Award.",
+      "explanation": "The Payton award honors a player for community work as well as performance on the field. Wagner is a former Seahawks star who has played for several teams.",
+      "citations": [
+        {
+          "title": "2025 NFL season (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/2025_NFL_season"
+        },
+        {
+          "title": "Bobby Wagner (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Bobby_Wagner"
+        }
+      ]
+    },
+    {
+      "id": "american-football-paucity",
+      "word": "paucity",
+      "partOfSpeech": "noun",
+      "definition": "Scarcity",
+      "sentence": "Super Bowl LX began with a paucity of touchdowns: Seattle led 12-0 on four Jason Myers field goals, and Myers finished with a Super Bowl record five.",
+      "explanation": "Seattle beat New England 29-13 on February 8, 2026, at Levi's Stadium in Santa Clara. Myers also set a single-season record with 171 points for a kicker in 2025.",
+      "citations": [
+        {
+          "title": "Super Bowl LX (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Super_Bowl_LX"
+        },
+        {
+          "title": "2025 NFL season (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/2025_NFL_season"
+        }
+      ]
+    },
+    {
+      "id": "american-football-hyperbole",
+      "word": "hyperbole",
+      "partOfSpeech": "noun",
+      "definition": "exaggeration; overstatement",
+      "sentence": "Calling Super Bowl LX one of the worst ever played may be hyperbole, but both offenses did struggle for much of the night.",
+      "explanation": "Fans and writers often rank games by entertainment value, and a defensive game with few touchdowns tends to score low. Seattle's defense received wide praise.",
+      "citations": [
+        {
+          "title": "Super Bowl LX (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Super_Bowl_LX"
+        }
+      ]
+    },
+    {
+      "id": "american-football-obdurate",
+      "word": "obdurate",
+      "partOfSpeech": "adjective",
+      "definition": "stubborn",
+      "sentence": "Seattle's obdurate defense strip-sacked Drake Maye and intercepted him twice, including Uchenna Nwosu's 45-yard touchdown return.",
+      "explanation": "Maye was sacked 21 times in the 2025 postseason, a record for a quarterback. Derick Hall forced the fumble that Byron Murphy II recovered, and Julian Love also had an interception.",
+      "citations": [
+        {
+          "title": "Super Bowl LX (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Super_Bowl_LX"
+        },
+        {
+          "title": "2025 NFL season (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/2025_NFL_season"
+        }
+      ]
+    },
+    {
+      "id": "american-football-bolster",
+      "word": "bolster",
+      "partOfSpeech": "verb",
+      "definition": "support; reinforce",
+      "sentence": "Kenneth Walker III's 135 rushing yards on 27 carries bolstered Seattle's offense and made him the first running back to win Super Bowl MVP since Terrell Davis in 1997.",
+      "explanation": "Walker's runs set up several of Jason Myers' field goals. Running backs have rarely won the award in the passing era.",
+      "citations": [
+        {
+          "title": "Super Bowl LX (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Super_Bowl_LX"
+        },
+        {
+          "title": "Kenneth Walker III (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Kenneth_Walker_III"
+        }
+      ]
+    },
+    {
+      "id": "american-football-belie",
+      "word": "belie",
+      "partOfSpeech": "verb",
+      "definition": "contradict; give a false impression",
+      "sentence": "Seattle's turnover-free postseason belied Sam Darnold's regular-season reputation, since he had led the league in turnovers.",
+      "explanation": "The Seahawks were the first Super Bowl champion to commit no turnovers during the playoffs. Coach Mike Macdonald, who was 38, became the third-youngest head coach to win a Super Bowl.",
+      "citations": [
+        {
+          "title": "Super Bowl LX (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Super_Bowl_LX"
+        }
+      ]
+    },
+    {
+      "id": "american-football-eclectic",
+      "word": "eclectic",
+      "partOfSpeech": "adjective",
+      "definition": "selective; composed of elements drawn from disparate sources",
+      "sentence": "The Super Bowl LX halftime show was eclectic: Bad Bunny headlined, with guest appearances by Lady Gaga and Ricky Martin.",
+      "explanation": "The halftime show is one of the most-watched live musical performances each year, and for many viewers it is as big a draw as the game itself.",
+      "citations": [
+        {
+          "title": "Super Bowl LX (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Super_Bowl_LX"
+        }
+      ]
+    },
+    {
+      "id": "american-football-ameliorate",
+      "word": "ameliorate",
+      "partOfSpeech": "verb",
+      "definition": "improve",
+      "sentence": "The NFL's dynamic kickoff, introduced in 2024 and made permanent in 2025, is meant to ameliorate the injury risk of a play that had been among the most dangerous.",
+      "explanation": "The new format keeps most players stationary in setup zones until the ball is caught, which reduces high-speed collisions. In 2025 touchbacks on kicks into the end zone were also moved to the 35-yard line.",
+      "citations": [
+        {
+          "title": "2025 NFL season (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/2025_NFL_season"
+        },
+        {
+          "title": "Kickoff (gridiron football) (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Kickoff_(gridiron_football)"
+        }
+      ]
+    },
+    {
+      "id": "american-football-commensurate",
+      "word": "commensurate",
+      "partOfSpeech": "adjective",
+      "definition": "corresponding in extent, degree, etc.; proportionate",
+      "sentence": "Both teams now get a possession in regular-season overtime, giving each side a commensurate chance to win.",
+      "explanation": "Under the older rule, a team that scored a touchdown on its first drive could win without the other offense getting the ball. Regular-season overtime is capped at 10 minutes.",
+      "citations": [
+        {
+          "title": "2025 NFL season (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/2025_NFL_season"
+        }
+      ]
+    },
+    {
+      "id": "american-football-obviate",
+      "word": "obviate",
+      "partOfSpeech": "verb",
+      "definition": "make unnecessary; get rid of",
+      "sentence": "Hawk-Eye's virtual line-to-gain measurement obviates much of the guesswork of the chain crew when a first down is close.",
+      "explanation": "Starting in 2025, the camera-based system became the primary way to measure for a first down.",
+      "citations": [
+        {
+          "title": "2025 NFL season (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/2025_NFL_season"
+        },
+        {
+          "title": "Hawk-Eye (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Hawk-Eye"
+        }
+      ]
+    },
+    {
+      "id": "american-football-decorum",
+      "word": "decorum",
+      "partOfSpeech": "noun",
+      "definition": "propriety; orderliness and good taste in manners",
+      "sentence": "The league polices decorum closely: since 2025 the \"nose-wipe\" gesture draws a 15-yard unsportsmanlike conduct penalty.",
+      "explanation": "For 2026 the league will also let replay officials consult with the on-field crew on flagrant non-football acts that could lead to a disqualification. CBS said this would likely have led to an in-game penalty for DK Metcalf in a 2025 Steelers-Lions game.",
+      "citations": [
+        {
+          "title": "2025 NFL season (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/2025_NFL_season"
+        },
+        {
+          "title": "2026 NFL rule changes (CBS Sports)",
+          "url": "https://www.cbssports.com/nfl/news/nfl-rule-changes-2026"
+        }
+      ]
+    },
+    {
+      "id": "american-football-contentious",
+      "word": "contentious",
+      "partOfSpeech": "adjective",
+      "definition": "quarrelsome",
+      "sentence": "The Eagles' \"tush push\" has been contentious: in May 2025, 22 of 32 owners voted to ban it, two short of the 24 needed.",
+      "explanation": "The play, in which teammates push the quarterback on a short-yardage sneak, is very hard to stop. It was not up for a vote at the 2026 league meeting, so it remains legal.",
+      "citations": [
+        {
+          "title": "2026 NFL rule changes and tush push (Fox Sports)",
+          "url": "https://www.foxsports.com/stories/nfl/2026-nfl-rule-changes-tush-push-stay-5-proposals-voted"
+        }
+      ]
+    },
+    {
+      "id": "american-football-stipulate",
+      "word": "stipulate",
+      "partOfSpeech": "verb",
+      "definition": "make express conditions; specify",
+      "sentence": "The collective bargaining agreement stipulates a salary cap, which rose by $23.8 million to $279.2 million per team in 2025.",
+      "explanation": "The cap grows with league revenue, which has been boosted by television and streaming deals. Teams manage it by structuring contracts and spreading bonuses over several years.",
+      "citations": [
+        {
+          "title": "2025 NFL season (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/2025_NFL_season"
+        }
+      ]
+    },
+    {
+      "id": "american-football-relegate",
+      "word": "relegate",
+      "partOfSpeech": "verb",
+      "definition": "banish to an inferior position; delegate; assign",
+      "sentence": "Under the 2026 rules, the onside kick is no longer relegated to trailing teams: the kicking team can declare one at any point in the game.",
+      "explanation": "Surprise onside kicks and stacking one side of the field are still banned. The league also closed a loophole from a 2025 Cowboys-Chiefs game by changing the incentive on kickoffs from the 50-yard line.",
+      "citations": [
+        {
+          "title": "2026 NFL rule changes (CBS Sports)",
+          "url": "https://www.cbssports.com/nfl/news/nfl-rule-changes-2026"
+        }
+      ]
+    },
+    {
+      "id": "american-football-exigency",
+      "word": "exigency",
+      "partOfSpeech": "noun",
+      "definition": "urgent situation; pressing needs or demands; state of requiring immediate attention",
+      "sentence": "To prepare for the exigency of a referee lockout, the league approved a one-season measure for 2026 that lets the replay center fix \"clear and obvious\" officiating errors.",
+      "explanation": "The idea came from concern about replacement officials, as in the 2012 Packers-Seahawks game, where a disputed last-play call became notorious. The measure applies only if the NFL Referees Association is locked out.",
+      "citations": [
+        {
+          "title": "2026 NFL rule changes (CBS Sports)",
+          "url": "https://www.cbssports.com/nfl/news/nfl-rule-changes-2026"
+        },
+        {
+          "title": "2026 NFL rule changes and tush push (Fox Sports)",
+          "url": "https://www.foxsports.com/stories/nfl/2026-nfl-rule-changes-tush-push-stay-5-proposals-voted"
+        }
+      ]
+    },
+    {
+      "id": "american-football-itinerary",
+      "word": "itinerary",
+      "partOfSpeech": "noun",
+      "definition": "plan of a trip",
+      "sentence": "The NFL's 2025 international itinerary included São Paulo, Dublin, London, Berlin and Madrid, and 2026 adds a Week 1 game in Australia.",
+      "explanation": "Dublin and Madrid hosted the league's first regular-season games in Ireland and Spain. The league had room for up to eight international games in 2025 and scheduled seven.",
+      "citations": [
+        {
+          "title": "2025 NFL season (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/2025_NFL_season"
+        },
+        {
+          "title": "2026 NFL rule changes and tush push (Fox Sports)",
+          "url": "https://www.foxsports.com/stories/nfl/2026-nfl-rule-changes-tush-push-stay-5-proposals-voted"
+        }
+      ]
+    },
+    {
+      "id": "american-football-pervasive",
+      "word": "pervasive",
+      "partOfSpeech": "adjective",
+      "definition": "spread throughout",
+      "sentence": "Streaming has become pervasive in the NFL: Peacock carried the Week 17 Ravens-Packers game on December 27, 2025.",
+      "explanation": "Games now appear on many services in addition to broadcast and cable. In 2025 Christmas fell on a Thursday for the first time since the 17-game schedule began, with the league hosting its first Thursday Christmas games.",
+      "citations": [
+        {
+          "title": "2025 NFL season (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/2025_NFL_season"
+        }
+      ]
+    },
+    {
+      "id": "american-football-plummet",
+      "word": "plummet",
+      "partOfSpeech": "verb",
+      "definition": "fall sharply",
+      "sentence": "The Los Angeles Chargers have plummeted from 11-6 in 2025 to 0-6 this season, losing 22-6 at Kansas City on October 18.",
+      "explanation": "Standings as of October 22, 2026, show the Chargers and Dolphins (0-5) still winless. Teams' fortunes can change quickly between seasons because of injuries, trades and schedule.",
+      "citations": [
+        {
+          "title": "NFL standings (NFL.com)",
+          "url": "https://www.nfl.com/standings/"
+        },
+        {
+          "title": "NFL scores (NFL.com)",
+          "url": "https://www.nfl.com/scores/"
+        }
+      ]
+    },
+    {
+      "id": "american-football-impervious",
+      "word": "impervious",
+      "partOfSpeech": "adjective",
+      "definition": "impenetrable; incapable of being damaged or distressed",
+      "sentence": "San Francisco has looked impervious so far this season: it is 6-0 after beating Seattle 32-29 and Washington 23-17.",
+      "explanation": "As of October 22, 2026, the 49ers are the NFL's only 6-0 team, while Kansas City and Minnesota are 5-0. The 32-29 win came at Seattle, the reigning Super Bowl champion.",
+      "citations": [
+        {
+          "title": "NFL standings (NFL.com)",
+          "url": "https://www.nfl.com/standings/"
+        },
+        {
+          "title": "NFL scores (NFL.com)",
+          "url": "https://www.nfl.com/scores/"
+        }
+      ]
+    }
+  ]
+}

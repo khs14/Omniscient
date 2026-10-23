@@ -1,0 +1,654 @@
+{
+  "id": "intro-to-operating-systems",
+  "title": "Intro to Operating Systems",
+  "category": "Computer Science",
+  "description": "Learn GRE words through processes, concurrency, deadlock, scheduling, memory, file systems, I/O and protection.",
+  "cards": [
+    {
+      "id": "intro-to-operating-systems-engender",
+      "word": "engender",
+      "partOfSpeech": "verb",
+      "definition": "cause; produce",
+      "sentence": "The fork() system call engenders a new process that is a copy of its parent, with its own process ID.",
+      "explanation": "fork() returns the child's PID to the parent and 0 to the child, so the two can take different paths. Shells use fork() followed by exec() to start every command you type.",
+      "citations": [
+        {
+          "title": "fork(2) (Linux man page)",
+          "url": "https://man7.org/linux/man-pages/man2/fork.2.html"
+        },
+        {
+          "title": "OSTEP: Process API",
+          "url": "https://pages.cs.wisc.edu/~remzi/OSTEP/cpu-api.pdf"
+        }
+      ]
+    },
+    {
+      "id": "intro-to-operating-systems-metamorphosis",
+      "word": "metamorphosis",
+      "partOfSpeech": "noun",
+      "definition": "change of form",
+      "sentence": "A call to exec() completes a process's metamorphosis: the same process ID now runs a different program.",
+      "explanation": "exec replaces the current process image (code, data, heap and stack) with a new program while keeping things like open file descriptors, unless they are marked close-on-exec. Separating fork and exec lets a shell set up redirection in between.",
+      "citations": [
+        {
+          "title": "execve(2) (Linux man page)",
+          "url": "https://man7.org/linux/man-pages/man2/execve.2.html"
+        },
+        {
+          "title": "OSTEP: Process API",
+          "url": "https://pages.cs.wisc.edu/~remzi/OSTEP/cpu-api.pdf"
+        }
+      ]
+    },
+    {
+      "id": "intro-to-operating-systems-reprobate",
+      "word": "reprobate",
+      "partOfSpeech": "noun",
+      "definition": "person hardened in sin; devoid of a sense of decency",
+      "sentence": "A fork bomb is the work of a reprobate process: it forks without end until the process table is full.",
+      "explanation": "Each child forks again, so the number of processes grows exponentially and starves everything else. Per-user process limits (ulimit -u, or RLIMIT_NPROC) and cgroup limits on the number of processes stop it.",
+      "citations": [
+        {
+          "title": "Fork bomb (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Fork_bomb"
+        },
+        {
+          "title": "getrlimit(2) (Linux man page)",
+          "url": "https://man7.org/linux/man-pages/man2/getrlimit.2.html"
+        }
+      ]
+    },
+    {
+      "id": "intro-to-operating-systems-capricious",
+      "word": "capricious",
+      "partOfSpeech": "adjective",
+      "definition": "unpredictable; fickle",
+      "sentence": "A race condition makes a program's output capricious: the result depends on which thread happens to run first.",
+      "explanation": "Two threads executing counter++ without synchronization can lose updates, because the increment is a load, an add and a store that can interleave. The fix is mutual exclusion or an atomic instruction, and tools such as ThreadSanitizer detect data races at run time.",
+      "citations": [
+        {
+          "title": "Race condition (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Race_condition"
+        },
+        {
+          "title": "ThreadSanitizer (Clang docs)",
+          "url": "https://clang.llvm.org/docs/ThreadSanitizer.html"
+        }
+      ]
+    },
+    {
+      "id": "intro-to-operating-systems-impervious",
+      "word": "impervious",
+      "partOfSpeech": "adjective",
+      "definition": "impenetrable; incapable of being damaged or distressed",
+      "sentence": "An atomic operation is impervious to interruption: no other thread can observe it half done.",
+      "explanation": "Hardware provides instructions such as compare-and-swap and test-and-set, which locks and lock-free data structures are built on. Atomicity means indivisibility, while memory-ordering rules decide when other threads see the effects.",
+      "citations": [
+        {
+          "title": "Compare-and-swap (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Compare-and-swap"
+        },
+        {
+          "title": "std::atomic (cppreference)",
+          "url": "https://en.cppreference.com/w/cpp/atomic/atomic"
+        }
+      ]
+    },
+    {
+      "id": "intro-to-operating-systems-apprise",
+      "word": "apprise",
+      "partOfSpeech": "verb",
+      "definition": "inform",
+      "sentence": "A condition variable lets one thread apprise another that the state it was waiting for has changed.",
+      "explanation": "A waiting thread holds a mutex, checks a predicate in a while loop, and calls wait(), which releases the lock and sleeps. The signaling thread changes the state and calls signal(). The loop is needed because wakeups can be spurious and another thread may change the state first.",
+      "citations": [
+        {
+          "title": "pthread_cond_wait(3p) (Linux man page)",
+          "url": "https://man7.org/linux/man-pages/man3/pthread_cond_wait.3p.html"
+        },
+        {
+          "title": "OSTEP: Condition Variables",
+          "url": "https://pages.cs.wisc.edu/~remzi/OSTEP/threads-cv.pdf"
+        }
+      ]
+    },
+    {
+      "id": "intro-to-operating-systems-prodigal",
+      "word": "prodigal",
+      "partOfSpeech": "adjective",
+      "definition": "wasteful; reckless with money",
+      "sentence": "A spinlock is prodigal with CPU time: a waiting thread burns cycles checking the lock instead of sleeping.",
+      "explanation": "Spinning pays off only when the lock is held very briefly and the holder is running on another core. Otherwise a blocking mutex, which puts the waiter to sleep, wastes less. Many mutexes spin briefly and then block.",
+      "citations": [
+        {
+          "title": "Spinlock (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Spinlock"
+        },
+        {
+          "title": "OSTEP: Locks",
+          "url": "https://pages.cs.wisc.edu/~remzi/OSTEP/threads-locks.pdf"
+        }
+      ]
+    },
+    {
+      "id": "intro-to-operating-systems-intransigence",
+      "word": "intransigence",
+      "partOfSpeech": "noun",
+      "definition": "refusal of any compromise; stubbornness",
+      "sentence": "Deadlock needs intransigence: each process holds one resource, refuses to release it, and waits for another that someone else holds.",
+      "explanation": "The Coffman conditions for deadlock are mutual exclusion, hold and wait, no preemption, and circular wait. Removing any one of them prevents deadlock.",
+      "citations": [
+        {
+          "title": "Deadlock (computer science) (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Deadlock_(computer_science)"
+        },
+        {
+          "title": "OSTEP: Common Concurrency Problems",
+          "url": "https://pages.cs.wisc.edu/~remzi/OSTEP/threads-bugs.pdf"
+        }
+      ]
+    },
+    {
+      "id": "intro-to-operating-systems-forestall",
+      "word": "forestall",
+      "partOfSpeech": "verb",
+      "definition": "prevent by taking action in advance",
+      "sentence": "Acquiring locks in a fixed global order forestalls deadlock, because a circular wait becomes impossible.",
+      "explanation": "If every thread always locks A before B, no thread can hold B while waiting for A. Ordering locks by address works when there is no natural order, and try-lock with back-off is another approach.",
+      "citations": [
+        {
+          "title": "OSTEP: Common Concurrency Problems",
+          "url": "https://pages.cs.wisc.edu/~remzi/OSTEP/threads-bugs.pdf"
+        },
+        {
+          "title": "Deadlock (computer science) (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Deadlock_(computer_science)"
+        }
+      ]
+    },
+    {
+      "id": "intro-to-operating-systems-precarious",
+      "word": "precarious",
+      "partOfSpeech": "adjective",
+      "definition": "uncertain; risky",
+      "sentence": "The banker's algorithm refuses a request that would leave the system in a precarious unsafe state.",
+      "explanation": "A state is safe if some order exists in which every process can finish with the resources available. An unsafe state does not guarantee deadlock, but the system can no longer rule it out. The algorithm needs each process's maximum claim in advance, so general-purpose systems rarely use it.",
+      "citations": [
+        {
+          "title": "Banker's algorithm (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Banker%27s_algorithm"
+        }
+      ]
+    },
+    {
+      "id": "intro-to-operating-systems-vacillate",
+      "word": "vacillate",
+      "partOfSpeech": "verb",
+      "definition": "waver; fluctuate",
+      "sentence": "In a livelock, two threads vacillate, each stepping aside for the other and retrying forever without progress.",
+      "explanation": "Unlike deadlock, the threads keep running and changing state but never finish. Randomized back-off, as in Ethernet's collision handling, breaks the symmetry.",
+      "citations": [
+        {
+          "title": "Deadlock (computer science) (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Deadlock_(computer_science)"
+        },
+        {
+          "title": "Exponential backoff (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Exponential_backoff"
+        }
+      ]
+    },
+    {
+      "id": "intro-to-operating-systems-relegate",
+      "word": "relegate",
+      "partOfSpeech": "verb",
+      "definition": "banish to an inferior position; delegate; assign",
+      "sentence": "Strict priority scheduling can relegate low-priority processes to starvation if high-priority work never stops arriving.",
+      "explanation": "Aging gradually raises the priority of waiting processes so that each one eventually runs. Multilevel feedback queues use related ideas, moving processes between queues according to observed behavior.",
+      "citations": [
+        {
+          "title": "Starvation (computer science) (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Starvation_(computer_science)"
+        },
+        {
+          "title": "OSTEP: Multi-Level Feedback Queue",
+          "url": "https://pages.cs.wisc.edu/~remzi/OSTEP/cpu-sched-mlfq.pdf"
+        }
+      ]
+    },
+    {
+      "id": "intro-to-operating-systems-incongruity",
+      "word": "incongruity",
+      "partOfSpeech": "noun",
+      "definition": "lack of harmony; absurdity",
+      "sentence": "Priority inversion is an incongruity: a high-priority task waits on a lock held by a low-priority task, which a medium-priority task can keep from running.",
+      "explanation": "It caused repeated system resets on the Mars Pathfinder lander in 1997. Engineers fixed it remotely by enabling priority inheritance, in which the lock holder temporarily runs at the priority of its highest-priority waiter.",
+      "citations": [
+        {
+          "title": "Priority inversion (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Priority_inversion"
+        },
+        {
+          "title": "Mars Pathfinder (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Mars_Pathfinder"
+        }
+      ]
+    },
+    {
+      "id": "intro-to-operating-systems-insularity",
+      "word": "insularity",
+      "partOfSpeech": "noun",
+      "definition": "narrow-mindedness; isolation",
+      "sentence": "Each process lives in its own address space, an insularity that inter-process communication must bridge.",
+      "explanation": "Pipes, sockets and message queues copy data through the kernel, while shared memory maps the same pages into several processes and needs its own synchronization. Message passing is simpler to reason about, and shared memory is usually faster for large data.",
+      "citations": [
+        {
+          "title": "Inter-process communication (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Inter-process_communication"
+        },
+        {
+          "title": "pipe(7) (Linux man page)",
+          "url": "https://man7.org/linux/man-pages/man7/pipe.7.html"
+        }
+      ]
+    },
+    {
+      "id": "intro-to-operating-systems-implacable",
+      "word": "implacable",
+      "partOfSpeech": "adjective",
+      "definition": "incapable of being pacified",
+      "sentence": "SIGKILL is implacable: a process cannot catch, block or ignore it.",
+      "explanation": "The kernel terminates the process immediately, giving it no chance to clean up. Programs should handle SIGTERM for a graceful shutdown, and SIGKILL should be a last resort. SIGSTOP is the other signal that cannot be caught.",
+      "citations": [
+        {
+          "title": "signal(7) (Linux man page)",
+          "url": "https://man7.org/linux/man-pages/man7/signal.7.html"
+        }
+      ]
+    },
+    {
+      "id": "intro-to-operating-systems-lethargic",
+      "word": "lethargic",
+      "partOfSpeech": "adjective",
+      "definition": "drowsy; dull",
+      "sentence": "The convoy effect makes first-come-first-served scheduling lethargic: short jobs wait behind one long job.",
+      "explanation": "FCFS is simple and fair in arrival order, but average waiting time can be large. Shortest-job-first minimizes average waiting time, and because run time is unknown it is approximated from past CPU bursts.",
+      "citations": [
+        {
+          "title": "OSTEP: Scheduling: Introduction",
+          "url": "https://pages.cs.wisc.edu/~remzi/OSTEP/cpu-sched.pdf"
+        },
+        {
+          "title": "Scheduling (computing) (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Scheduling_(computing)"
+        }
+      ]
+    },
+    {
+      "id": "intro-to-operating-systems-disinterested",
+      "word": "disinterested",
+      "partOfSpeech": "adjective",
+      "definition": "unprejudiced",
+      "sentence": "Round-robin scheduling is disinterested in what a process does: each one gets the same time slice in turn.",
+      "explanation": "A small quantum improves responsiveness but raises context-switch overhead, and a very large one approaches FCFS. Typical quanta are on the order of milliseconds to tens of milliseconds.",
+      "citations": [
+        {
+          "title": "Round-robin scheduling (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Round-robin_scheduling"
+        },
+        {
+          "title": "OSTEP: Scheduling: Introduction",
+          "url": "https://pages.cs.wisc.edu/~remzi/OSTEP/cpu-sched.pdf"
+        }
+      ]
+    },
+    {
+      "id": "intro-to-operating-systems-exigency",
+      "word": "exigency",
+      "partOfSpeech": "noun",
+      "definition": "urgent situation; pressing needs or demands; state of requiring immediate attention",
+      "sentence": "Real-time systems must meet every deadline, so an exigency such as a brake signal preempts routine work.",
+      "explanation": "Hard real-time schedulers use policies such as rate-monotonic or earliest-deadline-first scheduling, which come with schedulability tests. Linux offers the SCHED_FIFO and SCHED_RR real-time classes as well as SCHED_DEADLINE.",
+      "citations": [
+        {
+          "title": "Real-time operating system (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Real-time_operating_system"
+        },
+        {
+          "title": "sched(7) (Linux man page)",
+          "url": "https://man7.org/linux/man-pages/man7/sched.7.html"
+        }
+      ]
+    },
+    {
+      "id": "intro-to-operating-systems-subpoena",
+      "word": "subpoena",
+      "partOfSpeech": "noun",
+      "definition": "writ summoning a witness to appear",
+      "sentence": "Demand paging acts like a subpoena: a page is summoned from disk only when a process actually touches it.",
+      "explanation": "A reference to a page that is not in memory causes a page fault, the OS loads the page, and the instruction restarts. This lets programs larger than RAM run, and it speeds startup because unused code is never read.",
+      "citations": [
+        {
+          "title": "Demand paging (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Demand_paging"
+        },
+        {
+          "title": "OSTEP: Beyond Physical Memory: Mechanisms",
+          "url": "https://pages.cs.wisc.edu/~remzi/OSTEP/vm-beyondphys.pdf"
+        }
+      ]
+    },
+    {
+      "id": "intro-to-operating-systems-plummet",
+      "word": "plummet",
+      "partOfSpeech": "verb",
+      "definition": "fall sharply",
+      "sentence": "When too many processes compete for memory, throughput plummets as the system spends its time paging instead of computing.",
+      "explanation": "This is thrashing. The working-set model, which tracks the pages each process has used in a recent window, lets the OS limit the number of active processes when the working sets do not fit in memory.",
+      "citations": [
+        {
+          "title": "Thrashing (computer science) (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Thrashing_(computer_science)"
+        },
+        {
+          "title": "Page replacement algorithm (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Page_replacement_algorithm"
+        }
+      ]
+    },
+    {
+      "id": "intro-to-operating-systems-belie",
+      "word": "belie",
+      "partOfSpeech": "verb",
+      "definition": "contradict; give a false impression",
+      "sentence": "Belady's anomaly belies the intuition that more memory always means fewer page faults.",
+      "explanation": "With FIFO replacement, some reference strings produce more faults when given more frames. LRU and optimal replacement are stack algorithms, which cannot show the anomaly.",
+      "citations": [
+        {
+          "title": "Bélády's anomaly (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/B%C3%A9l%C3%A1dy%27s_anomaly"
+        }
+      ]
+    },
+    {
+      "id": "intro-to-operating-systems-disjointed",
+      "word": "disjointed",
+      "partOfSpeech": "adjective",
+      "definition": "lacking coherence; separated at the joints",
+      "sentence": "External fragmentation leaves free memory in disjointed pieces, so a large request can fail even when enough total space is free.",
+      "explanation": "Paging avoids external fragmentation by allocating fixed-size frames, at the cost of some internal fragmentation in each process's last page. Contiguous allocators can compact memory or use best-fit and buddy systems to reduce the problem.",
+      "citations": [
+        {
+          "title": "Fragmentation (computing) (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Fragmentation_(computing)"
+        },
+        {
+          "title": "Buddy memory allocation (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Buddy_memory_allocation"
+        }
+      ]
+    },
+    {
+      "id": "intro-to-operating-systems-amalgamate",
+      "word": "amalgamate",
+      "partOfSpeech": "verb",
+      "definition": "combine; unite in one body",
+      "sentence": "When a block is freed, the allocator tries to amalgamate it with free neighbors into one larger block.",
+      "explanation": "Coalescing keeps free memory from splintering into tiny pieces. Boundary tags store a block's size at both ends so that its neighbors can be found in constant time, as in the malloc labs of many OS courses.",
+      "citations": [
+        {
+          "title": "Memory management (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Memory_management"
+        },
+        {
+          "title": "MallocInternals (glibc wiki)",
+          "url": "https://sourceware.org/glibc/wiki/MallocInternals"
+        }
+      ]
+    },
+    {
+      "id": "intro-to-operating-systems-indolent",
+      "word": "indolent",
+      "partOfSpeech": "adjective",
+      "definition": "lazy",
+      "sentence": "Copy-on-write makes fork() indolent: parent and child share pages until one of them writes.",
+      "explanation": "The kernel marks shared pages read-only and copies a page only when a write triggers a fault. That makes fork() followed by exec() cheap, since the copied data would be thrown away anyway.",
+      "citations": [
+        {
+          "title": "Copy-on-write (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Copy-on-write"
+        }
+      ]
+    },
+    {
+      "id": "intro-to-operating-systems-proscribe",
+      "word": "proscribe",
+      "partOfSpeech": "verb",
+      "definition": "ostracize; banish; outlaw",
+      "sentence": "Page protection bits let the hardware proscribe writes to read-only pages, so a stray store raises a fault instead of corrupting data.",
+      "explanation": "Each page-table entry holds permission bits (read, write, execute) and a user/supervisor bit. A violation traps to the OS, which typically sends the process SIGSEGV. W^X policies make memory either writable or executable, never both.",
+      "citations": [
+        {
+          "title": "Memory protection (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Memory_protection"
+        },
+        {
+          "title": "W^X (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/W%5EX"
+        }
+      ]
+    },
+    {
+      "id": "intro-to-operating-systems-oscillate",
+      "word": "oscillate",
+      "partOfSpeech": "verb",
+      "definition": "vibrate; waver",
+      "sentence": "The elevator (SCAN) disk-scheduling algorithm makes the head oscillate across the platter, serving requests in each direction.",
+      "explanation": "It reduces seek time compared with first-come-first-served, and C-SCAN serves requests in one direction only to even out waiting times. SSDs have no moving head, so such scheduling matters much less for them.",
+      "citations": [
+        {
+          "title": "Elevator algorithm (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Elevator_algorithm"
+        },
+        {
+          "title": "OSTEP: Hard Disk Drives",
+          "url": "https://pages.cs.wisc.edu/~remzi/OSTEP/file-disks.pdf"
+        }
+      ]
+    },
+    {
+      "id": "intro-to-operating-systems-assiduous",
+      "word": "assiduous",
+      "partOfSpeech": "adjective",
+      "definition": "diligent",
+      "sentence": "Polling is assiduous but wasteful: the CPU checks a device's status register again and again.",
+      "explanation": "Polling is simple and fast for devices that are almost always ready, such as a busy high-speed network card, but it wastes cycles otherwise. Interrupt-driven I/O lets the CPU do other work until the device signals.",
+      "citations": [
+        {
+          "title": "Polling (computer science) (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Polling_(computer_science)"
+        },
+        {
+          "title": "OSTEP: I/O Devices",
+          "url": "https://pages.cs.wisc.edu/~remzi/OSTEP/file-devices.pdf"
+        }
+      ]
+    },
+    {
+      "id": "intro-to-operating-systems-sporadic",
+      "word": "sporadic",
+      "partOfSpeech": "adjective",
+      "definition": "occurring irregularly",
+      "sentence": "Interrupts arrive at sporadic times, so a handler must do its urgent work quickly and defer the rest.",
+      "explanation": "Linux splits interrupt handling into a fast top half and deferred work in softirqs, tasklets or workqueues, so that interrupts are masked for as short a time as possible.",
+      "citations": [
+        {
+          "title": "Interrupt (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Interrupt"
+        },
+        {
+          "title": "Linux generic IRQ handling (kernel docs)",
+          "url": "https://www.kernel.org/doc/html/latest/core-api/genericirq.html"
+        }
+      ]
+    },
+    {
+      "id": "intro-to-operating-systems-alleviate",
+      "word": "alleviate",
+      "partOfSpeech": "verb",
+      "definition": "relieve",
+      "sentence": "Direct memory access alleviates the CPU of copying data between a device and memory.",
+      "explanation": "The CPU programs a DMA controller with a source, destination and length, and the controller raises an interrupt when the transfer ends. Because DMA writes memory behind the CPU's back, the OS must keep caches coherent and buffers pinned.",
+      "citations": [
+        {
+          "title": "Direct memory access (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Direct_memory_access"
+        }
+      ]
+    },
+    {
+      "id": "intro-to-operating-systems-disparate",
+      "word": "disparate",
+      "partOfSpeech": "adjective",
+      "definition": "basically different; unrelated",
+      "sentence": "A device driver hides disparate hardware behind a uniform interface such as read() and write().",
+      "explanation": "In Unix-like systems many devices appear as files under /dev, so the same system calls work on disks, terminals and sensors. Drivers translate between that interface and each device's registers and commands.",
+      "citations": [
+        {
+          "title": "Device driver (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Device_driver"
+        },
+        {
+          "title": "Device file (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Device_file"
+        }
+      ]
+    },
+    {
+      "id": "intro-to-operating-systems-log",
+      "word": "log",
+      "partOfSpeech": "noun",
+      "definition": "record of a voyage or flight; record of day-to-day activities",
+      "sentence": "A journaling file system writes a log of its intended changes before applying them, so it can recover after a crash.",
+      "explanation": "After a crash, the OS replays complete journal entries and discards incomplete ones, which avoids a lengthy full check of the disk. ext4, XFS and NTFS use journaling, and log-structured designs go further by treating the whole disk as a log.",
+      "citations": [
+        {
+          "title": "Journaling file system (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Journaling_file_system"
+        },
+        {
+          "title": "OSTEP: Crash Consistency: FSCK and Journaling",
+          "url": "https://pages.cs.wisc.edu/~remzi/OSTEP/file-journaling.pdf"
+        }
+      ]
+    },
+    {
+      "id": "intro-to-operating-systems-buttress",
+      "word": "buttress",
+      "partOfSpeech": "verb",
+      "definition": "support; prop up",
+      "sentence": "RAID 1 mirroring buttresses a disk's reliability with a second copy of every block.",
+      "explanation": "Mirroring survives one disk failure, and parity schemes such as RAID 5 tolerate a failure with less overhead. RAID is not a backup, since deletions and corruption are copied to every disk.",
+      "citations": [
+        {
+          "title": "RAID (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/RAID"
+        },
+        {
+          "title": "OSTEP: Redundant Arrays of Inexpensive Disks",
+          "url": "https://pages.cs.wisc.edu/~remzi/OSTEP/file-raid.pdf"
+        }
+      ]
+    },
+    {
+      "id": "intro-to-operating-systems-appropriate",
+      "word": "appropriate",
+      "partOfSpeech": "verb",
+      "definition": "acquire; take possession of for one's own use",
+      "sentence": "A privilege-escalation exploit lets an attacker appropriate the rights of root.",
+      "explanation": "Common routes are bugs in setuid programs or kernel code and misconfigured permissions. Defenses include least privilege, dropping capabilities after startup, and mandatory access control such as SELinux.",
+      "citations": [
+        {
+          "title": "Privilege escalation (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Privilege_escalation"
+        },
+        {
+          "title": "capabilities(7) (Linux man page)",
+          "url": "https://man7.org/linux/man-pages/man7/capabilities.7.html"
+        }
+      ]
+    },
+    {
+      "id": "intro-to-operating-systems-ascetic",
+      "word": "ascetic",
+      "partOfSpeech": "adjective",
+      "definition": "practicing self-denial; austere",
+      "sentence": "A microkernel is ascetic: it keeps only address spaces, scheduling and message passing in the kernel, and runs drivers and file systems as user programs.",
+      "explanation": "Moving services out of the kernel shrinks the code that can crash the whole system, but message passing between services adds overhead. Linux is monolithic, while MINIX 3 and seL4 are microkernels.",
+      "citations": [
+        {
+          "title": "Microkernel (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Microkernel"
+        },
+        {
+          "title": "seL4",
+          "url": "https://sel4.systems/"
+        }
+      ]
+    },
+    {
+      "id": "intro-to-operating-systems-emulate",
+      "word": "emulate",
+      "partOfSpeech": "verb",
+      "definition": "imitate; rival",
+      "sentence": "A virtual machine monitor must emulate hardware well enough that a guest operating system cannot tell the difference.",
+      "explanation": "Hypervisors run guests directly on the CPU using hardware support such as Intel VT-x and AMD-V, and trap privileged operations. Containers instead share the host kernel and isolate processes with namespaces and cgroups.",
+      "citations": [
+        {
+          "title": "Hypervisor (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Hypervisor"
+        },
+        {
+          "title": "namespaces(7) (Linux man page)",
+          "url": "https://man7.org/linux/man-pages/man7/namespaces.7.html"
+        }
+      ]
+    },
+    {
+      "id": "intro-to-operating-systems-truculence",
+      "word": "truculence",
+      "partOfSpeech": "noun",
+      "definition": "aggressiveness; ferocity",
+      "sentence": "The Linux OOM killer acts with truculence: when memory runs out, it picks a victim process and terminates it.",
+      "explanation": "It chooses a process using a score that considers memory use and an adjustable bias (oom_score_adj). Setting memory limits with cgroups and watching memory pressure helps avoid surprises.",
+      "citations": [
+        {
+          "title": "Out of memory (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Out_of_memory"
+        },
+        {
+          "title": "proc(5) (Linux man page)",
+          "url": "https://man7.org/linux/man-pages/man5/proc.5.html"
+        }
+      ]
+    },
+    {
+      "id": "intro-to-operating-systems-elegy",
+      "word": "elegy",
+      "partOfSpeech": "noun",
+      "definition": "poem or song expressing lamentation",
+      "sentence": "A kernel panic is the system's elegy for itself: a last message about what went wrong before it stops.",
+      "explanation": "When the kernel detects an error it cannot safely recover from, it prints diagnostics and halts or reboots. Crash dumps and logs captured at that moment, for example with kdump, are often the only evidence for finding the bug.",
+      "citations": [
+        {
+          "title": "Kernel panic (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Kernel_panic"
+        },
+        {
+          "title": "Documentation for Kdump (kernel docs)",
+          "url": "https://www.kernel.org/doc/html/latest/admin-guide/kdump/kdump.html"
+        }
+      ]
+    }
+  ]
+}

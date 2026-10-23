@@ -1,0 +1,656 @@
+{
+  "id": "mobile-app-development",
+  "title": "Mobile App Development",
+  "category": "Computer Science",
+  "description": "Learn GRE words through app design, mobile engineering, store launches, user growth and the business of building apps.",
+  "cards": [
+    {
+      "id": "mobile-app-development-disabuse",
+      "word": "disabuse",
+      "partOfSpeech": "verb",
+      "definition": "correct a false impression; undeceive",
+      "sentence": "Five short user interviews can disabuse a founder of the belief that everyone needs the app.",
+      "explanation": "Talking to target users before building tests the assumptions behind an idea, such as who has the problem and how they cope now. Ask about past behavior instead of whether they would use your idea, since people are poor at predicting their own future behavior.",
+      "citations": [
+        {
+          "title": "The Mom Test",
+          "url": "https://www.momtestbook.com/"
+        },
+        {
+          "title": "Lean startup (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Lean_startup"
+        }
+      ]
+    },
+    {
+      "id": "mobile-app-development-belie",
+      "word": "belie",
+      "partOfSpeech": "verb",
+      "definition": "contradict; give a false impression",
+      "sentence": "Analytics often belie what users say in surveys: people who claim they would use a feature daily may never tap it.",
+      "explanation": "What people say they prefer often differs from what their behavior reveals. Event analytics such as Firebase Analytics, Mixpanel or Amplitude show what users actually do, and interviews then help explain why.",
+      "citations": [
+        {
+          "title": "Google Analytics for Firebase",
+          "url": "https://firebase.google.com/docs/analytics"
+        },
+        {
+          "title": "Revealed preference (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Revealed_preference"
+        }
+      ]
+    },
+    {
+      "id": "mobile-app-development-zealot",
+      "word": "zealot",
+      "partOfSpeech": "noun",
+      "definition": "fanatic; person who shows excessive zeal",
+      "sentence": "A founder who becomes a zealot for one idea may ignore data showing that users do not come back.",
+      "explanation": "The lean startup method treats a business idea as a set of hypotheses to test in a build-measure-learn loop. It encourages a pivot, a change of strategy while keeping the vision, when the evidence says so.",
+      "citations": [
+        {
+          "title": "The Lean Startup: Principles",
+          "url": "https://theleanstartup.com/principles"
+        },
+        {
+          "title": "Lean startup (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Lean_startup"
+        }
+      ]
+    },
+    {
+      "id": "mobile-app-development-ascetic",
+      "word": "ascetic",
+      "partOfSpeech": "adjective",
+      "definition": "practicing self-denial; austere",
+      "sentence": "An ascetic first version has one core feature done well and leaves out everything else.",
+      "explanation": "Cutting scope lets a small team ship in weeks and learn from real users. Pick the single job the app does for the user, and keep everything else on a backlog until evidence supports building it.",
+      "citations": [
+        {
+          "title": "Jobs to be done theory (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Jobs_to_be_done"
+        },
+        {
+          "title": "Minimum viable product (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Minimum_viable_product"
+        }
+      ]
+    },
+    {
+      "id": "mobile-app-development-viable",
+      "word": "viable",
+      "partOfSpeech": "adjective",
+      "definition": "practical or workable",
+      "sentence": "A minimum viable product is the smallest working version that can test whether an idea is viable with real users.",
+      "explanation": "Eric Ries popularized the term in The Lean Startup. An MVP can be a clickable prototype, a landing page with a sign-up form, or a manual 'concierge' service, anything that cheaply tests the riskiest assumption.",
+      "citations": [
+        {
+          "title": "Minimum viable product (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Minimum_viable_product"
+        },
+        {
+          "title": "Lean startup (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Lean_startup"
+        }
+      ]
+    },
+    {
+      "id": "mobile-app-development-irresolute",
+      "word": "irresolute",
+      "partOfSpeech": "adjective",
+      "definition": "uncertain how to act; weak",
+      "sentence": "An irresolute team that changes direction after every piece of feedback never gives an idea enough time to work.",
+      "explanation": "A pivot should follow a pattern in the evidence, such as users repeatedly using one feature and ignoring the rest, not a single complaint. Set a metric and a time limit for each experiment so the choice to pivot or persevere rests on data.",
+      "citations": [
+        {
+          "title": "The Lean Startup: Principles",
+          "url": "https://theleanstartup.com/principles"
+        },
+        {
+          "title": "Lean startup (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Lean_startup"
+        }
+      ]
+    },
+    {
+      "id": "mobile-app-development-ebullient",
+      "word": "ebullient",
+      "partOfSpeech": "adjective",
+      "definition": "showing excitement; overflowing with enthusiasm",
+      "sentence": "Early adopters are often ebullient about a new app, but their enthusiasm does not prove that mainstream users will follow.",
+      "explanation": "Geoffrey Moore's 'chasm' is the gap between early adopters, who tolerate rough edges for novelty, and the pragmatic majority, who want a complete and reliable product. Crossing it usually means winning one niche first.",
+      "citations": [
+        {
+          "title": "Crossing the Chasm (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Crossing_the_Chasm"
+        },
+        {
+          "title": "Technology adoption life cycle (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Technology_adoption_life_cycle"
+        }
+      ]
+    },
+    {
+      "id": "mobile-app-development-prodigal",
+      "word": "prodigal",
+      "partOfSpeech": "adjective",
+      "definition": "wasteful; reckless with money",
+      "sentence": "Prodigal ad spending before the app retains users only buys installs that disappear.",
+      "explanation": "Paid acquisition makes sense only when the lifetime value (LTV) of a user exceeds the customer acquisition cost (CAC). Fix retention first, then scale paid marketing.",
+      "citations": [
+        {
+          "title": "Customer lifetime value (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Customer_lifetime_value"
+        },
+        {
+          "title": "Customer acquisition cost (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Customer_acquisition_cost"
+        }
+      ]
+    },
+    {
+      "id": "mobile-app-development-magnanimity",
+      "word": "magnanimity",
+      "partOfSpeech": "noun",
+      "definition": "generosity",
+      "sentence": "A freemium app that shows too much magnanimity, giving away every useful feature, leaves users no reason to pay.",
+      "explanation": "A free tier brings in users and a paid tier funds the app. Paywalls work best after users have felt the value, and conversion is usually a small share of users, so volume matters. The stores have typically taken a 15% to 30% commission on in-app sales, but the rules change, so check current terms.",
+      "citations": [
+        {
+          "title": "Freemium (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Freemium"
+        },
+        {
+          "title": "In-App Purchase (Apple)",
+          "url": "https://developer.apple.com/in-app-purchase/"
+        },
+        {
+          "title": "Google Play Billing",
+          "url": "https://developer.android.com/google/play/billing"
+        }
+      ]
+    },
+    {
+      "id": "mobile-app-development-flag",
+      "word": "flag",
+      "partOfSpeech": "verb",
+      "definition": "droop; grow feeble",
+      "sentence": "Retention often flags after the first week, so onboarding and the early habit loop decide whether an app survives.",
+      "explanation": "Retention is the share of a cohort that returns on day 1, day 7 and day 30. A curve that flattens shows a core group of habitual users, while one that keeps falling toward zero signals that the app lacks a lasting reason to come back.",
+      "citations": [
+        {
+          "title": "Cohort analysis (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Cohort_analysis"
+        },
+        {
+          "title": "Customer retention (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Customer_retention"
+        }
+      ]
+    },
+    {
+      "id": "mobile-app-development-abate",
+      "word": "abate",
+      "partOfSpeech": "verb",
+      "definition": "subside, or moderate",
+      "sentence": "The burst of downloads after a launch or a press mention will abate within days, so plan for what brings users back.",
+      "explanation": "Spikes from features, press or promotions decay quickly. Lasting growth comes from retention loops, referrals and steady channels such as search, which is why founders track cohorts instead of total downloads.",
+      "citations": [
+        {
+          "title": "Growth hacking (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Growth_hacking"
+        },
+        {
+          "title": "Cohort analysis (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Cohort_analysis"
+        }
+      ]
+    },
+    {
+      "id": "mobile-app-development-idolatry",
+      "word": "idolatry",
+      "partOfSpeech": "noun",
+      "definition": "worship of idols; excessive admiration",
+      "sentence": "Idolatry of download counts hides the fact that most installs may never become active users.",
+      "explanation": "Vanity metrics such as total downloads only go up. Actionable metrics, such as daily active users, activation rate, retention and revenue per user, show whether product changes work.",
+      "citations": [
+        {
+          "title": "Lean startup (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Lean_startup"
+        },
+        {
+          "title": "Google Analytics for Firebase",
+          "url": "https://firebase.google.com/docs/analytics"
+        }
+      ]
+    },
+    {
+      "id": "mobile-app-development-inconsequential",
+      "word": "inconsequential",
+      "partOfSpeech": "adjective",
+      "definition": "insignificant; unimportant",
+      "sentence": "An A/B test whose difference between versions is inconsequential, well within the noise, should not drive a redesign.",
+      "explanation": "Decide the metric, sample size and significance level before running a test, because stopping as soon as a result looks good inflates false positives. Firebase A/B Testing can serve different variants to different users.",
+      "citations": [
+        {
+          "title": "A/B testing (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/A/B_testing"
+        },
+        {
+          "title": "Firebase A/B Testing",
+          "url": "https://firebase.google.com/docs/ab-testing"
+        }
+      ]
+    },
+    {
+      "id": "mobile-app-development-alacrity",
+      "word": "alacrity",
+      "partOfSpeech": "noun",
+      "definition": "cheerful promptness; eagerness",
+      "sentence": "Teams that answer bug reports with alacrity and ship fixes quickly earn user trust.",
+      "explanation": "Continuous integration and automated releases, for example with Fastlane, let a small team ship often. Phased releases deliver a new version to a small share of users first, so a bad release can be paused.",
+      "citations": [
+        {
+          "title": "fastlane",
+          "url": "https://fastlane.tools/"
+        },
+        {
+          "title": "Release a version update in phases (Apple)",
+          "url": "https://developer.apple.com/help/app-store-connect/update-your-app/release-a-version-update-in-phases/"
+        }
+      ]
+    },
+    {
+      "id": "mobile-app-development-aesthetic",
+      "word": "aesthetic",
+      "partOfSpeech": "adjective",
+      "definition": "artistic; dealing with or capable of appreciating the beautiful",
+      "sentence": "An aesthetic interface is more than decoration: consistent spacing, type and color help users find what matters.",
+      "explanation": "People tend to see attractive designs as easier to use, known as the aesthetic-usability effect, and they judge an app's trustworthiness quickly from its visual quality. Material Design and Apple's guidelines give concrete rules for layout, type and color.",
+      "citations": [
+        {
+          "title": "Aesthetic-usability effect (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Aesthetic%E2%80%93usability_effect"
+        },
+        {
+          "title": "Material Design 3",
+          "url": "https://m3.material.io/"
+        }
+      ]
+    },
+    {
+      "id": "mobile-app-development-decorum",
+      "word": "decorum",
+      "partOfSpeech": "noun",
+      "definition": "propriety; orderliness and good taste in manners",
+      "sentence": "Follow platform decorum: iOS users expect swipe-back and a bottom tab bar, while Android offers a system back gesture and Material components.",
+      "explanation": "Following Apple's Human Interface Guidelines and Material Design makes an app feel native and shortens the learning curve. Breaking a platform convention should be a deliberate choice, not an accident.",
+      "citations": [
+        {
+          "title": "Human Interface Guidelines (Apple)",
+          "url": "https://developer.apple.com/design/human-interface-guidelines/"
+        },
+        {
+          "title": "Material Design 3",
+          "url": "https://m3.material.io/"
+        }
+      ]
+    },
+    {
+      "id": "mobile-app-development-deference",
+      "word": "deference",
+      "partOfSpeech": "noun",
+      "definition": "courteous regard for another's wishes",
+      "sentence": "Show deference to the user's choices: ask for notification permission at a moment when the app can explain why, and respect a refusal.",
+      "explanation": "iOS shows its system permission dialog only once, so a premature request wastes the chance, and after a denial the user must go to Settings. Android 13 and later also require a runtime permission for notifications.",
+      "citations": [
+        {
+          "title": "Privacy (Apple HIG)",
+          "url": "https://developer.apple.com/design/human-interface-guidelines/privacy"
+        },
+        {
+          "title": "Notification runtime permission (Android)",
+          "url": "https://developer.android.com/develop/ui/views/notifications/notification-permission"
+        }
+      ]
+    },
+    {
+      "id": "mobile-app-development-artless",
+      "word": "artless",
+      "partOfSpeech": "adjective",
+      "definition": "without guile; open and honest",
+      "sentence": "An artless sign-up flow says plainly what the app costs and what it collects, with no dark patterns such as hidden fees or hard-to-find cancellation.",
+      "explanation": "Dark patterns steer users into choices they would not otherwise make. They damage trust and reviews, and regulators have acted against them. Apple's guidelines require subscription terms and prices to be clear before purchase.",
+      "citations": [
+        {
+          "title": "Dark pattern (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Dark_pattern"
+        },
+        {
+          "title": "App Store Review Guidelines (Apple)",
+          "url": "https://developer.apple.com/app-store/review/guidelines/"
+        }
+      ]
+    },
+    {
+      "id": "mobile-app-development-onerous",
+      "word": "onerous",
+      "partOfSpeech": "adjective",
+      "definition": "burdensome",
+      "sentence": "A long, onerous sign-up form loses users before they see any value, so many apps offer Sign in with Apple, Google sign-in or passkeys.",
+      "explanation": "Let people try the core feature before creating an account when possible. Apple's guidelines require apps that use third-party login to also offer an equivalent privacy-focused option, such as Sign in with Apple.",
+      "citations": [
+        {
+          "title": "App Store Review Guidelines (Apple)",
+          "url": "https://developer.apple.com/app-store/review/guidelines/"
+        },
+        {
+          "title": "Passkeys (FIDO Alliance)",
+          "url": "https://fidoalliance.org/passkeys/"
+        }
+      ]
+    },
+    {
+      "id": "mobile-app-development-plasticity",
+      "word": "plasticity",
+      "partOfSpeech": "noun",
+      "definition": "ability to be molded",
+      "sentence": "Layouts need plasticity to adapt to a small phone, a tablet in landscape or a foldable screen.",
+      "explanation": "Responsive layouts use flexible constraints, such as Auto Layout and SwiftUI on iOS and Compose with window size classes on Android, instead of fixed pixel positions. Test with large text sizes and different screens, not just one device.",
+      "citations": [
+        {
+          "title": "Adaptive layouts in Compose (Android)",
+          "url": "https://developer.android.com/develop/ui/compose/layouts/adaptive"
+        },
+        {
+          "title": "Layout (Apple HIG)",
+          "url": "https://developer.apple.com/design/human-interface-guidelines/layout"
+        }
+      ]
+    },
+    {
+      "id": "mobile-app-development-luminous",
+      "word": "luminous",
+      "partOfSpeech": "adjective",
+      "definition": "shining; issuing light",
+      "sentence": "A luminous white screen draws more power on an OLED display than dark mode does, because black pixels emit almost no light.",
+      "explanation": "Google has reported battery savings from dark theme on OLED phones, though the savings depend on brightness and content. Supporting dark mode also helps users in dim settings, and both platforms expose a system setting your app can follow.",
+      "citations": [
+        {
+          "title": "Dark theme (Android)",
+          "url": "https://developer.android.com/develop/ui/views/theming/darktheme"
+        },
+        {
+          "title": "Dark Mode (Apple HIG)",
+          "url": "https://developer.apple.com/design/human-interface-guidelines/dark-mode"
+        }
+      ]
+    },
+    {
+      "id": "mobile-app-development-insularity",
+      "word": "insularity",
+      "partOfSpeech": "noun",
+      "definition": "narrow-mindedness; isolation",
+      "sentence": "Designer insularity, building only for people exactly like yourself, leaves out users who rely on screen readers or large text.",
+      "explanation": "Accessibility features such as VoiceOver on iOS, TalkBack on Android, Dynamic Type and sufficient color contrast widen the audience. WCAG asks for a contrast ratio of at least 4.5:1 for normal text.",
+      "citations": [
+        {
+          "title": "Contrast (Minimum) (WCAG 2.2)",
+          "url": "https://www.w3.org/WAI/WCAG22/Understanding/contrast-minimum.html"
+        },
+        {
+          "title": "Accessibility (Android)",
+          "url": "https://developer.android.com/guide/topics/ui/accessibility"
+        }
+      ]
+    },
+    {
+      "id": "mobile-app-development-alleviate",
+      "word": "alleviate",
+      "partOfSpeech": "verb",
+      "definition": "relieve",
+      "sentence": "Cross-platform frameworks such as Flutter and React Native alleviate the cost of building and maintaining two separate apps.",
+      "explanation": "They let one team share most code across iOS and Android. The trade-offs include larger app size, delays in supporting new OS features, and cases that still need platform-specific code. Native development in Swift and Kotlin gives the most direct access to platform APIs.",
+      "citations": [
+        {
+          "title": "Flutter",
+          "url": "https://flutter.dev/"
+        },
+        {
+          "title": "React Native",
+          "url": "https://reactnative.dev/"
+        }
+      ]
+    },
+    {
+      "id": "mobile-app-development-exacerbate",
+      "word": "exacerbate",
+      "partOfSpeech": "verb",
+      "definition": "worsen; embitter",
+      "sentence": "Android's many device models and OS versions exacerbate the testing burden compared with a small set of iPhones.",
+      "explanation": "Android runs on devices from many manufacturers with different screen sizes and vendor customizations, so teams test on a representative set and use cloud device farms such as Firebase Test Lab. Check the version distribution when choosing a minimum OS version.",
+      "citations": [
+        {
+          "title": "Firebase Test Lab",
+          "url": "https://firebase.google.com/docs/test-lab"
+        },
+        {
+          "title": "Distribution dashboard (Android)",
+          "url": "https://developer.android.com/about/dashboards"
+        }
+      ]
+    },
+    {
+      "id": "mobile-app-development-viscous",
+      "word": "viscous",
+      "partOfSpeech": "adjective",
+      "definition": "sticky, gluey; by extension, slow-moving",
+      "sentence": "Scrolling that drops frames feels viscous: at 60 frames per second each frame has only about 16.7 milliseconds to render.",
+      "explanation": "Heavy work on the main (UI) thread causes dropped frames. Move networking, disk access and parsing off the main thread, and profile with Xcode Instruments or Android Studio's profiler. On 120 Hz displays the budget shrinks to about 8.3 ms.",
+      "citations": [
+        {
+          "title": "Rendering performance (Android)",
+          "url": "https://developer.android.com/topic/performance/rendering"
+        },
+        {
+          "title": "Improving your app's performance (Apple)",
+          "url": "https://developer.apple.com/documentation/xcode/improving-your-app-s-performance"
+        }
+      ]
+    },
+    {
+      "id": "mobile-app-development-enervate",
+      "word": "enervate",
+      "partOfSpeech": "verb",
+      "definition": "weaken",
+      "sentence": "Constant background location updates enervate a phone's battery and quickly lead to uninstalls.",
+      "explanation": "Use the least precise and least frequent location updates that meet the need, batch network requests, and let the OS schedule background work with WorkManager on Android or BGTaskScheduler on iOS.",
+      "citations": [
+        {
+          "title": "WorkManager (Android)",
+          "url": "https://developer.android.com/topic/libraries/architecture/workmanager"
+        },
+        {
+          "title": "Background Tasks (Apple)",
+          "url": "https://developer.apple.com/documentation/backgroundtasks"
+        }
+      ]
+    },
+    {
+      "id": "mobile-app-development-anarchy",
+      "word": "anarchy",
+      "partOfSpeech": "noun",
+      "definition": "absence of governing body; state of disorder",
+      "sentence": "Without version control and code review, a team's codebase descends into anarchy, with no one sure which version is correct.",
+      "explanation": "Git branches, pull requests and a continuous-integration check that builds and tests every change keep a team's work consistent. Even solo founders benefit from commit history, because it allows rolling back a bad change.",
+      "citations": [
+        {
+          "title": "Git documentation",
+          "url": "https://git-scm.com/doc"
+        },
+        {
+          "title": "Continuous integration (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Continuous_integration"
+        }
+      ]
+    },
+    {
+      "id": "mobile-app-development-admonish",
+      "word": "admonish",
+      "partOfSpeech": "verb",
+      "definition": "warn; reprove",
+      "sentence": "Linters and static analyzers admonish a developer about likely bugs before the code ever runs.",
+      "explanation": "SwiftLint, Android Lint and similar tools warn about unused code, possible null crashes and accessibility problems. Fix warnings early, and consider treating warnings as errors in continuous integration so they do not pile up.",
+      "citations": [
+        {
+          "title": "SwiftLint (GitHub)",
+          "url": "https://github.com/realm/SwiftLint"
+        },
+        {
+          "title": "Improve your code with lint checks (Android)",
+          "url": "https://developer.android.com/studio/write/lint"
+        }
+      ]
+    },
+    {
+      "id": "mobile-app-development-abstemious",
+      "word": "abstemious",
+      "partOfSpeech": "adjective",
+      "definition": "sparing in eating and drinking; temperate; by extension, sparing in taking",
+      "sentence": "Be abstemious with user data: collect only what the app needs, because everything you store is a liability.",
+      "explanation": "Data minimization is a principle of privacy laws such as the GDPR. Apple's privacy labels and Google Play's Data safety section require developers to disclose what they collect, so unnecessary collection becomes public.",
+      "citations": [
+        {
+          "title": "Article 5: Principles relating to processing (GDPR)",
+          "url": "https://gdpr-info.eu/art-5-gdpr/"
+        },
+        {
+          "title": "App privacy details (Apple)",
+          "url": "https://developer.apple.com/app-store/app-privacy-details/"
+        }
+      ]
+    },
+    {
+      "id": "mobile-app-development-transgression",
+      "word": "transgression",
+      "partOfSpeech": "noun",
+      "definition": "violation of a law; sin",
+      "sentence": "A privacy transgression, such as collecting data from children without parental consent, can bring fines and removal from the app stores.",
+      "explanation": "The GDPR allows fines of up to 20 million euros or 4% of worldwide annual turnover, whichever is higher, for the most serious violations. In the US, COPPA covers services directed at children under 13, and both stores have extra rules for kids' apps.",
+      "citations": [
+        {
+          "title": "Article 83: General conditions for imposing fines (GDPR)",
+          "url": "https://gdpr-info.eu/art-83-gdpr/"
+        },
+        {
+          "title": "Children's Online Privacy Protection Rule (FTC)",
+          "url": "https://www.ftc.gov/legal-library/browse/rules/childrens-online-privacy-protection-rule-coppa"
+        }
+      ]
+    },
+    {
+      "id": "mobile-app-development-flout",
+      "word": "flout",
+      "partOfSpeech": "verb",
+      "definition": "reject; mock; show contempt for",
+      "sentence": "Apps that flout the App Store Review Guidelines, for example by using private APIs, are rejected or removed.",
+      "explanation": "Apple reviews every submission, and Google Play checks apps against its developer policies. Read the guidelines early, give reviewers demo login credentials, and explain any non-obvious permissions to avoid delays.",
+      "citations": [
+        {
+          "title": "App Store Review Guidelines (Apple)",
+          "url": "https://developer.apple.com/app-store/review/guidelines/"
+        },
+        {
+          "title": "Google Play Developer Policy Center",
+          "url": "https://play.google.com/about/developer-content-policy/"
+        }
+      ]
+    },
+    {
+      "id": "mobile-app-development-relegate",
+      "word": "relegate",
+      "partOfSpeech": "verb",
+      "definition": "banish to an inferior position; delegate; assign",
+      "sentence": "A weak title and weak keywords can relegate an app to page three of the search results, where almost no one looks.",
+      "explanation": "App Store Optimization tunes the title, subtitle, keywords, screenshots and ratings so the app ranks for relevant searches and turns views into installs. Apple's Product Page Optimization lets you test different screenshots and icons.",
+      "citations": [
+        {
+          "title": "App store optimization (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/App_store_optimization"
+        },
+        {
+          "title": "Product Page Optimization (Apple)",
+          "url": "https://developer.apple.com/app-store/product-page-optimization/"
+        }
+      ]
+    },
+    {
+      "id": "mobile-app-development-bombastic",
+      "word": "bombastic",
+      "partOfSpeech": "adjective",
+      "definition": "pompous; using inflated language",
+      "sentence": "A bombastic store description full of 'revolutionary' and 'ultimate' persuades no one; say concretely what the app does and for whom.",
+      "explanation": "Visitors skim, so the first lines and first screenshots carry most of the weight. Show the core benefit, use real screenshots, and let ratings and reviews provide social proof.",
+      "citations": [
+        {
+          "title": "Product page (Apple)",
+          "url": "https://developer.apple.com/app-store/product-page/"
+        }
+      ]
+    },
+    {
+      "id": "mobile-app-development-officious",
+      "word": "officious",
+      "partOfSpeech": "adjective",
+      "definition": "meddlesome; excessively pushy in offering one's services",
+      "sentence": "An officious pop-up asking for a rating on first launch annoys users before they have any reason to praise the app.",
+      "explanation": "Apple's system rating prompt is limited to three appearances per user in a 365-day period, and Google's in-app review API is also quota-limited. Ask after a success moment, such as completing a task, not at launch.",
+      "citations": [
+        {
+          "title": "Ratings and reviews (Apple HIG)",
+          "url": "https://developer.apple.com/design/human-interface-guidelines/ratings-and-reviews"
+        },
+        {
+          "title": "In-App Reviews (Android)",
+          "url": "https://developer.android.com/guide/playcore/in-app-review"
+        }
+      ]
+    },
+    {
+      "id": "mobile-app-development-diatribe",
+      "word": "diatribe",
+      "partOfSpeech": "noun",
+      "definition": "bitter scolding; invective",
+      "sentence": "A one-star review that is a long diatribe may still hide a precise bug report worth reading.",
+      "explanation": "Read reviews for patterns, since repeated complaints about the same problem point to priorities. Crash reports from Firebase Crashlytics or Xcode Organizer can tell you what the angry reviewer could not.",
+      "citations": [
+        {
+          "title": "Firebase Crashlytics",
+          "url": "https://firebase.google.com/docs/crashlytics"
+        },
+        {
+          "title": "Ratings, reviews, and responses (Apple)",
+          "url": "https://developer.apple.com/app-store/ratings-and-reviews/"
+        }
+      ]
+    },
+    {
+      "id": "mobile-app-development-placate",
+      "word": "placate",
+      "partOfSpeech": "verb",
+      "definition": "pacify; conciliate",
+      "sentence": "A prompt, specific reply can placate an unhappy reviewer, and many users update their rating once the problem is fixed.",
+      "explanation": "Replies are visible to future users too, so keep them brief, polite and concrete: acknowledge the problem, say what changed, and point to support. Avoid pressuring anyone to change a review.",
+      "citations": [
+        {
+          "title": "Ratings, reviews, and responses (Apple)",
+          "url": "https://developer.apple.com/app-store/ratings-and-reviews/"
+        },
+        {
+          "title": "Ratings and reviews (Apple HIG)",
+          "url": "https://developer.apple.com/design/human-interface-guidelines/ratings-and-reviews"
+        }
+      ]
+    }
+  ]
+}

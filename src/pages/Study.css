@@ -1,0 +1,71 @@
+.study {
+  padding-top: var(--space-5);
+}
+
+.study__header {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: var(--space-4);
+  margin-bottom: var(--space-4);
+}
+
+.study__back {
+  font-size: var(--text-sm);
+  font-weight: 600;
+}
+
+.study__remaining {
+  color: var(--color-text-muted);
+  font-size: var(--text-sm);
+  font-variant-numeric: tabular-nums;
+}
+
+/* Keeps the answer buttons in reach when the back of a card is long. */
+.study__ratings {
+  position: sticky;
+  bottom: 0;
+  margin: var(--space-4) calc(-1 * var(--space-2)) 0;
+  padding: var(--space-3) var(--space-2) var(--space-4);
+  background: linear-gradient(to bottom, transparent, var(--color-bg) var(--space-3));
+}
+
+.study__shortcut-hint {
+  margin-top: var(--space-2);
+  color: var(--color-text-muted);
+  font-size: var(--text-xs);
+  text-align: center;
+}
+
+@media (hover: none) {
+  .study__shortcut-hint {
+    display: none;
+  }
+}
+
+.study__end {
+  padding: var(--space-7) var(--space-5);
+  border: 1px solid var(--color-border);
+  border-top: 4px solid var(--color-accent);
+  border-radius: var(--radius-lg);
+  background: var(--color-surface);
+  text-align: center;
+}
+
+.study__end-title {
+  font-size: var(--text-xl);
+}
+
+.study__end-text {
+  max-width: 32rem;
+  margin: var(--space-4) auto 0;
+  color: var(--color-text-muted);
+}
+
+.study__end-actions {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: var(--space-3);
+  margin-top: var(--space-6);
+}

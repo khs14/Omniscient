@@ -1,0 +1,540 @@
+{
+  "id": "intro-to-machine-learning",
+  "title": "Introduction to Machine Learning",
+  "category": "Computer Science",
+  "description": "Learn GRE words through regression, classification, kernel methods, neural networks, regularization, clustering and dimensionality reduction.",
+  "cards": [
+    {
+      "id": "intro-to-machine-learning-extrapolation",
+      "word": "extrapolation",
+      "partOfSpeech": "noun",
+      "definition": "projection; conjecture",
+      "sentence": "A line fit to homes of 50 to 200 square meters can give absurd prices for a 2,000-square-meter mansion, a case of extrapolation beyond the training data.",
+      "explanation": "Regression models are only trustworthy near the range of inputs they were trained on. Outside it, a model such as a high-degree polynomial can swing wildly, so check that new inputs resemble the training inputs.",
+      "citations": [
+        {
+          "title": "Linear regression (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Linear_regression"
+        }
+      ]
+    },
+    {
+      "id": "intro-to-machine-learning-impair",
+      "word": "impair",
+      "partOfSpeech": "verb",
+      "definition": "injure; hurt",
+      "sentence": "A few extreme outliers can impair a least-squares fit because squared error penalizes large residuals so heavily.",
+      "explanation": "Least squares minimizes the sum of squared residuals, so a point far from the line contributes a huge term and pulls the line toward it. Absolute or Huber loss weights outliers less.",
+      "citations": [
+        {
+          "title": "Ordinary least squares (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Ordinary_least_squares"
+        },
+        {
+          "title": "Huber loss (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Huber_loss"
+        }
+      ]
+    },
+    {
+      "id": "intro-to-machine-learning-inherent",
+      "word": "inherent",
+      "partOfSpeech": "adjective",
+      "definition": "firmly established by nature or habit",
+      "sentence": "Measurement noise is inherent in most real data, so even the best possible model cannot reach zero test error.",
+      "explanation": "This floor is called irreducible error. It is one term in the bias-variance decomposition: expected squared error equals bias squared plus variance plus irreducible noise.",
+      "citations": [
+        {
+          "title": "Bias-variance tradeoff (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Bias%E2%80%93variance_tradeoff"
+        }
+      ]
+    },
+    {
+      "id": "intro-to-machine-learning-empirical",
+      "word": "empirical",
+      "partOfSpeech": "adjective",
+      "definition": "based on experience",
+      "sentence": "Training chooses parameters by empirical risk minimization, which minimizes the average loss on the training set.",
+      "explanation": "The real goal is low expected loss on new data, which cannot be computed because the data distribution is unknown. The average loss on training examples stands in for it, which is why held-out data is needed to check the stand-in.",
+      "citations": [
+        {
+          "title": "Empirical risk minimization (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Empirical_risk_minimization"
+        }
+      ]
+    },
+    {
+      "id": "intro-to-machine-learning-tractable",
+      "word": "tractable",
+      "partOfSpeech": "adjective",
+      "definition": "docile; easily managed",
+      "sentence": "Squared error for linear regression is convex, which keeps the optimization tractable: any local minimum is the global minimum.",
+      "explanation": "For linear regression the minimizer even has a closed form, the normal equations w = (XᵀX)⁻¹Xᵀy when XᵀX is invertible. Neural-network losses are non-convex, so no such guarantee holds.",
+      "citations": [
+        {
+          "title": "Convex optimization (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Convex_optimization"
+        },
+        {
+          "title": "Ordinary least squares (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Ordinary_least_squares"
+        }
+      ]
+    },
+    {
+      "id": "intro-to-machine-learning-converge",
+      "word": "converge",
+      "partOfSpeech": "verb",
+      "definition": "approach; tend to meet; come together",
+      "sentence": "With a suitable learning rate, gradient descent converges toward a minimum of the loss.",
+      "explanation": "Each step moves the parameters against the gradient: w ← w − η∇L(w). In practice convergence is judged by watching the loss stop decreasing.",
+      "citations": [
+        {
+          "title": "Gradient descent (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Gradient_descent"
+        }
+      ]
+    },
+    {
+      "id": "intro-to-machine-learning-oscillate",
+      "word": "oscillate",
+      "partOfSpeech": "verb",
+      "definition": "vibrate; waver",
+      "sentence": "If the learning rate is too large, the loss can oscillate or even blow up instead of settling.",
+      "explanation": "Large steps overshoot the valley and bounce from side to side. For a quadratic loss, gradient descent diverges once the step size exceeds 2 divided by the largest curvature. Lowering η, using a schedule, or using an adaptive optimizer such as Adam helps.",
+      "citations": [
+        {
+          "title": "Gradient descent (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Gradient_descent"
+        },
+        {
+          "title": "Adam: A Method for Stochastic Optimization (arXiv)",
+          "url": "https://arxiv.org/abs/1412.6980"
+        }
+      ]
+    },
+    {
+      "id": "intro-to-machine-learning-dichotomy",
+      "word": "dichotomy",
+      "partOfSpeech": "noun",
+      "definition": "split; branching into two parts (especially contradictory ones)",
+      "sentence": "Binary classification forces a dichotomy: each input is assigned to one of exactly two classes.",
+      "explanation": "Logistic regression passes a linear score through the sigmoid σ(z) = 1 / (1 + e^(−z)) to get a probability, then thresholds it, often at 0.5. Multi-class problems use softmax or several binary classifiers.",
+      "citations": [
+        {
+          "title": "Logistic regression (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Logistic_regression"
+        }
+      ]
+    },
+    {
+      "id": "intro-to-machine-learning-discrete",
+      "word": "discrete",
+      "partOfSpeech": "adjective",
+      "definition": "separate; unconnected; consisting of distinct parts",
+      "sentence": "Classification predicts a discrete label such as spam or not spam, while regression predicts a continuous number.",
+      "explanation": "The difference drives the choice of loss: squared error for regression, cross-entropy for classification. The metrics differ too, such as accuracy and F1 for classifiers and mean squared error for regressors.",
+      "citations": [
+        {
+          "title": "Statistical classification (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Statistical_classification"
+        }
+      ]
+    },
+    {
+      "id": "intro-to-machine-learning-specious",
+      "word": "specious",
+      "partOfSpeech": "adjective",
+      "definition": "seemingly reasonable but incorrect; misleading (often intentionally)",
+      "sentence": "A model with 100% training accuracy but 70% test accuracy has only a specious success: it has memorized the data.",
+      "explanation": "This is overfitting. Training accuracy measures fit to data the model has already seen, so only held-out data estimates how well it generalizes.",
+      "citations": [
+        {
+          "title": "Overfitting (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Overfitting"
+        }
+      ]
+    },
+    {
+      "id": "intro-to-machine-learning-fallacious",
+      "word": "fallacious",
+      "partOfSpeech": "adjective",
+      "definition": "false; misleading",
+      "sentence": "Reporting accuracy on the training set as the model's performance is fallacious; a held-out test set is needed.",
+      "explanation": "A standard split uses training data to fit, validation data to tune, and test data touched once at the end. When data is scarce, cross-validation rotates the validation fold.",
+      "citations": [
+        {
+          "title": "Training, validation, and test data sets (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Training,_validation,_and_test_data_sets"
+        },
+        {
+          "title": "Cross-validation (scikit-learn)",
+          "url": "https://scikit-learn.org/stable/modules/cross_validation.html"
+        }
+      ]
+    },
+    {
+      "id": "intro-to-machine-learning-propensity",
+      "word": "propensity",
+      "partOfSpeech": "noun",
+      "definition": "natural inclination",
+      "sentence": "Highly flexible models, such as very deep decision trees, have a propensity to overfit noisy data.",
+      "explanation": "High-capacity models have low bias but high variance: small changes in the training set can change the learned function a lot. Limiting depth, adding regularization, or collecting more data reduces the effect.",
+      "citations": [
+        {
+          "title": "Bias-variance tradeoff (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Bias%E2%80%93variance_tradeoff"
+        }
+      ]
+    },
+    {
+      "id": "intro-to-machine-learning-implicit",
+      "word": "implicit",
+      "partOfSpeech": "adjective",
+      "definition": "understood but not stated",
+      "sentence": "The kernel trick works implicitly in a high-dimensional space: the feature map is never computed, only kernel values k(x, x').",
+      "explanation": "A kernel returns the inner product of two points after a mapping φ, which may be infinite-dimensional. Algorithms written in terms of inner products, such as SVMs, can then learn nonlinear boundaries at the cost of an n × n kernel matrix.",
+      "citations": [
+        {
+          "title": "Kernel method (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Kernel_method"
+        },
+        {
+          "title": "Support vector machine (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Support_vector_machine"
+        }
+      ]
+    },
+    {
+      "id": "intro-to-machine-learning-malleable",
+      "word": "malleable",
+      "partOfSpeech": "adjective",
+      "definition": "capable of being shaped by pounding; impressionable",
+      "sentence": "A Gaussian (RBF) kernel makes an SVM's decision boundary malleable, and the parameter γ controls how tightly it bends around the data.",
+      "explanation": "In k(x, x') = exp(−γ‖x − x'‖²), a large γ makes each training point's influence very local, so the boundary can wrap around individual points and overfit. A small γ gives a smoother, nearly linear boundary. The margin penalty C is tuned along with γ.",
+      "citations": [
+        {
+          "title": "Support vector machines (scikit-learn)",
+          "url": "https://scikit-learn.org/stable/modules/svm.html"
+        },
+        {
+          "title": "Radial basis function kernel (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Radial_basis_function_kernel"
+        }
+      ]
+    },
+    {
+      "id": "intro-to-machine-learning-precursor",
+      "word": "precursor",
+      "partOfSpeech": "noun",
+      "definition": "forerunner",
+      "sentence": "The perceptron, a single-unit linear classifier from the 1950s, was a precursor of modern neural networks.",
+      "explanation": "Rosenblatt's perceptron updates its weights when it misclassifies an example and can only separate linearly separable data. Stacking layers of units with nonlinear activations removes that limit.",
+      "citations": [
+        {
+          "title": "Perceptron (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Perceptron"
+        }
+      ]
+    },
+    {
+      "id": "intro-to-machine-learning-dormant",
+      "word": "dormant",
+      "partOfSpeech": "adjective",
+      "definition": "sleeping; lethargic; latent",
+      "sentence": "A ReLU unit whose input is always negative outputs zero with zero gradient, so it can stay dormant for the rest of training.",
+      "explanation": "ReLU(z) = max(0, z) has zero gradient for z < 0. This 'dying ReLU' problem is one reason for variants such as Leaky ReLU and for careful weight initialization.",
+      "citations": [
+        {
+          "title": "Rectifier (neural networks) (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Rectifier_(neural_networks)"
+        }
+      ]
+    },
+    {
+      "id": "intro-to-machine-learning-saturate",
+      "word": "saturate",
+      "partOfSpeech": "verb",
+      "definition": "soak thoroughly; by extension, reach a limit where more input changes nothing",
+      "sentence": "Sigmoid and tanh units saturate for large inputs, where their outputs flatten and their gradients approach zero.",
+      "explanation": "When a unit saturates, the error signal passed back through it nearly vanishes and learning stalls. Normalized inputs, better initialization, and ReLU-type activations reduce the problem.",
+      "citations": [
+        {
+          "title": "Activation function (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Activation_function"
+        }
+      ]
+    },
+    {
+      "id": "intro-to-machine-learning-attenuate",
+      "word": "attenuate",
+      "partOfSpeech": "verb",
+      "definition": "make thinner",
+      "sentence": "In a deep network of sigmoid layers, gradients attenuate as they are multiplied layer by layer on the way back.",
+      "explanation": "Backpropagation applies the chain rule, multiplying many local derivatives. If each factor is below 1, the product shrinks exponentially, the vanishing-gradient problem. Residual connections and batch normalization help.",
+      "citations": [
+        {
+          "title": "Vanishing gradient problem (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Vanishing_gradient_problem"
+        },
+        {
+          "title": "Batch Normalization (arXiv)",
+          "url": "https://arxiv.org/abs/1502.03167"
+        }
+      ]
+    },
+    {
+      "id": "intro-to-machine-learning-catalyst",
+      "word": "catalyst",
+      "partOfSpeech": "noun",
+      "definition": "agent that increases the pace of a chemical action; by extension, anything that speeds change",
+      "sentence": "Backpropagation, together with fast GPUs and large datasets, was a catalyst for the deep-learning boom.",
+      "explanation": "Backpropagation computes the gradient of the loss with respect to every weight at a cost comparable to one forward pass. GPUs make the matrix multiplications behind both passes fast.",
+      "citations": [
+        {
+          "title": "Backpropagation (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Backpropagation"
+        }
+      ]
+    },
+    {
+      "id": "intro-to-machine-learning-mitigate",
+      "word": "mitigate",
+      "partOfSpeech": "verb",
+      "definition": "appease; moderate",
+      "sentence": "L2 regularization mitigates overfitting by shrinking the weights toward zero.",
+      "explanation": "Ridge regression minimizes loss + λ‖w‖². A larger λ gives smaller weights and a smoother function, which means more bias and less variance. λ is usually chosen by validation.",
+      "citations": [
+        {
+          "title": "Regularization (mathematics) (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Regularization_(mathematics)"
+        },
+        {
+          "title": "Linear models (scikit-learn)",
+          "url": "https://scikit-learn.org/stable/modules/linear_model.html"
+        }
+      ]
+    },
+    {
+      "id": "intro-to-machine-learning-austere",
+      "word": "austere",
+      "partOfSpeech": "adjective",
+      "definition": "forbiddingly stern; severely simple and unornamented",
+      "sentence": "L1 regularization yields austere models, because many weights are driven to exactly zero.",
+      "explanation": "The lasso penalty λ‖w‖₁ has corners at zero, so it performs feature selection. L2 shrinks weights but rarely makes them exactly zero.",
+      "citations": [
+        {
+          "title": "Lasso (statistics) (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Lasso_(statistics)"
+        }
+      ]
+    },
+    {
+      "id": "intro-to-machine-learning-incorporate",
+      "word": "incorporate",
+      "partOfSpeech": "verb",
+      "definition": "introduce something into a larger whole; combine; unite",
+      "sentence": "Regularization incorporates a preference for simple models directly into the objective function.",
+      "explanation": "From a Bayesian view, an L2 penalty corresponds to a Gaussian prior on the weights and an L1 penalty to a Laplace prior. The penalized solution is then the maximum a posteriori (MAP) estimate.",
+      "citations": [
+        {
+          "title": "Regularization (mathematics) (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Regularization_(mathematics)"
+        }
+      ]
+    },
+    {
+      "id": "intro-to-machine-learning-bolster",
+      "word": "bolster",
+      "partOfSpeech": "verb",
+      "definition": "support; reinforce",
+      "sentence": "Collecting more training data bolsters generalization, and so does stopping training early.",
+      "explanation": "Early stopping halts training when validation loss stops improving. Dropout, which randomly zeroes units during training, is another widely used regularizer for neural networks.",
+      "citations": [
+        {
+          "title": "Dropout: A Simple Way to Prevent Neural Networks from Overfitting (JMLR)",
+          "url": "https://jmlr.org/papers/v15/srivastava14a.html"
+        }
+      ]
+    },
+    {
+      "id": "intro-to-machine-learning-substantiate",
+      "word": "substantiate",
+      "partOfSpeech": "verb",
+      "definition": "establish by evidence; verify; support",
+      "sentence": "Use k-fold cross-validation to substantiate that the model's accuracy is not an accident of one lucky split.",
+      "explanation": "The data is divided into k folds. The model trains on k − 1 of them and validates on the remaining one, rotating k times, and the scores are averaged. The same procedure is used to choose hyperparameters such as λ.",
+      "citations": [
+        {
+          "title": "Cross-validation (statistics) (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Cross-validation_(statistics)"
+        },
+        {
+          "title": "Cross-validation (scikit-learn)",
+          "url": "https://scikit-learn.org/stable/modules/cross_validation.html"
+        }
+      ]
+    },
+    {
+      "id": "intro-to-machine-learning-homogeneous",
+      "word": "homogeneous",
+      "partOfSpeech": "adjective",
+      "definition": "of the same kind",
+      "sentence": "k-means seeks clusters that are compact and homogeneous, with every point close to its cluster's centroid.",
+      "explanation": "It alternates between assigning each point to its nearest centroid and recomputing each centroid as the mean of its points, which lowers the within-cluster sum of squares. It always terminates but may reach a local optimum, so it is run from several starting points, often with k-means++ initialization.",
+      "citations": [
+        {
+          "title": "k-means clustering (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/K-means_clustering"
+        },
+        {
+          "title": "Clustering (scikit-learn)",
+          "url": "https://scikit-learn.org/stable/modules/clustering.html"
+        }
+      ]
+    },
+    {
+      "id": "intro-to-machine-learning-ambiguous",
+      "word": "ambiguous",
+      "partOfSpeech": "adjective",
+      "definition": "unclear or doubtful in meaning",
+      "sentence": "The right number of clusters k is often ambiguous, since the same data may support three groups or five depending on scale.",
+      "explanation": "Heuristics such as the elbow method and the silhouette score help, but no single answer is correct because clustering has no labels to check against.",
+      "citations": [
+        {
+          "title": "Determining the number of clusters in a data set (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Determining_the_number_of_clusters_in_a_data_set"
+        }
+      ]
+    },
+    {
+      "id": "intro-to-machine-learning-latent",
+      "word": "latent",
+      "partOfSpeech": "adjective",
+      "definition": "potential but undeveloped; dormant; hidden",
+      "sentence": "In a Gaussian mixture model, each point's cluster membership is a latent variable that is never observed.",
+      "explanation": "The expectation-maximization (EM) algorithm alternates between estimating each point's probable cluster (E-step) and refitting the parameters (M-step). Each round does not decrease the likelihood.",
+      "citations": [
+        {
+          "title": "Expectation-maximization algorithm (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Expectation%E2%80%93maximization_algorithm"
+        },
+        {
+          "title": "Mixture model (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Mixture_model"
+        }
+      ]
+    },
+    {
+      "id": "intro-to-machine-learning-amalgamate",
+      "word": "amalgamate",
+      "partOfSpeech": "verb",
+      "definition": "combine; unite in one body",
+      "sentence": "A mixture model can amalgamate several simple Gaussians into one flexible density estimate.",
+      "explanation": "Density estimation learns p(x) from samples. A mixture p(x) = Σ πₖ N(x | μₖ, Σₖ) can represent data with several peaks, which a single Gaussian cannot.",
+      "citations": [
+        {
+          "title": "Density estimation (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Density_estimation"
+        },
+        {
+          "title": "Mixture model (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Mixture_model"
+        }
+      ]
+    },
+    {
+      "id": "intro-to-machine-learning-anomalous",
+      "word": "anomalous",
+      "partOfSpeech": "adjective",
+      "definition": "abnormal; irregular",
+      "sentence": "Once p(x) is estimated, points with very low density can be flagged as anomalous.",
+      "explanation": "This is a common use of density estimation, for example in fraud or fault detection. The density threshold is chosen using validation examples when some labeled anomalies are available.",
+      "citations": [
+        {
+          "title": "Anomaly detection (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Anomaly_detection"
+        }
+      ]
+    },
+    {
+      "id": "intro-to-machine-learning-paucity",
+      "word": "paucity",
+      "partOfSpeech": "noun",
+      "definition": "scarcity",
+      "sentence": "A paucity of samples in high dimensions makes density estimates unreliable, a symptom of the curse of dimensionality.",
+      "explanation": "As the number of dimensions grows, volume grows exponentially, so a fixed number of samples becomes sparse and distances between points become less informative. Kernel density estimation needs far more data in ten dimensions than in one.",
+      "citations": [
+        {
+          "title": "Curse of dimensionality (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Curse_of_dimensionality"
+        },
+        {
+          "title": "Kernel density estimation (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Kernel_density_estimation"
+        }
+      ]
+    },
+    {
+      "id": "intro-to-machine-learning-distill",
+      "word": "distill",
+      "partOfSpeech": "verb",
+      "definition": "purify; refine; concentrate",
+      "sentence": "Principal component analysis distills many correlated features into a few directions that capture the most variance.",
+      "explanation": "PCA finds orthogonal directions, the eigenvectors of the covariance matrix (equivalently the singular vectors from an SVD), ordered by variance explained. Keeping the top k reduces dimension for visualization or preprocessing.",
+      "citations": [
+        {
+          "title": "Principal component analysis (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Principal_component_analysis"
+        },
+        {
+          "title": "Decomposing signals into components (scikit-learn)",
+          "url": "https://scikit-learn.org/stable/modules/decomposition.html"
+        }
+      ]
+    },
+    {
+      "id": "intro-to-machine-learning-disparate",
+      "word": "disparate",
+      "partOfSpeech": "adjective",
+      "definition": "basically different; unrelated",
+      "sentence": "Features measured on disparate scales, such as age in years and income in dollars, should be standardized before running PCA or k-means.",
+      "explanation": "Both methods rely on variances or distances, so a feature with a large numeric range dominates. Standardizing each feature to zero mean and unit variance puts them on equal footing.",
+      "citations": [
+        {
+          "title": "Feature scaling (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Feature_scaling"
+        }
+      ]
+    },
+    {
+      "id": "intro-to-machine-learning-facilitate",
+      "word": "facilitate",
+      "partOfSpeech": "verb",
+      "definition": "help bring about; make less difficult",
+      "sentence": "Vectorized matrix operations in NumPy facilitate fast implementations by replacing slow Python loops.",
+      "explanation": "Writing predictions as X @ w computes them for every example in optimized compiled code. The same idea lets GPUs speed up neural network training.",
+      "citations": [
+        {
+          "title": "What is NumPy? (NumPy docs)",
+          "url": "https://numpy.org/doc/stable/user/whatisnumpy.html"
+        }
+      ]
+    },
+    {
+      "id": "intro-to-machine-learning-perfunctory",
+      "word": "perfunctory",
+      "partOfSpeech": "adjective",
+      "definition": "superficial; not thorough; lacking interest, care, or enthusiasm",
+      "sentence": "A perfunctory evaluation that scales the whole dataset before splitting lets test-set information leak into training.",
+      "explanation": "Fit scalers and other transformers on the training split only, then apply them to validation and test data. scikit-learn Pipelines enforce this inside cross-validation.",
+      "citations": [
+        {
+          "title": "Common pitfalls and recommended practices (scikit-learn)",
+          "url": "https://scikit-learn.org/stable/common_pitfalls.html"
+        }
+      ]
+    }
+  ]
+}

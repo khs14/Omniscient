@@ -1,0 +1,102 @@
+.flashcard {
+  perspective: 1600px;
+}
+
+/* Both faces share one grid cell, so the card is as tall as its longer side. */
+.flashcard__inner {
+  display: grid;
+  transform-style: preserve-3d;
+  transition: transform var(--duration-flip) var(--ease-out);
+}
+
+.flashcard--flipped .flashcard__inner {
+  transform: rotateY(180deg);
+}
+
+.flashcard__face {
+  grid-area: 1 / 1;
+  min-height: 22rem;
+  padding: var(--space-6) var(--space-5);
+  border: 1px solid var(--color-border);
+  border-top: 4px solid var(--color-accent);
+  border-radius: var(--radius-lg);
+  background: var(--color-surface);
+  box-shadow: var(--shadow-card);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flashcard__front {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-2);
+  text-align: center;
+}
+
+.flashcard__back {
+  transform: rotateY(180deg);
+}
+
+.flashcard__word {
+  font-family: var(--font-serif);
+  font-size: var(--text-headword);
+  font-weight: 600;
+  letter-spacing: -0.015em;
+  overflow-wrap: anywhere;
+}
+
+.flashcard__pos {
+  color: var(--color-text-muted);
+  font-family: var(--font-serif);
+  font-style: italic;
+}
+
+.flashcard__reveal {
+  margin-top: var(--space-6);
+  min-width: 11rem;
+}
+
+.flashcard__hint {
+  color: var(--color-text-muted);
+  font-size: var(--text-sm);
+}
+
+.flashcard__back-header {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: var(--space-1) var(--space-3);
+  margin-bottom: var(--space-5);
+  padding-bottom: var(--space-4);
+  border-bottom: 1px solid var(--color-border);
+}
+
+.flashcard__back-word {
+  font-family: var(--font-serif);
+  font-size: var(--text-xl);
+  font-weight: 600;
+  overflow-wrap: anywhere;
+}
+
+/* Touch-only devices usually have no keyboard, so skip the shortcut hint. */
+@media (hover: none) {
+  .flashcard__hint {
+    display: none;
+  }
+}
+
+@media (max-width: 480px) {
+  .flashcard__face {
+    min-height: 18rem;
+    padding: var(--space-5) var(--space-4);
+  }
+}
+
+/* No rotation for people who prefer reduced motion: the sides simply swap. */
+@media (prefers-reduced-motion: reduce) {
+  .flashcard__inner {
+    transition: none;
+  }
+}

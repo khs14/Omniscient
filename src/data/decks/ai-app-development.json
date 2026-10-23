@@ -1,0 +1,560 @@
+{
+  "id": "ai-app-development",
+  "title": "AI App Development",
+  "category": "Computer Science",
+  "description": "Learn GRE words through building AI products: prompts, retrieval, evaluation, safety, costs, pricing and growth for startups.",
+  "cards": [
+    {
+      "id": "ai-app-development-fervor",
+      "word": "fervor",
+      "partOfSpeech": "noun",
+      "definition": "glowing ardor; intensity of feeling",
+      "sentence": "Investor fervor for AI tempts founders to add a model to a product that has no problem needing one.",
+      "explanation": "Start from a customer problem and check whether a simpler, non-AI solution, such as rules, search or a form, solves it. AI is worth its added cost, latency and unpredictability only where it clearly beats the alternative.",
+      "citations": [
+        {
+          "title": "Rules of Machine Learning (Google)",
+          "url": "https://developers.google.com/machine-learning/guides/rules-of-ml"
+        },
+        {
+          "title": "Lean startup (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Lean_startup"
+        }
+      ]
+    },
+    {
+      "id": "ai-app-development-ostentatious",
+      "word": "ostentatious",
+      "partOfSpeech": "adjective",
+      "definition": "showy; pretentious; trying to attract attention",
+      "sentence": "An ostentatious demo that works on three hand-picked examples says little about how the product will behave on real user input.",
+      "explanation": "Demos hide the long tail of typos, ambiguous requests, adversarial inputs and rare cases. Before launch, collect real or realistic inputs and measure how often the feature succeeds.",
+      "citations": [
+        {
+          "title": "Your AI Product Needs Evals (Hamel Husain)",
+          "url": "https://hamel.dev/blog/posts/evals/"
+        },
+        {
+          "title": "Prompt engineering overview (Claude docs)",
+          "url": "https://docs.claude.com/en/docs/build-with-claude/prompt-engineering/overview"
+        }
+      ]
+    },
+    {
+      "id": "ai-app-development-resolve",
+      "word": "resolve",
+      "partOfSpeech": "noun",
+      "definition": "determination; firmness of purpose",
+      "sentence": "It takes resolve to cut an impressive AI feature when the evals show that users do not benefit from it.",
+      "explanation": "Track a metric tied to user value, such as task completion, time saved or retention, instead of model sophistication. A feature that shines in a demo but does not move that metric should be fixed or removed.",
+      "citations": [
+        {
+          "title": "Rules of Machine Learning (Google)",
+          "url": "https://developers.google.com/machine-learning/guides/rules-of-ml"
+        },
+        {
+          "title": "Lean startup (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Lean_startup"
+        }
+      ]
+    },
+    {
+      "id": "ai-app-development-tenuous",
+      "word": "tenuous",
+      "partOfSpeech": "adjective",
+      "definition": "thin; rare; slim",
+      "sentence": "A product that only wraps a model API has a tenuous moat, because a competitor can copy it in a weekend.",
+      "explanation": "Durable advantages usually come from proprietary or user-generated data, deep workflow integration, distribution, trust and switching costs. As foundation models improve, features they add natively can erase thin wrappers.",
+      "citations": [
+        {
+          "title": "Economic moat (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Economic_moat"
+        },
+        {
+          "title": "Network effect (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Network_effect"
+        }
+      ]
+    },
+    {
+      "id": "ai-app-development-implode",
+      "word": "implode",
+      "partOfSpeech": "verb",
+      "definition": "burst inward",
+      "sentence": "A startup built on a single model provider can implode when that provider raises prices, changes its terms, or ships the same feature itself.",
+      "explanation": "Reduce platform risk by putting the model behind an abstraction layer, keeping prompts and evals portable, and testing a second provider or an open-weight model as a fallback. Read each provider's terms on data use and on competing products.",
+      "citations": [
+        {
+          "title": "Vendor lock-in (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Vendor_lock-in"
+        },
+        {
+          "title": "LiteLLM documentation",
+          "url": "https://docs.litellm.ai/"
+        }
+      ]
+    },
+    {
+      "id": "ai-app-development-eulogy",
+      "word": "eulogy",
+      "partOfSpeech": "noun",
+      "definition": "expression of praise, often on the occasion of someone's death",
+      "sentence": "Each model deprecation notice is a small eulogy for the prompts tuned to that model, so pin versions and keep evals ready to re-test the replacement.",
+      "explanation": "Providers retire older model versions on published schedules. A dated model identifier avoids silent behavior changes, and a saved test set lets you compare a new model on your own tasks before you switch.",
+      "citations": [
+        {
+          "title": "Deprecations (OpenAI docs)",
+          "url": "https://platform.openai.com/docs/deprecations"
+        },
+        {
+          "title": "Models overview (Claude docs)",
+          "url": "https://docs.claude.com/en/docs/about-claude/models"
+        }
+      ]
+    },
+    {
+      "id": "ai-app-development-harangue",
+      "word": "harangue",
+      "partOfSpeech": "verb",
+      "definition": "long, passionate, and vehement speech",
+      "sentence": "A prompt that harangues the model with pages of rules can bury the few instructions that matter.",
+      "explanation": "Put the task, the audience and the output format first, add a few well-chosen examples, and add a rule only after you have seen the failure it prevents. Test each change against your eval set instead of trusting intuition.",
+      "citations": [
+        {
+          "title": "Prompt engineering overview (Claude docs)",
+          "url": "https://docs.claude.com/en/docs/build-with-claude/prompt-engineering/overview"
+        },
+        {
+          "title": "Prompt engineering (OpenAI docs)",
+          "url": "https://platform.openai.com/docs/guides/prompt-engineering"
+        }
+      ]
+    },
+    {
+      "id": "ai-app-development-grandiloquent",
+      "word": "grandiloquent",
+      "partOfSpeech": "adjective",
+      "definition": "pompous; bombastic; using high-sounding language",
+      "sentence": "Grandiloquent claims such as 'revolutionary AI' draw regulators' attention, and the FTC has acted against companies that overstated what their AI could do.",
+      "explanation": "Marketing claims must be truthful and backed by evidence whether or not the product uses AI. In 2024 the FTC announced Operation AI Comply, a set of actions against deceptive AI claims. Describe specific capabilities and their limits.",
+      "citations": [
+        {
+          "title": "Keep your AI claims in check (FTC)",
+          "url": "https://www.ftc.gov/business-guidance/blog/2023/02/keep-your-ai-claims-check"
+        }
+      ]
+    },
+    {
+      "id": "ai-app-development-effrontery",
+      "word": "effrontery",
+      "partOfSpeech": "noun",
+      "definition": "impudence; shameless boldness; sheer nerve; presumptuousness",
+      "sentence": "A language model can state a false fact with effrontery: fluent, confident and wrong.",
+      "explanation": "Models generate likely text, not verified facts, so they can invent citations, numbers and quotes. Ground answers in retrieved sources, ask for quotes or citations you can check, and show users where an answer came from.",
+      "citations": [
+        {
+          "title": "Survey of Hallucination in Natural Language Generation (arXiv)",
+          "url": "https://arxiv.org/abs/2202.03629"
+        }
+      ]
+    },
+    {
+      "id": "ai-app-development-subpoena",
+      "word": "subpoena",
+      "partOfSpeech": "noun",
+      "definition": "writ summoning a witness to appear",
+      "sentence": "Retrieval acts like a subpoena: it summons the relevant documents to appear before the model answers.",
+      "explanation": "In retrieval-augmented generation, the question is embedded, similar chunks are fetched from a vector index, and they are added to the prompt. Chunking, hybrid keyword-plus-vector search and reranking often matter as much as the choice of model.",
+      "citations": [
+        {
+          "title": "Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks (arXiv)",
+          "url": "https://arxiv.org/abs/2005.11401"
+        },
+        {
+          "title": "pgvector (GitHub)",
+          "url": "https://github.com/pgvector/pgvector"
+        }
+      ]
+    },
+    {
+      "id": "ai-app-development-perfunctory",
+      "word": "perfunctory",
+      "partOfSpeech": "adjective",
+      "definition": "superficial; not thorough; lacking interest, care, or enthusiasm",
+      "sentence": "A perfunctory evaluation that tries five prompts and calls it good will miss the failures that real users find.",
+      "explanation": "Build an eval set of real or realistic inputs with expected behavior, run it after every change to prompts or models, and add each production failure as a new test. LLM-as-judge grading scales well but should be spot-checked against human labels.",
+      "citations": [
+        {
+          "title": "Your AI Product Needs Evals (Hamel Husain)",
+          "url": "https://hamel.dev/blog/posts/evals/"
+        },
+        {
+          "title": "Judging LLM-as-a-Judge with MT-Bench and Chatbot Arena (arXiv)",
+          "url": "https://arxiv.org/abs/2306.05685"
+        }
+      ]
+    },
+    {
+      "id": "ai-app-development-gullible",
+      "word": "gullible",
+      "partOfSpeech": "adjective",
+      "definition": "easily deceived",
+      "sentence": "An LLM is gullible: it may follow instructions hidden in a web page or email that it was only supposed to summarize.",
+      "explanation": "This is prompt injection. Treat model output and all retrieved content as untrusted, limit which tools the model can call, require human approval for sensitive actions, and never put secrets in prompts.",
+      "citations": [
+        {
+          "title": "OWASP Top 10 for LLM Applications",
+          "url": "https://owasp.org/www-project-top-10-for-large-language-model-applications/"
+        },
+        {
+          "title": "Prompt injection series (Simon Willison)",
+          "url": "https://simonwillison.net/series/prompt-injection/"
+        }
+      ]
+    },
+    {
+      "id": "ai-app-development-wary",
+      "word": "wary",
+      "partOfSpeech": "adjective",
+      "definition": "very cautious",
+      "sentence": "Be wary of giving an agent write access: a model that can send emails, run code or spend money can do real damage if it misreads a task.",
+      "explanation": "Start with read-only tools, add budget and step limits, log every action, and require confirmation for irreversible steps. Agents work best on narrow tasks with clear ways to check success.",
+      "citations": [
+        {
+          "title": "Building effective agents (Anthropic)",
+          "url": "https://www.anthropic.com/engineering/building-effective-agents"
+        },
+        {
+          "title": "OWASP Top 10 for LLM Applications",
+          "url": "https://owasp.org/www-project-top-10-for-large-language-model-applications/"
+        }
+      ]
+    },
+    {
+      "id": "ai-app-development-boorish",
+      "word": "boorish",
+      "partOfSpeech": "adjective",
+      "definition": "rude; insensitive",
+      "sentence": "An unguarded chatbot can turn boorish when users bait it, so add moderation and tone guidelines before launch.",
+      "explanation": "Public bots have been manipulated into rude or offensive output, as with Microsoft's Tay in 2016. Use a system prompt that sets tone and limits, filter inputs and outputs, and test with adversarial users, a practice called red-teaming.",
+      "citations": [
+        {
+          "title": "Tay (chatbot) (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Tay_(chatbot)"
+        },
+        {
+          "title": "Moderation (OpenAI docs)",
+          "url": "https://platform.openai.com/docs/guides/moderation"
+        }
+      ]
+    },
+    {
+      "id": "ai-app-development-invective",
+      "word": "invective",
+      "partOfSpeech": "noun",
+      "definition": "abuse",
+      "sentence": "Some users will send invective, so run inputs through a moderation filter and decide in advance how the product responds.",
+      "explanation": "Moderation endpoints classify text into categories such as hate, harassment and self-harm. Decide whether to block, warn or route to a human, and for self-harm content provide crisis resources instead of a bare refusal.",
+      "citations": [
+        {
+          "title": "Moderation (OpenAI docs)",
+          "url": "https://platform.openai.com/docs/guides/moderation"
+        },
+        {
+          "title": "Content moderation (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Content_moderation"
+        }
+      ]
+    },
+    {
+      "id": "ai-app-development-craven",
+      "word": "craven",
+      "partOfSpeech": "adjective",
+      "definition": "cowardly",
+      "sentence": "A craven model refuses harmless requests out of excess caution, which frustrates users as much as unsafe answers do.",
+      "explanation": "Over-refusal comes from safety settings or prompts that are too broad. Measure the refusal rate on benign inputs alongside tests on harmful ones, and tune the prompt, model choice or filter thresholds. XSTest is one benchmark for exaggerated safety behavior.",
+      "citations": [
+        {
+          "title": "XSTest (arXiv)",
+          "url": "https://arxiv.org/abs/2308.01263"
+        }
+      ]
+    },
+    {
+      "id": "ai-app-development-fawning",
+      "word": "fawning",
+      "partOfSpeech": "adjective",
+      "definition": "trying to please by behaving obsequiously, flattering, or cringing",
+      "sentence": "A fawning writing assistant that praises every draft gives feedback no one can use.",
+      "explanation": "Models tuned on human preferences can lean toward agreeing with users, a tendency called sycophancy. For feedback features, ask for specific criteria, ask the model to find problems, and test with deliberately flawed inputs to see whether it notices.",
+      "citations": [
+        {
+          "title": "Towards Understanding Sycophancy in Language Models (arXiv)",
+          "url": "https://arxiv.org/abs/2310.13548"
+        }
+      ]
+    },
+    {
+      "id": "ai-app-development-reverent",
+      "word": "reverent",
+      "partOfSpeech": "adjective",
+      "definition": "respectful; worshipful",
+      "sentence": "Users can be reverent toward AI output and accept it without checking, a tendency known as automation bias.",
+      "explanation": "People over-trust automated suggestions, especially when an interface looks authoritative. Design for verification: show sources, express uncertainty, make edits easy, and keep a human reviewer for high-stakes decisions.",
+      "citations": [
+        {
+          "title": "Automation bias (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Automation_bias"
+        },
+        {
+          "title": "People + AI Guidebook (Google)",
+          "url": "https://pair.withgoogle.com/guidebook/"
+        }
+      ]
+    },
+    {
+      "id": "ai-app-development-facetious",
+      "word": "facetious",
+      "partOfSpeech": "adjective",
+      "definition": "joking (often inappropriately); humorous",
+      "sentence": "A facetious tone suits a party game but not a banking assistant, so set the persona in the system prompt to match the product.",
+      "explanation": "A system prompt defines the role, tone and limits for every conversation. Test the persona on emotionally charged inputs, such as a user whose card was stolen, and write it down so that later updates keep it consistent.",
+      "citations": [
+        {
+          "title": "Prompt engineering overview (Claude docs)",
+          "url": "https://docs.claude.com/en/docs/build-with-claude/prompt-engineering/overview"
+        },
+        {
+          "title": "Prompt engineering (OpenAI docs)",
+          "url": "https://platform.openai.com/docs/guides/prompt-engineering"
+        }
+      ]
+    },
+    {
+      "id": "ai-app-development-lassitude",
+      "word": "lassitude",
+      "partOfSpeech": "noun",
+      "definition": "languor; weariness",
+      "sentence": "Streaming tokens as they are generated spares users the lassitude of staring at a spinner for ten seconds.",
+      "explanation": "Time to first token matters more to perceived speed than total time. Use streaming responses, show progress during tool calls, choose smaller models for simple steps, and cache repeated prompts.",
+      "citations": [
+        {
+          "title": "Streaming (Claude docs)",
+          "url": "https://docs.claude.com/en/docs/build-with-claude/streaming"
+        },
+        {
+          "title": "Streaming responses (OpenAI docs)",
+          "url": "https://platform.openai.com/docs/guides/streaming-responses"
+        }
+      ]
+    },
+    {
+      "id": "ai-app-development-appease",
+      "word": "appease",
+      "partOfSpeech": "verb",
+      "definition": "pacify or soothe; relieve",
+      "sentence": "A cached or simpler fallback answer can appease users when the model API times out.",
+      "explanation": "Model APIs have rate limits and outages. Use timeouts, retries with exponential backoff and jitter, a fallback model or canned response, and a clear error message, so that one slow call does not break the whole app.",
+      "citations": [
+        {
+          "title": "Exponential backoff (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Exponential_backoff"
+        },
+        {
+          "title": "Timeouts, retries and backoff with jitter (AWS Builders' Library)",
+          "url": "https://aws.amazon.com/builders-library/timeouts-retries-and-backoff-with-jitter/"
+        }
+      ]
+    },
+    {
+      "id": "ai-app-development-prodigal",
+      "word": "prodigal",
+      "partOfSpeech": "adjective",
+      "definition": "wasteful; reckless with money",
+      "sentence": "Resending the full chat history and a long system prompt on every turn is prodigal with tokens.",
+      "explanation": "API pricing is per token, and input tokens add up in long conversations. Prompt caching, summarizing old turns, shorter prompts and smaller models for easy tasks can cut costs substantially, so estimate the cost per user action before setting a price.",
+      "citations": [
+        {
+          "title": "Prompt caching (Claude docs)",
+          "url": "https://docs.claude.com/en/docs/build-with-claude/prompt-caching"
+        },
+        {
+          "title": "Pricing (Anthropic)",
+          "url": "https://www.anthropic.com/pricing"
+        }
+      ]
+    },
+    {
+      "id": "ai-app-development-distill",
+      "word": "distill",
+      "partOfSpeech": "verb",
+      "definition": "purify; refine; concentrate",
+      "sentence": "Distilling a large model's outputs into a smaller one can cut cost and latency for a narrow task.",
+      "explanation": "Knowledge distillation trains a small 'student' model to imitate a stronger 'teacher', as in Hinton et al. (2015). Check the provider's terms first, since some forbid using their model's outputs to train competing models.",
+      "citations": [
+        {
+          "title": "Distilling the Knowledge in a Neural Network (arXiv)",
+          "url": "https://arxiv.org/abs/1503.02531"
+        },
+        {
+          "title": "Knowledge distillation (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Knowledge_distillation"
+        }
+      ]
+    },
+    {
+      "id": "ai-app-development-desiccate",
+      "word": "desiccate",
+      "partOfSpeech": "verb",
+      "definition": "dry up",
+      "sentence": "Rising inference bills can desiccate a startup's runway before it finds a price users will pay.",
+      "explanation": "Runway is cash divided by monthly net burn. Unlike classic software, each AI request has a real marginal cost, so gross margin depends on usage. Track cost per active user and set limits on free tiers.",
+      "citations": [
+        {
+          "title": "Burn rate (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Burn_rate"
+        },
+        {
+          "title": "Gross margin (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Gross_margin"
+        }
+      ]
+    },
+    {
+      "id": "ai-app-development-diffidence",
+      "word": "diffidence",
+      "partOfSpeech": "noun",
+      "definition": "shyness",
+      "sentence": "Diffidence about charging leads founders to underprice, and a low price can signal low value.",
+      "explanation": "Test prices early: ask for payment in the first pilots, try tiered plans, and compare usage-based with per-seat pricing. Because AI usage has a cost, usage-based or credit pricing can protect margins on heavy users.",
+      "citations": [
+        {
+          "title": "Value-based pricing (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Value-based_pricing"
+        }
+      ]
+    },
+    {
+      "id": "ai-app-development-commensurate",
+      "word": "commensurate",
+      "partOfSpeech": "adjective",
+      "definition": "corresponding in extent, degree, etc.; proportionate",
+      "sentence": "Price should be commensurate with the value delivered, such as hours saved, not with the model's token cost.",
+      "explanation": "Value-based pricing charges according to the benefit to the customer. Use token cost as a floor for margin, and compare your price with what the task cost before, such as an analyst's hour or a missed lead.",
+      "citations": [
+        {
+          "title": "Value-based pricing (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Value-based_pricing"
+        },
+        {
+          "title": "Customer lifetime value (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Customer_lifetime_value"
+        }
+      ]
+    },
+    {
+      "id": "ai-app-development-derivative",
+      "word": "derivative",
+      "partOfSpeech": "adjective",
+      "definition": "unoriginal; obtained from another source",
+      "sentence": "Output that is a derivative of copyrighted work raises legal questions, and in the US purely machine-generated material is generally not copyrightable.",
+      "explanation": "A derivative work is based on an existing copyrighted work. The US Copyright Office has said that protection requires human authorship, so purely AI-generated output is not protected, though human selection and arrangement can be. Lawsuits over training data are unresolved, so check licenses and get legal advice for your product.",
+      "citations": [
+        {
+          "title": "Copyright and Artificial Intelligence (US Copyright Office)",
+          "url": "https://www.copyright.gov/ai/"
+        },
+        {
+          "title": "Derivative work (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Derivative_work"
+        }
+      ]
+    },
+    {
+      "id": "ai-app-development-savor",
+      "word": "savor",
+      "partOfSpeech": "verb",
+      "definition": "enjoy; have a distinctive flavor, smell, or quality",
+      "sentence": "AI-generated text can savor of stock phrases and an even, bland tone, which readers learn to spot.",
+      "explanation": "Unedited default output often sounds generic. Give the model examples of your brand voice, set constraints on length and style, and keep a human editor for anything customer-facing.",
+      "citations": [
+        {
+          "title": "Prompt engineering overview (Claude docs)",
+          "url": "https://docs.claude.com/en/docs/build-with-claude/prompt-engineering/overview"
+        },
+        {
+          "title": "Prompt engineering (OpenAI docs)",
+          "url": "https://platform.openai.com/docs/guides/prompt-engineering"
+        }
+      ]
+    },
+    {
+      "id": "ai-app-development-antipathy",
+      "word": "antipathy",
+      "partOfSpeech": "noun",
+      "definition": "aversion; dislike",
+      "sentence": "Some customers feel antipathy toward AI-generated content, so say clearly when AI is used and offer a way to reach a person.",
+      "explanation": "The EU AI Act requires that people be told when they interact with an AI system, with limited exceptions. Disclosure also builds trust, and an easy path to a human helps when the AI fails.",
+      "citations": [
+        {
+          "title": "Article 50: Transparency obligations (EU AI Act)",
+          "url": "https://artificialintelligenceact.eu/article/50/"
+        },
+        {
+          "title": "Regulatory framework for AI (European Commission)",
+          "url": "https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai"
+        }
+      ]
+    },
+    {
+      "id": "ai-app-development-irascible",
+      "word": "irascible",
+      "partOfSpeech": "adjective",
+      "definition": "irritable; easily angered",
+      "sentence": "Route irascible customers, who are already angry and repeating themselves, to a human agent.",
+      "explanation": "Detect repeated rephrasing, strongly negative sentiment, or an explicit request for a person, and escalate with the conversation history attached. Tracking the escalation rate and resolution quality shows whether the bot is helping or just deflecting.",
+      "citations": [
+        {
+          "title": "Human-in-the-loop (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Human-in-the-loop"
+        },
+        {
+          "title": "People + AI Guidebook (Google)",
+          "url": "https://pair.withgoogle.com/guidebook/"
+        }
+      ]
+    },
+    {
+      "id": "ai-app-development-contrite",
+      "word": "contrite",
+      "partOfSpeech": "adjective",
+      "definition": "penitent",
+      "sentence": "When an AI feature makes a costly mistake, a contrite, specific apology plus a visible fix keeps customers' trust.",
+      "explanation": "In 2024 a Canadian tribunal held Air Canada responsible for wrong information its chatbot gave a customer about bereavement fares, rejecting the idea that the bot was a separate entity. Companies are accountable for what their AI says, so plan remedies and keep logs.",
+      "citations": [
+        {
+          "title": "Moffatt v. Air Canada (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Moffatt_v._Air_Canada"
+        }
+      ]
+    },
+    {
+      "id": "ai-app-development-foment",
+      "word": "foment",
+      "partOfSpeech": "verb",
+      "definition": "stir up; instigate",
+      "sentence": "Make AI outputs easy to share, with a link or an export, to foment word-of-mouth growth.",
+      "explanation": "Many AI products grew through shared outputs such as images, summaries or links with visible branding. Add attribution to shared content, measure the viral coefficient (new users per existing user), and pair it with a clear referral incentive.",
+      "citations": [
+        {
+          "title": "Viral marketing (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Viral_marketing"
+        },
+        {
+          "title": "Growth hacking (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Growth_hacking"
+        }
+      ]
+    }
+  ]
+}
