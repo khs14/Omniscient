@@ -1,0 +1,728 @@
+{
+  "id": "information-retrieval-and-web-search",
+  "title": "Information Retrieval and Web Search",
+  "category": "Computer Science",
+  "description": "Learn GRE words through indexing, ranking, web crawling, link analysis, multimedia search, social media and crowdsourcing.",
+  "cards": [
+    {
+      "id": "information-retrieval-and-web-search-negate",
+      "word": "negate",
+      "partOfSpeech": "verb",
+      "definition": "cancel out; nullify; deny",
+      "sentence": "In Boolean retrieval a NOT operator negates a term, so the query apple AND NOT pie returns documents that mention apple but never pie.",
+      "explanation": "Boolean retrieval returns exactly the documents that satisfy the expression, with no ranking. It dominated early commercial systems, and legal and patent search professionals still use it for its precision and repeatability.",
+      "citations": [
+        {
+          "title": "Boolean retrieval (Introduction to Information Retrieval)",
+          "url": "https://nlp.stanford.edu/IR-book/html/htmledition/boolean-retrieval-1.html"
+        },
+        {
+          "title": "Standard Boolean model (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Standard_Boolean_model"
+        }
+      ]
+    },
+    {
+      "id": "information-retrieval-and-web-search-prohibitive",
+      "word": "prohibitive",
+      "partOfSpeech": "adjective",
+      "definition": "tending to prevent the purchase or use of something; inclined to prevent or forbid",
+      "sentence": "Scanning every document for each query is prohibitive at web scale, so engines build an inverted index that maps each term to the documents containing it.",
+      "explanation": "Each term's postings list is kept sorted by document ID, so a query like apple AND pie is answered by merging two lists instead of reading any documents.",
+      "citations": [
+        {
+          "title": "A first take at building an inverted index (IIR)",
+          "url": "https://nlp.stanford.edu/IR-book/html/htmledition/a-first-take-at-building-an-inverted-index-1.html"
+        },
+        {
+          "title": "Inverted index (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Inverted_index"
+        }
+      ]
+    },
+    {
+      "id": "information-retrieval-and-web-search-meticulous",
+      "word": "meticulous",
+      "partOfSpeech": "adjective",
+      "definition": "excessively careful; painstaking; scrupulous",
+      "sentence": "Tokenization needs meticulous rules, because splitting on punctuation would break C++, hewlett-packard.com and San Francisco in unhelpful ways.",
+      "explanation": "Tokenization turns raw text into the terms that are indexed. Choices about hyphens, case and numbers affect which queries match, and the same rules must be applied to documents and to queries.",
+      "citations": [
+        {
+          "title": "Tokenization (IIR)",
+          "url": "https://nlp.stanford.edu/IR-book/html/htmledition/tokenization-1.html"
+        }
+      ]
+    },
+    {
+      "id": "information-retrieval-and-web-search-banal",
+      "word": "banal",
+      "partOfSpeech": "adjective",
+      "definition": "hackneyed; commonplace; trite; lacking originality",
+      "sentence": "Stop words such as the, of and and are so banal that older systems dropped them from the index to save space.",
+      "explanation": "Many modern web engines keep them, because phrase queries like \"to be or not to be\" would otherwise lose their meaning, and compression makes the space cost small.",
+      "citations": [
+        {
+          "title": "Dropping common terms: stop words (IIR)",
+          "url": "https://nlp.stanford.edu/IR-book/html/htmledition/dropping-common-terms-stop-words-1.html"
+        }
+      ]
+    },
+    {
+      "id": "information-retrieval-and-web-search-desiccate",
+      "word": "desiccate",
+      "partOfSpeech": "verb",
+      "definition": "dry up; by extension, to strip a word form down to a common stem",
+      "sentence": "A stemmer will desiccate connection, connected and connecting into the single stem connect, so one query term matches all three.",
+      "explanation": "Martin Porter published his suffix-stripping algorithm in 1980. Stemming raises recall but can conflate unrelated words, so some systems use lemmatization instead.",
+      "citations": [
+        {
+          "title": "Stemming and lemmatization (IIR)",
+          "url": "https://nlp.stanford.edu/IR-book/html/htmledition/stemming-and-lemmatization-1.html"
+        },
+        {
+          "title": "Stemming (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Stemming"
+        }
+      ]
+    },
+    {
+      "id": "information-retrieval-and-web-search-pervasive",
+      "word": "pervasive",
+      "partOfSpeech": "adjective",
+      "definition": "spread throughout",
+      "sentence": "Zipf's law is pervasive in text collections: the frequency of the i-th most common term is roughly proportional to 1/i.",
+      "explanation": "A few terms account for most of the text, while most of the vocabulary appears very rarely. This shapes compression, stop-word choices and the sizes of postings lists.",
+      "citations": [
+        {
+          "title": "Zipf's law (IIR)",
+          "url": "https://nlp.stanford.edu/IR-book/html/htmledition/zipfs-law-modeling-the-distribution-of-terms-1.html"
+        },
+        {
+          "title": "Zipf's law (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Zipf%27s_law"
+        }
+      ]
+    },
+    {
+      "id": "information-retrieval-and-web-search-verbose",
+      "word": "verbose",
+      "partOfSpeech": "adjective",
+      "definition": "wordy",
+      "sentence": "A verbose document repeats terms simply because it is long, so BM25 uses the parameter b to normalize term frequency by document length.",
+      "explanation": "BM25 grew out of the Okapi system built by Stephen Robertson and colleagues, and k1 controls how quickly repeated occurrences of a term stop adding to the score. It remains a strong baseline decades later.",
+      "citations": [
+        {
+          "title": "The Probabilistic Relevance Framework: BM25 and Beyond (Robertson & Zaragoza, 2009)",
+          "url": "https://doi.org/10.1561/1500000019"
+        },
+        {
+          "title": "Okapi BM25 (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Okapi_BM25"
+        }
+      ]
+    },
+    {
+      "id": "information-retrieval-and-web-search-dismiss",
+      "word": "dismiss",
+      "partOfSpeech": "verb",
+      "definition": "eliminate from consideration; reject",
+      "sentence": "Dynamic pruning methods such as WAND dismiss documents whose best possible score cannot enter the current top k, skipping most postings.",
+      "explanation": "Each term keeps an upper bound on its score contribution, so the engine can prove that some documents cannot win without scoring them. Broder et al. introduced WAND in 2003.",
+      "citations": [
+        {
+          "title": "Efficient query evaluation using a two-level retrieval process (Broder et al., 2003)",
+          "url": "https://doi.org/10.1145/956863.956944"
+        }
+      ]
+    },
+    {
+      "id": "information-retrieval-and-web-search-alleviate",
+      "word": "alleviate",
+      "partOfSpeech": "verb",
+      "definition": "relieve",
+      "sentence": "Query expansion can alleviate vocabulary mismatch by adding synonyms or related terms, so a search for car also finds pages that say automobile.",
+      "explanation": "Furnas and colleagues found in 1987 that people rarely choose the same word for the same thing. Expansion terms can come from thesauri, relevance feedback or word embeddings, but too many can cause topic drift.",
+      "citations": [
+        {
+          "title": "Query expansion (IIR)",
+          "url": "https://nlp.stanford.edu/IR-book/html/htmledition/query-expansion-1.html"
+        },
+        {
+          "title": "Query expansion (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Query_expansion"
+        }
+      ]
+    },
+    {
+      "id": "information-retrieval-and-web-search-qualified",
+      "word": "qualified",
+      "partOfSpeech": "adjective",
+      "definition": "limited; restricted; by extension, a query restricted to a particular field",
+      "sentence": "Fielded search lets users issue a qualified query such as title:python, which matches only documents whose title contains the term.",
+      "explanation": "Documents are split into fields, such as title, body and URL, that are indexed separately. Fields can also be weighted so a title match counts more than a body match.",
+      "citations": [
+        {
+          "title": "Parametric and zone indexes (IIR)",
+          "url": "https://nlp.stanford.edu/IR-book/html/htmledition/parametric-and-zone-indexes-1.html"
+        },
+        {
+          "title": "Query string query (Elasticsearch)",
+          "url": "https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-query-string-query.html"
+        }
+      ]
+    },
+    {
+      "id": "information-retrieval-and-web-search-resolve",
+      "word": "resolve",
+      "partOfSpeech": "verb",
+      "definition": "determination; firmness of purpose; by extension, to settle or clear up, as in resolving ambiguity",
+      "sentence": "Query understanding must resolve ambiguity: does the one-word query jaguar mean the animal, the car brand or the operating system release?",
+      "explanation": "Engines use context, location, search history and result diversification to cope with ambiguous queries. Diversification returns a mix of interpretations instead of ten results on one meaning.",
+      "citations": [
+        {
+          "title": "Word-sense disambiguation (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Word-sense_disambiguation"
+        },
+        {
+          "title": "Jaguar (disambiguation) (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Jaguar_(disambiguation)"
+        }
+      ]
+    },
+    {
+      "id": "information-retrieval-and-web-search-document",
+      "word": "document",
+      "partOfSpeech": "verb",
+      "definition": "provide written evidence; by extension, in IR, as a noun, any unit that is indexed and retrieved",
+      "sentence": "Test collections must document how relevance was judged, because in IR a \"document\" can be a web page, a tweet, an image or a song.",
+      "explanation": "The retrievable unit is chosen by the system designer. A web page might be one document, or it might be split into passages so that the best passage can be matched to a question.",
+      "citations": [
+        {
+          "title": "Information retrieval (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Information_retrieval"
+        },
+        {
+          "title": "Text Retrieval Conference (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Text_Retrieval_Conference"
+        }
+      ]
+    },
+    {
+      "id": "information-retrieval-and-web-search-viable",
+      "word": "viable",
+      "partOfSpeech": "adjective",
+      "definition": "practical or workable",
+      "sentence": "Exact nearest-neighbor search over billions of embedding vectors is not viable, so engines use approximate methods such as HNSW graphs or product quantization.",
+      "explanation": "Approximate indexes trade a small loss in recall for large gains in speed. HNSW (Malkov and Yashunin) searches a layered graph of neighbors, and the FAISS library implements several of these methods.",
+      "citations": [
+        {
+          "title": "Efficient and robust approximate nearest neighbor search using HNSW graphs (Malkov & Yashunin)",
+          "url": "https://arxiv.org/abs/1603.09320"
+        },
+        {
+          "title": "FAISS (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/FAISS"
+        }
+      ]
+    },
+    {
+      "id": "information-retrieval-and-web-search-daunt",
+      "word": "daunt",
+      "partOfSpeech": "verb",
+      "definition": "intimidate; frighten",
+      "sentence": "The scale of the web would daunt any single machine, so large indexes are split into shards that are searched in parallel and whose results are merged.",
+      "explanation": "Sharding splits the index by document, with each machine holding a subset of pages. The original Google prototype described by Brin and Page in 1998 handled tens of millions of pages, and production indexes are many orders of magnitude larger.",
+      "citations": [
+        {
+          "title": "The Anatomy of a Large-Scale Hypertextual Web Search Engine (Brin & Page, 1998)",
+          "url": "http://infolab.stanford.edu/~backrub/google.html"
+        },
+        {
+          "title": "Shard (database architecture) (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Shard_(database_architecture)"
+        }
+      ]
+    },
+    {
+      "id": "information-retrieval-and-web-search-pristine",
+      "word": "pristine",
+      "partOfSpeech": "adjective",
+      "definition": "characteristic of earlier times; primitive; unspoiled",
+      "sentence": "Crawled HTML is rarely pristine: menus, ads and footers surround the main text and must be stripped before indexing.",
+      "explanation": "Boilerplate detection estimates which text blocks are main content. Kohlschütter et al. (2010) showed that simple features such as link density and text length perform well.",
+      "citations": [
+        {
+          "title": "Boilerplate detection using shallow text features (Kohlschütter et al., 2010)",
+          "url": "https://doi.org/10.1145/1718487.1718542"
+        },
+        {
+          "title": "Common Crawl",
+          "url": "https://commoncrawl.org/"
+        }
+      ]
+    },
+    {
+      "id": "information-retrieval-and-web-search-proscribe",
+      "word": "proscribe",
+      "partOfSpeech": "verb",
+      "definition": "ostracize; banish; outlaw; by extension, to forbid or disallow",
+      "sentence": "A robots.txt file can proscribe crawlers from fetching certain paths, using lines such as Disallow: /private/.",
+      "explanation": "The Robots Exclusion Protocol was standardized as RFC 9309 in 2022. It is a request that well-behaved crawlers honor, not an access control, and disallowed URLs can still be indexed if other pages link to them.",
+      "citations": [
+        {
+          "title": "RFC 9309: Robots Exclusion Protocol",
+          "url": "https://www.rfc-editor.org/rfc/rfc9309"
+        },
+        {
+          "title": "robots.txt (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Robots.txt"
+        }
+      ]
+    },
+    {
+      "id": "information-retrieval-and-web-search-assiduous",
+      "word": "assiduous",
+      "partOfSpeech": "adjective",
+      "definition": "diligent",
+      "sentence": "An assiduous crawler revisits news pages every few minutes, while pages that rarely change can wait weeks between visits.",
+      "explanation": "A crawler's budget is limited, so it must choose what to refresh. Cho and Garcia-Molina found that refreshing pages in strict proportion to how often they change is not the best policy.",
+      "citations": [
+        {
+          "title": "Effective page refresh policies for Web crawlers (Cho & Garcia-Molina, 2003)",
+          "url": "https://doi.org/10.1145/958942.958945"
+        },
+        {
+          "title": "Web crawler (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Web_crawler"
+        }
+      ]
+    },
+    {
+      "id": "information-retrieval-and-web-search-impervious",
+      "word": "impervious",
+      "partOfSpeech": "adjective",
+      "definition": "impenetrable; incapable of being damaged or distressed",
+      "sentence": "PageRank is not impervious to manipulation: spammers build link farms of pages that all point at a target to inflate its score.",
+      "explanation": "PageRank treats a link as a vote, weighted by the importance of the page casting it. TrustRank (Gyöngyi et al., 2004) counters farms by propagating trust outward from a small set of manually checked seed pages.",
+      "citations": [
+        {
+          "title": "The PageRank Citation Ranking (Page et al., 1999)",
+          "url": "http://ilpubs.stanford.edu:8090/422/"
+        },
+        {
+          "title": "TrustRank (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/TrustRank"
+        }
+      ]
+    },
+    {
+      "id": "information-retrieval-and-web-search-implacable",
+      "word": "implacable",
+      "partOfSpeech": "adjective",
+      "definition": "incapable of being pacified",
+      "sentence": "Search engines face implacable adversaries, because spammers adapt as soon as a ranking signal is discovered and abused.",
+      "explanation": "Studying this arms race is called adversarial information retrieval, and it has its own research workshops. Defenses combine content analysis, link analysis and behavioral signals.",
+      "citations": [
+        {
+          "title": "Adversarial information retrieval (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Adversarial_information_retrieval"
+        },
+        {
+          "title": "Spamdexing (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Spamdexing"
+        }
+      ]
+    },
+    {
+      "id": "information-retrieval-and-web-search-mendacious",
+      "word": "mendacious",
+      "partOfSpeech": "adjective",
+      "definition": "lying; habitually dishonest",
+      "sentence": "Cloaking is a mendacious trick in which a site shows crawlers one page and visitors another, and search engines treat it as spam.",
+      "explanation": "Google's spam policies list cloaking as a violation because the indexed content differs from what users see. Sites caught doing it can be demoted or removed from results.",
+      "citations": [
+        {
+          "title": "Spam policies for Google Web Search (cloaking)",
+          "url": "https://developers.google.com/search/docs/essentials/spam-policies"
+        },
+        {
+          "title": "Cloaking (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Cloaking"
+        }
+      ]
+    },
+    {
+      "id": "information-retrieval-and-web-search-relegate",
+      "word": "relegate",
+      "partOfSpeech": "verb",
+      "definition": "banish to an inferior position; delegate; assign",
+      "sentence": "Quality updates such as Google's Panda change in 2011 relegate thin, low-quality pages to far lower positions in the results.",
+      "explanation": "Panda was introduced in February 2011 to reduce the visibility of content farms. Ranking updates like this are why search engine optimization is a moving target.",
+      "citations": [
+        {
+          "title": "Google Panda (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Google_Panda"
+        },
+        {
+          "title": "Search engine optimization (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Search_engine_optimization"
+        }
+      ]
+    },
+    {
+      "id": "information-retrieval-and-web-search-cogent",
+      "word": "cogent",
+      "partOfSpeech": "adjective",
+      "definition": "convincing",
+      "sentence": "A cogent result snippet shows the query terms in context, so a user can judge the page without clicking.",
+      "explanation": "Snippets are generated at query time from the document text. Turpin et al. (2007) studied how to build them quickly, because they must be produced for every result on every query.",
+      "citations": [
+        {
+          "title": "Fast generation of result snippets in web search (Turpin et al., 2007)",
+          "url": "https://doi.org/10.1145/1277741.1277766"
+        },
+        {
+          "title": "Search engine results page (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Search_engine_results_page"
+        }
+      ]
+    },
+    {
+      "id": "information-retrieval-and-web-search-diverge",
+      "word": "diverge",
+      "partOfSpeech": "verb",
+      "definition": "vary; go in different directions from the same point",
+      "sentence": "Human assessors often diverge on whether a page is relevant, yet system rankings in TREC stay largely stable.",
+      "explanation": "Voorhees (2000) compared several sets of judgments for the same topics and found that the ordering of systems changed little even though individual judgments differed. TREC has built test collections since 1992.",
+      "citations": [
+        {
+          "title": "Variations in relevance judgments and the measurement of retrieval effectiveness (Voorhees, 2000)",
+          "url": "https://doi.org/10.1016/S0306-4573(00)00010-8"
+        },
+        {
+          "title": "Text Retrieval Conference (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Text_Retrieval_Conference"
+        }
+      ]
+    },
+    {
+      "id": "information-retrieval-and-web-search-buttress",
+      "word": "buttress",
+      "partOfSpeech": "verb",
+      "definition": "support; prop up",
+      "sentence": "Researchers buttress a claim that a new ranker is better with a paired significance test over many queries, not just a higher average score.",
+      "explanation": "Smucker, Allan and Carterette (2007) compared tests for IR evaluation and found that the t-test, randomization test and bootstrap agree with each other, while some other tests are less reliable.",
+      "citations": [
+        {
+          "title": "A comparison of statistical significance tests for IR evaluation (Smucker et al., 2007)",
+          "url": "https://doi.org/10.1145/1321440.1321528"
+        }
+      ]
+    },
+    {
+      "id": "information-retrieval-and-web-search-belie",
+      "word": "belie",
+      "partOfSpeech": "verb",
+      "definition": "contradict; give a false impression",
+      "sentence": "Click counts can belie true relevance, because users click the top result more often just for being on top.",
+      "explanation": "Joachims et al. (2005) used eye tracking to show strong trust bias toward high positions. Click models and interleaving experiments try to correct for this when using clicks as feedback.",
+      "citations": [
+        {
+          "title": "Accurately interpreting clickthrough data as implicit feedback (Joachims et al., 2005)",
+          "url": "https://doi.org/10.1145/1076034.1076063"
+        },
+        {
+          "title": "Click-through rate (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Click-through_rate"
+        }
+      ]
+    },
+    {
+      "id": "information-retrieval-and-web-search-idolatry",
+      "word": "idolatry",
+      "partOfSpeech": "noun",
+      "definition": "worship of idols; excessive admiration; by extension, excessive devotion to a single measure",
+      "sentence": "Treating nDCG as the goal rather than as a proxy for user satisfaction is a kind of metric idolatry.",
+      "explanation": "Goodhart's law, as paraphrased by Marilyn Strathern, says that when a measure becomes a target, it ceases to be a good measure. Offline metrics are best checked against online experiments.",
+      "citations": [
+        {
+          "title": "Cumulated gain-based evaluation of IR techniques (Järvelin & Kekäläinen, 2002)",
+          "url": "https://doi.org/10.1145/582415.582418"
+        },
+        {
+          "title": "Goodhart's law (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Goodhart%27s_law"
+        }
+      ]
+    },
+    {
+      "id": "information-retrieval-and-web-search-log",
+      "word": "log",
+      "partOfSpeech": "noun",
+      "definition": "record of a voyage or flight; record of day-to-day activities",
+      "sentence": "The AOL query log released in 2006 covered about 20 million searches by roughly 650,000 users, and reporters identified one user from the supposedly anonymous data.",
+      "explanation": "Query logs drive spelling correction, autocomplete and learning to rank, but they are also sensitive personal data. The AOL release became a standard cautionary tale about anonymization.",
+      "citations": [
+        {
+          "title": "AOL search log release (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/AOL_search_log_release"
+        }
+      ]
+    },
+    {
+      "id": "information-retrieval-and-web-search-apathy",
+      "word": "apathy",
+      "partOfSpeech": "noun",
+      "definition": "lack of caring; indifference",
+      "sentence": "Searchers show apathy toward lower results: most clicks go to the first few links, and few users look at the second page.",
+      "explanation": "Eye-tracking studies in the 2000s showed attention falling steeply with rank. This is why position bias matters so much and why the top ranks are so valuable commercially.",
+      "citations": [
+        {
+          "title": "Accurately interpreting clickthrough data as implicit feedback (Joachims et al., 2005)",
+          "url": "https://doi.org/10.1145/1076034.1076063"
+        },
+        {
+          "title": "Search engine results page (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Search_engine_results_page"
+        }
+      ]
+    },
+    {
+      "id": "information-retrieval-and-web-search-inured",
+      "word": "inured",
+      "partOfSpeech": "adjective",
+      "definition": "accustomed; hardened",
+      "sentence": "Users grow inured to banner ads and learn to ignore them, a habit known as banner blindness.",
+      "explanation": "Benway and Lane described banner blindness in 1998. Click models for ads and results need to account for what users look at as well as what they click.",
+      "citations": [
+        {
+          "title": "Banner blindness (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Banner_blindness"
+        },
+        {
+          "title": "An experimental comparison of click position-bias models (Craswell et al., 2008)",
+          "url": "https://doi.org/10.1145/1341531.1341545"
+        }
+      ]
+    },
+    {
+      "id": "information-retrieval-and-web-search-esoteric",
+      "word": "esoteric",
+      "partOfSpeech": "adjective",
+      "definition": "hard to understand; known only to the chosen few",
+      "sentence": "A search engine must also handle esoteric long-tail queries, since Google has said roughly 15 percent of its daily searches have never been seen before.",
+      "explanation": "A small set of popular queries accounts for much of the traffic, but the long tail of rare queries is huge. Rare queries have little click data, so the engine relies more on text matching.",
+      "citations": [
+        {
+          "title": "How Google Search works",
+          "url": "https://www.google.com/search/howsearchworks/"
+        },
+        {
+          "title": "Long tail (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Long_tail"
+        }
+      ]
+    },
+    {
+      "id": "information-retrieval-and-web-search-aesthetic",
+      "word": "aesthetic",
+      "partOfSpeech": "adjective",
+      "definition": "artistic; dealing with or capable of appreciating the beautiful",
+      "sentence": "Image search can rank photos by aesthetic quality, which models learn from datasets of human ratings such as AVA, with more than 250,000 images.",
+      "explanation": "AVA (Murray et al., 2012) collects photos from photography contests along with the scores people gave them. Aesthetic scores can break ties between equally relevant images.",
+      "citations": [
+        {
+          "title": "AVA: A large-scale database for aesthetic visual analysis (Murray et al., 2012)",
+          "url": "https://doi.org/10.1109/CVPR.2012.6247954"
+        },
+        {
+          "title": "Content-based image retrieval (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Content-based_image_retrieval"
+        }
+      ]
+    },
+    {
+      "id": "information-retrieval-and-web-search-luminous",
+      "word": "luminous",
+      "partOfSpeech": "adjective",
+      "definition": "shining; issuing light",
+      "sentence": "Video retrieval systems detect shot boundaries by comparing frame histograms, which change abruptly at a cut, such as from a dark room to a luminous outdoor scene.",
+      "explanation": "Breaking a video into shots and choosing key frames lets the system index video as a set of images. Modern systems add speech transcripts and learned visual features.",
+      "citations": [
+        {
+          "title": "Shot transition detection (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Shot_transition_detection"
+        },
+        {
+          "title": "Video content analysis (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Video_content_analysis"
+        }
+      ]
+    },
+    {
+      "id": "information-retrieval-and-web-search-spectrum",
+      "word": "spectrum",
+      "partOfSpeech": "noun",
+      "definition": "colored band produced when a beam of light passes through a prism; by extension, a range of frequencies, as in a sound",
+      "sentence": "Audio fingerprinting converts a clip into a spectrogram, which shows the spectrum of frequencies over time, and indexes the strongest peaks.",
+      "explanation": "Shazam's method (Avery Wang, 2003) hashes pairs of spectral peaks, so a short noisy recording can still match a stored song. The same idea underlies many music identification services.",
+      "citations": [
+        {
+          "title": "An industrial-strength audio search algorithm (Wang, 2003)",
+          "url": "https://www.ee.columbia.edu/~dpwe/papers/Wang03-shazam.pdf"
+        },
+        {
+          "title": "Acoustic fingerprint (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Acoustic_fingerprint"
+        }
+      ]
+    },
+    {
+      "id": "information-retrieval-and-web-search-dirge",
+      "word": "dirge",
+      "partOfSpeech": "noun",
+      "definition": "Lament with music",
+      "sentence": "A music search system can find a dirge from a hummed tune by matching the contour of the melody, the pattern of rising and falling notes, instead of exact pitches.",
+      "explanation": "Ghias et al. (1995) built a query-by-humming system that reduced each tune to up, down and same steps. This tolerates singers who are off-key, which most people are.",
+      "citations": [
+        {
+          "title": "Query by humming (Ghias et al., 1995)",
+          "url": "https://doi.org/10.1145/217279.215273"
+        },
+        {
+          "title": "Music information retrieval (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Music_information_retrieval"
+        }
+      ]
+    },
+    {
+      "id": "information-retrieval-and-web-search-exigency",
+      "word": "exigency",
+      "partOfSpeech": "noun",
+      "definition": "urgent situation; pressing needs or demands; state of requiring immediate attention",
+      "sentence": "In an exigency such as a flood, geotagged posts and crowdsourced reports, as on the Ushahidi platform, can show responders where help is needed.",
+      "explanation": "Ushahidi was created to map reports of violence after Kenya's disputed 2007 election and has since been used for disasters worldwide. Geospatial IR depends on geocoding place names and indexing by location.",
+      "citations": [
+        {
+          "title": "Ushahidi (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Ushahidi"
+        },
+        {
+          "title": "Geographic information retrieval (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Geographic_information_retrieval"
+        }
+      ]
+    },
+    {
+      "id": "information-retrieval-and-web-search-foment",
+      "word": "foment",
+      "partOfSpeech": "verb",
+      "definition": "stir up; instigate",
+      "sentence": "Social media can foment the rapid spread of rumors, so search engines must weigh source credibility when ranking breaking news.",
+      "explanation": "Vosoughi, Roy and Aral (2018) found that false stories on Twitter spread farther and faster than true ones. Credibility signals include source reputation, corroboration and fact-checks.",
+      "citations": [
+        {
+          "title": "The spread of true and false news online (Vosoughi et al., 2018)",
+          "url": "https://doi.org/10.1126/science.aap9559"
+        }
+      ]
+    },
+    {
+      "id": "information-retrieval-and-web-search-flag",
+      "word": "flag",
+      "partOfSpeech": "verb",
+      "definition": "droop; grow feeble; by extension, to fade or decline",
+      "sentence": "As interest in a news story begins to flag, ranking functions with time decay lower the scores of older documents.",
+      "explanation": "Recency matters for news and social queries. Time-based language models (Li and Croft, 2003) are one way to prefer fresh documents when the query suggests the user wants recent material.",
+      "citations": [
+        {
+          "title": "Time-based language models (Li & Croft, 2003)",
+          "url": "https://doi.org/10.1145/956863.956951"
+        }
+      ]
+    },
+    {
+      "id": "information-retrieval-and-web-search-invective",
+      "word": "invective",
+      "partOfSpeech": "noun",
+      "definition": "abuse",
+      "sentence": "Classifiers trained on labeled comments can detect invective in social posts, and Jigsaw's Perspective API returns a toxicity score between 0 and 1.",
+      "explanation": "Such models can mistake reclaimed slurs or quoted abuse for abuse, so their scores are best used to prioritize human review, not as final decisions.",
+      "citations": [
+        {
+          "title": "Perspective API",
+          "url": "https://perspectiveapi.com/"
+        },
+        {
+          "title": "Toxic comment classification (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Hate_speech"
+        }
+      ]
+    },
+    {
+      "id": "information-retrieval-and-web-search-elicit",
+      "word": "elicit",
+      "partOfSpeech": "verb",
+      "definition": "draw out by discussion; by extension, to draw out information, here by asking workers",
+      "sentence": "Crowdsourcing platforms can elicit relevance judgments from many workers quickly and cheaply, which is useful for building test collections.",
+      "explanation": "Workers are shown a query and a document and asked to rate relevance, and several workers rate each pair. Alonso, Rose and Stewart (2008) described this for relevance evaluation at Amazon Mechanical Turk.",
+      "citations": [
+        {
+          "title": "Crowdsourcing for relevance evaluation (Alonso et al., 2008)",
+          "url": "https://doi.org/10.1145/1480506.1480508"
+        },
+        {
+          "title": "Crowdsourcing (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Crowdsourcing"
+        }
+      ]
+    },
+    {
+      "id": "information-retrieval-and-web-search-skeptic",
+      "word": "skeptic",
+      "partOfSpeech": "noun",
+      "definition": "doubter; person who suspends judgment until having examined evidence supporting a point of view",
+      "sentence": "Skeptics of crowdsourcing worry about label noise, but Snow et al. (2008) found that combining a few non-expert labels can approach the quality of one expert.",
+      "explanation": "Aggregating several workers' labels by majority vote, or by weighting workers by their reliability, usually removes much of the noise. Results vary by task, so quality checks are still needed.",
+      "citations": [
+        {
+          "title": "Cheap and fast, but is it good? (Snow et al., 2008)",
+          "url": "https://aclanthology.org/D08-1027/"
+        }
+      ]
+    },
+    {
+      "id": "information-retrieval-and-web-search-guileless",
+      "word": "guileless",
+      "partOfSpeech": "adjective",
+      "definition": "without deceit",
+      "sentence": "Researchers cannot assume that every crowd worker is guileless, so they hide gold questions with known answers to catch people who click at random.",
+      "explanation": "Kittur, Chi and Suh (2008) found many invalid answers on Mechanical Turk until they redesigned a task so cheating took as much effort as honest work.",
+      "citations": [
+        {
+          "title": "Crowdsourcing user studies with Mechanical Turk (Kittur et al., 2008)",
+          "url": "https://doi.org/10.1145/1357054.1357127"
+        }
+      ]
+    },
+    {
+      "id": "information-retrieval-and-web-search-sage",
+      "word": "sage",
+      "partOfSpeech": "noun",
+      "definition": "person celebrated for wisdom; by extension, a source of collective wisdom",
+      "sentence": "Crowdsourcing treats the crowd as a kind of sage: in 1906 Francis Galton found that the median guess of a crowd for an ox's weight was within about 1 percent of the truth.",
+      "explanation": "Galton reported the result in Nature in 1907, with a median guess of 1,207 pounds against an actual weight of 1,198. The effect works best when guesses are independent, which is why aggregation matters.",
+      "citations": [
+        {
+          "title": "Vox Populi (Galton, 1907)",
+          "url": "https://doi.org/10.1038/075450a0"
+        },
+        {
+          "title": "Wisdom of the crowd (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Wisdom_of_the_crowd"
+        }
+      ]
+    }
+  ]
+}

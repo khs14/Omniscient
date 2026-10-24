@@ -1,0 +1,638 @@
+{
+  "id": "foundations-of-artificial-intelligence",
+  "title": "Foundations of Artificial Intelligence",
+  "category": "Computer Science",
+  "description": "Learn GRE words through search, logic, planning, decision making under uncertainty and learning theory.",
+  "cards": [
+    {
+      "id": "foundations-of-artificial-intelligence-autonomous",
+      "word": "autonomous",
+      "partOfSpeech": "adjective",
+      "definition": "self-governing; independent",
+      "sentence": "In the textbook definition, an agent is autonomous to the extent that its behavior is determined by its own experience rather than by the prior knowledge built in by its designer.",
+      "explanation": "Russell and Norvig frame AI as the study of rational agents that perceive an environment and act in it to maximize expected performance. An agent with no autonomy fails whenever its designer's assumptions are wrong, so a rational agent should learn what it can.",
+      "citations": [
+        {
+          "title": "Artificial Intelligence: A Modern Approach (Russell and Norvig)",
+          "url": "https://aima.cs.berkeley.edu/"
+        },
+        {
+          "title": "Intelligent agent (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Intelligent_agent"
+        }
+      ]
+    },
+    {
+      "id": "foundations-of-artificial-intelligence-emulate",
+      "word": "emulate",
+      "partOfSpeech": "verb",
+      "definition": "imitate; rival",
+      "sentence": "Turing's 1950 imitation game asks whether a machine can emulate a human well enough in conversation that a judge cannot tell the difference.",
+      "explanation": "Turing proposed the test in \"Computing Machinery and Intelligence\" to replace the vague question of whether machines can think. John Searle's Chinese room argument (1980) replies that a program producing the right outputs does not by itself understand anything.",
+      "citations": [
+        {
+          "title": "Computing Machinery and Intelligence (Turing, 1950)",
+          "url": "https://doi.org/10.1093/mind/LIX.236.433"
+        },
+        {
+          "title": "The Chinese Room Argument (Stanford Encyclopedia of Philosophy)",
+          "url": "https://plato.stanford.edu/entries/chinese-room/"
+        }
+      ]
+    },
+    {
+      "id": "foundations-of-artificial-intelligence-dormant",
+      "word": "dormant",
+      "partOfSpeech": "adjective",
+      "definition": "sleeping; lethargic; latent",
+      "sentence": "After the 1973 Lighthill report in Britain and cuts in funding, much AI research lay dormant during the first \"AI winter\".",
+      "explanation": "A second winter followed in the late 1980s and early 1990s, when the market for expert systems and specialized Lisp machines collapsed. Each cycle began with promises that outran what the methods of the time could deliver.",
+      "citations": [
+        {
+          "title": "AI winter (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/AI_winter"
+        }
+      ]
+    },
+    {
+      "id": "foundations-of-artificial-intelligence-welter",
+      "word": "welter",
+      "partOfSpeech": "noun",
+      "definition": "turmoil; bewildering jumble",
+      "sentence": "Chess offers a welter of possibilities: Claude Shannon estimated that there are roughly 10^120 possible games, far too many for any program to enumerate.",
+      "explanation": "The number of legal positions is much smaller, on the order of 10^44, but still far beyond exhaustive search. That gap is why game-playing programs depend on heuristics, pruning and learned evaluation.",
+      "citations": [
+        {
+          "title": "Shannon number (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Shannon_number"
+        },
+        {
+          "title": "Game complexity (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Game_complexity"
+        }
+      ]
+    },
+    {
+      "id": "foundations-of-artificial-intelligence-abstemious",
+      "word": "abstemious",
+      "partOfSpeech": "adjective",
+      "definition": "sparing in eating and drinking; temperate; by extension, here, holding back from overestimating",
+      "sentence": "An admissible heuristic is abstemious in its estimates: it never overestimates the true remaining cost, so A* search with it is guaranteed to find an optimal path.",
+      "explanation": "Hart, Nilsson and Raphael introduced A* in 1968. Straight-line distance on a road map is the classic admissible heuristic, since no road can be shorter than a straight line.",
+      "citations": [
+        {
+          "title": "A* search algorithm (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/A*_search_algorithm"
+        },
+        {
+          "title": "A Formal Basis for the Heuristic Determination of Minimum Cost Paths (Hart, Nilsson and Raphael, 1968)",
+          "url": "https://doi.org/10.1109/TSSC.1968.300136"
+        }
+      ]
+    },
+    {
+      "id": "foundations-of-artificial-intelligence-obviate",
+      "word": "obviate",
+      "partOfSpeech": "verb",
+      "definition": "make unnecessary; get rid of",
+      "sentence": "Alpha-beta pruning obviates the evaluation of branches that cannot change the minimax decision, which in the best case lets a program search about twice as deep for the same effort.",
+      "explanation": "Minimax assumes the opponent always replies optimally. Deep Blue, which beat Garry Kasparov in 1997, used a heavily tuned alpha-beta search running at around 200 million positions per second.",
+      "citations": [
+        {
+          "title": "Alpha-beta pruning (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Alpha%E2%80%93beta_pruning"
+        },
+        {
+          "title": "Deep Blue (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Deep_Blue_(chess_computer)"
+        }
+      ]
+    },
+    {
+      "id": "foundations-of-artificial-intelligence-subside",
+      "word": "subside",
+      "partOfSpeech": "verb",
+      "definition": "settle down; descend; grow quiet",
+      "sentence": "In simulated annealing, the willingness to accept worse moves subsides as the \"temperature\" is lowered, letting the search settle into a good solution.",
+      "explanation": "Plain hill climbing stalls at local maxima and plateaus. Kirkpatrick, Gelatt and Vecchi (1983) borrowed the idea of slowly cooling metal to escape such traps, accepting a worse move with a probability that shrinks as the temperature falls.",
+      "citations": [
+        {
+          "title": "Simulated annealing (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Simulated_annealing"
+        },
+        {
+          "title": "Optimization by Simulated Annealing (Science, 1983)",
+          "url": "https://doi.org/10.1126/science.220.4598.671"
+        }
+      ]
+    },
+    {
+      "id": "foundations-of-artificial-intelligence-empirical",
+      "word": "empirical",
+      "partOfSpeech": "adjective",
+      "definition": "based on experience",
+      "sentence": "Monte Carlo tree search relies on empirical win rates from many simulated games, and it helped AlphaGo defeat Lee Sedol 4-1 in 2016.",
+      "explanation": "The UCT algorithm of Kocsis and Szepesvari (2006) balances trying promising moves against exploring uncertain ones. AlphaGo combined the tree search with neural networks that suggested moves and judged positions.",
+      "citations": [
+        {
+          "title": "Monte Carlo tree search (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Monte_Carlo_tree_search"
+        },
+        {
+          "title": "AlphaGo versus Lee Sedol (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/AlphaGo_versus_Lee_Sedol"
+        }
+      ]
+    },
+    {
+      "id": "foundations-of-artificial-intelligence-intractable",
+      "word": "intractable",
+      "partOfSpeech": "adjective",
+      "definition": "unruly; stubborn; unyielding",
+      "sentence": "Deciding whether a propositional formula is satisfiable is intractable in the worst case: Cook showed in 1971 that SAT is NP-complete.",
+      "explanation": "Unless P equals NP, no algorithm solves every SAT instance in polynomial time. Even so, modern conflict-driven solvers handle industrial instances with millions of variables, and many AI problems are encoded as SAT.",
+      "citations": [
+        {
+          "title": "Boolean satisfiability problem (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Boolean_satisfiability_problem"
+        },
+        {
+          "title": "Cook-Levin theorem (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Cook%E2%80%93Levin_theorem"
+        }
+      ]
+    },
+    {
+      "id": "foundations-of-artificial-intelligence-veracious",
+      "word": "veracious",
+      "partOfSpeech": "adjective",
+      "definition": "truthful",
+      "sentence": "A sound inference procedure is veracious: it derives only sentences that are actually entailed by the knowledge base.",
+      "explanation": "Soundness means nothing false is derived from true premises, while completeness means everything entailed can be derived. Propositional resolution is sound and refutation-complete, so it can always detect an unsatisfiable set of clauses.",
+      "citations": [
+        {
+          "title": "Soundness (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Soundness"
+        },
+        {
+          "title": "Completeness (logic) (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Completeness_(logic)"
+        }
+      ]
+    },
+    {
+      "id": "foundations-of-artificial-intelligence-refute",
+      "word": "refute",
+      "partOfSpeech": "verb",
+      "definition": "disprove",
+      "sentence": "Resolution proves a goal by trying to refute its negation: if adding the negated goal to the knowledge base yields the empty clause, the goal must follow.",
+      "explanation": "J. A. Robinson introduced the resolution principle in 1965. Sentences are first converted to conjunctive normal form, and the method is refutation-complete for first-order logic.",
+      "citations": [
+        {
+          "title": "Resolution (logic) (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Resolution_(logic)"
+        },
+        {
+          "title": "A Machine-Oriented Logic Based on the Resolution Principle (Robinson, 1965)",
+          "url": "https://doi.org/10.1145/321250.321253"
+        }
+      ]
+    },
+    {
+      "id": "foundations-of-artificial-intelligence-amalgamate",
+      "word": "amalgamate",
+      "partOfSpeech": "verb",
+      "definition": "combine; unite in one body",
+      "sentence": "Unification lets a theorem prover amalgamate two expressions by finding a substitution that makes them identical, such as binding y to John.",
+      "explanation": "For example, Knows(John, x) and Knows(y, Mother(y)) unify under the substitution {y/John, x/Mother(John)}. First-order inference engines and Prolog use unification at every step.",
+      "citations": [
+        {
+          "title": "Unification (computer science) (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Unification_(computer_science)"
+        }
+      ]
+    },
+    {
+      "id": "foundations-of-artificial-intelligence-recondite",
+      "word": "recondite",
+      "partOfSpeech": "adjective",
+      "definition": "abstruse; profound; secret",
+      "sentence": "Godel's recondite incompleteness theorems of 1931 show that any consistent, effectively axiomatized system strong enough to express arithmetic contains true statements it cannot prove.",
+      "explanation": "The theorems limit what any single formal system can establish, but they do not rule out practical reasoning programs. Turing's 1936 halting-problem result is a close relative.",
+      "citations": [
+        {
+          "title": "Godel's Incompleteness Theorems (Stanford Encyclopedia of Philosophy)",
+          "url": "https://plato.stanford.edu/entries/goedel-incompleteness/"
+        }
+      ]
+    },
+    {
+      "id": "foundations-of-artificial-intelligence-tacit",
+      "word": "tacit",
+      "partOfSpeech": "adjective",
+      "definition": "understood; not put into words",
+      "sentence": "A database makes a tacit closed-world assumption: any fact that is not recorded is treated as false.",
+      "explanation": "Reiter formalized the closed-world assumption in 1978, and Prolog's negation as failure relies on it. Ontology languages like OWL take the opposite open-world view, in which a missing fact is merely unknown.",
+      "citations": [
+        {
+          "title": "Closed-world assumption (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Closed-world_assumption"
+        }
+      ]
+    },
+    {
+      "id": "foundations-of-artificial-intelligence-rescind",
+      "word": "rescind",
+      "partOfSpeech": "verb",
+      "definition": "cancel",
+      "sentence": "Nonmonotonic reasoning lets a system rescind a conclusion when new information arrives, as when learning that Tweety is a penguin withdraws the default belief that Tweety flies.",
+      "explanation": "Classical logic is monotonic: adding premises never removes conclusions. Default logic (Reiter, 1980) and circumscription (McCarthy, 1980) were developed to model reasoning with exceptions.",
+      "citations": [
+        {
+          "title": "Non-monotonic Logic (Stanford Encyclopedia of Philosophy)",
+          "url": "https://plato.stanford.edu/entries/logic-nonmonotonic/"
+        }
+      ]
+    },
+    {
+      "id": "foundations-of-artificial-intelligence-compendium",
+      "word": "compendium",
+      "partOfSpeech": "noun",
+      "definition": "brief, comprehensive summary",
+      "sentence": "Cyc, begun by Douglas Lenat in 1984, is a compendium of commonsense facts and rules written by hand in a formal logical language.",
+      "explanation": "The project's goal was to capture the everyday knowledge that people take for granted so programs could reason with it. It is an early example of the knowledge-engineering approach that statistical learning later overtook for many tasks.",
+      "citations": [
+        {
+          "title": "Cyc (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Cyc"
+        }
+      ]
+    },
+    {
+      "id": "foundations-of-artificial-intelligence-implicit",
+      "word": "implicit",
+      "partOfSpeech": "adjective",
+      "definition": "understood but not stated",
+      "sentence": "In the frame problem, most of what stays the same after an action is left implicit by people, yet a logical system must somehow be told it.",
+      "explanation": "McCarthy and Hayes identified the problem in 1969: describing an action's effects with logic seems to require countless axioms about what does not change. Solutions include successor-state axioms and the STRIPS assumption that anything not mentioned is unchanged.",
+      "citations": [
+        {
+          "title": "The Frame Problem (Stanford Encyclopedia of Philosophy)",
+          "url": "https://plato.stanford.edu/entries/frame-problem/"
+        }
+      ]
+    },
+    {
+      "id": "foundations-of-artificial-intelligence-tractable",
+      "word": "tractable",
+      "partOfSpeech": "adjective",
+      "definition": "docile; easily managed; by extension, computationally manageable",
+      "sentence": "Description logics, the basis of the OWL ontology language, are designed so that reasoning stays decidable and, in some fragments, tractable.",
+      "explanation": "Expressive power and computational cost trade off: full first-order logic is only semi-decidable. The OWL 2 profiles EL, QL and RL restrict the language so that reasoning runs in polynomial time.",
+      "citations": [
+        {
+          "title": "Description logic (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Description_logic"
+        },
+        {
+          "title": "OWL 2 Profiles (W3C)",
+          "url": "https://www.w3.org/TR/owl2-profiles/"
+        }
+      ]
+    },
+    {
+      "id": "foundations-of-artificial-intelligence-stipulate",
+      "word": "stipulate",
+      "partOfSpeech": "verb",
+      "definition": "make express conditions; specify",
+      "sentence": "A STRIPS action schema stipulates its preconditions, which must hold before it can run, and its add and delete lists, which say what it changes.",
+      "explanation": "Fikes and Nilsson introduced STRIPS in 1971 for the Shakey robot. Planning then becomes a search for a sequence of actions that transforms the initial state into one satisfying the goal.",
+      "citations": [
+        {
+          "title": "Stanford Research Institute Problem Solver (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Stanford_Research_Institute_Problem_Solver"
+        },
+        {
+          "title": "STRIPS: A New Approach to the Application of Theorem Proving to Problem Solving (1971)",
+          "url": "https://doi.org/10.1016/0004-3702(71)90010-5"
+        }
+      ]
+    },
+    {
+      "id": "foundations-of-artificial-intelligence-precursor",
+      "word": "precursor",
+      "partOfSpeech": "noun",
+      "definition": "forerunner",
+      "sentence": "Shakey, the SRI robot of the late 1960s, was a precursor of modern autonomous robots; it combined perception, A* search and STRIPS planning.",
+      "explanation": "Shakey could reason about moving boxes between rooms. The project produced A*, STRIPS and the Hough transform, all still taught today.",
+      "citations": [
+        {
+          "title": "Shakey the robot (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Shakey_the_robot"
+        }
+      ]
+    },
+    {
+      "id": "foundations-of-artificial-intelligence-abeyance",
+      "word": "abeyance",
+      "partOfSpeech": "noun",
+      "definition": "suspended action",
+      "sentence": "A partial-order planner holds ordering decisions in abeyance, committing to a sequence of steps only when it is forced to.",
+      "explanation": "This least-commitment strategy avoids picking an arbitrary order early and then backtracking when it turns out to be wrong. Steps that do not interfere can be left unordered and run in either order.",
+      "citations": [
+        {
+          "title": "Partial-order planning (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Partial-order_planning"
+        }
+      ]
+    },
+    {
+      "id": "foundations-of-artificial-intelligence-assuage",
+      "word": "assuage",
+      "partOfSpeech": "verb",
+      "definition": "ease or lessen (pain); satisfy (hunger); soothe (anger)",
+      "sentence": "Ignoring each action's delete effects assuages a planning problem enough to solve it quickly, giving a heuristic estimate of the distance to the goal.",
+      "explanation": "The cost of the relaxed problem never exceeds the true cost, so an optimal relaxed solution is an admissible heuristic. Delete-relaxation heuristics powered the FF planner (Hoffmann and Nebel, 2001) and many that followed.",
+      "citations": [
+        {
+          "title": "The FF Planning System (JAIR, 2001)",
+          "url": "https://doi.org/10.1613/jair.855"
+        },
+        {
+          "title": "Automated planning and scheduling (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Automated_planning_and_scheduling"
+        }
+      ]
+    },
+    {
+      "id": "foundations-of-artificial-intelligence-supposition",
+      "word": "supposition",
+      "partOfSpeech": "noun",
+      "definition": "hypothesis; surmise",
+      "sentence": "In Bayesian inference the prior is a supposition held before seeing data, and Bayes' rule updates it with the likelihood of the evidence to produce a posterior.",
+      "explanation": "Bayes' rule states P(H|E) = P(E|H) P(H) / P(E). Thomas Bayes' essay was published posthumously in 1763, and the rule became the core of probabilistic reasoning in AI.",
+      "citations": [
+        {
+          "title": "Bayes' theorem (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Bayes%27_theorem"
+        },
+        {
+          "title": "An Essay towards solving a Problem in the Doctrine of Chances (Bayes, 1763)",
+          "url": "https://doi.org/10.1098/rstl.1763.0053"
+        }
+      ]
+    },
+    {
+      "id": "foundations-of-artificial-intelligence-artless",
+      "word": "artless",
+      "partOfSpeech": "adjective",
+      "definition": "without guile; open and honest",
+      "sentence": "Naive Bayes is artless in assuming that features are independent given the class, yet it is often a strong baseline for text classification.",
+      "explanation": "The assumption shrinks the number of parameters from exponential to linear in the number of features. It is wrong for most real data, but the ranking of classes it produces is often still good, as in early spam filters.",
+      "citations": [
+        {
+          "title": "Naive Bayes classifier (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Naive_Bayes_classifier"
+        }
+      ]
+    },
+    {
+      "id": "foundations-of-artificial-intelligence-permeable",
+      "word": "permeable",
+      "partOfSpeech": "adjective",
+      "definition": "penetrable; porous; allowing liquids or gas to pass through",
+      "sentence": "In a Bayesian network, evidence at a collider makes a path permeable: observing a common effect makes its independent causes dependent.",
+      "explanation": "This is \"explaining away\": given that an alarm rang, learning that an earthquake occurred lowers the probability of a burglary. Judea Pearl's d-separation rules tell which variables stay independent given the evidence.",
+      "citations": [
+        {
+          "title": "Bayesian network (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Bayesian_network"
+        },
+        {
+          "title": "Conditional independence (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Conditional_independence"
+        }
+      ]
+    },
+    {
+      "id": "foundations-of-artificial-intelligence-indeterminate",
+      "word": "indeterminate",
+      "partOfSpeech": "adjective",
+      "definition": "uncertain; not clearly fixed; indefinite",
+      "sentence": "In a POMDP the true state is indeterminate to the agent, so it maintains a probability distribution over states called a belief state.",
+      "explanation": "After each action and observation the agent updates its belief with Bayes' rule, and the policy maps beliefs to actions. Solving POMDPs exactly is computationally very hard, so practical methods are approximate.",
+      "citations": [
+        {
+          "title": "Partially observable Markov decision process (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Partially_observable_Markov_decision_process"
+        }
+      ]
+    },
+    {
+      "id": "foundations-of-artificial-intelligence-attenuate",
+      "word": "attenuate",
+      "partOfSpeech": "verb",
+      "definition": "make thinner",
+      "sentence": "A discount factor gamma attenuates future rewards, so a reward received t steps from now counts only gamma^t as much as one received immediately.",
+      "explanation": "In a Markov decision process, discounting keeps the total value finite over infinite horizons. A gamma close to 1 makes the agent far-sighted, while a small gamma makes it favor immediate payoffs.",
+      "citations": [
+        {
+          "title": "Markov decision process (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Markov_decision_process"
+        },
+        {
+          "title": "Bellman equation (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Bellman_equation"
+        }
+      ]
+    },
+    {
+      "id": "foundations-of-artificial-intelligence-dichotomy",
+      "word": "dichotomy",
+      "partOfSpeech": "noun",
+      "definition": "split; branching into two parts (especially contradictory ones)",
+      "sentence": "Reinforcement learning faces a dichotomy between exploration, trying unfamiliar actions, and exploitation, repeating the best action known so far.",
+      "explanation": "The multi-armed bandit problem isolates the tradeoff. Strategies such as epsilon-greedy and upper confidence bounds balance the two, and both matter in practice, since pure exploitation can lock in a poor choice.",
+      "citations": [
+        {
+          "title": "Multi-armed bandit (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Multi-armed_bandit"
+        },
+        {
+          "title": "Reinforcement Learning: An Introduction (Sutton and Barto)",
+          "url": "http://incompleteideas.net/book/the-book-2nd.html"
+        }
+      ]
+    },
+    {
+      "id": "foundations-of-artificial-intelligence-conundrum",
+      "word": "conundrum",
+      "partOfSpeech": "noun",
+      "definition": "riddle; difficult problem",
+      "sentence": "The St. Petersburg paradox is a conundrum: a coin-tossing game has infinite expected payoff, yet few people would pay more than a small sum to play.",
+      "explanation": "Daniel Bernoulli resolved it in 1738 by proposing that the value of money grows more slowly than the amount, which is diminishing marginal utility. Von Neumann and Morgenstern's 1944 axioms later gave expected-utility theory its modern foundation.",
+      "citations": [
+        {
+          "title": "St. Petersburg paradox (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/St._Petersburg_paradox"
+        },
+        {
+          "title": "Expected utility hypothesis (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Expected_utility_hypothesis"
+        }
+      ]
+    },
+    {
+      "id": "foundations-of-artificial-intelligence-embellish",
+      "word": "embellish",
+      "partOfSpeech": "verb",
+      "definition": "adorn; ornament; enhance, as a story",
+      "sentence": "An overfit model embellishes noise as if it were signal, scoring well on its training data but poorly on new data.",
+      "explanation": "Overfitting is detected by holding out validation data or using cross-validation. Common remedies are more data, a simpler model, regularization and early stopping.",
+      "citations": [
+        {
+          "title": "Overfitting (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Overfitting"
+        }
+      ]
+    },
+    {
+      "id": "foundations-of-artificial-intelligence-plasticity",
+      "word": "plasticity",
+      "partOfSpeech": "noun",
+      "definition": "ability to be molded; by extension, here, a model class's capacity to fit varied data",
+      "sentence": "The VC dimension measures a model class's plasticity: the largest number of points it can classify correctly under every possible labeling.",
+      "explanation": "Lines in the plane have VC dimension 3. Vapnik and Chervonenkis (1971) showed that generalization bounds grow with this capacity, so richer models need more data to be trusted.",
+      "citations": [
+        {
+          "title": "Vapnik-Chervonenkis dimension (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Vapnik%E2%80%93Chervonenkis_dimension"
+        }
+      ]
+    },
+    {
+      "id": "foundations-of-artificial-intelligence-partisan",
+      "word": "partisan",
+      "partOfSpeech": "adjective",
+      "definition": "one-sided; prejudiced; committed to a party",
+      "sentence": "A high-bias model is partisan: it holds firmly to a simple assumption, such as a straight line, even when the data say otherwise.",
+      "explanation": "Expected squared error decomposes into bias squared, variance and irreducible noise, so reducing one often raises another. Modern overparameterized networks show a \"double descent\" curve that complicates the classic picture (Belkin et al., 2019).",
+      "citations": [
+        {
+          "title": "Bias-variance tradeoff (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Bias%E2%80%93variance_tradeoff"
+        },
+        {
+          "title": "Reconciling modern machine learning practice and the bias-variance trade-off (arXiv)",
+          "url": "https://arxiv.org/abs/1812.11118"
+        }
+      ]
+    },
+    {
+      "id": "foundations-of-artificial-intelligence-stint",
+      "word": "stint",
+      "partOfSpeech": "verb",
+      "definition": "be thrifty; set limits",
+      "sentence": "Regularization stints model complexity by adding a penalty on large weights to the training loss.",
+      "explanation": "L2 (ridge) shrinks weights toward zero, while L1 (lasso) drives some exactly to zero. From a Bayesian view they correspond to a Gaussian and a Laplace prior on the weights.",
+      "citations": [
+        {
+          "title": "Regularization (mathematics) (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Regularization_(mathematics)"
+        }
+      ]
+    },
+    {
+      "id": "foundations-of-artificial-intelligence-converge",
+      "word": "converge",
+      "partOfSpeech": "verb",
+      "definition": "approach; tend to meet; come together",
+      "sentence": "The perceptron convergence theorem guarantees that the learning rule will converge after a finite number of mistakes if the data are linearly separable.",
+      "explanation": "Rosenblatt proposed the perceptron in 1958, and Novikoff (1962) bounded the mistakes by (R/margin)^2. Minsky and Papert (1969) showed it cannot learn XOR, which is not linearly separable.",
+      "citations": [
+        {
+          "title": "Perceptron (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Perceptron"
+        }
+      ]
+    },
+    {
+      "id": "foundations-of-artificial-intelligence-malleable",
+      "word": "malleable",
+      "partOfSpeech": "adjective",
+      "definition": "capable of being shaped by pounding; impressionable",
+      "sentence": "Neural networks are remarkably malleable: the universal approximation theorem says one hidden layer with enough units can approximate any continuous function on a compact domain.",
+      "explanation": "Cybenko proved the result for sigmoid units in 1989, and Hornik extended it in 1991. The theorem says nothing about how many units are needed or whether training will actually find the approximation.",
+      "citations": [
+        {
+          "title": "Universal approximation theorem (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Universal_approximation_theorem"
+        }
+      ]
+    },
+    {
+      "id": "foundations-of-artificial-intelligence-diffuse",
+      "word": "diffuse",
+      "partOfSpeech": "adjective",
+      "definition": "wordy, rambling, spread out (like a gas); by extension, of data, spread thinly across a large space",
+      "sentence": "In high dimensions data become diffuse: points are spread so thinly that the nearest neighbor is barely closer than a typical point.",
+      "explanation": "Richard Bellman coined the phrase \"curse of dimensionality\". Volume grows exponentially with dimension, so the data needed to cover the space grow exponentially too, which is why methods rely on structure such as low-dimensional manifolds.",
+      "citations": [
+        {
+          "title": "Curse of dimensionality (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Curse_of_dimensionality"
+        }
+      ]
+    },
+    {
+      "id": "foundations-of-artificial-intelligence-refractory",
+      "word": "refractory",
+      "partOfSpeech": "adjective",
+      "definition": "stubborn; unmanageable",
+      "sentence": "Nonconvex loss surfaces are refractory: gradient descent can stall at saddle points or poor local minima instead of reaching the global optimum.",
+      "explanation": "Convex problems such as logistic regression have no spurious local minima. For deep networks, Dauphin et al. (2014) argued that in high dimensions saddle points are a bigger obstacle than bad local minima, and noisy methods like SGD often escape them.",
+      "citations": [
+        {
+          "title": "Convex optimization (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Convex_optimization"
+        },
+        {
+          "title": "Identifying and attacking the saddle point problem (arXiv)",
+          "url": "https://arxiv.org/abs/1406.2572"
+        }
+      ]
+    },
+    {
+      "id": "foundations-of-artificial-intelligence-efficacy",
+      "word": "efficacy",
+      "partOfSpeech": "noun",
+      "definition": "power to produce desired effect",
+      "sentence": "The no free lunch theorem says no learning algorithm has universal efficacy: averaged over all possible problems, every algorithm performs equally well.",
+      "explanation": "Wolpert's result implies that a learner succeeds only when its inductive bias matches the structure of the problem at hand. Real-world problems are far from uniformly random, which is why some methods work well in practice.",
+      "citations": [
+        {
+          "title": "No free lunch theorem (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/No_free_lunch_theorem"
+        }
+      ]
+    },
+    {
+      "id": "foundations-of-artificial-intelligence-warranted",
+      "word": "warranted",
+      "partOfSpeech": "adjective",
+      "definition": "justified; authorized",
+      "sentence": "PAC learning (Valiant, 1984) says how many examples make confidence warranted: with probability at least 1 - delta, the learned hypothesis has error at most epsilon.",
+      "explanation": "For a finite hypothesis class and a learner that finds a consistent hypothesis, roughly (1/epsilon)(ln|H| + ln(1/delta)) examples suffice. The framework turned \"learning works\" into a statement about sample complexity.",
+      "citations": [
+        {
+          "title": "Probably approximately correct learning (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Probably_approximately_correct_learning"
+        },
+        {
+          "title": "A Theory of the Learnable (Valiant, 1984)",
+          "url": "https://doi.org/10.1145/1968.1972"
+        }
+      ]
+    }
+  ]
+}

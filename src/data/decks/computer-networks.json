@@ -1,0 +1,644 @@
+{
+  "id": "computer-networks",
+  "title": "Computer Networks",
+  "category": "Computer Science",
+  "description": "Learn GRE words through protocols, congestion control, routing, streaming, datacenters and software-defined networks.",
+  "cards": [
+    {
+      "id": "computer-networks-fledgling",
+      "word": "fledgling",
+      "partOfSpeech": "adjective",
+      "definition": "inexperienced",
+      "sentence": "The fledgling ARPANET's first message, sent from UCLA to SRI on October 29, 1969, was meant to be \"LOGIN\", but the system crashed after the letters \"LO\".",
+      "explanation": "ARPANET was an early packet-switched network; the term \"packet\" was coined by Donald Davies, and the network had four nodes by the end of 1969. It switched to TCP/IP on January 1, 1983, a date often called the Internet's birthday.",
+      "citations": [
+        {
+          "title": "ARPANET (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/ARPANET"
+        },
+        {
+          "title": "Packet switching (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Packet_switching"
+        }
+      ]
+    },
+    {
+      "id": "computer-networks-anarchy",
+      "word": "anarchy",
+      "partOfSpeech": "noun",
+      "definition": "absence of governing body; state of disorder; by extension, here, decentralized control with no governing authority",
+      "sentence": "To outsiders the Internet's governance can look like anarchy: the IETF has no voting and works by \"rough consensus and running code\".",
+      "explanation": "Dave Clark's 1992 line, \"We reject kings, presidents and voting\", captured the culture. Standards appear as RFCs, a series begun by Steve Crocker in 1969, and the network itself is a collection of tens of thousands of independently run autonomous systems.",
+      "citations": [
+        {
+          "title": "On Consensus and Humming in the IETF (RFC 7282)",
+          "url": "https://www.rfc-editor.org/rfc/rfc7282"
+        },
+        {
+          "title": "Internet Engineering Task Force (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Internet_Engineering_Task_Force"
+        }
+      ]
+    },
+    {
+      "id": "computer-networks-incorporate",
+      "word": "incorporate",
+      "partOfSpeech": "verb",
+      "definition": "introduce something into a larger whole; combine; unite",
+      "sentence": "At each layer a protocol incorporates the data from the layer above as its payload and adds its own header, a process called encapsulation.",
+      "explanation": "Application data becomes a TCP segment, then an IP packet, then an Ethernet frame. The Internet's four-layer model (link, internet, transport, application) is described in RFC 1122, while the OSI model has seven layers.",
+      "citations": [
+        {
+          "title": "Encapsulation (networking) (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Encapsulation_(networking)"
+        },
+        {
+          "title": "Requirements for Internet Hosts (RFC 1122)",
+          "url": "https://www.rfc-editor.org/rfc/rfc1122"
+        }
+      ]
+    },
+    {
+      "id": "computer-networks-austere",
+      "word": "austere",
+      "partOfSpeech": "adjective",
+      "definition": "forbiddingly stern; severely simple and unornamented",
+      "sentence": "The end-to-end principle favors an austere network core that simply forwards packets and leaves reliability and other intelligence to the endpoints.",
+      "explanation": "Saltzer, Reed and Clark argued in 1984 that only the endpoints can fully guarantee things like correct delivery, so putting such functions in the middle is redundant at best. The principle helps explain why new applications could appear without changes to the core.",
+      "citations": [
+        {
+          "title": "End-to-End Arguments in System Design (Saltzer, Reed and Clark, 1984)",
+          "url": "http://web.mit.edu/Saltzer/www/publications/endtoend/endtoend.pdf"
+        },
+        {
+          "title": "End-to-end principle (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/End-to-end_principle"
+        }
+      ]
+    },
+    {
+      "id": "computer-networks-felicitous",
+      "word": "felicitous",
+      "partOfSpeech": "adjective",
+      "definition": "apt; suitably expressed; well chosen",
+      "sentence": "Berkeley sockets, introduced in 4.2BSD in 1983, are a felicitous abstraction: a network connection looks like a file descriptor that a program can read and write.",
+      "explanation": "A server calls socket, bind, listen and accept, while a client calls socket and connect. TCP sockets provide a byte stream, and UDP sockets send individual datagrams. The same API, standardized in POSIX, is the basis of most network programming assignments.",
+      "citations": [
+        {
+          "title": "socket(2) (Linux man page)",
+          "url": "https://man7.org/linux/man-pages/man2/socket.2.html"
+        },
+        {
+          "title": "Beej's Guide to Network Programming",
+          "url": "https://beej.us/guide/bgnet/"
+        }
+      ]
+    },
+    {
+      "id": "computer-networks-laconic",
+      "word": "laconic",
+      "partOfSpeech": "adjective",
+      "definition": "brief and to the point",
+      "sentence": "UDP is laconic: its 8-byte header carries only ports, a length and a checksum, with no connection setup, retransmission or ordering.",
+      "explanation": "RFC 768 (1980) specifies it in about three pages. DNS, QUIC, VoIP and many games use UDP and add only the features they need on top.",
+      "citations": [
+        {
+          "title": "User Datagram Protocol (RFC 768)",
+          "url": "https://www.rfc-editor.org/rfc/rfc768"
+        },
+        {
+          "title": "User Datagram Protocol (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/User_Datagram_Protocol"
+        }
+      ]
+    },
+    {
+      "id": "computer-networks-preamble",
+      "word": "preamble",
+      "partOfSpeech": "noun",
+      "definition": "introductory statement",
+      "sentence": "The three-way handshake (SYN, SYN-ACK, ACK) is the preamble to every TCP connection: the two sides exchange and acknowledge initial sequence numbers before any data flows.",
+      "explanation": "The handshake costs one round trip before the first byte of data, and TLS adds more on top for HTTPS. TCP Fast Open (RFC 7413) and QUIC were designed in part to shorten this start-up delay.",
+      "citations": [
+        {
+          "title": "Transmission Control Protocol (RFC 9293)",
+          "url": "https://www.rfc-editor.org/rfc/rfc9293"
+        }
+      ]
+    },
+    {
+      "id": "computer-networks-alacrity",
+      "word": "alacrity",
+      "partOfSpeech": "noun",
+      "definition": "cheerful promptness; eagerness",
+      "sentence": "A TCP sender transmits with alacrity until its window is full, then waits for acknowledgments before sending any more.",
+      "explanation": "The usable window is the smaller of the receiver's advertised window, which provides flow control, and the sender's congestion window. To keep a long, fast path full, the window must be at least the bandwidth-delay product.",
+      "citations": [
+        {
+          "title": "Sliding window protocol (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Sliding_window_protocol"
+        },
+        {
+          "title": "Transmission Control Protocol (RFC 9293)",
+          "url": "https://www.rfc-editor.org/rfc/rfc9293"
+        }
+      ]
+    },
+    {
+      "id": "computer-networks-dissolution",
+      "word": "dissolution",
+      "partOfSpeech": "noun",
+      "definition": "disintegration; looseness in morals",
+      "sentence": "In October 1986 the Internet suffered congestion collapse: throughput on one Berkeley link fell from 32 kbps to 40 bps, a dissolution of useful work caused by endless retransmissions.",
+      "explanation": "Van Jacobson's 1988 paper \"Congestion Avoidance and Control\" responded with slow start, congestion avoidance and better timers. Those ideas are the foundation of TCP's behavior today.",
+      "citations": [
+        {
+          "title": "Congestion Avoidance and Control (Jacobson, 1988)",
+          "url": "https://ee.lbl.gov/papers/congavoid.pdf"
+        },
+        {
+          "title": "TCP congestion control (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/TCP_congestion_control"
+        }
+      ]
+    },
+    {
+      "id": "computer-networks-abate",
+      "word": "abate",
+      "partOfSpeech": "verb",
+      "definition": "subside , or moderate",
+      "sentence": "Reno halves its congestion window after a loss and then adds one segment per round trip, giving the congestion time to abate.",
+      "explanation": "This is additive increase, multiplicative decrease (AIMD). Chiu and Jain showed in 1989 that it converges toward a fair and efficient sharing of a link among competing flows.",
+      "citations": [
+        {
+          "title": "Additive increase/multiplicative decrease (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Additive_increase/multiplicative_decrease"
+        },
+        {
+          "title": "TCP Congestion Control (RFC 5681)",
+          "url": "https://www.rfc-editor.org/rfc/rfc5681"
+        }
+      ]
+    },
+    {
+      "id": "computer-networks-burgeon",
+      "word": "burgeon",
+      "partOfSpeech": "verb",
+      "definition": "grow forth; send out buds",
+      "sentence": "In slow start the congestion window burgeons exponentially, doubling every round trip until it reaches a threshold or a loss occurs.",
+      "explanation": "The name is ironic, since the growth is fast. Modern stacks begin with an initial window of 10 segments (RFC 6928), which lets short transfers such as web pages finish in a few round trips.",
+      "citations": [
+        {
+          "title": "TCP Congestion Control (RFC 5681)",
+          "url": "https://www.rfc-editor.org/rfc/rfc5681"
+        },
+        {
+          "title": "Increasing TCP's Initial Window (RFC 6928)",
+          "url": "https://www.rfc-editor.org/rfc/rfc6928"
+        }
+      ]
+    },
+    {
+      "id": "computer-networks-iconoclastic",
+      "word": "iconoclastic",
+      "partOfSpeech": "adjective",
+      "definition": "attacking cherished traditions",
+      "sentence": "Google's BBR algorithm (2016) is iconoclastic: instead of treating packet loss as the signal of congestion, it models the bottleneck bandwidth and round-trip time.",
+      "explanation": "Linux has used CUBIC by default since 2006, and CUBIC is loss-based. BBR is deployed on Google and YouTube traffic, though its fairness toward loss-based flows has been debated.",
+      "citations": [
+        {
+          "title": "BBR: Congestion-Based Congestion Control (ACM Queue)",
+          "url": "https://queue.acm.org/detail.cfm?id=3022184"
+        },
+        {
+          "title": "TCP congestion control (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/TCP_congestion_control"
+        }
+      ]
+    },
+    {
+      "id": "computer-networks-distend",
+      "word": "distend",
+      "partOfSpeech": "verb",
+      "definition": "expand; swell out",
+      "sentence": "Oversized buffers let queues distend, so a loaded home router can add seconds of delay, a problem known as bufferbloat.",
+      "explanation": "Loss-based TCP keeps filling a buffer until it overflows, so a bigger buffer means longer delay without more throughput. Active queue management such as CoDel and FQ-CoDel keeps queues short.",
+      "citations": [
+        {
+          "title": "Bufferbloat project",
+          "url": "https://www.bufferbloat.net/projects/"
+        },
+        {
+          "title": "Controlling Queue Delay (CoDel, ACM Queue)",
+          "url": "https://queue.acm.org/detail.cfm?id=2209336"
+        }
+      ]
+    },
+    {
+      "id": "computer-networks-penury",
+      "word": "penury",
+      "partOfSpeech": "noun",
+      "definition": "severe poverty; stinginess",
+      "sentence": "IPv4's 32-bit addresses, about 4.3 billion in all, left the Internet in penury, and IANA handed out its last free blocks in 2011.",
+      "explanation": "IPv6 uses 128-bit addresses (RFC 8200) and so has room for vastly more. The transition relies on dual-stack hosts, while NAT and carrier-grade NAT have stretched the IPv4 supply.",
+      "citations": [
+        {
+          "title": "Internet Protocol, Version 6 (RFC 8200)",
+          "url": "https://www.rfc-editor.org/rfc/rfc8200"
+        },
+        {
+          "title": "IPv4 address exhaustion (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/IPv4_address_exhaustion"
+        }
+      ]
+    },
+    {
+      "id": "computer-networks-dissemble",
+      "word": "dissemble",
+      "partOfSpeech": "verb",
+      "definition": "disguise; pretend",
+      "sentence": "A NAT router dissembles many private hosts as one by rewriting addresses and ports, so they all appear to come from a single public address.",
+      "explanation": "The router keeps a table mapping each internal address and port to an external port. NAT breaks the original end-to-end addressing model and complicates peer-to-peer applications and VoIP (RFC 3022).",
+      "citations": [
+        {
+          "title": "Traditional IP Network Address Translator (RFC 3022)",
+          "url": "https://www.rfc-editor.org/rfc/rfc3022"
+        },
+        {
+          "title": "Network address translation (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Network_address_translation"
+        }
+      ]
+    },
+    {
+      "id": "computer-networks-coagulate",
+      "word": "coagulate",
+      "partOfSpeech": "verb",
+      "definition": "thicken; congeal; clot",
+      "sentence": "CIDR lets routes for many neighboring networks coagulate into a single aggregate prefix, such as one /16 standing in for 256 separate /24 networks.",
+      "explanation": "CIDR was introduced in 1993 to slow the growth of routing tables and the exhaustion of address space (RFC 4632). Routers pick among overlapping prefixes with longest-prefix match.",
+      "citations": [
+        {
+          "title": "Classless Inter-domain Routing (RFC 4632)",
+          "url": "https://www.rfc-editor.org/rfc/rfc4632"
+        }
+      ]
+    },
+    {
+      "id": "computer-networks-problematic",
+      "word": "problematic",
+      "partOfSpeech": "adjective",
+      "definition": "doubtful; unsettled; questionable; perplexing",
+      "sentence": "Filtering all ICMP traffic is problematic because path MTU discovery depends on \"fragmentation needed\" and \"Packet Too Big\" messages.",
+      "explanation": "Ethernet's typical MTU is 1500 bytes, and IPv6 routers never fragment packets. When the messages are dropped, small requests work but large transfers hang, a symptom called an MTU black hole.",
+      "citations": [
+        {
+          "title": "Path MTU Discovery (RFC 1191)",
+          "url": "https://www.rfc-editor.org/rfc/rfc1191"
+        },
+        {
+          "title": "Path MTU Discovery for IP version 6 (RFC 8201)",
+          "url": "https://www.rfc-editor.org/rfc/rfc8201"
+        }
+      ]
+    },
+    {
+      "id": "computer-networks-itinerary",
+      "word": "itinerary",
+      "partOfSpeech": "noun",
+      "definition": "plan of a trip",
+      "sentence": "Traceroute reveals a packet's itinerary hop by hop by sending probes with increasing TTL values and collecting the ICMP Time Exceeded replies.",
+      "explanation": "Van Jacobson wrote the tool in 1987. Each router decrements the TTL field and discards the packet at zero, which also protects the network from packets that circulate forever.",
+      "citations": [
+        {
+          "title": "Traceroute (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Traceroute"
+        },
+        {
+          "title": "Internet Control Message Protocol (RFC 792)",
+          "url": "https://www.rfc-editor.org/rfc/rfc792"
+        }
+      ]
+    },
+    {
+      "id": "computer-networks-erudite",
+      "word": "erudite",
+      "partOfSpeech": "adjective",
+      "definition": "learned; scholarly",
+      "sentence": "In link-state routing, every router becomes erudite about the whole topology and then runs Dijkstra's algorithm to compute shortest paths.",
+      "explanation": "OSPF (RFC 2328) floods link-state advertisements to all routers in an area. Dividing a network into areas keeps the flooding and computation manageable.",
+      "citations": [
+        {
+          "title": "OSPF Version 2 (RFC 2328)",
+          "url": "https://www.rfc-editor.org/rfc/rfc2328"
+        },
+        {
+          "title": "Link-state routing protocol (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Link-state_routing_protocol"
+        }
+      ]
+    },
+    {
+      "id": "computer-networks-futile",
+      "word": "futile",
+      "partOfSpeech": "adjective",
+      "definition": "useless; hopeless; ineffectual",
+      "sentence": "In the count-to-infinity problem, distance-vector routers futilely trade ever larger costs for a destination that has become unreachable.",
+      "explanation": "RIP treats 16 hops as infinity so the counting stops, and split horizon and poison reverse reduce the problem. Distance-vector routing is based on the Bellman-Ford algorithm.",
+      "citations": [
+        {
+          "title": "Routing Information Protocol (RFC 2453)",
+          "url": "https://www.rfc-editor.org/rfc/rfc2453"
+        },
+        {
+          "title": "Routing Information Protocol (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Routing_Information_Protocol"
+        }
+      ]
+    },
+    {
+      "id": "computer-networks-penchant",
+      "word": "penchant",
+      "partOfSpeech": "noun",
+      "definition": "strong inclination; liking",
+      "sentence": "ISPs have a penchant for routes through paying customers, which earn money, over those through providers, which cost money, so BGP policy tends to follow business relationships.",
+      "explanation": "Operators set a local preference to rank routes, and the resulting paths are mostly \"valley-free\" (Gao and Rexford, 2001). BGP, specified in RFC 4271, is the protocol that ties the autonomous systems together.",
+      "citations": [
+        {
+          "title": "A Border Gateway Protocol 4 (RFC 4271)",
+          "url": "https://www.rfc-editor.org/rfc/rfc4271"
+        },
+        {
+          "title": "Border Gateway Protocol (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Border_Gateway_Protocol"
+        }
+      ]
+    },
+    {
+      "id": "computer-networks-gullible",
+      "word": "gullible",
+      "partOfSpeech": "adjective",
+      "definition": "easily deceived",
+      "sentence": "BGP is gullible: routers largely believe what their neighbors announce, which let Pakistan Telecom's 2008 announcement take YouTube offline for much of the world.",
+      "explanation": "The ISP advertised a more specific prefix, and longest-prefix matching sent traffic to it; the outage lasted around two hours. Route origin validation using RPKI (RFC 6480) lets networks reject announcements from an unauthorized origin.",
+      "citations": [
+        {
+          "title": "YouTube Hijacking: A RIPE NCC RIS case study",
+          "url": "https://www.ripe.net/about-us/news/youtube-hijacking-a-ripe-ncc-ris-case-study/"
+        },
+        {
+          "title": "An Infrastructure to Support Secure Internet Routing (RFC 6480)",
+          "url": "https://www.rfc-editor.org/rfc/rfc6480"
+        }
+      ]
+    },
+    {
+      "id": "computer-networks-deference",
+      "word": "deference",
+      "partOfSpeech": "noun",
+      "definition": "courteous regard for another’s wishes",
+      "sentence": "Wi-Fi stations show deference to each other by listening before they transmit and backing off for a random time if the channel is busy.",
+      "explanation": "This is CSMA/CA. Unlike wired Ethernet, a wireless station cannot detect collisions while it is transmitting, and hidden terminals, which cannot hear each other, make coordination harder.",
+      "citations": [
+        {
+          "title": "CSMA/CA (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Carrier-sense_multiple_access_with_collision_avoidance"
+        },
+        {
+          "title": "Hidden node problem (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Hidden_node_problem"
+        }
+      ]
+    },
+    {
+      "id": "computer-networks-enervate",
+      "word": "enervate",
+      "partOfSpeech": "verb",
+      "definition": "weaken",
+      "sentence": "A broadcast storm can enervate a switched network that contains a loop, because Ethernet frames carry no hop limit and circulate indefinitely.",
+      "explanation": "Radia Perlman's spanning tree algorithm (1985) blocks redundant links to leave a loop-free tree. Perlman also wrote a short poem about it, \"Algorhyme\", and modern datacenters mostly avoid large Layer 2 networks altogether.",
+      "citations": [
+        {
+          "title": "Spanning Tree Protocol (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Spanning_Tree_Protocol"
+        },
+        {
+          "title": "Radia Perlman (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Radia_Perlman"
+        }
+      ]
+    },
+    {
+      "id": "computer-networks-perfunctory",
+      "word": "perfunctory",
+      "partOfSpeech": "adjective",
+      "definition": "superficial; not thorough; lacking interest, care, or enthusiasm",
+      "sentence": "The Internet checksum is a perfunctory check, a 16-bit ones' complement sum that misses many errors, so link layers add a stronger CRC.",
+      "explanation": "Ethernet uses a 32-bit CRC that catches burst errors well. The end-to-end principle explains why TCP still checks its own data, and TLS adds cryptographic integrity on top.",
+      "citations": [
+        {
+          "title": "Computing the Internet Checksum (RFC 1071)",
+          "url": "https://www.rfc-editor.org/rfc/rfc1071"
+        },
+        {
+          "title": "Cyclic redundancy check (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Cyclic_redundancy_check"
+        }
+      ]
+    },
+    {
+      "id": "computer-networks-capricious",
+      "word": "capricious",
+      "partOfSpeech": "adjective",
+      "definition": "unpredictable; fickle",
+      "sentence": "Because bandwidth is capricious, DASH and HLS players fetch video in short segments and pick each segment's quality from a ladder of bitrates.",
+      "explanation": "Buffer-based algorithms, such as the one Huang et al. tested on Netflix in 2014, choose the bitrate according to how much video is already buffered, which helps avoid rebuffering. The player can only fetch and decide, so it needs no special support from the network.",
+      "citations": [
+        {
+          "title": "Dynamic Adaptive Streaming over HTTP (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Dynamic_Adaptive_Streaming_over_HTTP"
+        },
+        {
+          "title": "A Buffer-Based Approach to Rate Adaptation (SIGCOMM 2014)",
+          "url": "https://doi.org/10.1145/2619239.2626296"
+        }
+      ]
+    },
+    {
+      "id": "computer-networks-beneficent",
+      "word": "beneficent",
+      "partOfSpeech": "adjective",
+      "definition": "kindly; doing good",
+      "sentence": "Netflix's Open Connect gives qualifying ISPs free caching appliances, an arrangement that looks beneficent but also saves Netflix the cost of carrying traffic across long distances.",
+      "explanation": "Popular titles are loaded onto the appliances during off-peak hours, so a stream usually comes from inside the viewer's own ISP network. This keeps transit links uncongested and improves quality.",
+      "citations": [
+        {
+          "title": "Open Connect (Netflix)",
+          "url": "https://openconnect.netflix.com/"
+        },
+        {
+          "title": "Content delivery network (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Content_delivery_network"
+        }
+      ]
+    },
+    {
+      "id": "computer-networks-mollify",
+      "word": "mollify",
+      "partOfSpeech": "verb",
+      "definition": "soothe",
+      "sentence": "A playout buffer can mollify jitter in a voice or video call by holding packets briefly so they can be played out smoothly.",
+      "explanation": "RTP (RFC 3550) adds sequence numbers and timestamps so the receiver can reorder packets and measure jitter. A bigger buffer smooths more but adds delay, which matters because conversation suffers when one-way delay goes much beyond about 150 ms.",
+      "citations": [
+        {
+          "title": "RTP: A Transport Protocol for Real-Time Applications (RFC 3550)",
+          "url": "https://www.rfc-editor.org/rfc/rfc3550"
+        },
+        {
+          "title": "Jitter (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Jitter"
+        }
+      ]
+    },
+    {
+      "id": "computer-networks-recalcitrant",
+      "word": "recalcitrant",
+      "partOfSpeech": "adjective",
+      "definition": "obstinately stubborn; determined to resist authority; unruly",
+      "sentence": "Recalcitrant middleboxes drop packets with unfamiliar transport protocols, which is why QUIC is built on UDP and encrypts most of its headers.",
+      "explanation": "This is called protocol ossification. Firewalls and NATs that only understand TCP and UDP kept alternatives such as SCTP from spreading across the Internet, and QUIC's encryption stops devices in the path from depending on its internals.",
+      "citations": [
+        {
+          "title": "Long-Term Viability of Protocol Extension Mechanisms (RFC 9170)",
+          "url": "https://www.rfc-editor.org/rfc/rfc9170"
+        },
+        {
+          "title": "QUIC (RFC 9000)",
+          "url": "https://www.rfc-editor.org/rfc/rfc9000"
+        }
+      ]
+    },
+    {
+      "id": "computer-networks-plethora",
+      "word": "plethora",
+      "partOfSpeech": "noun",
+      "definition": "excess; overabundance",
+      "sentence": "A datacenter fat-tree offers a plethora of equal-cost paths between servers, and ECMP spreads flows across them by hashing packet headers.",
+      "explanation": "Al-Fares et al. (SIGCOMM 2008) showed how to build such a network from commodity switches. Hash collisions can still put several large flows on one link, a known weakness of ECMP.",
+      "citations": [
+        {
+          "title": "A Scalable, Commodity Data Center Network Architecture (SIGCOMM 2008)",
+          "url": "https://doi.org/10.1145/1402958.1402967"
+        },
+        {
+          "title": "Equal-cost multi-path routing (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Equal-cost_multi-path_routing"
+        }
+      ]
+    },
+    {
+      "id": "computer-networks-precipitate",
+      "word": "precipitate",
+      "partOfSpeech": "adjective",
+      "definition": "rash, premature, hasty, sudden",
+      "sentence": "TCP incast, in which many servers answer one client at the same moment, can cause a precipitate collapse in throughput as a switch buffer overflows.",
+      "explanation": "Lost packets leave the client waiting for a retransmission timeout, historically 200 ms or more, far longer than the transfer itself. Finer-grained timers (Vasudevan et al., 2009) and DCTCP reduce the problem.",
+      "citations": [
+        {
+          "title": "Safe and Effective Fine-grained TCP Retransmissions for Datacenter Communication (SIGCOMM 2009)",
+          "url": "https://doi.org/10.1145/1592568.1592604"
+        }
+      ]
+    },
+    {
+      "id": "computer-networks-commensurate",
+      "word": "commensurate",
+      "partOfSpeech": "adjective",
+      "definition": "corresponding in extent, degree, etc.; proportionate",
+      "sentence": "DCTCP reacts to ECN marks in a way commensurate with the extent of congestion, cutting its window a little for light marking and a lot for heavy marking.",
+      "explanation": "Switches mark packets when their queues exceed a threshold, and the sender tracks the fraction of marked packets. This keeps queues short and helps latency-sensitive traffic (Alizadeh et al., SIGCOMM 2010; RFC 8257).",
+      "citations": [
+        {
+          "title": "Data Center TCP (SIGCOMM 2010)",
+          "url": "https://doi.org/10.1145/1851182.1851192"
+        },
+        {
+          "title": "DCTCP (RFC 8257)",
+          "url": "https://www.rfc-editor.org/rfc/rfc8257"
+        }
+      ]
+    },
+    {
+      "id": "computer-networks-malleable",
+      "word": "malleable",
+      "partOfSpeech": "adjective",
+      "definition": "capable of being shaped by pounding; impressionable",
+      "sentence": "Overlay networks such as VXLAN make the physical fabric malleable: each cloud tenant gets a private virtual network regardless of the underlying topology.",
+      "explanation": "VXLAN wraps Ethernet frames in UDP packets and uses a 24-bit network identifier, which allows about 16 million separate segments. The cloud's virtual private networks are built this way.",
+      "citations": [
+        {
+          "title": "Virtual eXtensible Local Area Network (RFC 7348)",
+          "url": "https://www.rfc-editor.org/rfc/rfc7348"
+        },
+        {
+          "title": "Virtual Extensible LAN (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Virtual_Extensible_LAN"
+        }
+      ]
+    },
+    {
+      "id": "computer-networks-divest",
+      "word": "divest",
+      "partOfSpeech": "verb",
+      "definition": "strip; deprive",
+      "sentence": "Software-defined networking divests individual switches of routing decisions, moving them to a logically centralized controller.",
+      "explanation": "The controller installs match-action rules in switches using a protocol such as OpenFlow (McKeown et al., 2008). Google's B4 wide-area network (2013) used this approach to run its links at much higher utilization than conventional networks.",
+      "citations": [
+        {
+          "title": "OpenFlow: Enabling Innovation in Campus Networks",
+          "url": "https://doi.org/10.1145/1355734.1355746"
+        },
+        {
+          "title": "B4: Experience with a Globally-Deployed Software Defined WAN (Google)",
+          "url": "https://research.google/pubs/b4-experience-with-a-globally-deployed-software-defined-wan/"
+        }
+      ]
+    },
+    {
+      "id": "computer-networks-gouge",
+      "word": "gouge",
+      "partOfSpeech": "verb",
+      "definition": "overcharge",
+      "sentence": "Critics said cloud providers gouge customers with data egress fees, and in 2024 Google, AWS and Microsoft each waived them for customers leaving their platforms.",
+      "explanation": "The EU Data Act, which applies from September 2025, requires cloud providers to make switching easier and to phase out switching charges by January 2027. Egress pricing matters because data transfer can make up much of a cloud bill.",
+      "citations": [
+        {
+          "title": "Free data transfer out to internet when moving out of AWS (AWS)",
+          "url": "https://aws.amazon.com/blogs/aws/free-data-transfer-out-to-internet-when-moving-out-of-aws/"
+        },
+        {
+          "title": "Data Act (European Union) (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Data_Act_(European_Union)"
+        }
+      ]
+    },
+    {
+      "id": "computer-networks-precarious",
+      "word": "precarious",
+      "partOfSpeech": "adjective",
+      "definition": "uncertain; risky",
+      "sentence": "The global Internet rests on a precarious foundation: roughly 99 percent of intercontinental data travels through undersea cables, and a single anchor or earthquake can cut one.",
+      "explanation": "Undersea cable faults, such as the damage reported in the Red Sea in 2024 and the 2022 Tonga volcanic eruption that cut the island's only international cable, show how a few physical links can disrupt whole regions. Operators plan redundant routes, but repairs need specialized ships and can take weeks.",
+      "citations": [
+        {
+          "title": "Submarine communications cable (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Submarine_communications_cable"
+        },
+        {
+          "title": "International Cable Protection Committee",
+          "url": "https://www.iscpc.org/"
+        }
+      ]
+    }
+  ]
+}

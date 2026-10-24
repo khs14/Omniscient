@@ -1,0 +1,634 @@
+{
+  "id": "computer-science-pragmatics",
+  "title": "Computer Science Pragmatics",
+  "category": "Computer Science",
+  "description": "Learn GRE words through shells, Makefiles, compilers, debugging tools and version control.",
+  "cards": [
+    {
+      "id": "computer-science-pragmatics-distill",
+      "word": "distill",
+      "partOfSpeech": "verb",
+      "definition": "purify; refine; concentrate",
+      "sentence": "A shell pipeline distills raw text through small filters: sort file | uniq -c | sort -rn | head ranks the most frequent lines in a file.",
+      "explanation": "Doug McIlroy proposed pipes in 1964, and Ken Thompson added them to Unix in 1973, reportedly in a single night. Each program does one job, reads standard input and writes standard output, so programs can be combined in ways their authors never planned.",
+      "citations": [
+        {
+          "title": "Pipeline (Unix) (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Pipeline_(Unix)"
+        },
+        {
+          "title": "Pipelines (GNU Bash manual)",
+          "url": "https://www.gnu.org/software/bash/manual/html_node/Pipelines.html"
+        }
+      ]
+    },
+    {
+      "id": "computer-science-pragmatics-esoteric",
+      "word": "esoteric",
+      "partOfSpeech": "adjective",
+      "definition": "hard to understand; known only to the chosen few",
+      "sentence": "Regular expressions look esoteric at first, but a handful of constructs, such as ., *, +, ?, [] , ^, $ and groups, cover most everyday uses.",
+      "explanation": "The grep command gets its name from the ed editor command g/re/p, meaning \"globally search for a regular expression and print\". Ken Thompson built regular-expression search into early Unix tools in the late 1960s and early 1970s.",
+      "citations": [
+        {
+          "title": "regex(7) (Linux man page)",
+          "url": "https://man7.org/linux/man-pages/man7/regex.7.html"
+        },
+        {
+          "title": "Grep (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Grep"
+        }
+      ]
+    },
+    {
+      "id": "computer-science-pragmatics-confound",
+      "word": "confound",
+      "partOfSpeech": "verb",
+      "definition": "confuse; puzzle",
+      "sentence": "Shell quoting rules confound beginners: single quotes keep text literal, while double quotes still expand $variables.",
+      "explanation": "So echo '$HOME' prints the characters $HOME, while echo \"$HOME\" prints your home directory. A backslash escapes just the next character.",
+      "citations": [
+        {
+          "title": "Quoting (GNU Bash manual)",
+          "url": "https://www.gnu.org/software/bash/manual/html_node/Quoting.html"
+        }
+      ]
+    },
+    {
+      "id": "computer-science-pragmatics-insinuate",
+      "word": "insinuate",
+      "partOfSpeech": "verb",
+      "definition": "hint; imply; creep in; by extension, to creep in",
+      "sentence": "A filename that contains a space can insinuate extra arguments into a command when its variable is left unquoted.",
+      "explanation": "With f=\"my file\", the command rm $f runs rm on two separate names, my and file. Writing rm \"$f\" avoids this, and the ShellCheck tool flags the mistake automatically.",
+      "citations": [
+        {
+          "title": "SC2086: Double quote to prevent globbing and word splitting (ShellCheck)",
+          "url": "https://www.shellcheck.net/wiki/SC2086"
+        },
+        {
+          "title": "Word Splitting (GNU Bash manual)",
+          "url": "https://www.gnu.org/software/bash/manual/html_node/Word-Splitting.html"
+        }
+      ]
+    },
+    {
+      "id": "computer-science-pragmatics-perennial",
+      "word": "perennial",
+      "partOfSpeech": "adjective",
+      "definition": "something long-lasting",
+      "sentence": "A wrong PATH is a perennial cause of \"command not found\" errors, because the shell searches its directories in order and runs the first match.",
+      "explanation": "Use type -a command or which to see what will run. Environment variables are passed to child processes as copies, so a variable must be exported to be visible to programs you launch.",
+      "citations": [
+        {
+          "title": "Command Search and Execution (GNU Bash manual)",
+          "url": "https://www.gnu.org/software/bash/manual/html_node/Command-Search-and-Execution.html"
+        },
+        {
+          "title": "environ(7) (Linux man page)",
+          "url": "https://man7.org/linux/man-pages/man7/environ.7.html"
+        }
+      ]
+    },
+    {
+      "id": "computer-science-pragmatics-embellish",
+      "word": "embellish",
+      "partOfSpeech": "verb",
+      "definition": "adorn; ornament; enhance, as a story",
+      "sentence": "Many developers embellish their shell prompt with the current Git branch and the exit status of the last command.",
+      "explanation": "Prompt and aliases live in startup files, called dotfiles, such as .bashrc and .zshrc. Apple made zsh the default shell in macOS Catalina (2019), and many people keep their dotfiles in version control.",
+      "citations": [
+        {
+          "title": "Bash Startup Files (GNU Bash manual)",
+          "url": "https://www.gnu.org/software/bash/manual/html_node/Bash-Startup-Files.html"
+        },
+        {
+          "title": "Z shell (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Z_shell"
+        }
+      ]
+    },
+    {
+      "id": "computer-science-pragmatics-inert",
+      "word": "inert",
+      "partOfSpeech": "adjective",
+      "definition": "inactive; lacking power to move",
+      "sentence": "A script without the execute permission bit is inert; chmod +x makes it runnable, and a first line such as #!/usr/bin/env python3 names the interpreter.",
+      "explanation": "When the kernel executes a file that starts with #! (the shebang), it launches the named interpreter and passes the script to it. Using env finds the interpreter on the user's PATH, which helps portability.",
+      "citations": [
+        {
+          "title": "execve(2) (Linux man page)",
+          "url": "https://man7.org/linux/man-pages/man2/execve.2.html"
+        },
+        {
+          "title": "chmod(1) (Linux man page)",
+          "url": "https://man7.org/linux/man-pages/man1/chmod.1.html"
+        }
+      ]
+    },
+    {
+      "id": "computer-science-pragmatics-complaisant",
+      "word": "complaisant",
+      "partOfSpeech": "adjective",
+      "definition": "trying to please; overly polite; obliging",
+      "sentence": "By default a shell script is complaisant about failures: it keeps running after a command fails, unless you add set -euo pipefail.",
+      "explanation": "The -e option exits on error, -u treats unset variables as errors, and -o pipefail makes a pipeline fail if any stage fails. set -e has surprising exceptions, such as commands inside conditions, so important steps still deserve explicit checks.",
+      "citations": [
+        {
+          "title": "The Set Builtin (GNU Bash manual)",
+          "url": "https://www.gnu.org/software/bash/manual/html_node/The-Set-Builtin.html"
+        }
+      ]
+    },
+    {
+      "id": "computer-science-pragmatics-impair",
+      "word": "impair",
+      "partOfSpeech": "verb",
+      "definition": "injure; hurt",
+      "sentence": "Cron's minimal environment, with a short PATH and few variables, can impair a script that works perfectly in your terminal.",
+      "explanation": "Use absolute paths, set PATH at the top of the crontab, and redirect output to a log file. Running a command with env -i is a quick way to reproduce a bare environment.",
+      "citations": [
+        {
+          "title": "crontab(5) (Linux man page)",
+          "url": "https://man7.org/linux/man-pages/man5/crontab.5.html"
+        }
+      ]
+    },
+    {
+      "id": "computer-science-pragmatics-facilitate",
+      "word": "facilitate",
+      "partOfSpeech": "verb",
+      "definition": "help bring about; make less difficult",
+      "sentence": "Make facilitates incremental builds by comparing file timestamps and rebuilding only targets that are older than their prerequisites.",
+      "explanation": "A rule has a target, a list of prerequisites and a tab-indented recipe. Stuart Feldman wrote Make at Bell Labs in 1976, and it won the ACM Software System Award in 2003.",
+      "citations": [
+        {
+          "title": "GNU Make manual",
+          "url": "https://www.gnu.org/software/make/manual/make.html"
+        },
+        {
+          "title": "Make (software) (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Make_(software)"
+        }
+      ]
+    },
+    {
+      "id": "computer-science-pragmatics-anachronism",
+      "word": "anachronism",
+      "partOfSpeech": "noun",
+      "definition": "something or someone misplaced in time",
+      "sentence": "Make's rule that recipe lines begin with a tab, a quirk Stuart Feldman kept in 1976 because a dozen users had already adopted it, is an anachronism that still catches beginners.",
+      "explanation": "A space-indented recipe gives the error \"missing separator\". GNU Make can change the prefix character with the .RECIPEPREFIX variable, though most projects keep the tab.",
+      "citations": [
+        {
+          "title": "Rule Syntax (GNU Make manual)",
+          "url": "https://www.gnu.org/software/make/manual/html_node/Rule-Syntax.html"
+        },
+        {
+          "title": "Make (software) (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Make_(software)"
+        }
+      ]
+    },
+    {
+      "id": "computer-science-pragmatics-ingenuous",
+      "word": "ingenuous",
+      "partOfSpeech": "adjective",
+      "definition": "naive and trusting; young; unsophisticated",
+      "sentence": "Make is ingenuous about file names: if a file called clean exists, make clean does nothing, unless the target is declared .PHONY.",
+      "explanation": "A line such as .PHONY: all clean test tells Make these targets are actions, not files, so their recipes always run. Without it, an existing file with no prerequisites is considered up to date.",
+      "citations": [
+        {
+          "title": "Phony Targets (GNU Make manual)",
+          "url": "https://www.gnu.org/software/make/manual/html_node/Phony-Targets.html"
+        }
+      ]
+    },
+    {
+      "id": "computer-science-pragmatics-saturate",
+      "word": "saturate",
+      "partOfSpeech": "verb",
+      "definition": "soak thoroughly",
+      "sentence": "Running make -j8 lets the build saturate eight CPU cores by compiling independent files in parallel.",
+      "explanation": "Parallel builds only work reliably if every dependency is declared, because a missing one causes failures that appear only sometimes. Tools such as Ninja and CMake are designed around fast parallel builds.",
+      "citations": [
+        {
+          "title": "Parallel Execution (GNU Make manual)",
+          "url": "https://www.gnu.org/software/make/manual/html_node/Parallel.html"
+        }
+      ]
+    },
+    {
+      "id": "computer-science-pragmatics-admonish",
+      "word": "admonish",
+      "partOfSpeech": "verb",
+      "definition": "warn; reprove",
+      "sentence": "Compiler warnings admonish you about suspicious code, so build with -Wall -Wextra and treat new warnings seriously.",
+      "explanation": "Despite its name, -Wall does not enable every warning. The -Werror flag turns warnings into errors, which is common in continuous integration so new warnings cannot slip in.",
+      "citations": [
+        {
+          "title": "Warning Options (GCC)",
+          "url": "https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html"
+        }
+      ]
+    },
+    {
+      "id": "computer-science-pragmatics-pedantic",
+      "word": "pedantic",
+      "partOfSpeech": "adjective",
+      "definition": "showing off learning; bookish",
+      "sentence": "The -pedantic flag makes GCC pedantic about the language standard: it warns about extensions that are not strictly ISO C or C++.",
+      "explanation": "Combine it with a flag such as -std=c17 or -std=c++20 to check that code is portable to other compilers. Without it, GCC accepts many extensions silently.",
+      "citations": [
+        {
+          "title": "Warning Options (GCC)",
+          "url": "https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html"
+        },
+        {
+          "title": "Language Standards Supported by GCC",
+          "url": "https://gcc.gnu.org/onlinedocs/gcc/Standards.html"
+        }
+      ]
+    },
+    {
+      "id": "computer-science-pragmatics-flout",
+      "word": "flout",
+      "partOfSpeech": "verb",
+      "definition": "reject; mock; show contempt for",
+      "sentence": "Code that flouts the language rules, such as reading past the end of an array or overflowing a signed integer, has undefined behavior, so the compiler is free to do anything.",
+      "explanation": "Undefined behavior can appear to work in a debug build and break at -O2, because the optimizer assumes it never happens. UBSan (-fsanitize=undefined) detects many such cases at run time.",
+      "citations": [
+        {
+          "title": "Undefined behavior (cppreference)",
+          "url": "https://en.cppreference.com/w/cpp/language/ub"
+        },
+        {
+          "title": "Instrumentation Options (GCC)",
+          "url": "https://gcc.gnu.org/onlinedocs/gcc/Instrumentation-Options.html"
+        }
+      ]
+    },
+    {
+      "id": "computer-science-pragmatics-tirade",
+      "word": "tirade",
+      "partOfSpeech": "noun",
+      "definition": "extended scolding; denunciation; harangue",
+      "sentence": "One mistake in C++ template code can produce a tirade of compiler errors, but the first message usually points to the real problem.",
+      "explanation": "Later errors often follow from the first one, so fix the top error and recompile. C++20 concepts were added partly to give clearer messages when a template is used with the wrong type.",
+      "citations": [
+        {
+          "title": "Constraints and concepts (cppreference)",
+          "url": "https://en.cppreference.com/w/cpp/language/constraints"
+        }
+      ]
+    },
+    {
+      "id": "computer-science-pragmatics-placate",
+      "word": "placate",
+      "partOfSpeech": "verb",
+      "definition": "pacify; conciliate",
+      "sentence": "Adding a cast just to placate the compiler hides a type error instead of fixing it.",
+      "explanation": "A cast tells the compiler to trust you, which silences diagnostics. In C++, named casts such as static_cast make risky conversions easy to search for.",
+      "citations": [
+        {
+          "title": "Explicit type conversion (cppreference)",
+          "url": "https://en.cppreference.com/w/cpp/language/explicit_cast"
+        }
+      ]
+    },
+    {
+      "id": "computer-science-pragmatics-quiescent",
+      "word": "quiescent",
+      "partOfSpeech": "adjective",
+      "definition": "at rest; dormant; temporarily inactive",
+      "sentence": "At a breakpoint the program is quiescent, so you can examine its variables, call stack and memory before resuming.",
+      "explanation": "Core gdb commands include break, run, next, step, print, backtrace and watch, which stops when a variable changes. Compile with -g and low optimization so variables are not optimized away.",
+      "citations": [
+        {
+          "title": "GDB documentation",
+          "url": "https://sourceware.org/gdb/current/onlinedocs/gdb.html"
+        }
+      ]
+    },
+    {
+      "id": "computer-science-pragmatics-implode",
+      "word": "implode",
+      "partOfSpeech": "verb",
+      "definition": "burst inward",
+      "sentence": "When a C program dereferences a null pointer it implodes with a segmentation fault, and the core dump can be loaded into gdb afterward.",
+      "explanation": "Core dumps may need ulimit -c unlimited or a system service such as coredumpctl. Running gdb ./prog core and typing bt shows the call stack at the moment of the crash.",
+      "citations": [
+        {
+          "title": "core(5) (Linux man page)",
+          "url": "https://man7.org/linux/man-pages/man5/core.5.html"
+        }
+      ]
+    },
+    {
+      "id": "computer-science-pragmatics-discerning",
+      "word": "discerning",
+      "partOfSpeech": "adjective",
+      "definition": "mentally quick and observant; having insight",
+      "sentence": "AddressSanitizer is a discerning tool: compiled in with -fsanitize=address, it catches out-of-bounds accesses and use-after-free bugs at run time.",
+      "explanation": "The tool was described by Serebryany et al. at USENIX ATC 2012. It typically slows a program by about a factor of two, which is much cheaper than Valgrind.",
+      "citations": [
+        {
+          "title": "AddressSanitizer: A Fast Address Sanity Checker (USENIX ATC 2012)",
+          "url": "https://www.usenix.org/conference/atc12/technical-sessions/presentation/serebryany"
+        },
+        {
+          "title": "AddressSanitizer (Clang docs)",
+          "url": "https://clang.llvm.org/docs/AddressSanitizer.html"
+        }
+      ]
+    },
+    {
+      "id": "computer-science-pragmatics-desultory",
+      "word": "desultory",
+      "partOfSpeech": "adjective",
+      "definition": "aimless; haphazard; digressing at random",
+      "sentence": "Desultory debugging, with print statements scattered everywhere and no clear hypothesis, wastes time that one targeted experiment would save.",
+      "explanation": "A more reliable method is to reproduce the bug, shrink the input, form a hypothesis, then test it with a single change. Andreas Zeller's book Why Programs Fail describes this scientific approach to debugging.",
+      "citations": [
+        {
+          "title": "Why Programs Fail (Zeller)",
+          "url": "https://www.whyprogramsfail.com/"
+        },
+        {
+          "title": "Debugging (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Debugging"
+        }
+      ]
+    },
+    {
+      "id": "computer-science-pragmatics-substantiate",
+      "word": "substantiate",
+      "partOfSpeech": "verb",
+      "definition": "establish by evidence; verify; support",
+      "sentence": "Before changing code, substantiate your hypothesis about a bug with evidence from a debugger, a log or a failing test.",
+      "explanation": "Changing code on a hunch can hide a bug without fixing it, or add a new one. A minimal failing test that you keep also guards against the bug coming back.",
+      "citations": [
+        {
+          "title": "Debugging (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Debugging"
+        },
+        {
+          "title": "Regression testing (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Regression_testing"
+        }
+      ]
+    },
+    {
+      "id": "computer-science-pragmatics-propensity",
+      "word": "propensity",
+      "partOfSpeech": "noun",
+      "definition": "natural inclination",
+      "sentence": "Programmers have a propensity to guess wrongly about where a program spends its time, so profile before optimizing.",
+      "explanation": "Knuth's 1974 remark that premature optimization is the root of all evil referred to the small fraction of code where speed truly matters. Profilers such as perf, gprof and py-spy find that fraction.",
+      "citations": [
+        {
+          "title": "Structured Programming with go to Statements (Knuth, 1974)",
+          "url": "https://doi.org/10.1145/356635.356640"
+        },
+        {
+          "title": "perf(1) (Linux man page)",
+          "url": "https://man7.org/linux/man-pages/man1/perf.1.html"
+        }
+      ]
+    },
+    {
+      "id": "computer-science-pragmatics-ephemeral",
+      "word": "ephemeral",
+      "partOfSpeech": "adjective",
+      "definition": "short-lived; fleeting",
+      "sentence": "A Heisenbug is ephemeral: adding a print statement or running under a debugger changes the timing, and the failure disappears.",
+      "explanation": "Typical causes are race conditions and uninitialized memory. ThreadSanitizer detects data races, and record-and-replay debuggers like rr capture a failing run so it can be examined repeatedly.",
+      "citations": [
+        {
+          "title": "Heisenbug (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Heisenbug"
+        },
+        {
+          "title": "rr debugger",
+          "url": "https://rr-project.org/"
+        }
+      ]
+    },
+    {
+      "id": "computer-science-pragmatics-loquacious",
+      "word": "loquacious",
+      "partOfSpeech": "adjective",
+      "definition": "talkative",
+      "sentence": "Rubber duck debugging asks you to be loquacious: explain your code line by line to an inanimate duck, and the flaw often surfaces while you talk.",
+      "explanation": "The practice was popularized by The Pragmatic Programmer (Hunt and Thomas, 1999). Explaining forces you to state assumptions you had been skipping over.",
+      "citations": [
+        {
+          "title": "Rubber duck debugging (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Rubber_duck_debugging"
+        }
+      ]
+    },
+    {
+      "id": "computer-science-pragmatics-dichotomy",
+      "word": "dichotomy",
+      "partOfSpeech": "noun",
+      "definition": "split; branching into two parts (especially contradictory ones)",
+      "sentence": "git bisect applies a dichotomy to history: it tests the middle commit, discards the half that cannot contain the bug, and repeats.",
+      "explanation": "Finding the first bad commit among 1,000 takes about 10 tests, since 2^10 is 1,024. git bisect run lets a script do the testing automatically.",
+      "citations": [
+        {
+          "title": "git-bisect documentation",
+          "url": "https://git-scm.com/docs/git-bisect"
+        }
+      ]
+    },
+    {
+      "id": "computer-science-pragmatics-fervor",
+      "word": "fervor",
+      "partOfSpeech": "noun",
+      "definition": "glowing ardor; intensity of feeling",
+      "sentence": "Linus Torvalds wrote the first version of Git in a fervor of work in April 2005, after a licensing dispute over BitKeeper, the tool used for the Linux kernel.",
+      "explanation": "Git was managing its own source within days. It was designed for speed, for distributed work without a central server, and for strong protection against corrupted history.",
+      "citations": [
+        {
+          "title": "A Short History of Git (Pro Git)",
+          "url": "https://git-scm.com/book/en/v2/Getting-Started-A-Short-History-of-Git"
+        },
+        {
+          "title": "Git (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Git"
+        }
+      ]
+    },
+    {
+      "id": "computer-science-pragmatics-viable",
+      "word": "viable",
+      "partOfSpeech": "adjective",
+      "definition": "practical or workable",
+      "sentence": "Because every Git object is named by a hash of its contents, silently altering an old commit is not viable: the change produces a new commit with a new ID.",
+      "explanation": "Each commit stores a tree and the hashes of its parents, so altering an old commit changes the IDs of everything after it. Git used SHA-1 historically and has added support for SHA-256.",
+      "citations": [
+        {
+          "title": "Git Objects (Pro Git)",
+          "url": "https://git-scm.com/book/en/v2/Git-Internals-Git-Objects"
+        }
+      ]
+    },
+    {
+      "id": "computer-science-pragmatics-connoisseur",
+      "word": "connoisseur",
+      "partOfSpeech": "noun",
+      "definition": "person competent to act as a judge of art; a lover of art",
+      "sentence": "A connoisseur of clean history uses git add -p to stage individual hunks, so that each commit contains only one logical change.",
+      "explanation": "The staging area, or index, lets you assemble a commit separately from your working tree. git restore --staged removes a change from the staging area without discarding it.",
+      "citations": [
+        {
+          "title": "Interactive Staging (Pro Git)",
+          "url": "https://git-scm.com/book/en/v2/Git-Tools-Interactive-Staging"
+        }
+      ]
+    },
+    {
+      "id": "computer-science-pragmatics-digression",
+      "word": "digression",
+      "partOfSpeech": "noun",
+      "definition": "Wandering away from the subject",
+      "sentence": "A good commit does one thing, so unrelated reformatting is a digression that belongs in its own commit.",
+      "explanation": "A common convention is a summary line of about 50 characters, a blank line, and a body explaining why the change was made (Tim Pope, 2008). Small, focused commits are easier to review, revert and bisect.",
+      "citations": [
+        {
+          "title": "A Note About Git Commit Messages (Tim Pope)",
+          "url": "https://tbaggery.com/2008/04/19/a-note-about-git-commit-messages.html"
+        },
+        {
+          "title": "Contributing to a Project (Pro Git)",
+          "url": "https://git-scm.com/book/en/v2/Distributed-Git-Contributing-to-a-Project"
+        }
+      ]
+    },
+    {
+      "id": "computer-science-pragmatics-transgression",
+      "word": "transgression",
+      "partOfSpeech": "noun",
+      "definition": "violation of a law; sin",
+      "sentence": "Rebasing commits that teammates have already pulled is the cardinal transgression of Git, because it rewrites shared history.",
+      "explanation": "A rebase replays commits on a new base, which gives them new hashes. It is safe for local, unpublished work; on shared branches use merge or revert instead, and if you must force-push, prefer --force-with-lease.",
+      "citations": [
+        {
+          "title": "Rebasing (Pro Git)",
+          "url": "https://git-scm.com/book/en/v2/Git-Branching-Rebasing"
+        }
+      ]
+    },
+    {
+      "id": "computer-science-pragmatics-exacerbate",
+      "word": "exacerbate",
+      "partOfSpeech": "verb",
+      "definition": "worsen; embitter",
+      "sentence": "Long-lived feature branches exacerbate merge conflicts, because the code on both sides keeps drifting apart.",
+      "explanation": "Conflict markers (<<<<<<<, ======= and >>>>>>>) show both versions of the disputed lines. Merging the main branch often, or keeping branches short with feature flags, reduces the pain.",
+      "citations": [
+        {
+          "title": "Basic Branching and Merging (Pro Git)",
+          "url": "https://git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging"
+        }
+      ]
+    },
+    {
+      "id": "computer-science-pragmatics-negate",
+      "word": "negate",
+      "partOfSpeech": "verb",
+      "definition": "cancel out; nullify; deny",
+      "sentence": "git revert negates the effect of an earlier commit by adding a new commit, which keeps shared history intact.",
+      "explanation": "Revert is the right tool for undoing a change that has already been pushed. Reverting a merge commit needs the -m option to say which parent to keep.",
+      "citations": [
+        {
+          "title": "git-revert documentation",
+          "url": "https://git-scm.com/docs/git-revert"
+        }
+      ]
+    },
+    {
+      "id": "computer-science-pragmatics-repudiate",
+      "word": "repudiate",
+      "partOfSpeech": "verb",
+      "definition": "disown; disavow",
+      "sentence": "git reset --hard repudiates every uncommitted change in your working tree, and Git cannot get those edits back.",
+      "explanation": "Uncommitted work is not tracked, so stash or commit it first. Committed work is a different matter, since the reflog can usually bring it back.",
+      "citations": [
+        {
+          "title": "git-reset documentation",
+          "url": "https://git-scm.com/docs/git-reset"
+        }
+      ]
+    },
+    {
+      "id": "computer-science-pragmatics-exculpate",
+      "word": "exculpate",
+      "partOfSpeech": "verb",
+      "definition": "clear from blame",
+      "sentence": "The reflog can exculpate a developer who fears a commit was lost, since it records where HEAD and each branch have pointed.",
+      "explanation": "By default, reflog entries for reachable commits expire after 90 days, and for unreachable ones after 30 days. git reflog followed by git reset or git checkout can restore the old state.",
+      "citations": [
+        {
+          "title": "git-reflog documentation",
+          "url": "https://git-scm.com/docs/git-reflog"
+        }
+      ]
+    },
+    {
+      "id": "computer-science-pragmatics-secrete",
+      "word": "secrete",
+      "partOfSpeech": "verb",
+      "definition": "hide away or cache; produce and release a substance into an organism",
+      "sentence": "Developers who secrete API keys in source files risk leaking them as soon as the repository is pushed.",
+      "explanation": "Deleting a secret in a later commit does not remove it from history, so revoke and rotate the key. Use environment variables or a secrets manager, and tools like GitHub secret scanning to catch mistakes.",
+      "citations": [
+        {
+          "title": "Removing sensitive data from a repository (GitHub Docs)",
+          "url": "https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/removing-sensitive-data-from-a-repository"
+        },
+        {
+          "title": "About secret scanning (GitHub Docs)",
+          "url": "https://docs.github.com/en/code-security/secret-scanning"
+        }
+      ]
+    },
+    {
+      "id": "computer-science-pragmatics-deterrent",
+      "word": "deterrent",
+      "partOfSpeech": "noun",
+      "definition": "Something that discourages; hindrance",
+      "sentence": "A pre-commit hook is a deterrent against committing broken formatting or secrets, since it runs checks before the commit is created.",
+      "explanation": "Hooks live in .git/hooks and are not versioned, so teams share them with a framework such as pre-commit. They can be skipped with --no-verify, which is why continuous integration repeats the checks.",
+      "citations": [
+        {
+          "title": "Git Hooks (Pro Git)",
+          "url": "https://git-scm.com/book/en/v2/Customizing-Git-Git-Hooks"
+        },
+        {
+          "title": "pre-commit",
+          "url": "https://pre-commit.com/"
+        }
+      ]
+    },
+    {
+      "id": "computer-science-pragmatics-default",
+      "word": "default",
+      "partOfSpeech": "noun",
+      "definition": "failure to act; by extension, a preset value used when no choice is made",
+      "sentence": "In 2020 GitHub changed the default branch name for new repositories from master to main, and git init can be configured with init.defaultBranch.",
+      "explanation": "The name is only a convention, and an existing branch can be renamed with git branch -m. Git added the init.defaultBranch setting in version 2.28.",
+      "citations": [
+        {
+          "title": "Renaming a branch (GitHub Docs)",
+          "url": "https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/managing-branches-in-your-repository/renaming-a-branch"
+        },
+        {
+          "title": "git-config documentation",
+          "url": "https://git-scm.com/docs/git-config"
+        }
+      ]
+    }
+  ]
+}

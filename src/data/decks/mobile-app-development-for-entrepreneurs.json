@@ -1,0 +1,698 @@
+{
+  "id": "mobile-app-development-for-entrepreneurs",
+  "title": "Mobile App Development for Entrepreneurs",
+  "category": "Computer Science",
+  "description": "Learn GRE words through lean startups, app engineering, store launches, marketing and monetization.",
+  "cards": [
+    {
+      "id": "mobile-app-development-for-entrepreneurs-mundane",
+      "word": "mundane",
+      "partOfSpeech": "adjective",
+      "definition": "worldly as opposed to spiritual; everyday",
+      "sentence": "Many successful apps solve a mundane problem, such as splitting a bill or finding a parking spot, better than anything that came before.",
+      "explanation": "Paul Graham's essay \"How to Get Startup Ideas\" advises founders to notice problems they have themselves, since everyday frustrations are often real ones that others share.",
+      "citations": [
+        {
+          "title": "How to Get Startup Ideas (Paul Graham)",
+          "url": "https://paulgraham.com/startupideas.html"
+        }
+      ]
+    },
+    {
+      "id": "mobile-app-development-for-entrepreneurs-iconoclastic",
+      "word": "iconoclastic",
+      "partOfSpeech": "adjective",
+      "definition": "attacking cherished traditions",
+      "sentence": "An iconoclastic app can win by breaking category conventions, as Tinder did in 2012 when it replaced browsing profiles with a swipe to like or pass.",
+      "explanation": "The swipe gesture was widely copied afterward. Breaking a convention is risky, so entrepreneurs test whether users understand the new interaction in the first minute.",
+      "citations": [
+        {
+          "title": "Tinder (app) (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Tinder_(app)"
+        }
+      ]
+    },
+    {
+      "id": "mobile-app-development-for-entrepreneurs-supposition",
+      "word": "supposition",
+      "partOfSpeech": "noun",
+      "definition": "hypothesis; surmise",
+      "sentence": "A business plan is mostly supposition until real customers test it, so the Lean Startup method treats each assumption as a hypothesis.",
+      "explanation": "Eric Ries popularized the approach in 2011, drawing on Steve Blank's customer development. The cycle is build, measure and learn, repeated as quickly as possible.",
+      "citations": [
+        {
+          "title": "Lean startup (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Lean_startup"
+        },
+        {
+          "title": "Customer development (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Customer_development"
+        }
+      ]
+    },
+    {
+      "id": "mobile-app-development-for-entrepreneurs-refute",
+      "word": "refute",
+      "partOfSpeech": "verb",
+      "definition": "disprove",
+      "sentence": "A cheap experiment, such as a landing page with a sign-up button, can refute a founder's assumption before any code is written.",
+      "explanation": "Dropbox's founder Drew Houston famously tested demand in 2007–2008 with an explainer video before the product was finished. A test that fails early saves months of work.",
+      "citations": [
+        {
+          "title": "Minimum viable product (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Minimum_viable_product"
+        },
+        {
+          "title": "Dropbox (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Dropbox"
+        }
+      ]
+    },
+    {
+      "id": "mobile-app-development-for-entrepreneurs-empirical",
+      "word": "empirical",
+      "partOfSpeech": "adjective",
+      "definition": "based on experience",
+      "sentence": "Product decisions should be empirical: ship a small change, measure what users actually do, and compare it with what you predicted.",
+      "explanation": "What users do matters more than what they say in interviews. A/B tests, funnels and retention data are the usual evidence.",
+      "citations": [
+        {
+          "title": "Lean startup (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Lean_startup"
+        },
+        {
+          "title": "A/B testing (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/A/B_testing"
+        }
+      ]
+    },
+    {
+      "id": "mobile-app-development-for-entrepreneurs-delineate",
+      "word": "delineate",
+      "partOfSpeech": "verb",
+      "definition": "portray; depict; sketch",
+      "sentence": "Before building, founders should delineate the target user and the exact scope of version one in a one-sentence problem statement.",
+      "explanation": "A minimum viable product contains only the features needed to test the central assumption. The term was used by Frank Robinson and popularized by Eric Ries and Steve Blank.",
+      "citations": [
+        {
+          "title": "Minimum viable product (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Minimum_viable_product"
+        },
+        {
+          "title": "Persona (user experience) (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Persona_(user_experience)"
+        }
+      ]
+    },
+    {
+      "id": "mobile-app-development-for-entrepreneurs-fledgling",
+      "word": "fledgling",
+      "partOfSpeech": "adjective",
+      "definition": "inexperienced",
+      "sentence": "A fledgling app has to earn its first users by hand, through interviews, communities and personal outreach, before any ad campaign makes sense.",
+      "explanation": "Paul Graham's \"Do Things That Don't Scale\" describes how Stripe's founders would install the product on a new user's computer in person. Early manual work teaches what the product must become.",
+      "citations": [
+        {
+          "title": "Do Things that Don't Scale (Paul Graham)",
+          "url": "https://paulgraham.com/ds.html"
+        }
+      ]
+    },
+    {
+      "id": "mobile-app-development-for-entrepreneurs-frugality",
+      "word": "frugality",
+      "partOfSpeech": "noun",
+      "definition": "thrift; economy",
+      "sentence": "Frugality helps bootstrapped founders: Apple's developer program costs 99 dollars a year, Google Play's registration is a one-time 25 dollars, and free cloud tiers cover early traffic.",
+      "explanation": "Low fixed costs let a small team survive many experiments. Check the current fees on each store's site, because pricing and tiers change.",
+      "citations": [
+        {
+          "title": "Apple Developer Program",
+          "url": "https://developer.apple.com/programs/"
+        },
+        {
+          "title": "Play Console registration (Google)",
+          "url": "https://support.google.com/googleplay/android-developer/answer/6112435"
+        }
+      ]
+    },
+    {
+      "id": "mobile-app-development-for-entrepreneurs-distend",
+      "word": "distend",
+      "partOfSpeech": "verb",
+      "definition": "expand; swell out",
+      "sentence": "Feature creep can distend an app far past its core purpose and delay the launch by months.",
+      "explanation": "Each added feature increases testing, design and support costs. Keeping a short list of what the first version will not do is as important as the list of what it will.",
+      "citations": [
+        {
+          "title": "Feature creep (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Feature_creep"
+        }
+      ]
+    },
+    {
+      "id": "mobile-app-development-for-entrepreneurs-metamorphosis",
+      "word": "metamorphosis",
+      "partOfSpeech": "noun",
+      "definition": "change of form",
+      "sentence": "A pivot can be a complete metamorphosis: Instagram began in 2010 as Burbn, a check-in app, before its founders cut it down to photo sharing.",
+      "explanation": "Instagram launched in October 2010 and was acquired by Facebook in 2012. In Lean Startup terms, a pivot is a structured change of strategy based on what the team learned.",
+      "citations": [
+        {
+          "title": "Instagram (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Instagram"
+        },
+        {
+          "title": "Lean startup: pivot (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Lean_startup"
+        }
+      ]
+    },
+    {
+      "id": "mobile-app-development-for-entrepreneurs-burnish",
+      "word": "burnish",
+      "partOfSpeech": "verb",
+      "definition": "make shiny by rubbing; polish",
+      "sentence": "A private beta through TestFlight or a Google Play testing track lets a team burnish rough edges before the public launch.",
+      "explanation": "TestFlight lets developers invite external testers to install pre-release builds on iOS. Play Console offers internal, closed and open testing tracks.",
+      "citations": [
+        {
+          "title": "TestFlight (Apple)",
+          "url": "https://developer.apple.com/testflight/"
+        },
+        {
+          "title": "Set up an open, closed, or internal test (Google Play Console)",
+          "url": "https://support.google.com/googleplay/android-developer/answer/9845334"
+        }
+      ]
+    },
+    {
+      "id": "mobile-app-development-for-entrepreneurs-fallacious",
+      "word": "fallacious",
+      "partOfSpeech": "adjective",
+      "definition": "false; misleading",
+      "sentence": "Total downloads are a fallacious measure of success, because a download says nothing about whether anyone returns.",
+      "explanation": "Eric Ries called such numbers vanity metrics. Actionable metrics, such as day-7 retention or the share of new users who complete a key action, show whether the product is working.",
+      "citations": [
+        {
+          "title": "Lean startup (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Lean_startup"
+        },
+        {
+          "title": "Firebase Analytics documentation",
+          "url": "https://firebase.google.com/docs/analytics"
+        }
+      ]
+    },
+    {
+      "id": "mobile-app-development-for-entrepreneurs-welter",
+      "word": "welter",
+      "partOfSpeech": "noun",
+      "definition": "turmoil; bewildering jumble",
+      "sentence": "Analytics dashboards produce a welter of numbers, so teams choose a few core metrics, such as activation, retention and revenue per user.",
+      "explanation": "Dave McClure's \"AARRR\" framework lists acquisition, activation, retention, referral and revenue as the stages to measure. Too many metrics make it harder to see which one to act on.",
+      "citations": [
+        {
+          "title": "Mobile analytics (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Mobile_analytics"
+        },
+        {
+          "title": "Firebase Analytics documentation",
+          "url": "https://firebase.google.com/docs/analytics"
+        }
+      ]
+    },
+    {
+      "id": "mobile-app-development-for-entrepreneurs-aggregate",
+      "word": "aggregate",
+      "partOfSpeech": "verb",
+      "definition": "gather; accumulate",
+      "sentence": "Cohort analysis groups users by install week and aggregates their behavior, so a retention chart shows whether newer app versions keep users longer.",
+      "explanation": "Comparing cohorts avoids being fooled by overall totals that grow simply because more users are arriving. Most analytics tools provide cohort retention views.",
+      "citations": [
+        {
+          "title": "Cohort analysis (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Cohort_analysis"
+        }
+      ]
+    },
+    {
+      "id": "mobile-app-development-for-entrepreneurs-conundrum",
+      "word": "conundrum",
+      "partOfSpeech": "noun",
+      "definition": "riddle; difficult problem",
+      "sentence": "Choosing between native Swift or Kotlin apps and a single cross-platform codebase is a classic conundrum for a small team.",
+      "explanation": "Native development gives the best access to new platform features. Frameworks such as Flutter and React Native let one codebase serve both platforms, at the cost of an extra layer to learn and debug.",
+      "citations": [
+        {
+          "title": "React Native",
+          "url": "https://reactnative.dev/"
+        },
+        {
+          "title": "Flutter",
+          "url": "https://flutter.dev/"
+        }
+      ]
+    },
+    {
+      "id": "mobile-app-development-for-entrepreneurs-disparate",
+      "word": "disparate",
+      "partOfSpeech": "adjective",
+      "definition": "basically different; unrelated",
+      "sentence": "Android runs on thousands of disparate devices, with different screen sizes, chips and OS versions, so testing on one phone is not enough.",
+      "explanation": "Layouts should adapt to screen size classes instead of fixed pixels. Cloud device labs, such as Firebase Test Lab, run tests on many real devices.",
+      "citations": [
+        {
+          "title": "Support different screen sizes (Android Developers)",
+          "url": "https://developer.android.com/training/multiscreen/screensizes"
+        },
+        {
+          "title": "Firebase Test Lab",
+          "url": "https://firebase.google.com/docs/test-lab"
+        }
+      ]
+    },
+    {
+      "id": "mobile-app-development-for-entrepreneurs-sporadic",
+      "word": "sporadic",
+      "partOfSpeech": "adjective",
+      "definition": "occurring irregularly",
+      "sentence": "Crash-reporting tools such as Firebase Crashlytics group sporadic crashes by stack trace, so a bug that hits only one percent of sessions becomes visible.",
+      "explanation": "Without a crash reporter, developers hear only from the few users who write in. Symbol files (dSYMs on iOS, mapping files on Android) turn obfuscated traces back into readable code.",
+      "citations": [
+        {
+          "title": "Firebase Crashlytics",
+          "url": "https://firebase.google.com/docs/crashlytics"
+        }
+      ]
+    },
+    {
+      "id": "mobile-app-development-for-entrepreneurs-lethargic",
+      "word": "lethargic",
+      "partOfSpeech": "adjective",
+      "definition": "drowsy; dull",
+      "sentence": "A lethargic cold start frustrates users, and Android vitals treats a cold start of five seconds or more as excessive.",
+      "explanation": "Launch time is the first impression of an app. Defer heavy work, such as network calls and large initializations, until after the first screen appears.",
+      "citations": [
+        {
+          "title": "App startup time (Android Developers)",
+          "url": "https://developer.android.com/topic/performance/vitals/launch-time"
+        }
+      ]
+    },
+    {
+      "id": "mobile-app-development-for-entrepreneurs-convoluted",
+      "word": "convoluted",
+      "partOfSpeech": "adjective",
+      "definition": "coiled around; involved; intricate",
+      "sentence": "A convoluted sign-up flow with many form fields loses users before they see any value, which is why many apps allow sign-in with Apple or Google.",
+      "explanation": "Let people try the core feature first and ask for an account only when it is needed. Apple's design guidelines recommend short, skippable onboarding.",
+      "citations": [
+        {
+          "title": "Onboarding (Apple Human Interface Guidelines)",
+          "url": "https://developer.apple.com/design/human-interface-guidelines/onboarding"
+        }
+      ]
+    },
+    {
+      "id": "mobile-app-development-for-entrepreneurs-impede",
+      "word": "impede",
+      "partOfSpeech": "verb",
+      "definition": "hinder; block",
+      "sentence": "Asking for every permission at first launch can impede activation, so good apps request camera or location access at the moment a feature needs it.",
+      "explanation": "Users who understand why access is needed are more likely to grant it. A user who taps \"Don't Allow\" cannot be asked again by the system prompt on iOS, so the first request is valuable.",
+      "citations": [
+        {
+          "title": "Privacy (Apple Human Interface Guidelines)",
+          "url": "https://developer.apple.com/design/human-interface-guidelines/privacy"
+        },
+        {
+          "title": "Request runtime permissions (Android Developers)",
+          "url": "https://developer.android.com/training/permissions/requesting"
+        }
+      ]
+    },
+    {
+      "id": "mobile-app-development-for-entrepreneurs-inundate",
+      "word": "inundate",
+      "partOfSpeech": "verb",
+      "definition": "overwhelm; flood; submerge",
+      "sentence": "Apps that inundate users with push notifications get muted or uninstalled, and Android 13 added a runtime permission for posting notifications.",
+      "explanation": "Send notifications that are timely and specific to the person. Both platforms let users silence a single app, so overuse costs the developer the channel.",
+      "citations": [
+        {
+          "title": "Notification runtime permission (Android Developers)",
+          "url": "https://developer.android.com/develop/ui/views/notifications/notification-permission"
+        },
+        {
+          "title": "Notifications (Apple Human Interface Guidelines)",
+          "url": "https://developer.apple.com/design/human-interface-guidelines/notifications"
+        }
+      ]
+    },
+    {
+      "id": "mobile-app-development-for-entrepreneurs-felicitous",
+      "word": "felicitous",
+      "partOfSpeech": "adjective",
+      "definition": "apt; suitably expressed; well chosen",
+      "sentence": "A felicitous app name is short, easy to spell and memorable, and since both stores limit titles to 30 characters, every word counts.",
+      "explanation": "App store optimization (ASO) combines the name, subtitle, keywords, icon and screenshots to improve search ranking and conversion. Check each store's current length limits before finalizing.",
+      "citations": [
+        {
+          "title": "App Store product page (Apple)",
+          "url": "https://developer.apple.com/app-store/product-page/"
+        },
+        {
+          "title": "App store optimization (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/App_store_optimization"
+        }
+      ]
+    },
+    {
+      "id": "mobile-app-development-for-entrepreneurs-hyperbole",
+      "word": "hyperbole",
+      "partOfSpeech": "noun",
+      "definition": "exaggeration; overstatement",
+      "sentence": "Store listings should avoid hyperbole: Apple's guidelines require metadata that accurately reflects the app, and misleading descriptions can lead to rejection.",
+      "explanation": "Screenshots should show the real interface. Honest listings also reduce refunds and one-star reviews from users who expected something else.",
+      "citations": [
+        {
+          "title": "App Store Review Guidelines: Accurate Metadata (2.3)",
+          "url": "https://developer.apple.com/app-store/review/guidelines/"
+        }
+      ]
+    },
+    {
+      "id": "mobile-app-development-for-entrepreneurs-appropriate",
+      "word": "appropriate",
+      "partOfSpeech": "verb",
+      "definition": "acquire; take possession of for one’s own use",
+      "sentence": "Apple's guidelines bar copycats that appropriate another developer's work, such as a near-identical name, icon or user interface.",
+      "explanation": "Guideline 4.1 covers copycats. Apps that copy another developer's work can be rejected, and developers can be removed from the developer program for repeated violations.",
+      "citations": [
+        {
+          "title": "App Store Review Guidelines: Copycats (4.1)",
+          "url": "https://developer.apple.com/app-store/review/guidelines/"
+        }
+      ]
+    },
+    {
+      "id": "mobile-app-development-for-entrepreneurs-compendium",
+      "word": "compendium",
+      "partOfSpeech": "noun",
+      "definition": "brief, comprehensive summary",
+      "sentence": "The App Store Review Guidelines are a compendium of rules on safety, performance, business, design and legal requirements, and every submission is checked against them.",
+      "explanation": "Google Play has its own Developer Program Policies. Reading both before building a feature, such as payments or user-generated content, avoids expensive rework.",
+      "citations": [
+        {
+          "title": "App Store Review Guidelines (Apple)",
+          "url": "https://developer.apple.com/app-store/review/guidelines/"
+        },
+        {
+          "title": "Google Play Developer Program Policy",
+          "url": "https://support.google.com/googleplay/android-developer/answer/10176"
+        }
+      ]
+    },
+    {
+      "id": "mobile-app-development-for-entrepreneurs-capricious",
+      "word": "capricious",
+      "partOfSpeech": "adjective",
+      "definition": "unpredictable; fickle",
+      "sentence": "A review decision can seem capricious, but citing the exact guideline number in your reply, or appealing to the App Review Board, is the best path to a fix.",
+      "explanation": "Rejections often come from missing demo credentials, broken links or unclear purpose strings. A clear review note that explains non-obvious features helps the reviewer.",
+      "citations": [
+        {
+          "title": "App Review (Apple)",
+          "url": "https://developer.apple.com/distribute/app-review/"
+        },
+        {
+          "title": "App Store Review Guidelines (Apple)",
+          "url": "https://developer.apple.com/app-store/review/guidelines/"
+        }
+      ]
+    },
+    {
+      "id": "mobile-app-development-for-entrepreneurs-compliant",
+      "word": "compliant",
+      "partOfSpeech": "adjective",
+      "definition": "yielding; conforming to requirements",
+      "sentence": "An app that collects personal data must be compliant with laws such as GDPR, CCPA and COPPA, and both stores require a privacy policy and data disclosures.",
+      "explanation": "Apple's privacy labels and Google Play's Data safety section ask developers to declare what is collected and why. Third-party SDKs count, so you must know what they collect.",
+      "citations": [
+        {
+          "title": "App privacy details (Apple)",
+          "url": "https://developer.apple.com/app-store/app-privacy-details/"
+        },
+        {
+          "title": "Data safety section (Google Play)",
+          "url": "https://support.google.com/googleplay/android-developer/answer/10787469"
+        }
+      ]
+    },
+    {
+      "id": "mobile-app-development-for-entrepreneurs-rescind",
+      "word": "rescind",
+      "partOfSpeech": "verb",
+      "definition": "cancel",
+      "sentence": "Since iOS 14.5, App Tracking Transparency requires apps to ask permission to track users, and people can rescind that permission at any time in Settings.",
+      "explanation": "Apple introduced the prompt in April 2021, and many users decline it. Advertising and attribution therefore rely more on aggregated, privacy-preserving measurement.",
+      "citations": [
+        {
+          "title": "App Tracking Transparency (Apple)",
+          "url": "https://developer.apple.com/documentation/apptrackingtransparency"
+        }
+      ]
+    },
+    {
+      "id": "mobile-app-development-for-entrepreneurs-disingenuous",
+      "word": "disingenuous",
+      "partOfSpeech": "adjective",
+      "definition": "lacking genuine candor; insincere",
+      "sentence": "Disingenuous design, such as a hidden cancel button or a pre-checked free trial, is called a dark pattern, and the FTC documented its spread in a 2022 report.",
+      "explanation": "Dark patterns may violate consumer-protection law and store policies, and they lead to angry reviews. Make cancelation as easy as sign-up.",
+      "citations": [
+        {
+          "title": "Bringing Dark Patterns to Light (FTC, 2022)",
+          "url": "https://www.ftc.gov/reports/bringing-dark-patterns-light"
+        },
+        {
+          "title": "Dark pattern (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Dark_pattern"
+        }
+      ]
+    },
+    {
+      "id": "mobile-app-development-for-entrepreneurs-discredit",
+      "word": "discredit",
+      "partOfSpeech": "verb",
+      "definition": "defame; destroy confidence in; disbelieve",
+      "sentence": "Buying fake five-star reviews can discredit an app, and in 2024 the FTC finalized a rule banning fake reviews and testimonials.",
+      "explanation": "The rule lets the agency seek civil penalties. Stores also remove reviews they find inauthentic, so the safer way to earn ratings is to ask real users at a good moment.",
+      "citations": [
+        {
+          "title": "FTC announces final rule banning fake reviews and testimonials (2024)",
+          "url": "https://www.ftc.gov/news-events/news/press-releases/2024/08/federal-trade-commission-announces-final-rule-banning-fake-reviews-testimonials"
+        }
+      ]
+    },
+    {
+      "id": "mobile-app-development-for-entrepreneurs-assuage",
+      "word": "assuage",
+      "partOfSpeech": "verb",
+      "definition": "ease or lessen (pain); satisfy (hunger); soothe (anger)",
+      "sentence": "A prompt, polite developer reply to a one-star review can assuage the reviewer, who may then update the rating.",
+      "explanation": "Both major stores let developers respond publicly to reviews. Replies also show prospective users that the developer is responsive.",
+      "citations": [
+        {
+          "title": "Ratings, reviews, and responses (Apple)",
+          "url": "https://developer.apple.com/app-store/ratings-and-reviews/"
+        },
+        {
+          "title": "Read and reply to reviews (Google Play Console)",
+          "url": "https://support.google.com/googleplay/android-developer/answer/138230"
+        }
+      ]
+    },
+    {
+      "id": "mobile-app-development-for-entrepreneurs-subside",
+      "word": "subside",
+      "partOfSpeech": "verb",
+      "definition": "settle down; descend; grow quiet",
+      "sentence": "The spike of downloads after a launch post or press mention subsides within days, so retention work matters more than a one-time promotion.",
+      "explanation": "Sustainable growth usually comes from search, referrals and a product people keep using. Treat launch day as the start of measurement, not the goal.",
+      "citations": [
+        {
+          "title": "Growth hacking (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Growth_hacking"
+        },
+        {
+          "title": "App store optimization (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/App_store_optimization"
+        }
+      ]
+    },
+    {
+      "id": "mobile-app-development-for-entrepreneurs-dormant",
+      "word": "dormant",
+      "partOfSpeech": "adjective",
+      "definition": "sleeping; lethargic; latent",
+      "sentence": "Re-engagement campaigns target dormant users with a relevant message, but only users who have opted in should receive push notifications.",
+      "explanation": "Tell users what value they will get by returning, such as new content or an unfinished task. Generic reminders are the fastest way to get notifications switched off.",
+      "citations": [
+        {
+          "title": "Customer retention (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Customer_retention"
+        },
+        {
+          "title": "Notifications (Apple Human Interface Guidelines)",
+          "url": "https://developer.apple.com/design/human-interface-guidelines/notifications"
+        }
+      ]
+    },
+    {
+      "id": "mobile-app-development-for-entrepreneurs-plummet",
+      "word": "plummet",
+      "partOfSpeech": "verb",
+      "definition": "fall sharply",
+      "sentence": "Retention curves plummet in the first days after install, so improving the first-session experience usually pays off more than buying more installs.",
+      "explanation": "A new app typically loses a large share of its new users within a week. Measure day-1, day-7 and day-30 retention and compare them against others in your category.",
+      "citations": [
+        {
+          "title": "Churn rate (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Churn_rate"
+        },
+        {
+          "title": "Cohort analysis (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Cohort_analysis"
+        }
+      ]
+    },
+    {
+      "id": "mobile-app-development-for-entrepreneurs-propensity",
+      "word": "propensity",
+      "partOfSpeech": "noun",
+      "definition": "natural inclination",
+      "sentence": "Freemium works because only a minority of users show a propensity to pay, so the free tier must be useful enough to attract the many.",
+      "explanation": "Subscriptions, one-time purchases and ads can be combined. Paywall placement, trial length and price are all things to test.",
+      "citations": [
+        {
+          "title": "Freemium (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Freemium"
+        },
+        {
+          "title": "In-App Purchase (Apple)",
+          "url": "https://developer.apple.com/in-app-purchase/"
+        }
+      ]
+    },
+    {
+      "id": "mobile-app-development-for-entrepreneurs-volatile",
+      "word": "volatile",
+      "partOfSpeech": "adjective",
+      "definition": "changeable; explosive; evaporation rapidly",
+      "sentence": "Ad revenue is volatile, with rates that swing by season, country and privacy rules, so many apps add subscriptions for steadier income.",
+      "explanation": "Ad networks pay per impression, click or install, and rates change with advertiser demand. Recurring subscriptions are easier to forecast but need continuing value.",
+      "citations": [
+        {
+          "title": "Mobile advertising (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Mobile_advertising"
+        },
+        {
+          "title": "Google AdMob",
+          "url": "https://admob.google.com/home/"
+        }
+      ]
+    },
+    {
+      "id": "mobile-app-development-for-entrepreneurs-contentious",
+      "word": "contentious",
+      "partOfSpeech": "adjective",
+      "definition": "quarrelsome",
+      "sentence": "The app store commission is contentious: Apple's Small Business Program lowers it to 15 percent for developers earning up to 1 million dollars a year, while larger developers have challenged the 30 percent rate in court.",
+      "explanation": "Epic Games sued Apple in 2020 after Fortnite was removed from the App Store. Rules about outside payment links have changed in several countries, so check the current terms.",
+      "citations": [
+        {
+          "title": "App Store Small Business Program (Apple)",
+          "url": "https://developer.apple.com/app-store/small-business-program/"
+        },
+        {
+          "title": "Epic Games v. Apple (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Epic_Games_v._Apple"
+        }
+      ]
+    },
+    {
+      "id": "mobile-app-development-for-entrepreneurs-precarious",
+      "word": "precarious",
+      "partOfSpeech": "adjective",
+      "definition": "uncertain; risky",
+      "sentence": "A startup that depends on a single platform's rules is precarious, since one policy change can disrupt its payments, distribution or advertising overnight.",
+      "explanation": "Fortnite's removal from the App Store and Google Play in August 2020 showed how fast access can end. Founders can reduce the risk with a website, an email list and a presence on both platforms.",
+      "citations": [
+        {
+          "title": "Epic Games v. Apple (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Epic_Games_v._Apple"
+        },
+        {
+          "title": "Fortnite (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Fortnite"
+        }
+      ]
+    },
+    {
+      "id": "mobile-app-development-for-entrepreneurs-incorporate",
+      "word": "incorporate",
+      "partOfSpeech": "verb",
+      "definition": "introduce something into a larger whole; combine; unite; by extension, to form a legal corporation",
+      "sentence": "Founders usually incorporate a company, often a Delaware C corporation if they plan to raise venture capital, so that the business, not the individuals, owns the app and its contracts.",
+      "explanation": "Incorporation limits personal liability and makes it clear who owns the code, accounts and trademarks. Talk to a lawyer about founder agreements and intellectual property.",
+      "citations": [
+        {
+          "title": "Incorporation (business) (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Incorporation_(business)"
+        },
+        {
+          "title": "C corporation (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/C_corporation"
+        }
+      ]
+    },
+    {
+      "id": "mobile-app-development-for-entrepreneurs-insipid",
+      "word": "insipid",
+      "partOfSpeech": "adjective",
+      "definition": "lacking in flavor; dull",
+      "sentence": "An insipid clone of a crowded app, with no clear differentiator, rarely wins downloads, so positioning must tell users why this app is different.",
+      "explanation": "A sharp positioning statement names the target user, the alternative they use now and the unique benefit. Reviews of competing apps are a good source of unmet needs.",
+      "citations": [
+        {
+          "title": "Product differentiation (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Product_differentiation"
+        },
+        {
+          "title": "Market segmentation (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Market_segmentation"
+        }
+      ]
+    },
+    {
+      "id": "mobile-app-development-for-entrepreneurs-platitude",
+      "word": "platitude",
+      "partOfSpeech": "noun",
+      "definition": "trite remark; commonplace statement",
+      "sentence": "\"Build it and they will come\" is a platitude, because even a great app is invisible without a plan to reach its first users.",
+      "explanation": "The line is a misquote of the 1989 film Field of Dreams. Distribution channels such as search, communities, partnerships and referrals need as much attention as the code.",
+      "citations": [
+        {
+          "title": "Field of Dreams (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Field_of_Dreams"
+        },
+        {
+          "title": "App store optimization (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/App_store_optimization"
+        }
+      ]
+    }
+  ]
+}
