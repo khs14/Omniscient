@@ -1,0 +1,774 @@
+{
+  "id": "environmental-law",
+  "title": "Environmental Law",
+  "category": "Environment and Sustainability",
+  "description": "Learn GRE words through the American legal system, administrative law, the Clean Air and Clean Water Acts, CERCLA, takings, the public trust doctrine and the Flint water crisis.",
+  "cards": [
+    {
+      "id": "environmental-law-dichotomy",
+      "word": "dichotomy",
+      "partOfSpeech": "noun",
+      "definition": "split; branching into two parts (especially contradictory ones)",
+      "sentence": "Lawyers distinguish legal remedies, such as money damages, from equitable remedies, such as injunctions, a historic dichotomy between the English courts of law and the court of chancery.",
+      "explanation": "In environmental cases, money rarely repairs harm to a river or a species, so plaintiffs often ask for an injunction. Courts grant injunctions only after weighing factors such as irreparable harm and the balance of hardships.",
+      "citations": [
+        {
+          "title": "Equity (law) (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Equity_(law)"
+        },
+        {
+          "title": "Common law (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Common_law"
+        }
+      ]
+    },
+    {
+      "id": "environmental-law-warranted",
+      "word": "warranted",
+      "partOfSpeech": "adjective",
+      "definition": "justified; authorized",
+      "sentence": "A preliminary injunction is warranted only if the plaintiff shows a likelihood of irreparable harm, and in Winter v. NRDC (2008) the Supreme Court held that an injunction against Navy sonar training was not justified.",
+      "explanation": "Environmental groups argued that sonar training off Southern California harmed whales and other marine mammals. The Court called an injunction an extraordinary remedy and gave weight to the Navy's interest in readiness.",
+      "citations": [
+        {
+          "title": "Winter v. Natural Resources Defense Council, 555 U.S. 7 (2008)",
+          "url": "https://supreme.justia.com/cases/federal/us/555/7/"
+        },
+        {
+          "title": "Injunction (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Injunction"
+        }
+      ]
+    },
+    {
+      "id": "environmental-law-abate",
+      "word": "abate",
+      "partOfSpeech": "verb",
+      "definition": "subside , or moderate",
+      "sentence": "A court that finds a public nuisance, such as pollution that interferes with a right common to the public, may order the defendant to abate it.",
+      "explanation": "Nuisance law is one of the oldest tools for environmental harm. A private nuisance interferes with a person's use of their own land, while a public nuisance affects the community at large.",
+      "citations": [
+        {
+          "title": "Nuisance (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Nuisance"
+        },
+        {
+          "title": "Public nuisance (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Public_nuisance"
+        }
+      ]
+    },
+    {
+      "id": "environmental-law-appropriate",
+      "word": "appropriate",
+      "partOfSpeech": "verb",
+      "definition": "acquire; take possession of for one’s own use",
+      "sentence": "In the arid West, a person who puts water to beneficial use can appropriate it under the doctrine of prior appropriation, which is summarized as first in time, first in right.",
+      "explanation": "Eastern states, including Michigan, generally follow riparian rights, where owners of land touching a water body share its reasonable use. The difference reflects how scarce water is in each region.",
+      "citations": [
+        {
+          "title": "Water right: prior appropriation (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Water_right"
+        },
+        {
+          "title": "Riparian water rights (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Riparian_water_rights"
+        }
+      ]
+    },
+    {
+      "id": "environmental-law-stigma",
+      "word": "stigma",
+      "partOfSpeech": "noun",
+      "definition": "token of disgrace; brand",
+      "sentence": "Even after a cleanup, a once-contaminated property may carry a stigma that lowers its market value, and some courts have allowed damages for that loss.",
+      "explanation": "Lenders and buyers fear future liability and hidden problems. The stigma problem is one reason brownfield redevelopment programs offer liability protections.",
+      "citations": [
+        {
+          "title": "Brownfield land (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Brownfield_land"
+        },
+        {
+          "title": "Property damage (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Damages"
+        }
+      ]
+    },
+    {
+      "id": "environmental-law-aver",
+      "word": "aver",
+      "partOfSpeech": "verb",
+      "definition": "assert confidently or declare; as used in law, state formally as a fact; by extension, to assert formally in a pleading",
+      "sentence": "In their complaints, Flint residents aver that after the city switched in 2014 from Detroit's lake water to the Flint River without corrosion control, lead from old pipes leached into their drinking water.",
+      "explanation": "At the motion to dismiss stage, courts treat well-pleaded factual allegations as true and ask only whether the claim is plausible. Many Flint suits were filed against the state, the city, officials and engineering consultants.",
+      "citations": [
+        {
+          "title": "Litigating the Flint water crisis: an overview (Great Lakes Law)",
+          "url": "https://www.greatlakeslaw.org/blog/2016/02/litigating-the-flint-water-crisis-an-overview-of-the-lawsuits-and-legal-action.html"
+        },
+        {
+          "title": "Flint water crisis (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Flint_water_crisis"
+        }
+      ]
+    },
+    {
+      "id": "environmental-law-caustic",
+      "word": "caustic",
+      "partOfSpeech": "adjective",
+      "definition": "burning; sarcastically biting; by extension, corrosive",
+      "sentence": "The Flint River was more caustic to pipes than Detroit's treated lake water, in part because of its high chloride content, which attacked the protective coating inside lead pipes.",
+      "explanation": "Without added corrosion inhibitors such as phosphate, the scale that kept lead from dissolving broke down. The federal Lead and Copper Rule requires optimal corrosion control treatment for large systems.",
+      "citations": [
+        {
+          "title": "Flint water crisis (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Flint_water_crisis"
+        },
+        {
+          "title": "Lead and Copper Rule (U.S. EPA)",
+          "url": "https://www.epa.gov/ground-water-and-drinking-water/lead-and-copper-rule"
+        }
+      ]
+    },
+    {
+      "id": "environmental-law-castigation",
+      "word": "castigation",
+      "partOfSpeech": "noun",
+      "definition": "punishment; severe criticism",
+      "sentence": "The 2016 report of the Flint Water Advisory Task Force was a sharp castigation of state regulators, whom it held primarily responsible for the crisis.",
+      "explanation": "The task force appointed by Governor Snyder concluded that the Michigan Department of Environmental Quality had failed to enforce federal drinking-water rules. It also described the crisis as a case of environmental injustice.",
+      "citations": [
+        {
+          "title": "Flint Water Advisory Task Force Final Report (2016)",
+          "url": "https://www.michigan.gov/snyder/-/media/Project/Websites/snyder/Folder6/FWATF_FINAL_REPORT_21March2016.pdf"
+        },
+        {
+          "title": "Flint water crisis (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Flint_water_crisis"
+        }
+      ]
+    },
+    {
+      "id": "environmental-law-perfunctory",
+      "word": "perfunctory",
+      "partOfSpeech": "adjective",
+      "definition": "superficial; not thorough; lacking interest, care, or enthusiasm",
+      "sentence": "Plaintiffs alleged that Veolia's review of Flint's water system was perfunctory, and in 2022 the court found enough evidence to let a professional negligence claim against the company go to a jury.",
+      "explanation": "Professional negligence asks whether a professional met the standard of care of others in the field. The ruling is in the In re Flint Water Cases litigation in federal court in Michigan.",
+      "citations": [
+        {
+          "title": "Litigating the Flint water crisis: an overview (Great Lakes Law)",
+          "url": "https://www.greatlakeslaw.org/blog/2016/02/litigating-the-flint-water-crisis-an-overview-of-the-lawsuits-and-legal-action.html"
+        },
+        {
+          "title": "Professional negligence (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Professional_negligence"
+        }
+      ]
+    },
+    {
+      "id": "environmental-law-apathy",
+      "word": "apathy",
+      "partOfSpeech": "noun",
+      "definition": "lack of caring; indifference",
+      "sentence": "The plaintiffs in Guertin alleged that officials acted with apathy toward residents' safety so extreme that it violated the constitutional right to bodily integrity.",
+      "explanation": "Substantive due process claims require government conduct that shocks the conscience. The Sixth Circuit allowed some claims in Guertin v. State of Michigan (2019) to go forward against state and local officials.",
+      "citations": [
+        {
+          "title": "Guertin v. State of Michigan, 912 F.3d 907 (6th Cir. 2019)",
+          "url": "https://law.justia.com/cases/federal/appellate-courts/ca6/17-2171/17-2171-2019-01-04.html"
+        },
+        {
+          "title": "Substantive due process (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Substantive_due_process"
+        }
+      ]
+    },
+    {
+      "id": "environmental-law-catalyst",
+      "word": "catalyst",
+      "partOfSpeech": "noun",
+      "definition": "agent that increases the pace of a chemical action",
+      "sentence": "The Flint crisis was a catalyst for tougher federal lead rules: the Lead and Copper Rule Improvements, finalized in 2024, set a 10-year deadline to replace lead service lines.",
+      "explanation": "The rule also lowers the lead action level from 15 to 10 parts per billion. Its status can change with later rulemaking and litigation, so check the EPA's current page.",
+      "citations": [
+        {
+          "title": "Lead and Copper Rule Improvements (U.S. EPA)",
+          "url": "https://www.epa.gov/ground-water-and-drinking-water/lead-and-copper-rule-improvements"
+        }
+      ]
+    },
+    {
+      "id": "environmental-law-disparate",
+      "word": "disparate",
+      "partOfSpeech": "adjective",
+      "definition": "basically different; unrelated",
+      "sentence": "Environmental justice advocates point to the disparate impact of pollution on low-income communities and communities of color, which Flint, a majority-Black city, brought to national attention.",
+      "explanation": "President Clinton's Executive Order 12898 (1994) directed agencies to address such impacts. But in Alexander v. Sandoval (2001) the Supreme Court held that individuals cannot sue to enforce disparate-impact regulations under Title VI.",
+      "citations": [
+        {
+          "title": "Alexander v. Sandoval, 532 U.S. 275 (2001)",
+          "url": "https://supreme.justia.com/cases/federal/us/532/275/"
+        },
+        {
+          "title": "Environmental justice (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Environmental_justice"
+        }
+      ]
+    },
+    {
+      "id": "environmental-law-supersede",
+      "word": "supersede",
+      "partOfSpeech": "verb",
+      "definition": "cause to be set aside; replace; make obsolete",
+      "sentence": "Under the Supremacy Clause, valid federal law can supersede conflicting state law, although the Clean Air Act generally allows states to adopt stricter rules for stationary sources.",
+      "explanation": "Section 116 of the Act saves state authority to regulate more strictly than the federal minimum, with exceptions such as vehicle standards. Preemption disputes arise whenever a state rule differs from a federal one.",
+      "citations": [
+        {
+          "title": "Supremacy Clause (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Supremacy_Clause"
+        },
+        {
+          "title": "42 U.S.C. § 7416 (Cornell LII)",
+          "url": "https://www.law.cornell.edu/uscode/text/42/7416"
+        }
+      ]
+    },
+    {
+      "id": "environmental-law-deference",
+      "word": "deference",
+      "partOfSpeech": "noun",
+      "definition": "courteous regard for another’s wishes",
+      "sentence": "For forty years courts gave Chevron deference to reasonable agency readings of ambiguous statutes, until Loper Bright (2024) overruled that doctrine.",
+      "explanation": "After Loper Bright Enterprises v. Raimondo, judges must use their own judgment to find the best reading of a statute. Agency expertise may still persuade courts, and Congress can delegate discretion expressly.",
+      "citations": [
+        {
+          "title": "Loper Bright Enterprises v. Raimondo, 603 U.S. 369 (2024)",
+          "url": "https://supreme.justia.com/cases/federal/us/603/22-451/"
+        },
+        {
+          "title": "Chevron deference (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Chevron_U.S.A.,_Inc._v._Natural_Resources_Defense_Council,_Inc."
+        }
+      ]
+    },
+    {
+      "id": "environmental-law-capricious",
+      "word": "capricious",
+      "partOfSpeech": "adjective",
+      "definition": "unpredictable; fickle",
+      "sentence": "Under the Administrative Procedure Act, a court sets aside agency action that is arbitrary and capricious, meaning the agency did not offer a reasoned explanation for what it did.",
+      "explanation": "State Farm (1983) says the agency must examine the relevant data and explain the connection between the facts found and the choice made. This \"hard look\" review is a main way courts police environmental rulemaking.",
+      "citations": [
+        {
+          "title": "5 U.S.C. § 706 (Cornell LII)",
+          "url": "https://www.law.cornell.edu/uscode/text/5/706"
+        },
+        {
+          "title": "Arbitrary and capricious (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Arbitrary_and_capricious"
+        }
+      ]
+    },
+    {
+      "id": "environmental-law-rescind",
+      "word": "rescind",
+      "partOfSpeech": "verb",
+      "definition": "cancel",
+      "sentence": "An agency that wants to rescind a rule generally must go through notice and comment and explain itself, as the Supreme Court held in State Farm (1983) when the agency tried to drop a passive-restraint requirement.",
+      "explanation": "Reversing a rule is treated much like making one, so changes between administrations often end up in court. Courts ask whether the agency acknowledged the change and gave good reasons.",
+      "citations": [
+        {
+          "title": "Motor Vehicle Manufacturers Ass'n v. State Farm, 463 U.S. 29 (1983)",
+          "url": "https://supreme.justia.com/cases/federal/us/463/29/"
+        },
+        {
+          "title": "Notice and comment (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Rulemaking"
+        }
+      ]
+    },
+    {
+      "id": "environmental-law-tangential",
+      "word": "tangential",
+      "partOfSpeech": "adjective",
+      "definition": "peripheral; only slightly connected; digressing",
+      "sentence": "A plaintiff needs an injury that is concrete and traceable to the defendant, not a tangential or abstract interest, as Lujan v. Defenders of Wildlife (1992) held.",
+      "explanation": "Standing requires injury in fact, causation and redressability. In Lujan, plaintiffs' vague plans to visit overseas habitats someday were not enough.",
+      "citations": [
+        {
+          "title": "Lujan v. Defenders of Wildlife, 504 U.S. 555 (1992)",
+          "url": "https://supreme.justia.com/cases/federal/us/504/555/"
+        },
+        {
+          "title": "Standing (law) (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Standing_(law)"
+        }
+      ]
+    },
+    {
+      "id": "environmental-law-forestall",
+      "word": "forestall",
+      "partOfSpeech": "verb",
+      "definition": "prevent by taking action in advance",
+      "sentence": "NEPA requires federal agencies to take a hard look at environmental consequences before acting, in order to forestall harm that would be costly or impossible to reverse.",
+      "explanation": "The statute is procedural: it requires information and public input but does not require the agency to choose the greenest option. Recent changes, including the removal of the CEQ's NEPA regulations in 2025 and the Supreme Court's Seven County decision, have narrowed the scope of review.",
+      "citations": [
+        {
+          "title": "National Environmental Policy Act (U.S. EPA)",
+          "url": "https://www.epa.gov/nepa"
+        },
+        {
+          "title": "National Environmental Policy Act (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/National_Environmental_Policy_Act"
+        }
+      ]
+    },
+    {
+      "id": "environmental-law-obviate",
+      "word": "obviate",
+      "partOfSpeech": "verb",
+      "definition": "make unnecessary; get rid of",
+      "sentence": "An environmental assessment that ends in a finding of no significant impact can obviate the need for a full environmental impact statement.",
+      "explanation": "Most federal actions are handled by categorical exclusions or assessments, and few reach the full statement stage. That is why disputes often focus on whether an impact is significant.",
+      "citations": [
+        {
+          "title": "National Environmental Policy Act (U.S. EPA)",
+          "url": "https://www.epa.gov/nepa"
+        },
+        {
+          "title": "Environmental impact statement (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Environmental_impact_statement"
+        }
+      ]
+    },
+    {
+      "id": "environmental-law-exigency",
+      "word": "exigency",
+      "partOfSpeech": "noun",
+      "definition": "urgent situation; pressing needs or demands; state of requiring immediate attention",
+      "sentence": "Congress passed EPCRA in 1986 after the Bhopal disaster so that communities would be ready for an exigency such as a chemical release, through local emergency planning committees.",
+      "explanation": "EPCRA also created the Toxics Release Inventory, which makes data on industrial releases public. The right-to-know idea is that disclosure itself pressures companies to cut emissions.",
+      "citations": [
+        {
+          "title": "Emergency Planning and Community Right-to-Know Act (U.S. EPA)",
+          "url": "https://www.epa.gov/epcra"
+        },
+        {
+          "title": "Bhopal disaster (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Bhopal_disaster"
+        }
+      ]
+    },
+    {
+      "id": "environmental-law-precursor",
+      "word": "precursor",
+      "partOfSpeech": "noun",
+      "definition": "forerunner",
+      "sentence": "Nitrogen oxides and volatile organic compounds are precursors of ground-level ozone, so controlling them is central to meeting the national ambient air quality standard for ozone.",
+      "explanation": "Ozone is not emitted directly but formed in sunlight from these chemicals. States must write implementation plans showing how they will meet the standards set by the EPA.",
+      "citations": [
+        {
+          "title": "Ground-level ozone basics (U.S. EPA)",
+          "url": "https://www.epa.gov/ground-level-ozone-pollution/ground-level-ozone-basics"
+        },
+        {
+          "title": "National Ambient Air Quality Standards (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/National_Ambient_Air_Quality_Standards"
+        }
+      ]
+    },
+    {
+      "id": "environmental-law-exacerbate",
+      "word": "exacerbate",
+      "partOfSpeech": "verb",
+      "definition": "worsen; embitter",
+      "sentence": "Hot, sunny weather can exacerbate ground-level ozone, so warming complicates the task of meeting air quality standards.",
+      "explanation": "Ozone causes respiratory harm, especially for children and people with asthma. Areas that fail the standard are called nonattainment areas and face tighter requirements.",
+      "citations": [
+        {
+          "title": "Ground-level ozone basics (U.S. EPA)",
+          "url": "https://www.epa.gov/ground-level-ozone-pollution/ground-level-ozone-basics"
+        }
+      ]
+    },
+    {
+      "id": "environmental-law-penchant",
+      "word": "penchant",
+      "partOfSpeech": "noun",
+      "definition": "strong inclination; liking",
+      "sentence": "Economists have a penchant for market tools such as cap-and-trade, in which firms with low abatement costs cut more and sell allowances to those with high costs.",
+      "explanation": "The 1990 Clean Air Act Amendments created a sulfur dioxide allowance trading program for acid rain. It cut emissions faster and at lower cost than many had predicted.",
+      "citations": [
+        {
+          "title": "Acid Rain Program (U.S. EPA)",
+          "url": "https://www.epa.gov/acidrain/acid-rain-program"
+        },
+        {
+          "title": "Emissions trading (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Emissions_trading"
+        }
+      ]
+    },
+    {
+      "id": "environmental-law-prohibitive",
+      "word": "prohibitive",
+      "partOfSpeech": "adjective",
+      "definition": "tending to prevent the purchase or use of something; inclined to prevent or forbid",
+      "sentence": "When compliance costs are prohibitive, regulated parties argue a rule is unreasonable, and in Michigan v. EPA (2015) the Court held the agency had to consider cost before finding power-plant mercury regulation appropriate.",
+      "explanation": "In Whitman v. American Trucking (2001), the Court had said the EPA may not consider cost in setting national air quality standards. Whether and how cost counts depends on the wording of each statute.",
+      "citations": [
+        {
+          "title": "Michigan v. EPA, 576 U.S. 743 (2015)",
+          "url": "https://supreme.justia.com/cases/federal/us/576/14-46/"
+        },
+        {
+          "title": "Cost–benefit analysis (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Cost%E2%80%93benefit_analysis"
+        }
+      ]
+    },
+    {
+      "id": "environmental-law-extrapolation",
+      "word": "extrapolation",
+      "partOfSpeech": "noun",
+      "definition": "projection; conjecture",
+      "sentence": "Risk assessors rely on extrapolation from high-dose animal studies to low-dose human exposure, and add safety factors to account for uncertainty.",
+      "explanation": "A common default is a tenfold factor for differences between animals and humans and another for differences among people. Critics say these defaults can understate or overstate real risk.",
+      "citations": [
+        {
+          "title": "Risk assessment (U.S. EPA)",
+          "url": "https://www.epa.gov/risk"
+        },
+        {
+          "title": "Dose–response relationship (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Dose%E2%80%93response_relationship"
+        }
+      ]
+    },
+    {
+      "id": "environmental-law-coagulate",
+      "word": "coagulate",
+      "partOfSpeech": "verb",
+      "definition": "thicken; congeal; clot",
+      "sentence": "Treatment plants add chemicals such as aluminum sulfate so that fine particles coagulate into larger clumps that settle out of the water.",
+      "explanation": "Treatment typically continues with filtration and disinfection. The Safe Drinking Water Act sets maximum contaminant levels, which public water systems must meet.",
+      "citations": [
+        {
+          "title": "Safe Drinking Water Act (U.S. EPA)",
+          "url": "https://www.epa.gov/sdwa"
+        },
+        {
+          "title": "Coagulation (water treatment) (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Coagulation_(water_treatment)"
+        }
+      ]
+    },
+    {
+      "id": "environmental-law-porous",
+      "word": "porous",
+      "partOfSpeech": "adjective",
+      "definition": "full of pores; like a sieve",
+      "sentence": "Aquifers are layers of porous rock or sand that hold groundwater, which is why the Safe Drinking Water Act regulates what companies pump underground.",
+      "explanation": "The Underground Injection Control program sets rules for wells that inject fluids, such as wastewater, to protect drinking-water sources. Contamination of an aquifer can last for decades.",
+      "citations": [
+        {
+          "title": "Underground Injection Control (U.S. EPA)",
+          "url": "https://www.epa.gov/uic"
+        },
+        {
+          "title": "Aquifer (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Aquifer"
+        }
+      ]
+    },
+    {
+      "id": "environmental-law-proscribe",
+      "word": "proscribe",
+      "partOfSpeech": "verb",
+      "definition": "ostracize; banish; outlaw",
+      "sentence": "The Clean Water Act proscribes any discharge of a pollutant from a point source into navigable waters unless a permit allows it, and County of Maui (2020) extended this to the functional equivalent of a direct discharge.",
+      "explanation": "In Maui, treated wastewater injected into wells reached the ocean through groundwater. The Court said a permit is needed when the discharge is the functional equivalent of one directly into a covered water.",
+      "citations": [
+        {
+          "title": "County of Maui v. Hawaii Wildlife Fund, 590 U.S. 165 (2020)",
+          "url": "https://supreme.justia.com/cases/federal/us/590/18-260/"
+        },
+        {
+          "title": "Clean Water Act (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Clean_Water_Act"
+        }
+      ]
+    },
+    {
+      "id": "environmental-law-ephemeral",
+      "word": "ephemeral",
+      "partOfSpeech": "adjective",
+      "definition": "short-lived; fleeting",
+      "sentence": "Ephemeral streams, which flow only after rain, are at the heart of the dispute over \"waters of the United States,\" and after Sackett (2023) the Clean Water Act reaches only relatively permanent waters and wetlands with a continuous surface connection.",
+      "explanation": "This narrower reading removed federal protection from many wetlands and intermittent streams. States may protect them under their own laws.",
+      "citations": [
+        {
+          "title": "Sackett v. EPA, 598 U.S. 651 (2023)",
+          "url": "https://supreme.justia.com/cases/federal/us/598/21-454/"
+        },
+        {
+          "title": "Waters of the United States (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Waters_of_the_United_States"
+        }
+      ]
+    },
+    {
+      "id": "environmental-law-saturate",
+      "word": "saturate",
+      "partOfSpeech": "verb",
+      "definition": "soak thoroughly",
+      "sentence": "Regulations define wetlands as areas inundated or saturated by surface or ground water often enough to support plants adapted to saturated soil.",
+      "explanation": "Federal wetland identification looks for three features: wetland hydrology, hydric soils and hydrophytic vegetation. Wetlands filter pollutants, store floodwater and shelter wildlife.",
+      "citations": [
+        {
+          "title": "Wetland (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Wetland"
+        },
+        {
+          "title": "Section 404 of the Clean Water Act (U.S. EPA)",
+          "url": "https://www.epa.gov/cwa-404"
+        }
+      ]
+    },
+    {
+      "id": "environmental-law-delineate",
+      "word": "delineate",
+      "partOfSpeech": "verb",
+      "definition": "portray; depict; sketch; by extension, to map the boundary of",
+      "sentence": "Before filling land, a developer usually hires a consultant to delineate wetlands, and the Army Corps of Engineers decides which areas fall under section 404.",
+      "explanation": "A delineation maps the boundary of a regulated wetland using field data. Michigan administers its own wetland program, which is broader in some respects than the federal one.",
+      "citations": [
+        {
+          "title": "Wetland delineation (U.S. Army Corps of Engineers)",
+          "url": "https://www.usace.army.mil/Missions/Civil-Works/Regulatory-Program-and-Permits/"
+        },
+        {
+          "title": "Wetland (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Wetland"
+        }
+      ]
+    },
+    {
+      "id": "environmental-law-mitigate",
+      "word": "mitigate",
+      "partOfSpeech": "verb",
+      "definition": "appease; moderate; by extension, to offset or reduce the harm of",
+      "sentence": "Permits to fill wetlands often require applicants to mitigate the loss by restoring or creating wetlands elsewhere, sometimes by buying credits from a mitigation bank.",
+      "explanation": "The usual sequence is to avoid, minimize and then compensate for impacts. Critics say replacement wetlands often fail to match the function of those they replace.",
+      "citations": [
+        {
+          "title": "Compensatory mitigation (U.S. EPA)",
+          "url": "https://www.epa.gov/cwa-404/compensatory-mitigation"
+        },
+        {
+          "title": "Wetland mitigation banking (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Mitigation_banking"
+        }
+      ]
+    },
+    {
+      "id": "environmental-law-pervasive",
+      "word": "pervasive",
+      "partOfSpeech": "adjective",
+      "definition": "spread throughout",
+      "sentence": "PFAS, the so-called forever chemicals, are pervasive in water, soil and human blood, and in 2024 the EPA designated two of them, PFOA and PFOS, as hazardous substances under CERCLA.",
+      "explanation": "The designation lets the EPA order cleanup and recover costs from responsible parties. Regulatory details for PFAS have been changing, so check the EPA's current position.",
+      "citations": [
+        {
+          "title": "PFAS (U.S. EPA)",
+          "url": "https://www.epa.gov/pfas"
+        },
+        {
+          "title": "Per- and polyfluoroalkyl substances (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Per-_and_polyfluoroalkyl_substances"
+        }
+      ]
+    },
+    {
+      "id": "environmental-law-convoluted",
+      "word": "convoluted",
+      "partOfSpeech": "adjective",
+      "definition": "coiled around; involved; intricate",
+      "sentence": "CERCLA's liability scheme is convoluted: current owners, past owners, generators and transporters can all be held strictly liable, even for disposal that was legal at the time.",
+      "explanation": "Liability is strict, retroactive and often joint and several. In Burlington Northern (2009) the Court allowed a defendant with a small share of the contamination to be held liable only for its apportioned part.",
+      "citations": [
+        {
+          "title": "Burlington Northern & Santa Fe Railway Co. v. United States, 556 U.S. 599 (2009)",
+          "url": "https://supreme.justia.com/cases/federal/us/556/599/"
+        },
+        {
+          "title": "CERCLA (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Comprehensive_Environmental_Response,_Compensation,_and_Liability_Act"
+        }
+      ]
+    },
+    {
+      "id": "environmental-law-exculpate",
+      "word": "exculpate",
+      "partOfSpeech": "verb",
+      "definition": "clear from blame",
+      "sentence": "CERCLA's defenses can exculpate a landowner who did not cause the contamination and who made all appropriate inquiries into the property's history before buying it.",
+      "explanation": "Congress added the innocent landowner defense in 1986 and protection for bona fide prospective purchasers in 2002. The aim is to encourage buyers to redevelop contaminated sites.",
+      "citations": [
+        {
+          "title": "42 U.S.C. § 9607 (Cornell LII)",
+          "url": "https://www.law.cornell.edu/uscode/text/42/9607"
+        },
+        {
+          "title": "Brownfield land (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Brownfield_land"
+        }
+      ]
+    },
+    {
+      "id": "environmental-law-probity",
+      "word": "probity",
+      "partOfSpeech": "noun",
+      "definition": "uprightness; incorruptibility",
+      "sentence": "Under the public trust doctrine, the state holds submerged lands as trustee for the public and must manage them with probity, as Illinois Central (1892) showed when the Court upheld the revocation of a giveaway of Chicago's lakefront.",
+      "explanation": "Joseph Sax of the University of Michigan helped revive the doctrine in a 1970 article. It remains a tool for protecting public access to the Great Lakes and navigable waters.",
+      "citations": [
+        {
+          "title": "Illinois Central Railroad Co. v. Illinois, 146 U.S. 387 (1892)",
+          "url": "https://supreme.justia.com/cases/federal/us/146/387/"
+        },
+        {
+          "title": "Public trust doctrine (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Public_trust_doctrine"
+        }
+      ]
+    },
+    {
+      "id": "environmental-law-propriety",
+      "word": "propriety",
+      "partOfSpeech": "noun",
+      "definition": "fitness; correct conduct",
+      "sentence": "In Glass v. Goeckel (2005), the Michigan Supreme Court considered the propriety of a landowner's barring walkers from the Lake Huron shore, and held that the public may walk below the ordinary high water mark.",
+      "explanation": "The Court found that the public trust protects such walking, even though the shoreline owner holds title to the land. The ordinary high water mark marks the boundary of the public's right.",
+      "citations": [
+        {
+          "title": "Public trust doctrine (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Public_trust_doctrine"
+        },
+        {
+          "title": "Ordinary high-water mark (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/High-water_mark"
+        }
+      ]
+    },
+    {
+      "id": "environmental-law-impair",
+      "word": "impair",
+      "partOfSpeech": "verb",
+      "definition": "injure; hurt",
+      "sentence": "Michigan's Environmental Protection Act lets any person sue to stop conduct that is likely to pollute, impair or destroy the air, water or other natural resources.",
+      "explanation": "MEPA (1970) was drafted with help from Joseph Sax and is an early model of a citizen suit statute. It allows courts to hear the claim and set standards where agencies have not.",
+      "citations": [
+        {
+          "title": "Michigan Environmental Protection Act, Part 17 of NREPA (Michigan Legislature)",
+          "url": "https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-324-1701"
+        },
+        {
+          "title": "Joseph Sax (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Joseph_Sax"
+        }
+      ]
+    },
+    {
+      "id": "environmental-law-condone",
+      "word": "condone",
+      "partOfSpeech": "verb",
+      "definition": "overlook; forgive; give tacit approval; excuse",
+      "sentence": "Agencies have broad enforcement discretion, but a pattern of overlooked violations can seem to condone them, which is why the Clean Water Act and Clean Air Act allow citizen suits.",
+      "explanation": "Under Heckler v. Chaney (1985), a decision not to enforce is presumptively unreviewable. Citizen suits let private parties sue violators after giving notice, unless the government is already pursuing the case.",
+      "citations": [
+        {
+          "title": "Heckler v. Chaney, 470 U.S. 821 (1985)",
+          "url": "https://supreme.justia.com/cases/federal/us/470/821/"
+        },
+        {
+          "title": "33 U.S.C. § 1365 (Cornell LII)",
+          "url": "https://www.law.cornell.edu/uscode/text/33/1365"
+        }
+      ]
+    },
+    {
+      "id": "environmental-law-default",
+      "word": "default",
+      "partOfSpeech": "noun",
+      "definition": "failure to act; by extension, a failure to act",
+      "sentence": "If the EPA defaults on a nondiscretionary duty, such as issuing a rule by a statutory deadline, citizens can sue to compel action under the Clean Air Act's citizen suit provision.",
+      "explanation": "Deadline suits are a common way to force action on air standards. They are a check on agencies that delay, as opposed to suits that challenge what an agency has done.",
+      "citations": [
+        {
+          "title": "42 U.S.C. § 7604 (Cornell LII)",
+          "url": "https://www.law.cornell.edu/uscode/text/42/7604"
+        },
+        {
+          "title": "Citizen suit (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Citizen_suit"
+        }
+      ]
+    },
+    {
+      "id": "environmental-law-flout",
+      "word": "flout",
+      "partOfSpeech": "verb",
+      "definition": "reject; mock; show contempt for",
+      "sentence": "Companies that flout permit limits can face civil penalties for each day of each violation under the Clean Water Act, in addition to injunctive relief.",
+      "explanation": "In Friends of the Earth v. Laidlaw (2000), the Court held that citizens had standing and that civil penalties paid to the government can deter violations. Penalty amounts are adjusted for inflation each year.",
+      "citations": [
+        {
+          "title": "33 U.S.C. § 1319 (Cornell LII)",
+          "url": "https://www.law.cornell.edu/uscode/text/33/1319"
+        },
+        {
+          "title": "Friends of the Earth v. Laidlaw, 528 U.S. 167 (2000)",
+          "url": "https://supreme.justia.com/cases/federal/us/528/167/"
+        }
+      ]
+    },
+    {
+      "id": "environmental-law-contention",
+      "word": "contention",
+      "partOfSpeech": "noun",
+      "definition": "claim; thesis",
+      "sentence": "Property owners' contention that a regulation goes too far, a claim traced to Justice Holmes's opinion in Pennsylvania Coal v. Mahon (1922), is the foundation of regulatory takings law.",
+      "explanation": "Holmes wrote that if regulation goes too far it will be recognized as a taking. Penn Central (1978) later gave courts a multi-factor test that weighs economic impact, investment-backed expectations and the character of the government action.",
+      "citations": [
+        {
+          "title": "Pennsylvania Coal Co. v. Mahon, 260 U.S. 393 (1922)",
+          "url": "https://supreme.justia.com/cases/federal/us/260/393/"
+        },
+        {
+          "title": "Penn Central Transportation Co. v. New York City, 438 U.S. 104 (1978)",
+          "url": "https://supreme.justia.com/cases/federal/us/438/104/"
+        }
+      ]
+    },
+    {
+      "id": "environmental-law-divest",
+      "word": "divest",
+      "partOfSpeech": "verb",
+      "definition": "strip; deprive",
+      "sentence": "A regulation that would divest land of all economically beneficial use is a per se taking, the Supreme Court held in Lucas v. South Carolina Coastal Council (1992), unless background principles of property law already barred the use.",
+      "explanation": "Applied to wetlands, courts ask how much value remains after a permit denial. Michigan cases such as K&K Construction v. Department of Natural Resources (1998) address wetland regulation and takings claims.",
+      "citations": [
+        {
+          "title": "Lucas v. South Carolina Coastal Council, 505 U.S. 1003 (1992)",
+          "url": "https://supreme.justia.com/cases/federal/us/505/1003/"
+        },
+        {
+          "title": "Takings Clause (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Takings_Clause"
+        }
+      ]
+    }
+  ]
+}

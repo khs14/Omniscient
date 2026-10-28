@@ -1,0 +1,746 @@
+{
+  "id": "ecology-of-fishes",
+  "title": "Ecology of Fishes",
+  "category": "Environment and Sustainability",
+  "description": "Learn GRE words through fish physiology, life history, predator-prey ecology, aquatic ecosystems, fisheries and conservation.",
+  "cards": [
+    {
+      "id": "ecology-of-fishes-indeterminate",
+      "word": "indeterminate",
+      "partOfSpeech": "adjective",
+      "definition": "uncertain; not clearly fixed; indefinite; by extension, of growth, continuing throughout life",
+      "sentence": "Many fishes show indeterminate growth, continuing to get longer for most of their lives, so the oldest females are often far more fecund than young ones.",
+      "explanation": "A large female may produce many more eggs, and sometimes better-provisioned larvae, than several small ones. Hixon and colleagues argue that fisheries should protect these big old fat fecund female fish (BOFFFFs).",
+      "citations": [
+        {
+          "title": "BOFFFFs: on the importance of conserving old-growth age structure in fishery populations (Hixon et al., 2014)",
+          "url": "https://doi.org/10.1093/icesjms/fst200"
+        },
+        {
+          "title": "Indeterminate growth (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Indeterminate_growth"
+        }
+      ]
+    },
+    {
+      "id": "ecology-of-fishes-striated",
+      "word": "striated",
+      "partOfSpeech": "adjective",
+      "definition": "marked with parallel bands; grooved",
+      "sentence": "Otoliths, the ear stones of fishes, are striated with fine growth rings, so biologists can count them to estimate a fish's age.",
+      "explanation": "Pannella (1971) showed that otoliths of many fishes lay down one increment per day, along with coarser seasonal patterns. Annual rings in otoliths are the basis of age data in many stock assessments.",
+      "citations": [
+        {
+          "title": "Fish otoliths: daily growth layers and periodical patterns (Pannella, 1971)",
+          "url": "https://doi.org/10.1126/science.173.3995.449"
+        },
+        {
+          "title": "Otolith (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Otolith"
+        }
+      ]
+    },
+    {
+      "id": "ecology-of-fishes-viscous",
+      "word": "viscous",
+      "partOfSpeech": "adjective",
+      "definition": "sticky, gluey",
+      "sentence": "Water is about fifty times more viscous than air, so a fish moving through it pays a high price for a poorly streamlined body.",
+      "explanation": "Fast open-water swimmers such as tunas have a fusiform, torpedo-like shape that reduces drag. Slow or maneuvering fishes, such as those on reefs, often have deeper or flatter bodies.",
+      "citations": [
+        {
+          "title": "Viscosity (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Viscosity"
+        },
+        {
+          "title": "Fish locomotion (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Fish_locomotion"
+        }
+      ]
+    },
+    {
+      "id": "ecology-of-fishes-analogous",
+      "word": "analogous",
+      "partOfSpeech": "adjective",
+      "definition": "comparable",
+      "sentence": "Fast open-water swimmers in unrelated groups evolve analogous designs: tunas, which are bony fishes, and mackerel sharks, which are cartilaginous, both have streamlined bodies and crescent-shaped tails.",
+      "explanation": "This is convergent evolution, where similar environmental demands favor similar traits. Ecomorphology uses the link between body form and habitat or diet to predict how a species lives.",
+      "citations": [
+        {
+          "title": "Convergent evolution (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Convergent_evolution"
+        },
+        {
+          "title": "Ecomorphology (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Ecomorphology"
+        }
+      ]
+    },
+    {
+      "id": "ecology-of-fishes-plasticity",
+      "word": "plasticity",
+      "partOfSpeech": "noun",
+      "definition": "ability to be molded; by extension, the ability of one genotype to produce different forms",
+      "sentence": "Phenotypic plasticity lets one genotype produce different forms: Midas cichlids raised on hard, evasive prey developed different jaw shapes from those fed soft food.",
+      "explanation": "Meyer (1987) reported this for a Central American cichlid. Plasticity can help fishes cope with changing environments, and it complicates the question of whether a trait difference is genetic.",
+      "citations": [
+        {
+          "title": "Phenotypic plasticity and heterochrony in Cichlasoma managuense (Meyer, 1987)",
+          "url": "https://doi.org/10.1111/j.1558-5646.1987.tb05799.x"
+        },
+        {
+          "title": "Phenotypic plasticity (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Phenotypic_plasticity"
+        }
+      ]
+    },
+    {
+      "id": "ecology-of-fishes-burgeon",
+      "word": "burgeon",
+      "partOfSpeech": "verb",
+      "definition": "grow forth; send out buds",
+      "sentence": "In the lakes of East Africa, cichlid diversity can burgeon into hundreds of species that differ in jaws, colors and diets.",
+      "explanation": "Lake Victoria's cichlids evolved in what may be only about fifteen thousand years, a textbook adaptive radiation. Competition, sexual selection and habitat variety are thought to drive the splitting.",
+      "citations": [
+        {
+          "title": "Adaptive radiation (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Adaptive_radiation"
+        },
+        {
+          "title": "Lake Victoria cichlids (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Lake_Victoria_cichlids"
+        }
+      ]
+    },
+    {
+      "id": "ecology-of-fishes-tenuous",
+      "word": "tenuous",
+      "partOfSpeech": "adjective",
+      "definition": "thin; rare; slim",
+      "sentence": "The Devils Hole pupfish, found naturally in only one water-filled limestone cavity in Nevada, has a tenuous hold on survival, and its total population has fallen to a few dozen fish in bad years.",
+      "explanation": "A species with such a tiny range is vulnerable to any change, from drought to a single pollution event. Its conservation depends on protecting the pool and its water supply.",
+      "citations": [
+        {
+          "title": "Devils Hole pupfish (U.S. National Park Service)",
+          "url": "https://www.nps.gov/deva/learn/nature/devils-hole-pupfish.htm"
+        },
+        {
+          "title": "Devils Hole pupfish (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Devils_Hole_pupfish"
+        }
+      ]
+    },
+    {
+      "id": "ecology-of-fishes-insularity",
+      "word": "insularity",
+      "partOfSpeech": "noun",
+      "definition": "narrow-mindedness; isolation",
+      "sentence": "A lake is a habitat island, and its insularity limits fish dispersal, which promotes speciation but also makes local extinction harder to reverse.",
+      "explanation": "Island biogeography predicts that isolated habitats hold fewer species and lose them more easily. Fishes cannot cross land, so each lake or river basin is a separate evolutionary stage.",
+      "citations": [
+        {
+          "title": "Island biogeography (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Island_biogeography"
+        }
+      ]
+    },
+    {
+      "id": "ecology-of-fishes-quiescent",
+      "word": "quiescent",
+      "partOfSpeech": "adjective",
+      "definition": "at rest; dormant; temporarily inactive",
+      "sentence": "Because fishes are ectotherms, cold water leaves many temperate species quiescent in winter, with low metabolism and little feeding.",
+      "explanation": "Metabolic rate rises and falls with water temperature, so winter energy needs are low. Fish that enter winter in poor condition can starve before spring.",
+      "citations": [
+        {
+          "title": "Ectotherm (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Ectotherm"
+        },
+        {
+          "title": "Torpor (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Torpor"
+        }
+      ]
+    },
+    {
+      "id": "ecology-of-fishes-abstemious",
+      "word": "abstemious",
+      "partOfSpeech": "adjective",
+      "definition": "sparing in eating and drinking; temperate",
+      "sentence": "Atlantic salmon are abstemious during the spawning run, largely ceasing to feed in fresh water and living on fat stored at sea.",
+      "explanation": "Stored energy has to cover swimming upriver, gonad development and spawning. Fishes that do not feed on the way back to freshwater are one reason energy storage is a key topic in life history.",
+      "citations": [
+        {
+          "title": "Atlantic salmon (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Atlantic_salmon"
+        },
+        {
+          "title": "Salmon run (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Salmon_run"
+        }
+      ]
+    },
+    {
+      "id": "ecology-of-fishes-satiate",
+      "word": "satiate",
+      "partOfSpeech": "verb",
+      "definition": "satisfy fully",
+      "sentence": "A meal can satiate a fish only until its stomach empties, and because digestion is faster in warm water, a warm fish can eat more per day.",
+      "explanation": "Gastric evacuation rate limits maximum consumption in many bioenergetics models. These models combine temperature, body size and food to predict growth.",
+      "citations": [
+        {
+          "title": "Fish Bioenergetics 4.0 (Deslauriers et al., 2017)",
+          "url": "https://doi.org/10.1080/03632415.2017.1377558"
+        }
+      ]
+    },
+    {
+      "id": "ecology-of-fishes-commensurate",
+      "word": "commensurate",
+      "partOfSpeech": "adjective",
+      "definition": "corresponding in extent, degree, etc.; proportionate",
+      "sentence": "A fish grows only when its food intake is commensurate with what it spends on respiration, waste and activity, as the balanced energy equation shows.",
+      "explanation": "In the common form, consumption equals respiration plus egestion plus excretion plus growth. If the right side exceeds food eaten, the fish loses weight.",
+      "citations": [
+        {
+          "title": "Fish Bioenergetics 4.0 (Deslauriers et al., 2017)",
+          "url": "https://doi.org/10.1080/03632415.2017.1377558"
+        },
+        {
+          "title": "Bioenergetics (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Bioenergetics"
+        }
+      ]
+    },
+    {
+      "id": "ecology-of-fishes-attenuate",
+      "word": "attenuate",
+      "partOfSpeech": "verb",
+      "definition": "make thinner; by extension, to weaken, as light passing through water",
+      "sentence": "Water attenuates light so quickly that sunlight is nearly gone below about 200 meters, which shapes fish vision, color and daily vertical migrations.",
+      "explanation": "Turbid lakes and rivers attenuate light even faster. Many deep-sea fishes have large eyes or make their own light.",
+      "citations": [
+        {
+          "title": "Photic zone (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Photic_zone"
+        },
+        {
+          "title": "Mesopelagic zone (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Mesopelagic_zone"
+        }
+      ]
+    },
+    {
+      "id": "ecology-of-fishes-permeable",
+      "word": "permeable",
+      "partOfSpeech": "adjective",
+      "definition": "penetrable; porous; allowing liquids or gas to pass through",
+      "sentence": "A fish's gills are thin and permeable, which lets oxygen in, but they also force costly osmoregulation: freshwater fishes gain water and lose salts, while marine fishes do the reverse.",
+      "explanation": "Freshwater fishes excrete dilute urine and absorb salts at the gills. Marine bony fishes drink seawater and excrete excess salt through gill cells.",
+      "citations": [
+        {
+          "title": "Osmoregulation (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Osmoregulation"
+        },
+        {
+          "title": "Fish gill (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Fish_gill"
+        }
+      ]
+    },
+    {
+      "id": "ecology-of-fishes-prodigal",
+      "word": "prodigal",
+      "partOfSpeech": "adjective",
+      "definition": "wasteful; reckless with money",
+      "sentence": "The ocean sunfish is a prodigal spawner: a single female may release hundreds of millions of eggs.",
+      "explanation": "This is an r-selected strategy: many tiny eggs, little parental care and very high mortality. It is the opposite of species that produce few, large, well-protected young.",
+      "citations": [
+        {
+          "title": "Ocean sunfish (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Ocean_sunfish"
+        },
+        {
+          "title": "r/K selection theory (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/R/K_selection_theory"
+        }
+      ]
+    },
+    {
+      "id": "ecology-of-fishes-paucity",
+      "word": "paucity",
+      "partOfSpeech": "noun",
+      "definition": "Scarcity",
+      "sentence": "Many sharks show a paucity of offspring, producing only a few pups every year or two, so they recover slowly from heavy fishing.",
+      "explanation": "Slow growth, late maturity and small litters give sharks low population growth rates. Stevens et al. (2000) reviewed how fishing has affected sharks, rays and chimaeras.",
+      "citations": [
+        {
+          "title": "The effects of fishing on sharks, rays, and chimaeras (Stevens et al., 2000)",
+          "url": "https://doi.org/10.1006/jmsc.2000.0724"
+        }
+      ]
+    },
+    {
+      "id": "ecology-of-fishes-dormant",
+      "word": "dormant",
+      "partOfSpeech": "adjective",
+      "definition": "sleeping; lethargic; latent",
+      "sentence": "Eggs of annual killifish lie dormant in the mud after their pools dry, and hatch when the rains return.",
+      "explanation": "Adults of species such as Nothobranchius live and die within a single wet season. The eggs pause development in diapause and can survive months of drought.",
+      "citations": [
+        {
+          "title": "Nothobranchius (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Nothobranchius"
+        },
+        {
+          "title": "Diapause (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Diapause"
+        }
+      ]
+    },
+    {
+      "id": "ecology-of-fishes-disseminate",
+      "word": "disseminate",
+      "partOfSpeech": "verb",
+      "definition": "distribute; spread; scatter (like seeds)",
+      "sentence": "Broadcast spawners disseminate eggs and sperm into open water, leaving dispersal to the currents.",
+      "explanation": "Many coral reef and marine fishes spawn this way, and larvae can drift for days or weeks. This makes populations connected but also hard to protect, since larvae may settle far from their parents.",
+      "citations": [
+        {
+          "title": "Broadcast spawning (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Broadcast_spawning"
+        }
+      ]
+    },
+    {
+      "id": "ecology-of-fishes-metamorphosis",
+      "word": "metamorphosis",
+      "partOfSpeech": "noun",
+      "definition": "change of form",
+      "sentence": "A young flatfish undergoes a dramatic metamorphosis: one eye migrates across the skull and the fish settles to live on its side on the bottom.",
+      "explanation": "Flounder and sole larvae start out symmetrical and swim in open water. Metamorphosis ties the larva's drifting phase to the adult's bottom habitat, so both must survive.",
+      "citations": [
+        {
+          "title": "Flatfish (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Flatfish"
+        }
+      ]
+    },
+    {
+      "id": "ecology-of-fishes-sporadic",
+      "word": "sporadic",
+      "partOfSpeech": "adjective",
+      "definition": "occurring irregularly",
+      "sentence": "Strong year classes arrive only sporadically in many fish stocks, a pattern that Johan Hjort linked in 1914 to the critical period when larvae first start to feed.",
+      "explanation": "Survival of larvae can vary by orders of magnitude from year to year. A fishery may rely on a handful of strong year classes spread over many weak ones.",
+      "citations": [
+        {
+          "title": "Johan Hjort (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Johan_Hjort"
+        },
+        {
+          "title": "Recruitment (biology) (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Recruitment_(biology)"
+        }
+      ]
+    },
+    {
+      "id": "ecology-of-fishes-discrete",
+      "word": "discrete",
+      "partOfSpeech": "adjective",
+      "definition": "separate; unconnected; consisting of distinct parts; by extension, of populations, separate with little interbreeding",
+      "sentence": "Pacific salmon return to their natal streams, so populations are genetically discrete, and the loss of one stream's run is not made up by neighbors.",
+      "explanation": "Hilborn et al. (2003) showed that a mix of many local salmon stocks buffers Bristol Bay's fishery against variation. Losing local diversity makes the whole system less stable.",
+      "citations": [
+        {
+          "title": "Biocomplexity and fisheries sustainability (Hilborn et al., 2003)",
+          "url": "https://doi.org/10.1073/pnas.1037274100"
+        },
+        {
+          "title": "Homing (biology) (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Homing_(biology)"
+        }
+      ]
+    },
+    {
+      "id": "ecology-of-fishes-amalgamate",
+      "word": "amalgamate",
+      "partOfSpeech": "verb",
+      "definition": "combine; unite in one body",
+      "sentence": "Schooling fishes amalgamate many individuals into a group that moves as one, which dilutes each member's risk of being eaten and confuses attacking predators.",
+      "explanation": "Schooling also helps with finding food and swimming efficiently, but it has costs, such as more competition within the group and an easy target for fishers.",
+      "citations": [
+        {
+          "title": "Shoaling and schooling (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Shoaling_and_schooling"
+        }
+      ]
+    },
+    {
+      "id": "ecology-of-fishes-reticent",
+      "word": "reticent",
+      "partOfSpeech": "adjective",
+      "definition": "reserved; uncommunicative; inclined to silence",
+      "sentence": "Small bluegill are reticent to leave the vegetation for open water where bass hunt, even though feeding there is poorer.",
+      "explanation": "Werner et al. (1983) showed in experiments that the presence of predators changed the habitat prey chose. Fear can reshape food webs, not only direct killing.",
+      "citations": [
+        {
+          "title": "An experimental test of the effects of predation risk on habitat use in fish (Werner et al., 1983)",
+          "url": "https://doi.org/10.2307/1937508"
+        },
+        {
+          "title": "Landscape of fear (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Landscape_of_fear"
+        }
+      ]
+    },
+    {
+      "id": "ecology-of-fishes-eclectic",
+      "word": "eclectic",
+      "partOfSpeech": "adjective",
+      "definition": "selective; composed of elements drawn from disparate sources; by extension, drawing on varied sources, here prey types",
+      "sentence": "Many fishes are eclectic feeders, shifting to whichever prey type is most abundant at the moment, a behavior known as prey switching.",
+      "explanation": "Optimal foraging theory predicts that a predator takes prey with the best energy return for the time spent. Switching can stabilize prey populations because common prey get eaten more.",
+      "citations": [
+        {
+          "title": "Optimal foraging theory (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Optimal_foraging_theory"
+        },
+        {
+          "title": "Prey switching (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Prey_switching"
+        }
+      ]
+    },
+    {
+      "id": "ecology-of-fishes-effrontery",
+      "word": "effrontery",
+      "partOfSpeech": "noun",
+      "definition": "impudence; shameless boldness; sheer nerve; presumptuousness",
+      "sentence": "Male guppies in streams with few predators display with effrontery, showing larger and brighter color spots than males from streams with many predators.",
+      "explanation": "Endler (1980) showed that females prefer bright males while predators eat them, so the balance of the two shifts the colors. This was an early classic of natural versus sexual selection.",
+      "citations": [
+        {
+          "title": "Natural selection on color patterns in Poecilia reticulata (Endler, 1980)",
+          "url": "https://doi.org/10.1111/j.1558-5646.1980.tb04790.x"
+        },
+        {
+          "title": "Guppy (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Guppy"
+        }
+      ]
+    },
+    {
+      "id": "ecology-of-fishes-forestall",
+      "word": "forestall",
+      "partOfSpeech": "verb",
+      "definition": "prevent by taking action in advance",
+      "sentence": "A stickleback's erect spines can forestall an attack by a predator limited by the size of its mouth, since the fish is hard to swallow.",
+      "explanation": "Gape-limited predators can eat only prey that fit in their mouths. Sticklebacks in lakes with many predatory fishes tend to have longer, more robust spines.",
+      "citations": [
+        {
+          "title": "Three-spined stickleback (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Three-spined_stickleback"
+        },
+        {
+          "title": "Predation (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Predation"
+        }
+      ]
+    },
+    {
+      "id": "ecology-of-fishes-chicanery",
+      "word": "chicanery",
+      "partOfSpeech": "noun",
+      "definition": "trickery; deception",
+      "sentence": "The false cleanerfish practices chicanery, mimicking the harmless cleaner wrasse so that it can approach larger fishes and bite their fins.",
+      "explanation": "Real cleaners remove parasites from clients, a famous mutualism. A mimic exploits that trust, which is an example of aggressive mimicry.",
+      "citations": [
+        {
+          "title": "Cleaner fish (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Cleaner_fish"
+        },
+        {
+          "title": "Aspidontus taeniatus (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Aspidontus_taeniatus"
+        }
+      ]
+    },
+    {
+      "id": "ecology-of-fishes-dupe",
+      "word": "dupe",
+      "partOfSpeech": "verb",
+      "definition": "someone easily fooled; by extension, to trick",
+      "sentence": "The anglerfish uses a glowing lure to dupe prey in the dark deep sea, which draws them close enough to be swallowed.",
+      "explanation": "The lure is a modified fin spine tipped with a light-producing organ that houses glowing bacteria. In the sparse deep-sea environment, waiting with a lure saves energy.",
+      "citations": [
+        {
+          "title": "Anglerfish (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Anglerfish"
+        },
+        {
+          "title": "Bioluminescence (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Bioluminescence"
+        }
+      ]
+    },
+    {
+      "id": "ecology-of-fishes-gullible",
+      "word": "gullible",
+      "partOfSpeech": "adjective",
+      "definition": "easily deceived",
+      "sentence": "Native fishes can be gullible toward introduced predators they have never met, which helps explain how invaders such as Nile perch devastate lake faunas.",
+      "explanation": "Sih et al. (2010) called this prey naiveté: prey lack the behaviors needed to recognize or avoid a novel enemy. Nile perch were introduced into Lake Victoria in the 1950s and contributed to the loss of many cichlid species.",
+      "citations": [
+        {
+          "title": "Predator–prey naïveté, antipredator behavior, and the ecology of predator invasions (Sih et al., 2010)",
+          "url": "https://doi.org/10.1111/j.1600-0706.2009.18039.x"
+        },
+        {
+          "title": "Nile perch (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Nile_perch"
+        }
+      ]
+    },
+    {
+      "id": "ecology-of-fishes-tortuous",
+      "word": "tortuous",
+      "partOfSpeech": "adjective",
+      "definition": "winding; full of curves",
+      "sentence": "Tortuous stream channels create alternating pools, riffles and undercut banks, giving fishes a varied set of places to feed, hide and spawn.",
+      "explanation": "Straightening a stream for flood control removes much of this variety. Restoration often rebuilds meanders, adds wood and reconnects the stream to its floodplain.",
+      "citations": [
+        {
+          "title": "Riffle (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Riffle"
+        },
+        {
+          "title": "Meander (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Meander"
+        }
+      ]
+    },
+    {
+      "id": "ecology-of-fishes-inundate",
+      "word": "inundate",
+      "partOfSpeech": "verb",
+      "definition": "overwhelm; flood; submerge",
+      "sentence": "In tropical rivers, seasonal floods inundate forests, letting fishes such as the tambaqui feed on fruits and seeds that fall in the water.",
+      "explanation": "The flood pulse concept (Junk et al., 1989) explains that the yearly flood is the main driver of production in many river-floodplain systems. Fish catch in the Amazon tracks flooding.",
+      "citations": [
+        {
+          "title": "The flood pulse concept in river-floodplain systems (Junk et al., 1989)",
+          "url": "https://www.researchgate.net/publication/216814480_The_Flood_Pulse_Concept_in_River-Floodplain_Systems"
+        },
+        {
+          "title": "Tambaqui (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Tambaqui"
+        }
+      ]
+    },
+    {
+      "id": "ecology-of-fishes-levee",
+      "word": "levee",
+      "partOfSpeech": "noun",
+      "definition": "stone embankment to prevent flooding",
+      "sentence": "Levees confine a river to its channel and cut fishes off from the floodplain habitats where many species spawn and feed.",
+      "explanation": "On large rivers such as the Mississippi, much of the historic floodplain has been disconnected. Setting levees back or opening gaps can reconnect backwaters at a lower flood risk.",
+      "citations": [
+        {
+          "title": "Levee (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Levee"
+        },
+        {
+          "title": "Floodplain (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Floodplain"
+        }
+      ]
+    },
+    {
+      "id": "ecology-of-fishes-adulterate",
+      "word": "adulterate",
+      "partOfSpeech": "verb",
+      "definition": "make impure by adding inferior or tainted substances",
+      "sentence": "Runoff of fertilizer, pesticides and road salt can adulterate streams and lakes, stressing fishes long before any die-off is visible.",
+      "explanation": "Sublethal effects include slower growth, reduced reproduction and changed behavior. These multiple stressors often interact, so their combined effect can exceed the sum of the parts.",
+      "citations": [
+        {
+          "title": "Nutrient pollution (U.S. EPA)",
+          "url": "https://www.epa.gov/nutrientpollution"
+        },
+        {
+          "title": "Water pollution (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Water_pollution"
+        }
+      ]
+    },
+    {
+      "id": "ecology-of-fishes-proliferate",
+      "word": "proliferate",
+      "partOfSpeech": "verb",
+      "definition": "grow rapidly; spread; multiply",
+      "sentence": "Excess nutrients let algae proliferate, and when the bloom decays, bacteria use up the oxygen and leave a dead zone where fishes cannot survive.",
+      "explanation": "The seasonal hypoxic zone in the northern Gulf of Mexico is fed by nutrients from the Mississippi River basin. Mobile fishes flee, while slow or bottom-dwelling animals may die.",
+      "citations": [
+        {
+          "title": "Dead zone (ecology) (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Dead_zone_(ecology)"
+        },
+        {
+          "title": "Eutrophication (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Eutrophication"
+        }
+      ]
+    },
+    {
+      "id": "ecology-of-fishes-precipitate",
+      "word": "precipitate",
+      "partOfSpeech": "adjective",
+      "definition": "rash, premature, hasty, sudden",
+      "sentence": "A precipitate drop in dissolved oxygen after a storm or an algal die-off can kill thousands of fish within hours.",
+      "explanation": "Warm water holds less oxygen, so heat waves make fish kills more likely. Larger fish often die first because their oxygen demand is higher.",
+      "citations": [
+        {
+          "title": "Fish kill (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Fish_kill"
+        },
+        {
+          "title": "Oxygen saturation (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Oxygen_saturation"
+        }
+      ]
+    },
+    {
+      "id": "ecology-of-fishes-pristine",
+      "word": "pristine",
+      "partOfSpeech": "adjective",
+      "definition": "characteristic of earlier times; primitive; unspoiled; by extension, unspoiled by human impact",
+      "sentence": "Few pristine rivers remain: a 2019 study found that only about a third of the world's rivers longer than 1,000 kilometers still flow freely along their whole length.",
+      "explanation": "Grill et al. (2019) mapped dams and other barriers worldwide. Free-flowing rivers matter because many fishes migrate and need connected habitat.",
+      "citations": [
+        {
+          "title": "Mapping the world's free-flowing rivers (Grill et al., 2019)",
+          "url": "https://doi.org/10.1038/s41586-019-1111-9"
+        }
+      ]
+    },
+    {
+      "id": "ecology-of-fishes-impede",
+      "word": "impede",
+      "partOfSpeech": "verb",
+      "definition": "hinder; block",
+      "sentence": "Dams impede the migrations of salmon, sturgeon and eels, cutting adults off from spawning habitat and juveniles from the sea.",
+      "explanation": "Dam removal in places such as the Elwha River in Washington State has let salmon recolonize upstream habitat. Where dams stay, passage structures are used.",
+      "citations": [
+        {
+          "title": "Elwha River (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Elwha_River"
+        },
+        {
+          "title": "Fish migration (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Fish_migration"
+        }
+      ]
+    },
+    {
+      "id": "ecology-of-fishes-mitigate",
+      "word": "mitigate",
+      "partOfSpeech": "verb",
+      "definition": "appease; moderate; by extension, to reduce the harm of",
+      "sentence": "Fish ladders can mitigate the barrier effect of dams, but a review found that on average they let fewer than half of upstream-migrating fish pass.",
+      "explanation": "Noonan et al. (2012) reviewed fishway performance and found that results differ widely by species and design. Bypassing or removing the dam is sometimes the better option.",
+      "citations": [
+        {
+          "title": "A quantitative assessment of fish passage efficiency (Noonan et al., 2012)",
+          "url": "https://doi.org/10.1111/j.1467-2979.2011.00445.x"
+        },
+        {
+          "title": "Fish ladder (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Fish_ladder"
+        }
+      ]
+    },
+    {
+      "id": "ecology-of-fishes-abate",
+      "word": "abate",
+      "partOfSpeech": "verb",
+      "definition": "subside , or moderate",
+      "sentence": "For a depleted stock to rebuild, fishing pressure must abate, and Newfoundland's northern cod have recovered only slowly since the 1992 moratorium.",
+      "explanation": "The collapse of the northern cod fishery in the early 1990s ended a centuries-old industry and left tens of thousands without work. Debate continues about how much recovery has happened and what limits it.",
+      "citations": [
+        {
+          "title": "Northern cod (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Atlantic_cod"
+        },
+        {
+          "title": "Collapse of the Atlantic northwest cod fishery (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Collapse_of_the_Atlantic_northwest_cod_fishery"
+        }
+      ]
+    },
+    {
+      "id": "ecology-of-fishes-bolster",
+      "word": "bolster",
+      "partOfSpeech": "verb",
+      "definition": "support; reinforce",
+      "sentence": "Hatcheries are used to bolster depleted populations, but stocked fish can compete with or interbreed with wild fish and lower the wild population's fitness.",
+      "explanation": "Araki et al. (2007) found that steelhead raised in a hatchery had fitness in the wild that dropped by about 40 percent per captive-reared generation. Stocking is therefore no substitute for habitat protection.",
+      "citations": [
+        {
+          "title": "Genetic effects of captive breeding cause a rapid, cumulative fitness decline in the wild (Araki et al., 2007)",
+          "url": "https://doi.org/10.1126/science.1145621"
+        },
+        {
+          "title": "Fish hatchery (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Fish_hatchery"
+        }
+      ]
+    },
+    {
+      "id": "ecology-of-fishes-vacillate",
+      "word": "vacillate",
+      "partOfSpeech": "verb",
+      "definition": "waver; fluctuate; by extension, to fluctuate",
+      "sentence": "Sardine and anchovy populations vacillate out of phase over several decades in some ocean regions, a pattern linked to climate cycles.",
+      "explanation": "Chavez et al. (2003) described these multidecadal shifts in the Pacific Ocean. Fishery managers must tell the effects of fishing from natural swings, which is hard without long records.",
+      "citations": [
+        {
+          "title": "From anchovies to sardines and back: multidecadal change in the Pacific Ocean (Chavez et al., 2003)",
+          "url": "https://doi.org/10.1126/science.1075880"
+        }
+      ]
+    },
+    {
+      "id": "ecology-of-fishes-confound",
+      "word": "confound",
+      "partOfSpeech": "verb",
+      "definition": "confuse; puzzle",
+      "sentence": "Climate trends confound studies of fishing effects, because warming and fishing both change fish abundance at the same time.",
+      "explanation": "Planque et al. (2010) argued that fishing makes populations more sensitive to climate by truncating age structure and shrinking geographic range. Multiple-stressor studies need careful designs to separate causes.",
+      "citations": [
+        {
+          "title": "How does fishing alter marine populations and ecosystems sensitivity to climate? (Planque et al., 2010)",
+          "url": "https://doi.org/10.1016/j.jmarsys.2008.12.018"
+        }
+      ]
+    },
+    {
+      "id": "ecology-of-fishes-anarchy",
+      "word": "anarchy",
+      "partOfSpeech": "noun",
+      "definition": "absence of governing body; state of disorder",
+      "sentence": "Fishing on the high seas, with no single governing body, can drift toward anarchy, and Hardin's tragedy of the commons describes why each fisher keeps taking fish.",
+      "explanation": "Under the UN Convention on the Law of the Sea, coastal states have rights to fish in a 200-nautical-mile exclusive economic zone. Beyond it, regional fisheries management organizations try to coordinate, with mixed success.",
+      "citations": [
+        {
+          "title": "Tragedy of the commons (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Tragedy_of_the_commons"
+        },
+        {
+          "title": "Exclusive economic zone (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Exclusive_economic_zone"
+        }
+      ]
+    }
+  ]
+}

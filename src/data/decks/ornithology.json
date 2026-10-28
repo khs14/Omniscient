@@ -1,0 +1,690 @@
+{
+  "id": "ornithology",
+  "title": "Ornithology",
+  "category": "Environment and Sustainability",
+  "description": "Learn GRE words through avian anatomy, song, mating, migration, evolution and bird conservation, with examples from Michigan.",
+  "cards": [
+    {
+      "id": "ornithology-aberrant",
+      "word": "aberrant",
+      "partOfSpeech": "adjective",
+      "definition": "abnormal, or deviant",
+      "sentence": "A bird with aberrant white patches in its plumage may be leucistic, meaning pigment cells failed to deposit color in some feathers, though its eyes stay dark.",
+      "explanation": "Leucism differs from albinism, in which all pigment is missing and the eyes are pink. Odd-colored birds are noticed by predators and mates, so they often survive less well.",
+      "citations": [
+        {
+          "title": "Leucism (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Leucism"
+        },
+        {
+          "title": "Albinism in birds (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Albinism_in_birds"
+        }
+      ]
+    },
+    {
+      "id": "ornithology-burnish",
+      "word": "burnish",
+      "partOfSpeech": "verb",
+      "definition": "make shiny by rubbing; polish",
+      "sentence": "Hummingbird throats and starling feathers look burnished because tiny layered structures in the barbules scatter light, producing iridescent colors without pigment.",
+      "explanation": "This structural coloration changes with the viewing angle, which is why a hummingbird's gorget can look black one moment and brilliant red the next. Many of the blues in birds are also structural.",
+      "citations": [
+        {
+          "title": "Structural coloration (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Structural_coloration"
+        },
+        {
+          "title": "Iridescence (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Iridescence"
+        }
+      ]
+    },
+    {
+      "id": "ornithology-buttress",
+      "word": "buttress",
+      "partOfSpeech": "verb",
+      "definition": "support; prop up",
+      "sentence": "Bony uncinate processes on a bird's ribs buttress the rib cage, and the large keel of the breastbone anchors the powerful flight muscles.",
+      "explanation": "Birds also have fused vertebrae and a wishbone, or furcula, that flexes like a spring during flight. A light, stiff skeleton helps meet the high demands of powered flight.",
+      "citations": [
+        {
+          "title": "Bird anatomy (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Bird_anatomy"
+        },
+        {
+          "title": "Uncinate processes of ribs (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Uncinate_processes_of_ribs"
+        }
+      ]
+    },
+    {
+      "id": "ornithology-convoluted",
+      "word": "convoluted",
+      "partOfSpeech": "adjective",
+      "definition": "coiled around; involved; intricate",
+      "sentence": "Trumpeter swans and some cranes have a convoluted windpipe, coiled inside the breastbone, which lets them make deep, far-carrying calls.",
+      "explanation": "Fitch (1999) found that elongated tracheas in birds can make a caller sound larger than it is. Birds sing with the syrinx, a voice organ at the base of the trachea that has no mammalian equivalent.",
+      "citations": [
+        {
+          "title": "Acoustic exaggeration of size in birds via tracheal elongation (Fitch, 1999)",
+          "url": "https://doi.org/10.1111/j.1469-7998.1999.tb01001.x"
+        },
+        {
+          "title": "Syrinx (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Syrinx_(birds)"
+        }
+      ]
+    },
+    {
+      "id": "ornithology-distend",
+      "word": "distend",
+      "partOfSpeech": "verb",
+      "definition": "expand; swell out",
+      "sentence": "A pigeon's crop distends before breeding and sheds fat-rich cells that form crop milk, which both parents feed to their squabs.",
+      "explanation": "Flamingos and emperor penguins also feed their young with milk-like secretions. In pigeons the production of crop milk is triggered by prolactin, the same hormone that triggers lactation in mammals.",
+      "citations": [
+        {
+          "title": "Crop milk (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Crop_milk"
+        }
+      ]
+    },
+    {
+      "id": "ornithology-dichotomy",
+      "word": "dichotomy",
+      "partOfSpeech": "noun",
+      "definition": "split; branching into two parts (especially contradictory ones)",
+      "sentence": "Ornithologists have long described a dichotomy between precocial chicks, such as ducklings that leave the nest within hours, and altricial chicks, such as songbirds that hatch naked and helpless.",
+      "explanation": "In fact the two types lie on a continuum, with species like gulls and owls in between. Precocial young hatch from large, yolk-rich eggs after long incubation, while altricial young depend on intense parental feeding.",
+      "citations": [
+        {
+          "title": "Precocial and altricial (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Precociality_and_altriciality"
+        }
+      ]
+    },
+    {
+      "id": "ornithology-incongruity",
+      "word": "incongruity",
+      "partOfSpeech": "noun",
+      "definition": "lack of harmony; absurdity; by extension, a mismatch of features",
+      "sentence": "To naturalists in 1861, Archaeopteryx was an incongruity: it had feathers like a bird but also teeth, clawed fingers and a long bony tail like a small dinosaur.",
+      "explanation": "The fossil came from limestone in Solnhofen, Germany, just two years after Darwin's Origin of Species. Later discoveries of feathered dinosaurs in China made clear that birds are living dinosaurs.",
+      "citations": [
+        {
+          "title": "Archaeopteryx (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Archaeopteryx"
+        },
+        {
+          "title": "Origin of birds (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Origin_of_birds"
+        }
+      ]
+    },
+    {
+      "id": "ornithology-resolve",
+      "word": "resolve",
+      "partOfSpeech": "verb",
+      "definition": "determination; firmness of purpose; by extension, to settle or clear up",
+      "sentence": "Genomic studies have begun to resolve the bird family tree: Prum et al. (2015) used 259 DNA regions from 198 species to clarify major relationships.",
+      "explanation": "Most modern bird orders arose in a rapid burst of diversification after the extinction of non-avian dinosaurs about 66 million years ago, which makes their order of branching hard to settle.",
+      "citations": [
+        {
+          "title": "A comprehensive phylogeny of birds using targeted next-generation DNA sequencing (Prum et al., 2015)",
+          "url": "https://doi.org/10.1038/nature15697"
+        },
+        {
+          "title": "Bird phylogeny (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Bird#Phylogeny"
+        }
+      ]
+    },
+    {
+      "id": "ornithology-malleable",
+      "word": "malleable",
+      "partOfSpeech": "adjective",
+      "definition": "capable of being shaped by pounding; impressionable",
+      "sentence": "Bills are malleable over evolutionary time: after a severe drought in 1977 on Daphne Major, Darwin's finches with larger, deeper bills survived better because only hard seeds remained.",
+      "explanation": "Boag and Grant (1981) documented the selection, and Peter and Rosemary Grant followed the finches for decades. Evolution can be observed within a few generations when selection is strong.",
+      "citations": [
+        {
+          "title": "Intense natural selection in a population of Darwin's finches (Boag & Grant, 1981)",
+          "url": "https://doi.org/10.1126/science.214.4516.82"
+        },
+        {
+          "title": "Darwin's finches (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Darwin%27s_finches"
+        }
+      ]
+    },
+    {
+      "id": "ornithology-banal",
+      "word": "banal",
+      "partOfSpeech": "adjective",
+      "definition": "hackneyed; commonplace; trite; lacking originality",
+      "sentence": "To most people the pigeon is a banal city bird, but Darwin kept fancy pigeons and used their dramatic breeds as an example of how selection can change a species.",
+      "explanation": "All domestic pigeon breeds descend from the rock dove. Shapiro et al. (2013) traced a genetic cause of the head crest in domestic breeds to a single gene.",
+      "citations": [
+        {
+          "title": "Genomic diversity and evolution of the head crest in the rock pigeon (Shapiro et al., 2013)",
+          "url": "https://doi.org/10.1126/science.1230422"
+        },
+        {
+          "title": "Rock dove (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Rock_dove"
+        }
+      ]
+    },
+    {
+      "id": "ornithology-fervor",
+      "word": "fervor",
+      "partOfSpeech": "noun",
+      "definition": "glowing ardor; intensity of feeling",
+      "sentence": "Many songbirds sing with greatest fervor in the dawn chorus, beginning before sunrise, when low light makes foraging hard but the air is calm and sound carries well.",
+      "explanation": "Several ideas explain it, including acoustic conditions, the chance to advertise a male's condition after surviving the night, and defending a territory at the start of the day. Chorus timing varies with species and latitude.",
+      "citations": [
+        {
+          "title": "Dawn chorus (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Dawn_chorus_(birds)"
+        }
+      ]
+    },
+    {
+      "id": "ornithology-verbose",
+      "word": "verbose",
+      "partOfSpeech": "adjective",
+      "definition": "wordy",
+      "sentence": "The brown thrasher is the most verbose of North American songbirds, with a repertoire that has been reported to exceed a thousand song types, each phrase typically sung twice.",
+      "explanation": "A large song repertoire may signal a male's age, memory or quality to females. Mockingbirds and catbirds, relatives of thrashers, also mimic other species.",
+      "citations": [
+        {
+          "title": "Brown Thrasher (All About Birds)",
+          "url": "https://www.allaboutbirds.org/guide/Brown_Thrasher/"
+        },
+        {
+          "title": "Bird vocalization (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Bird_vocalization"
+        }
+      ]
+    },
+    {
+      "id": "ornithology-delineate",
+      "word": "delineate",
+      "partOfSpeech": "verb",
+      "definition": "portray; depict; sketch",
+      "sentence": "Males use song to delineate territories: a singing male advertises ownership of a patch of habitat and warns rivals to stay away.",
+      "explanation": "Territories give a pair exclusive access to nest sites and food. Birds often respond more strongly to the songs of strangers than to neighbors, the dear-enemy effect.",
+      "citations": [
+        {
+          "title": "Territory (animal) (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Territory_(animal)"
+        },
+        {
+          "title": "Bird vocalization (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Bird_vocalization"
+        }
+      ]
+    },
+    {
+      "id": "ornithology-transgression",
+      "word": "transgression",
+      "partOfSpeech": "noun",
+      "definition": "violation of a law; sin",
+      "sentence": "Neighbors that stay within known boundaries are tolerated, but a transgression by an unfamiliar bird often brings a fierce response, a pattern called the dear-enemy effect.",
+      "explanation": "Songbirds learn who their neighbors are and respond less to them. Intruding strangers are a bigger threat because they may be seeking a territory.",
+      "citations": [
+        {
+          "title": "Dear enemy effect (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Dear_enemy_effect"
+        },
+        {
+          "title": "Territory (animal) (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Territory_(animal)"
+        }
+      ]
+    },
+    {
+      "id": "ornithology-veracious",
+      "word": "veracious",
+      "partOfSpeech": "adjective",
+      "definition": "truthful",
+      "sentence": "Bright red color in male house finches is a veracious signal of condition: only males able to find and process carotenoid pigments in their diet can produce it.",
+      "explanation": "Hill (1991) showed that female house finches preferred brighter males. Signals that are costly or hard to fake are called honest signals, the idea behind the handicap principle.",
+      "citations": [
+        {
+          "title": "Plumage coloration is a sexually selected indicator of male quality (Hill, 1991)",
+          "url": "https://doi.org/10.1038/350337a0"
+        },
+        {
+          "title": "Handicap principle (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Handicap_principle"
+        }
+      ]
+    },
+    {
+      "id": "ornithology-embellish",
+      "word": "embellish",
+      "partOfSpeech": "verb",
+      "definition": "adorn; ornament; enhance, as a story",
+      "sentence": "Female choice can embellish a male with extreme ornaments: Andersson (1982) lengthened the tails of male long-tailed widowbirds, and those males attracted more nests.",
+      "explanation": "The experiment cut some males' tails and glued the pieces onto others. It is a classic demonstration of sexual selection, in which mate choice can drive traits that cost survival.",
+      "citations": [
+        {
+          "title": "Female choice selects for extreme tail length in a widowbird (Andersson, 1982)",
+          "url": "https://doi.org/10.1038/299818a0"
+        },
+        {
+          "title": "Sexual selection (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Sexual_selection"
+        }
+      ]
+    },
+    {
+      "id": "ornithology-connoisseur",
+      "word": "connoisseur",
+      "partOfSpeech": "noun",
+      "definition": "person competent to act as a judge of art; a lover of art",
+      "sentence": "Female satin bowerbirds act as connoisseurs, judging the stick bower a male builds and the blue objects he arranges before choosing a mate.",
+      "explanation": "The male's bower is not a nest but a display. Mate choice for such constructions is one of the best-known examples of an extended phenotype used in courtship.",
+      "citations": [
+        {
+          "title": "Satin bowerbird (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Satin_bowerbird"
+        },
+        {
+          "title": "Bowerbird (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Bowerbird"
+        }
+      ]
+    },
+    {
+      "id": "ornithology-apprise",
+      "word": "apprise",
+      "partOfSpeech": "verb",
+      "definition": "inform",
+      "sentence": "Black-capped chickadees apprise flockmates of danger through their chick-a-dee call, and Templeton et al. (2005) found that more dee notes indicate a smaller, more dangerous predator.",
+      "explanation": "Small hawks that can maneuver among the trees are riskier to chickadees than large owls, which are too slow to catch them, so the call carries information about the threat.",
+      "citations": [
+        {
+          "title": "Allometry of alarm calls: black-capped chickadees encode information about predator size (Templeton et al., 2005)",
+          "url": "https://doi.org/10.1126/science.1108641"
+        },
+        {
+          "title": "Black-capped chickadee (All About Birds)",
+          "url": "https://www.allaboutbirds.org/guide/Black-capped_Chickadee/"
+        }
+      ]
+    },
+    {
+      "id": "ornithology-tirade",
+      "word": "tirade",
+      "partOfSpeech": "noun",
+      "definition": "extended scolding; denunciation; harangue",
+      "sentence": "When small birds find a roosting owl they launch a noisy tirade of scolding calls, a behavior called mobbing that attracts other birds to join in.",
+      "explanation": "Curio et al. (1978) showed in blackbirds that individuals could learn to recognize an enemy simply by seeing other birds mob it. Mobbing may also drive predators away from the area.",
+      "citations": [
+        {
+          "title": "Cultural transmission of enemy recognition: one function of mobbing (Curio et al., 1978)",
+          "url": "https://doi.org/10.1126/science.202.4370.899"
+        },
+        {
+          "title": "Mobbing (animal behavior) (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Mobbing_(animal_behavior)"
+        }
+      ]
+    },
+    {
+      "id": "ornithology-mendacious",
+      "word": "mendacious",
+      "partOfSpeech": "adjective",
+      "definition": "lying; habitually dishonest",
+      "sentence": "The fork-tailed drongo can be mendacious: it gives false alarm calls and, when the other animals flee, snatches the food they left behind.",
+      "explanation": "Flower et al. (2014) found that drongos also mimic the real alarm calls of the species they are tricking, and switch calls so that targets do not learn to ignore them.",
+      "citations": [
+        {
+          "title": "Deception by flexible alarm mimicry in an African bird (Flower et al., 2014)",
+          "url": "https://doi.org/10.1126/science.1248722"
+        },
+        {
+          "title": "Fork-tailed drongo (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Fork-tailed_drongo"
+        }
+      ]
+    },
+    {
+      "id": "ornithology-penchant",
+      "word": "penchant",
+      "partOfSpeech": "noun",
+      "definition": "strong inclination; liking",
+      "sentence": "New Caledonian crows have a penchant for tool use, bending twigs and cutting leaves into hooks to pull insects out of crevices.",
+      "explanation": "Hunt (1996) first described their manufacture of hooked tools in the wild. Crows and their relatives, the corvids, are noted for problem solving that rivals that of some primates.",
+      "citations": [
+        {
+          "title": "Manufacture and use of hook-tools by New Caledonian crows (Hunt, 1996)",
+          "url": "https://doi.org/10.1038/379249a0"
+        },
+        {
+          "title": "New Caledonian crow (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/New_Caledonian_crow"
+        }
+      ]
+    },
+    {
+      "id": "ornithology-imperturbable",
+      "word": "imperturbable",
+      "partOfSpeech": "adjective",
+      "definition": "calm; placid",
+      "sentence": "The great blue heron stands imperturbable at the edge of a pond for many minutes, then strikes at a fish with a lightning-fast thrust of its neck.",
+      "explanation": "Sit-and-wait predators save energy by waiting for prey to come within reach. The heron's S-shaped neck works like a spring when it uncoils.",
+      "citations": [
+        {
+          "title": "Great blue heron (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Great_blue_heron"
+        },
+        {
+          "title": "Great Blue Heron (All About Birds)",
+          "url": "https://www.allaboutbirds.org/guide/Great_Blue_Heron/"
+        }
+      ]
+    },
+    {
+      "id": "ornithology-abscond",
+      "word": "abscond",
+      "partOfSpeech": "verb",
+      "definition": "depart secretly and hide",
+      "sentence": "Female brown-headed cowbirds abscond from parental duties, laying their eggs in the nests of other species, which then raise the cowbird chicks.",
+      "explanation": "Cowbirds are known to use more than 200 host species. In Michigan, cowbird trapping has been used to protect the endangered Kirtland's warbler, which nests in young jack pine forests.",
+      "citations": [
+        {
+          "title": "Brown-headed Cowbird (All About Birds)",
+          "url": "https://www.allaboutbirds.org/guide/Brown-headed_Cowbird/"
+        },
+        {
+          "title": "Kirtland's warbler (U.S. Fish & Wildlife Service)",
+          "url": "https://www.fws.gov/species/kirtlands-warbler-setophaga-kirtlandii"
+        }
+      ]
+    },
+    {
+      "id": "ornithology-shard",
+      "word": "shard",
+      "partOfSpeech": "noun",
+      "definition": "fragment, generally of pottery; by extension, a fragment of eggshell",
+      "sentence": "Black-headed gulls carry away each shard of eggshell soon after a chick hatches, because the white inner surface can lead crows to the nest.",
+      "explanation": "Tinbergen and colleagues tested this in the 1960s by placing broken eggshells near eggs and showing that predators found more nests. It is a classic study of behavior shaped by predation.",
+      "citations": [
+        {
+          "title": "Nikolaas Tinbergen (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Nikolaas_Tinbergen"
+        },
+        {
+          "title": "Black-headed gull (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Black-headed_gull"
+        }
+      ]
+    },
+    {
+      "id": "ornithology-ascetic",
+      "word": "ascetic",
+      "partOfSpeech": "adjective",
+      "definition": "practicing self-denial; austere",
+      "sentence": "Male emperor penguins lead an ascetic life through the Antarctic winter, fasting for roughly two months while incubating a single egg on their feet.",
+      "explanation": "Males huddle together in temperatures far below freezing, taking turns on the outside of the group. Females return from the sea with food as the chick hatches.",
+      "citations": [
+        {
+          "title": "Emperor penguin (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Emperor_penguin"
+        }
+      ]
+    },
+    {
+      "id": "ornithology-appropriate",
+      "word": "appropriate",
+      "partOfSpeech": "verb",
+      "definition": "acquire; take possession of for one’s own use",
+      "sentence": "Aggressive introduced starlings and house sparrows appropriate nest cavities from native cavity nesters such as bluebirds and woodpeckers.",
+      "explanation": "About a hundred starlings were released in New York's Central Park in 1890 and 1891. Providing nest boxes and monitoring them has helped native bluebirds recover in many areas.",
+      "citations": [
+        {
+          "title": "European Starling (All About Birds)",
+          "url": "https://www.allaboutbirds.org/guide/European_Starling/"
+        },
+        {
+          "title": "Common starling (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Common_starling"
+        }
+      ]
+    },
+    {
+      "id": "ornithology-inherent",
+      "word": "inherent",
+      "partOfSpeech": "adjective",
+      "definition": "firmly established by nature or habit",
+      "sentence": "A bird's urge to migrate is partly inherent: caged songbirds become restless at the usual time of migration and orient in the direction their species travels.",
+      "explanation": "Berthold et al. (1992) showed that blackcaps wintering in Britain instead of Spain pass on a new migratory direction genetically. Inherited programs interact with learning and experience.",
+      "citations": [
+        {
+          "title": "Rapid microevolution of migratory behaviour in a wild bird species (Berthold et al., 1992)",
+          "url": "https://doi.org/10.1038/360668a0"
+        },
+        {
+          "title": "Bird migration (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Bird_migration"
+        }
+      ]
+    },
+    {
+      "id": "ornithology-itinerary",
+      "word": "itinerary",
+      "partOfSpeech": "noun",
+      "definition": "plan of a trip",
+      "sentence": "A bar-tailed godwit's itinerary can include a nonstop flight of more than 11,000 kilometers across the Pacific from Alaska to New Zealand, flown in about eight days.",
+      "explanation": "Gill et al. (2009) tracked the flights with satellite transmitters. The birds fuel up beforehand by building large fat stores and shrinking organs they will not need during the flight.",
+      "citations": [
+        {
+          "title": "Extreme endurance flights by landbirds crossing the Pacific Ocean (Gill et al., 2009)",
+          "url": "https://doi.org/10.1098/rspb.2008.1142"
+        },
+        {
+          "title": "Bar-tailed godwit (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Bar-tailed_godwit"
+        }
+      ]
+    },
+    {
+      "id": "ornithology-stint",
+      "word": "stint",
+      "partOfSpeech": "verb",
+      "definition": "be thrifty; set limits; by extension, to set limits",
+      "sentence": "Red knots cannot stint on fuel at Delaware Bay, where they nearly double their weight on horseshoe crab eggs before flying on to the Arctic.",
+      "explanation": "Baker et al. (2004) linked a steep decline in knots to poorer refueling there. The word \"stint\" is also the name of several small sandpipers.",
+      "citations": [
+        {
+          "title": "Rapid population decline in red knots (Baker et al., 2004)",
+          "url": "https://doi.org/10.1098/rspb.2003.2663"
+        },
+        {
+          "title": "Red knot (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Red_knot"
+        }
+      ]
+    },
+    {
+      "id": "ornithology-ingenuous",
+      "word": "ingenuous",
+      "partOfSpeech": "adjective",
+      "definition": "naive and trusting; young; unsophisticated",
+      "sentence": "Island birds that evolved without mammal predators can be ingenuous toward newcomers, which helps explain why the flightless dodo of Mauritius disappeared within about a century of human arrival.",
+      "explanation": "Flightlessness and fearlessness are common in island birds. Rats, cats and snakes introduced by people have driven many of them to extinction.",
+      "citations": [
+        {
+          "title": "Dodo (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Dodo"
+        },
+        {
+          "title": "Flightless bird (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Flightless_bird"
+        }
+      ]
+    },
+    {
+      "id": "ornithology-document",
+      "word": "document",
+      "partOfSpeech": "verb",
+      "definition": "provide written evidence",
+      "sentence": "Birders document sightings in eBird, a Cornell Lab project begun in 2002 that now holds more than a billion observations, and scientists use them to map migration and abundance.",
+      "explanation": "Sullivan et al. (2009) described eBird as a citizen-based observation network. Records are checked by volunteer reviewers, and photos or recordings are requested for rare birds.",
+      "citations": [
+        {
+          "title": "eBird: a citizen-based bird observation network in the biological sciences (Sullivan et al., 2009)",
+          "url": "https://doi.org/10.1016/j.biocon.2009.05.006"
+        },
+        {
+          "title": "About eBird",
+          "url": "https://ebird.org/about"
+        }
+      ]
+    },
+    {
+      "id": "ornithology-substantiate",
+      "word": "substantiate",
+      "partOfSpeech": "verb",
+      "definition": "establish by evidence; verify; support",
+      "sentence": "Bird banding records substantiate the routes and timing of migration, because a band number read years later shows where an individual traveled.",
+      "explanation": "In North America the USGS Bird Banding Laboratory manages the program. Modern geolocators and tiny GPS tags now complement bands by tracking birds directly.",
+      "citations": [
+        {
+          "title": "Bird Banding Laboratory (USGS)",
+          "url": "https://www.usgs.gov/labs/bird-banding-laboratory"
+        },
+        {
+          "title": "Bird ringing (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Bird_ringing"
+        }
+      ]
+    },
+    {
+      "id": "ornithology-elicit",
+      "word": "elicit",
+      "partOfSpeech": "verb",
+      "definition": "draw out by discussion",
+      "sentence": "Researchers elicit a territorial response by playing recorded songs, and such playback is useful for surveys but can stress birds if overused, particularly around nests.",
+      "explanation": "The American Birding Association's code of ethics advises limiting playback, especially for rare species and in heavily visited places. Playback experiments have also been used to learn what features of a song matter to listeners.",
+      "citations": [
+        {
+          "title": "ABA Code of Birding Ethics",
+          "url": "https://www.aba.org/aba-code-of-birding-ethics/"
+        },
+        {
+          "title": "Playback (animal behavior) (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Playback_(animal_behavior)"
+        }
+      ]
+    },
+    {
+      "id": "ornithology-welter",
+      "word": "welter",
+      "partOfSpeech": "noun",
+      "definition": "turmoil; bewildering jumble",
+      "sentence": "For beginners, the autumn warblers of Michigan are a welter of olive, yellow and gray birds, which Roger Tory Peterson famously called the confusing fall warblers.",
+      "explanation": "Peterson's 1934 field guide introduced a system that used arrows to point to the key marks of similar species. Field marks, habitat, behavior and voice together make identification easier.",
+      "citations": [
+        {
+          "title": "Roger Tory Peterson (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Roger_Tory_Peterson"
+        },
+        {
+          "title": "A Field Guide to the Birds (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Peterson_Field_Guides"
+        }
+      ]
+    },
+    {
+      "id": "ornithology-extrapolation",
+      "word": "extrapolation",
+      "partOfSpeech": "noun",
+      "definition": "projection; conjecture",
+      "sentence": "By extrapolation from long-term surveys and radar data, Rosenberg et al. (2019) estimated that North America has lost nearly three billion breeding birds, about 29 percent, since 1970.",
+      "explanation": "Grassland birds and shorebirds were among the steepest decliners. The study combined the Breeding Bird Survey, Christmas Bird Count and weather radar to cross-check the trends.",
+      "citations": [
+        {
+          "title": "Decline of the North American avifauna (Rosenberg et al., 2019)",
+          "url": "https://doi.org/10.1126/science.aaw1313"
+        }
+      ]
+    },
+    {
+      "id": "ornithology-catalyst",
+      "word": "catalyst",
+      "partOfSpeech": "noun",
+      "definition": "agent that increases the pace of a chemical action",
+      "sentence": "Rachel Carson's 1962 book Silent Spring was a catalyst for the movement to ban DDT, which thinned eggshells and pushed peregrine falcons and bald eagles toward extinction.",
+      "explanation": "Ratcliffe (1967) first documented the decrease in eggshell weight in British birds of prey. DDT was banned in the United States in 1972, and peregrines were removed from the endangered list in 1999.",
+      "citations": [
+        {
+          "title": "Decrease in eggshell weight in certain birds of prey (Ratcliffe, 1967)",
+          "url": "https://doi.org/10.1038/215208a0"
+        },
+        {
+          "title": "Silent Spring (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Silent_Spring"
+        }
+      ]
+    },
+    {
+      "id": "ornithology-exacerbate",
+      "word": "exacerbate",
+      "partOfSpeech": "verb",
+      "definition": "worsen; embitter",
+      "sentence": "Bright lights at night exacerbate collisions with buildings, since migrating birds are drawn to light, and Loss et al. (2014) estimated that hundreds of millions of birds die in building strikes in the U.S. each year.",
+      "explanation": "Lights Out programs ask building managers to dim lights during migration seasons. Bird-safe glass patterns also reduce window strikes by day.",
+      "citations": [
+        {
+          "title": "Bird–building collisions in the United States (Loss et al., 2014)",
+          "url": "https://doi.org/10.1650/CONDOR-13-090.1"
+        },
+        {
+          "title": "Lights Out (Audubon)",
+          "url": "https://www.audubon.org/lights-out"
+        }
+      ]
+    },
+    {
+      "id": "ornithology-impair",
+      "word": "impair",
+      "partOfSpeech": "verb",
+      "definition": "injure; hurt",
+      "sentence": "Lead from ammunition fragments in carcasses can impair and kill California condors, which feed on dead animals, and it threatens recovery of the species.",
+      "explanation": "Finkelstein et al. (2012) found that lead poisoning still prevented the condor population from becoming self-sustaining. California phased in a statewide ban on lead ammunition for hunting, fully effective in 2019.",
+      "citations": [
+        {
+          "title": "Lead poisoning and the deceptive recovery of the critically endangered California condor (Finkelstein et al., 2012)",
+          "url": "https://doi.org/10.1073/pnas.1203141109"
+        },
+        {
+          "title": "California condor (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/California_condor"
+        }
+      ]
+    },
+    {
+      "id": "ornithology-proscribe",
+      "word": "proscribe",
+      "partOfSpeech": "verb",
+      "definition": "ostracize; banish; outlaw",
+      "sentence": "The Migratory Bird Treaty Act of 1918 proscribes killing, capturing or selling more than a thousand species of migratory birds without a permit.",
+      "explanation": "The law implements treaties with Canada, Mexico, Japan and Russia. How it applies to unintentional killing, such as from power lines or oil pits, has been revised by different administrations.",
+      "citations": [
+        {
+          "title": "Migratory Bird Treaty Act of 1918 (U.S. Fish & Wildlife Service)",
+          "url": "https://www.fws.gov/law/migratory-bird-treaty-act-1918"
+        },
+        {
+          "title": "Migratory Bird Treaty Act of 1918 (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Migratory_Bird_Treaty_Act_of_1918"
+        }
+      ]
+    }
+  ]
+}

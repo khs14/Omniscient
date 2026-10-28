@@ -1,0 +1,636 @@
+{
+  "id": "biology-of-mammals",
+  "title": "Biology of Mammals",
+  "category": "Environment and Sustainability",
+  "description": "Learn GRE words through mammal evolution, anatomy, ecology, behavior and classification, with a focus on North American species.",
+  "cards": [
+    {
+      "id": "biology-of-mammals-supersede",
+      "word": "supersede",
+      "partOfSpeech": "verb",
+      "definition": "cause to be set aside; replace; make obsolete",
+      "sentence": "After the mass extinction about 66 million years ago removed the non-avian dinosaurs, mammals diversified rapidly, and larger forms superseded dinosaurs as the big land animals.",
+      "explanation": "Mammals had existed since the Late Triassic, descended from cynodonts, but stayed mostly small for well over a hundred million years. The Paleocene and Eocene saw the rise of most modern orders.",
+      "citations": [
+        {
+          "title": "Evolution of mammals (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Evolution_of_mammals"
+        },
+        {
+          "title": "Cretaceous–Paleogene extinction event (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Cretaceous%E2%80%93Paleogene_extinction_event"
+        }
+      ]
+    },
+    {
+      "id": "biology-of-mammals-derivative",
+      "word": "derivative",
+      "partOfSpeech": "adjective",
+      "definition": "unoriginal; obtained from another source; by extension, a trait derived from an ancestral structure",
+      "sentence": "The three middle-ear bones of mammals are derivative structures: the malleus and incus evolved from bones that once formed part of the jaw joint in reptile-like ancestors.",
+      "explanation": "Luo (2011) reviewed fossil and developmental evidence for this transition. It is a standard example of how evolution repurposes existing parts instead of creating new ones.",
+      "citations": [
+        {
+          "title": "Developmental patterns in Mesozoic evolution of mammal ears (Luo, 2011)",
+          "url": "https://doi.org/10.1146/annurev-ecolsys-032511-142020"
+        },
+        {
+          "title": "Evolution of mammalian auditory ossicles (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Evolution_of_mammalian_auditory_ossicles"
+        }
+      ]
+    },
+    {
+      "id": "biology-of-mammals-quibble",
+      "word": "quibble",
+      "partOfSpeech": "verb",
+      "definition": "minor objection or complaint; by extension, to argue over a fine point",
+      "sentence": "Taxonomists still quibble over whether the red wolf is a distinct species or a wolf–coyote hybrid lineage, a question with real consequences for conservation.",
+      "explanation": "A 2016 genomic study by vonHoldt and colleagues concluded that red wolves and eastern wolves are admixtures of gray wolf and coyote ancestry, while other scientists argue they are distinct. The label affects legal protection and recovery plans.",
+      "citations": [
+        {
+          "title": "Whole-genome sequence analysis shows two endemic species of North American wolf are admixtures of the coyote and gray wolf (vonHoldt et al., 2016)",
+          "url": "https://doi.org/10.1126/sciadv.1501714"
+        },
+        {
+          "title": "Red wolf (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Red_wolf"
+        }
+      ]
+    },
+    {
+      "id": "biology-of-mammals-contention",
+      "word": "contention",
+      "partOfSpeech": "noun",
+      "definition": "claim; thesis",
+      "sentence": "The contention that human hunters caused the extinction of mammoths and other Pleistocene megafauna in North America remains debated, since climate change was also underway.",
+      "explanation": "Paul Martin proposed the overkill hypothesis in the 1960s. Koch and Barnosky (2006) reviewed the evidence and concluded that both climate and humans probably mattered, in different places and for different species.",
+      "citations": [
+        {
+          "title": "Late Quaternary extinctions: state of the debate (Koch & Barnosky, 2006)",
+          "url": "https://doi.org/10.1146/annurev.ecolsys.34.011802.132415"
+        },
+        {
+          "title": "Quaternary extinction event (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Quaternary_extinction_event"
+        }
+      ]
+    },
+    {
+      "id": "biology-of-mammals-anachronism",
+      "word": "anachronism",
+      "partOfSpeech": "noun",
+      "definition": "something or someone misplaced in time",
+      "sentence": "The pronghorn's speed, which reaches roughly 55 miles per hour, is an anachronism: it seems to have evolved to escape predators such as the American cheetah, which went extinct about 11,000 years ago.",
+      "explanation": "John Byers called this idea the \"ghosts of predators past\". No living North American predator is fast enough to explain the pronghorn's sprinting ability.",
+      "citations": [
+        {
+          "title": "Pronghorn (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Pronghorn"
+        },
+        {
+          "title": "American Antelope: Behavior and Ecology of Pronghorn (Byers, 1997)",
+          "url": "https://press.uchicago.edu/ucp/books/book/chicago/A/bo3631684.html"
+        }
+      ]
+    },
+    {
+      "id": "biology-of-mammals-disparate",
+      "word": "disparate",
+      "partOfSpeech": "adjective",
+      "definition": "basically different; unrelated",
+      "sentence": "Mammals have strikingly disparate body sizes, from North American shrews that weigh a few grams to bowhead whales that weigh tens of tonnes.",
+      "explanation": "Size affects nearly every trait, including metabolic rate, lifespan and home range. Small mammals lose heat quickly and must eat often, while large ones can fast for long periods.",
+      "citations": [
+        {
+          "title": "Mammal (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Mammal"
+        },
+        {
+          "title": "Pygmy shrew (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/American_pygmy_shrew"
+        }
+      ]
+    },
+    {
+      "id": "biology-of-mammals-homogeneous",
+      "word": "homogeneous",
+      "partOfSpeech": "adjective",
+      "definition": "of the same kind",
+      "sentence": "Pocket gophers keep prairie soil from being homogeneous: their burrowing mixes layers, buries plants and leaves patchy mounds that new plants colonize.",
+      "explanation": "The family Geomyidae is found only in North and Central America. Many populations are isolated in separate patches of suitable soil, which has led to many species and subspecies.",
+      "citations": [
+        {
+          "title": "Pocket gopher (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Pocket_gopher"
+        }
+      ]
+    },
+    {
+      "id": "biology-of-mammals-inert",
+      "word": "inert",
+      "partOfSpeech": "adjective",
+      "definition": "inactive; lacking power to move",
+      "sentence": "A threatened Virginia opossum may go limp and inert for minutes or hours, a response that is involuntary and often called playing possum.",
+      "explanation": "The opossum is North America's only marsupial north of Mexico. Biologists call the freezing response thanatosis, and it may help because some predators lose interest in what seems dead.",
+      "citations": [
+        {
+          "title": "Virginia opossum (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Virginia_opossum"
+        },
+        {
+          "title": "Thanatosis (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Tonic_immobility"
+        }
+      ]
+    },
+    {
+      "id": "biology-of-mammals-inchoate",
+      "word": "inchoate",
+      "partOfSpeech": "adjective",
+      "definition": "recently begun; rudimentary; elementary",
+      "sentence": "A newborn opossum is inchoate, having developed for only about two weeks before it crawls to its mother's pouch to latch onto a teat.",
+      "explanation": "Marsupials give birth to very undeveloped young that finish growing in the pouch. Placental mammals instead nourish the fetus longer through the placenta.",
+      "citations": [
+        {
+          "title": "Marsupial (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Marsupial"
+        },
+        {
+          "title": "Virginia opossum: reproduction (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Virginia_opossum"
+        }
+      ]
+    },
+    {
+      "id": "biology-of-mammals-impermeable",
+      "word": "impermeable",
+      "partOfSpeech": "adjective",
+      "definition": "impervious; not permitting passage through its substance",
+      "sentence": "A sea otter's dense fur traps air and is nearly impermeable to cold water, which matters because the animal has no blubber.",
+      "explanation": "Sea otter fur is among the densest of any animal, with hundreds of thousands of hairs per square centimeter. Oil spills are especially dangerous because they mat the fur and destroy its insulation.",
+      "citations": [
+        {
+          "title": "Sea otter (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Sea_otter"
+        },
+        {
+          "title": "Fur (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Fur"
+        }
+      ]
+    },
+    {
+      "id": "biology-of-mammals-spectrum",
+      "word": "spectrum",
+      "partOfSpeech": "noun",
+      "definition": "colored band produced when a beam of light passes through a prism; by extension, a range of wavelengths",
+      "sentence": "White-tailed deer are dichromats and see a narrower spectrum of color than people do, which is why hunter orange looks dull to them.",
+      "explanation": "Deer have two kinds of cone cells instead of our three, so they are weak at telling reds and oranges from greens. They see well in dim light, which suits dawn and dusk activity.",
+      "citations": [
+        {
+          "title": "White-tailed deer: vision (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/White-tailed_deer"
+        },
+        {
+          "title": "Color vision (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Color_vision"
+        }
+      ]
+    },
+    {
+      "id": "biology-of-mammals-pungent",
+      "word": "pungent",
+      "partOfSpeech": "adjective",
+      "definition": "stinging; sharp in taste or smell; caustic",
+      "sentence": "The striped skunk's spray is pungent enough to linger for days, and it can reach a target several meters away.",
+      "explanation": "The spray contains sulfur compounds called thiols, produced by glands near the base of the tail. Skunks usually give warnings, such as stamping and raising the tail, before spraying.",
+      "citations": [
+        {
+          "title": "Striped skunk (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Striped_skunk"
+        },
+        {
+          "title": "Thiol (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Thiol"
+        }
+      ]
+    },
+    {
+      "id": "biology-of-mammals-onerous",
+      "word": "onerous",
+      "partOfSpeech": "adjective",
+      "definition": "burdensome",
+      "sentence": "Lactation is the most onerous stage of reproduction for a female mammal, since milk production demands far more energy than gestation.",
+      "explanation": "Gittleman and Thompson (1988) compared energy costs of reproduction across mammals. Mothers cope by eating more, drawing on fat reserves or, in some species, reducing activity.",
+      "citations": [
+        {
+          "title": "Energy allocation in mammalian reproduction (Gittleman & Thompson, 1988)",
+          "url": "https://doi.org/10.1093/icb/28.3.863"
+        },
+        {
+          "title": "Lactation (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Lactation"
+        }
+      ]
+    },
+    {
+      "id": "biology-of-mammals-soporific",
+      "word": "soporific",
+      "partOfSpeech": "adjective",
+      "definition": "sleep-causing; marked by sleepiness; by extension, sleep-like",
+      "sentence": "For Arctic ground squirrels, winter is one long soporific stretch in which body temperature drops to about minus three degrees Celsius.",
+      "explanation": "Barnes (1989) measured this in the lab and found it was the lowest body temperature known for a mammal. Hibernators periodically rewarm, which uses most of their stored fat.",
+      "citations": [
+        {
+          "title": "Freezing avoidance in a mammal: body temperatures below 0°C in an Arctic hibernator (Barnes, 1989)",
+          "url": "https://doi.org/10.1126/science.2740916"
+        },
+        {
+          "title": "Hibernation (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Hibernation"
+        }
+      ]
+    },
+    {
+      "id": "biology-of-mammals-austere",
+      "word": "austere",
+      "partOfSpeech": "adjective",
+      "definition": "forbiddingly stern; severely simple and unornamented; by extension, harsh and bare",
+      "sentence": "The American pika lives in the austere world of high mountain rock slopes, and is so sensitive to heat that hours above roughly 25 degrees Celsius can kill it.",
+      "explanation": "Pikas have high body temperatures and thick fur, so warm weather is a risk. Beever and colleagues have documented local extinctions at lower elevations as the climate warms.",
+      "citations": [
+        {
+          "title": "American pika (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/American_pika"
+        },
+        {
+          "title": "Contemporary climate change alters the pace and drivers of extinction (Beever et al., 2011)",
+          "url": "https://doi.org/10.1111/j.1365-2486.2010.02389.x"
+        }
+      ]
+    },
+    {
+      "id": "biology-of-mammals-latent",
+      "word": "latent",
+      "partOfSpeech": "adjective",
+      "definition": "potential but undeveloped; dormant; hidden",
+      "sentence": "In black bears, fertilized eggs remain latent in the uterus for months, implanting only in late fall if the mother has enough fat.",
+      "explanation": "This delayed implantation, or embryonic diapause, lets cubs be born in the winter den around January or February. A mother in poor condition may lose the pregnancy.",
+      "citations": [
+        {
+          "title": "Embryonic diapause (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Embryonic_diapause"
+        },
+        {
+          "title": "American black bear (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/American_black_bear"
+        }
+      ]
+    },
+    {
+      "id": "biology-of-mammals-pathological",
+      "word": "pathological",
+      "partOfSpeech": "adjective",
+      "definition": "pertaining to disease",
+      "sentence": "The pathological effects of white-nose syndrome include waking hibernating bats so often that they burn through their fat before spring.",
+      "explanation": "The disease is caused by a cold-loving fungus, first documented near Albany, New York, in the winter of 2005–2006. It has killed millions of bats in North America, with some species declining by more than 90 percent.",
+      "citations": [
+        {
+          "title": "White-nose syndrome (U.S. Fish & Wildlife Service and partners)",
+          "url": "https://www.whitenosesyndrome.org/"
+        },
+        {
+          "title": "Bat white-nose syndrome: an emerging fungal pathogen? (Blehert et al., 2009)",
+          "url": "https://doi.org/10.1126/science.1163874"
+        }
+      ]
+    },
+    {
+      "id": "biology-of-mammals-alacrity",
+      "word": "alacrity",
+      "partOfSpeech": "noun",
+      "definition": "cheerful promptness; eagerness; by extension, speed or readiness",
+      "sentence": "A little brown bat closes on an insect with alacrity, speeding up its ultrasonic calls into a rapid \"feeding buzz\" in the final moments before the catch.",
+      "explanation": "A bat emits calls and listens for echoes to locate prey. Some moths have evolved ears that detect these calls and trigger evasive flight.",
+      "citations": [
+        {
+          "title": "Animal echolocation (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Animal_echolocation"
+        },
+        {
+          "title": "Little brown bat (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Little_brown_bat"
+        }
+      ]
+    },
+    {
+      "id": "biology-of-mammals-engender",
+      "word": "engender",
+      "partOfSpeech": "verb",
+      "definition": "cause; produce",
+      "sentence": "The return of wolves to Yellowstone in 1995 may have engendered a trophic cascade, though scientists disagree about how large the effects on elk and vegetation really were.",
+      "explanation": "Ripple and Beschta (2012) reported recovery of willows and aspen after wolves returned. Other researchers argue that factors such as climate, bears and cougars also mattered.",
+      "citations": [
+        {
+          "title": "Wolf restoration (U.S. National Park Service)",
+          "url": "https://www.nps.gov/yell/learn/nature/wolf-restoration.htm"
+        },
+        {
+          "title": "Trophic cascades in Yellowstone: the first 15 years after wolf reintroduction (Ripple & Beschta, 2012)",
+          "url": "https://doi.org/10.1016/j.biocon.2011.11.005"
+        }
+      ]
+    },
+    {
+      "id": "biology-of-mammals-assiduous",
+      "word": "assiduous",
+      "partOfSpeech": "adjective",
+      "definition": "diligent",
+      "sentence": "Beavers are assiduous builders, felling trees and packing branches and mud into dams that flood valleys into wetlands.",
+      "explanation": "Rosell et al. (2005) reviewed how beavers alter hydrology and plant and animal communities. Because they change habitat for many other species, beavers are called ecosystem engineers.",
+      "citations": [
+        {
+          "title": "Ecological impact of beavers Castor fiber and Castor canadensis and their ability to modify ecosystems (Rosell et al., 2005)",
+          "url": "https://doi.org/10.1111/j.1365-2907.2005.00067.x"
+        },
+        {
+          "title": "North American beaver (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/North_American_beaver"
+        }
+      ]
+    },
+    {
+      "id": "biology-of-mammals-volatile",
+      "word": "volatile",
+      "partOfSpeech": "adjective",
+      "definition": "changeable; explosive; evaporation rapidly",
+      "sentence": "Snowshoe hare numbers are volatile, rising and crashing roughly every ten years, with Canada lynx populations following.",
+      "explanation": "Records of fur traded by the Hudson's Bay Company showed the pattern. Field studies indicate that predation and food supply both drive the cycle.",
+      "citations": [
+        {
+          "title": "Snowshoe hare (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Snowshoe_hare"
+        },
+        {
+          "title": "Population cycle (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Population_cycle"
+        }
+      ]
+    },
+    {
+      "id": "biology-of-mammals-plethora",
+      "word": "plethora",
+      "partOfSpeech": "noun",
+      "definition": "excess; overabundance",
+      "sentence": "A plethora of autumn foods, such as acorns, berries and salmon, lets bears fatten up during a period of intense eating called hyperphagia.",
+      "explanation": "A bear's winter survival depends on stored fat. In years when mast crops fail, bears roam widely and are more likely to come into conflict with people.",
+      "citations": [
+        {
+          "title": "Hyperphagia (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Hyperphagia"
+        },
+        {
+          "title": "American black bear (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/American_black_bear"
+        }
+      ]
+    },
+    {
+      "id": "biology-of-mammals-arduous",
+      "word": "arduous",
+      "partOfSpeech": "adjective",
+      "definition": "hard; strenuous",
+      "sentence": "Barren-ground caribou make arduous migrations of well over a thousand kilometers each year between winter forests and arctic calving grounds.",
+      "explanation": "Migrating herds cross rivers, snow and open tundra, and face wolves along the way. Pipelines, roads and warming have raised concern about disrupted routes.",
+      "citations": [
+        {
+          "title": "Caribou (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Caribou"
+        },
+        {
+          "title": "Porcupine caribou (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Porcupine_caribou"
+        }
+      ]
+    },
+    {
+      "id": "biology-of-mammals-recluse",
+      "word": "recluse",
+      "partOfSpeech": "noun",
+      "definition": "hermit; loner",
+      "sentence": "The cougar is a recluse, a solitary animal that avoids people and is rarely seen even in areas where it lives.",
+      "explanation": "A male's home range can cover hundreds of square kilometers. Cougars have recolonized parts of the Midwest, and young males can disperse great distances.",
+      "citations": [
+        {
+          "title": "Cougar (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Cougar"
+        }
+      ]
+    },
+    {
+      "id": "biology-of-mammals-loquacious",
+      "word": "loquacious",
+      "partOfSpeech": "adjective",
+      "definition": "talkative",
+      "sentence": "Prairie dogs are loquacious, and researchers report that their alarm calls carry information about the type and even the size of an approaching predator.",
+      "explanation": "Con Slobodchikoff's studies of Gunnison's prairie dogs suggest a complex call system. Some interpretations remain debated, since scientists differ on how much meaning the calls contain.",
+      "citations": [
+        {
+          "title": "Prairie dog (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Prairie_dog"
+        },
+        {
+          "title": "Gunnison's prairie dog (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Gunnison%27s_prairie_dog"
+        }
+      ]
+    },
+    {
+      "id": "biology-of-mammals-frugality",
+      "word": "frugality",
+      "partOfSpeech": "noun",
+      "definition": "thrift; economy",
+      "sentence": "Gray squirrels show frugality in autumn: they bury acorns one at a time, and the nuts they forget can sprout into oak trees.",
+      "explanation": "This scatter-hoarding helps spread oaks and other trees. Squirrels may fake burying when watched, a form of deception to protect their caches from thieves.",
+      "citations": [
+        {
+          "title": "Scatter hoarding (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Scatter_hoarding"
+        },
+        {
+          "title": "Eastern gray squirrel (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Eastern_gray_squirrel"
+        }
+      ]
+    },
+    {
+      "id": "biology-of-mammals-irascible",
+      "word": "irascible",
+      "partOfSpeech": "adjective",
+      "definition": "irritable; easily angered",
+      "sentence": "A bull moose in autumn rut is irascible, and may charge anything that comes near, including vehicles.",
+      "explanation": "Rut-driven aggression is fueled by testosterone as males compete for mates. Cow moose protecting calves in spring are also dangerous.",
+      "citations": [
+        {
+          "title": "Moose (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Moose"
+        }
+      ]
+    },
+    {
+      "id": "biology-of-mammals-truculence",
+      "word": "truculence",
+      "partOfSpeech": "noun",
+      "definition": "aggressiveness; ferocity",
+      "sentence": "Bull elk show truculence in autumn, bugling loudly and sparring with their antlers for access to groups of cows.",
+      "explanation": "Bugling advertises a male's size and condition and can avoid costly fights. Elk shed and regrow their antlers every year, which takes a lot of energy.",
+      "citations": [
+        {
+          "title": "Elk (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Elk"
+        }
+      ]
+    },
+    {
+      "id": "biology-of-mammals-deference",
+      "word": "deference",
+      "partOfSpeech": "noun",
+      "definition": "courteous regard for another’s wishes",
+      "sentence": "Young wolves show deference to their parents, the breeding pair that usually leads the pack, by lowering their bodies and wagging their tails.",
+      "explanation": "Mech (1999) argued that a wild pack is mainly a family, so the idea of an \"alpha\" fighting its way to the top comes from studies of captive, unrelated wolves.",
+      "citations": [
+        {
+          "title": "Alpha status, dominance, and division of labor in wolf packs (Mech, 1999)",
+          "url": "https://doi.org/10.1139/z99-099"
+        },
+        {
+          "title": "Gray wolf (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Wolf"
+        }
+      ]
+    },
+    {
+      "id": "biology-of-mammals-solicitous",
+      "word": "solicitous",
+      "partOfSpeech": "adjective",
+      "definition": "worried; concerned",
+      "sentence": "A solicitous black bear sow keeps her cubs with her for about a year and a half, teaching them where to find food and den.",
+      "explanation": "Long parental care is common among mammals and helps young learn skills. It also means a female may breed only every two years.",
+      "citations": [
+        {
+          "title": "American black bear (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/American_black_bear"
+        },
+        {
+          "title": "Parental care (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Parental_care"
+        }
+      ]
+    },
+    {
+      "id": "biology-of-mammals-autonomous",
+      "word": "autonomous",
+      "partOfSpeech": "adjective",
+      "definition": "self-governing; independent",
+      "sentence": "Young wolves become autonomous when they leave their natal pack, a dispersal that may take them hundreds of kilometers to find a mate and territory.",
+      "explanation": "Dispersal reduces inbreeding and spreads genes across the landscape. It also exposes young animals to roads, hunting and unfamiliar territory.",
+      "citations": [
+        {
+          "title": "Natal dispersal (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Biological_dispersal"
+        },
+        {
+          "title": "Gray wolf (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Wolf"
+        }
+      ]
+    },
+    {
+      "id": "biology-of-mammals-stolid",
+      "word": "stolid",
+      "partOfSpeech": "adjective",
+      "definition": "dull; impassive",
+      "sentence": "The bison looks stolid as it grazes, but it can sprint at about 35 miles per hour and turn quickly.",
+      "explanation": "Bison are the largest land mammals in North America. Their calm appearance has led visitors in national parks to approach too closely, with injuries each year.",
+      "citations": [
+        {
+          "title": "American bison (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/American_bison"
+        }
+      ]
+    },
+    {
+      "id": "biology-of-mammals-divest",
+      "word": "divest",
+      "partOfSpeech": "verb",
+      "definition": "strip; deprive",
+      "sentence": "Market hunting and settlement divested the Great Plains of bison, whose numbers fell from tens of millions to roughly a thousand by the 1890s.",
+      "explanation": "The decline also affected Plains Indigenous peoples who relied on bison. Conservation efforts by ranchers, scientists and tribes brought the species back from near extinction.",
+      "citations": [
+        {
+          "title": "American bison (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/American_bison"
+        },
+        {
+          "title": "History of the American bison (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/American_bison#Decline"
+        }
+      ]
+    },
+    {
+      "id": "biology-of-mammals-venerate",
+      "word": "venerate",
+      "partOfSpeech": "verb",
+      "definition": "revere",
+      "sentence": "Many Plains Indigenous nations venerate the bison, and tribes now lead part of its restoration through groups such as the InterTribal Buffalo Council.",
+      "explanation": "Founded in 1992, the council helps tribes manage herds on tribal lands. Restoration serves cultural, food and ecological goals at once.",
+      "citations": [
+        {
+          "title": "InterTribal Buffalo Council",
+          "url": "https://www.itbcbuffalo.org/"
+        },
+        {
+          "title": "American bison (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/American_bison"
+        }
+      ]
+    },
+    {
+      "id": "biology-of-mammals-exigency",
+      "word": "exigency",
+      "partOfSpeech": "noun",
+      "definition": "urgent situation; pressing needs or demands; state of requiring immediate attention",
+      "sentence": "In the exigency of the 1980s, biologists brought the last known black-footed ferrets into captivity, and every living ferret descends from a handful of those founders.",
+      "explanation": "The species was thought extinct until a ranch dog found one near Meeteetse, Wyoming, in 1981. A cloned ferret named Elizabeth Ann, born in 2020, was the first endangered U.S. species cloned.",
+      "citations": [
+        {
+          "title": "Black-footed ferret (U.S. Fish & Wildlife Service)",
+          "url": "https://www.fws.gov/species/black-footed-ferret-mustela-nigripes"
+        },
+        {
+          "title": "Black-footed ferret (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Black-footed_ferret"
+        }
+      ]
+    },
+    {
+      "id": "biology-of-mammals-sanction",
+      "word": "sanction",
+      "partOfSpeech": "verb",
+      "definition": "approve; ratify",
+      "sentence": "State wildlife agencies sanction regulated hunting seasons, and an excise tax created by the 1937 Pittman–Robertson Act on hunting equipment helps fund conservation.",
+      "explanation": "This user-pays system is a pillar of what is called the North American Model of Wildlife Conservation. Critics note that it is funded mostly by hunters, so non-game species receive less support.",
+      "citations": [
+        {
+          "title": "North American Model of Wildlife Conservation (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/North_American_Model_of_Wildlife_Conservation"
+        },
+        {
+          "title": "Pittman–Robertson Wildlife Restoration Act (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Pittman%E2%80%93Robertson_Federal_Aid_in_Wildlife_Restoration_Act"
+        }
+      ]
+    }
+  ]
+}

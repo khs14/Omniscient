@@ -1,0 +1,744 @@
+{
+  "id": "climate-change",
+  "title": "Climate Change",
+  "category": "Environment and Sustainability",
+  "description": "Learn GRE words through the science of climate change, evidence and attribution, energy, policy and climate solutions.",
+  "cards": [
+    {
+      "id": "climate-change-empirical",
+      "word": "empirical",
+      "partOfSpeech": "adjective",
+      "definition": "based on experience",
+      "sentence": "Climate science is empirical: since 1958 Charles David Keeling's measurements at Mauna Loa have recorded atmospheric carbon dioxide rising from about 315 parts per million to above 420.",
+      "explanation": "The record shows the yearly rise and fall caused by seasonal plant growth in the Northern Hemisphere, riding on top of a steady upward trend. It is one of the longest direct measurements of the atmosphere.",
+      "citations": [
+        {
+          "title": "Trends in atmospheric carbon dioxide (NOAA GML)",
+          "url": "https://gml.noaa.gov/ccgg/trends/"
+        },
+        {
+          "title": "The Keeling Curve (Scripps)",
+          "url": "https://keelingcurve.ucsd.edu/"
+        }
+      ]
+    },
+    {
+      "id": "climate-change-refute",
+      "word": "refute",
+      "partOfSpeech": "verb",
+      "definition": "disprove",
+      "sentence": "Science advances by trying to refute hypotheses, and a prediction that greenhouse warming would cool the stratosphere while warming the lower atmosphere could have failed but was confirmed.",
+      "explanation": "Stratospheric cooling is a fingerprint of heat trapped by greenhouse gases. An increase in solar output would instead warm both layers, so observations let scientists tell the two explanations apart.",
+      "citations": [
+        {
+          "title": "Attribution of recent climate change (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Attribution_of_recent_climate_change"
+        },
+        {
+          "title": "Falsifiability (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Falsifiability"
+        }
+      ]
+    },
+    {
+      "id": "climate-change-skeptic",
+      "word": "skeptic",
+      "partOfSpeech": "noun",
+      "definition": "doubter; person who suspends judgment until having examined evidence supporting a point of view",
+      "sentence": "Richard Muller, a physicist and long-time skeptic of earlier temperature analyses, led the Berkeley Earth project, and in 2012 he wrote that its independent work confirmed the warming and its human cause.",
+      "explanation": "The project used a new averaging method on records from more than 36,000 stations and reached the same long-term trend as NASA, NOAA and the UK Met Office. Healthy skepticism means testing claims against evidence, not rejecting them.",
+      "citations": [
+        {
+          "title": "Berkeley Earth",
+          "url": "https://berkeleyearth.org/"
+        },
+        {
+          "title": "Berkeley Earth (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Berkeley_Earth"
+        }
+      ]
+    },
+    {
+      "id": "climate-change-equivocate",
+      "word": "equivocate",
+      "partOfSpeech": "verb",
+      "definition": "lie; mislead; attempt to conceal the truth",
+      "sentence": "The IPCC does not equivocate on the basic finding: its 2021 report states that it is unequivocal that human influence has warmed the atmosphere, ocean and land.",
+      "explanation": "IPCC language is calibrated, from \"unequivocal\" through \"very likely\" to \"low confidence\". The strong wording on human influence reflects the convergence of many independent lines of evidence.",
+      "citations": [
+        {
+          "title": "IPCC AR6 WGI Summary for Policymakers",
+          "url": "https://www.ipcc.ch/report/ar6/wg1/chapter/summary-for-policymakers/"
+        }
+      ]
+    },
+    {
+      "id": "climate-change-fallacious",
+      "word": "fallacious",
+      "partOfSpeech": "adjective",
+      "definition": "false; misleading",
+      "sentence": "It is fallacious to start a trend line at the very strong El Niño year of 1998 and claim that warming has stopped, because choosing a hot starting point hides the long-term rise.",
+      "explanation": "Medhaug et al. (2017) showed that the so-called hiatus of the early 2000s was largely a product of natural variability and data issues, and warming resumed. This is an example of cherry-picking.",
+      "citations": [
+        {
+          "title": "Reconciling controversies about the global warming hiatus (Medhaug et al., 2017)",
+          "url": "https://doi.org/10.1038/nature22315"
+        },
+        {
+          "title": "Global warming hiatus (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Global_warming_hiatus"
+        }
+      ]
+    },
+    {
+      "id": "climate-change-specious",
+      "word": "specious",
+      "partOfSpeech": "adjective",
+      "definition": "seemingly reasonable but incorrect; misleading (often intentionally)",
+      "sentence": "It is a specious argument that ice cores show CO2 following temperature, so it cannot cause warming: at the end of ice ages orbital changes started the warming, and CO2 then amplified it.",
+      "explanation": "Shakun et al. (2012) found that global temperature lagged CO2 during the last deglaciation, after an initial regional warming. Carbon dioxide can be both a response and a driver, as with a feedback loop.",
+      "citations": [
+        {
+          "title": "Global warming preceded by increasing carbon dioxide concentrations during the last deglaciation (Shakun et al., 2012)",
+          "url": "https://doi.org/10.1038/nature10915"
+        },
+        {
+          "title": "Timing of CO2 and Antarctic temperature changes across Termination III (Caillon et al., 2003)",
+          "url": "https://doi.org/10.1126/science.1083130"
+        }
+      ]
+    },
+    {
+      "id": "climate-change-euphemism",
+      "word": "euphemism",
+      "partOfSpeech": "noun",
+      "definition": "mild expression in place of an unpleasant one",
+      "sentence": "Some call \"climate change\" a euphemism for the harsher \"global warming,\" but scientists use both: the first covers shifts in rainfall, sea level and storms as well as temperature.",
+      "explanation": "In 2019 The Guardian updated its style guide to prefer terms like \"climate emergency\" and \"global heating.\" Word choices matter in how people react to the problem.",
+      "citations": [
+        {
+          "title": "Global warming vs. climate change (NASA)",
+          "url": "https://climate.nasa.gov/global-warming-vs-climate-change/"
+        },
+        {
+          "title": "Why the Guardian is changing the language it uses about the environment",
+          "url": "https://www.theguardian.com/environment/2019/may/17/why-the-guardian-is-changing-the-language-it-uses-about-the-environment"
+        }
+      ]
+    },
+    {
+      "id": "climate-change-compendium",
+      "word": "compendium",
+      "partOfSpeech": "noun",
+      "definition": "brief, comprehensive summary",
+      "sentence": "The IPCC's assessment reports are a compendium of the state of knowledge, written by hundreds of authors who evaluate thousands of published studies.",
+      "explanation": "The IPCC does not do its own research. Its working groups assess the physical science, impacts and adaptation, and mitigation, and governments approve the Summaries for Policymakers line by line.",
+      "citations": [
+        {
+          "title": "IPCC Sixth Assessment Report",
+          "url": "https://www.ipcc.ch/report/ar6/"
+        },
+        {
+          "title": "Intergovernmental Panel on Climate Change (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Intergovernmental_Panel_on_Climate_Change"
+        }
+      ]
+    },
+    {
+      "id": "climate-change-inconsequential",
+      "word": "inconsequential",
+      "partOfSpeech": "adjective",
+      "definition": "insignificant; unimportant",
+      "sentence": "A global average change of a few degrees can seem inconsequential, but the difference between the last ice age and today was only about 6 degrees Celsius.",
+      "explanation": "Tierney et al. (2020) estimated that the Last Glacial Maximum, about 21,000 years ago, was about 6.1 degrees Celsius colder than the late 1800s, with ice sheets over much of North America and Europe.",
+      "citations": [
+        {
+          "title": "Glacial cooling and climate sensitivity revisited (Tierney et al., 2020)",
+          "url": "https://doi.org/10.1038/s41586-020-2617-x"
+        },
+        {
+          "title": "Last Glacial Maximum (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Last_Glacial_Maximum"
+        }
+      ]
+    },
+    {
+      "id": "climate-change-luminous",
+      "word": "luminous",
+      "partOfSpeech": "adjective",
+      "definition": "shining; issuing light",
+      "sentence": "The luminous Sun delivers about 1,361 watts of energy per square meter at the top of the atmosphere, which works out to roughly 340 watts per square meter averaged over the whole sphere.",
+      "explanation": "About 30 percent of the incoming sunlight is reflected by clouds, aerosols and bright surfaces, so Earth absorbs about 240 watts per square meter. In balance, it must emit the same amount as infrared radiation.",
+      "citations": [
+        {
+          "title": "A new, lower value of total solar irradiance (Kopp & Lean, 2011)",
+          "url": "https://doi.org/10.1029/2010GL045777"
+        },
+        {
+          "title": "Earth's energy budget (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Earth%27s_energy_budget"
+        }
+      ]
+    },
+    {
+      "id": "climate-change-rarefied",
+      "word": "rarefied",
+      "partOfSpeech": "adjective",
+      "definition": "made less dense (of a gas)",
+      "sentence": "Air grows rarefied with height: half of the atmosphere's mass lies below about 5.5 kilometers, and most of the greenhouse effect occurs in the dense lower atmosphere.",
+      "explanation": "Weather also occurs in this lowest layer, the troposphere. Greenhouse gases absorb infrared energy emitted by the surface and re-emit it in all directions, including back toward the ground.",
+      "citations": [
+        {
+          "title": "Atmosphere of Earth (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Atmosphere_of_Earth"
+        },
+        {
+          "title": "Greenhouse effect (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Greenhouse_effect"
+        }
+      ]
+    },
+    {
+      "id": "climate-change-innocuous",
+      "word": "innocuous",
+      "partOfSpeech": "adjective",
+      "definition": "Harmless",
+      "sentence": "A trace gas that makes up only about 0.04 percent of the air may seem innocuous, but carbon dioxide absorbs infrared radiation strongly enough to change the whole climate.",
+      "explanation": "John Tyndall measured the infrared absorption of gases in the 1850s, and Svante Arrhenius calculated in 1896 how CO2 changes could affect temperature. Without natural greenhouse gases, Earth would be about 33 degrees Celsius colder.",
+      "citations": [
+        {
+          "title": "Greenhouse effect (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Greenhouse_effect"
+        },
+        {
+          "title": "Svante Arrhenius (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Svante_Arrhenius"
+        }
+      ]
+    },
+    {
+      "id": "climate-change-immutable",
+      "word": "immutable",
+      "partOfSpeech": "adjective",
+      "definition": "unchangeable",
+      "sentence": "The conservation of energy is immutable, so when the planet takes in more energy than it releases, that excess heat must go somewhere, and about 90 percent of it has gone into the oceans.",
+      "explanation": "Von Schuckmann et al. (2023) tracked where heat has accumulated from 1960 to 2020. Most went into the oceans, with smaller shares in land, ice and atmosphere, which is why ocean heat content is a key indicator.",
+      "citations": [
+        {
+          "title": "Heat stored in the Earth system 1960–2020 (von Schuckmann et al., 2023)",
+          "url": "https://doi.org/10.5194/essd-15-1675-2023"
+        }
+      ]
+    },
+    {
+      "id": "climate-change-occlude",
+      "word": "occlude",
+      "partOfSpeech": "verb",
+      "definition": "shut; close",
+      "sentence": "The 1991 eruption of Mount Pinatubo put sulfur dioxide into the stratosphere, where the resulting aerosol layer helped occlude sunlight and cooled the planet by about half a degree Celsius for a year or two.",
+      "explanation": "This natural experiment tested climate models, which predicted the cooling well. It is also the basis for proposals to cool the planet by adding reflective particles to the stratosphere.",
+      "citations": [
+        {
+          "title": "The Cataclysmic 1991 Eruption of Mount Pinatubo (USGS)",
+          "url": "https://pubs.usgs.gov/pinatubo/"
+        },
+        {
+          "title": "1991 eruption of Mount Pinatubo (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/1991_eruption_of_Mount_Pinatubo"
+        }
+      ]
+    },
+    {
+      "id": "climate-change-enhance",
+      "word": "enhance",
+      "partOfSpeech": "verb",
+      "definition": "increase; improve",
+      "sentence": "Melting ice can enhance warming: dark open water and land absorb more sunlight than bright ice and snow, which is a positive feedback.",
+      "explanation": "Rantanen et al. (2022) found that the Arctic has warmed nearly four times faster than the global average since 1979. This Arctic amplification also involves changes in clouds, water vapor and heat transport.",
+      "citations": [
+        {
+          "title": "The Arctic has warmed nearly four times faster than the globe since 1979 (Rantanen et al., 2022)",
+          "url": "https://doi.org/10.1038/s43247-022-00498-3"
+        },
+        {
+          "title": "Ice–albedo feedback (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Ice%E2%80%93albedo_feedback"
+        }
+      ]
+    },
+    {
+      "id": "climate-change-negate",
+      "word": "negate",
+      "partOfSpeech": "verb",
+      "definition": "cancel out; nullify; deny",
+      "sentence": "Sulfate aerosols from burning coal reflect sunlight and partly negate the warming from greenhouse gases, so cutting air pollution can reveal warming that was hidden.",
+      "explanation": "The IPCC estimates aerosols have a net cooling effect, but with larger uncertainty than the warming from greenhouse gases. Aerosols last days to weeks, unlike CO2, which remains for centuries.",
+      "citations": [
+        {
+          "title": "IPCC AR6 WGI Chapter 7: The Earth's energy budget",
+          "url": "https://www.ipcc.ch/report/ar6/wg1/chapter/chapter-7/"
+        },
+        {
+          "title": "Global dimming (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Global_dimming"
+        }
+      ]
+    },
+    {
+      "id": "climate-change-salubrious",
+      "word": "salubrious",
+      "partOfSpeech": "adjective",
+      "definition": "healthful",
+      "sentence": "Cleaner air is salubrious for public health, since air pollution contributes to millions of premature deaths a year, which is a major co-benefit of cutting fossil-fuel use.",
+      "explanation": "Fine particles (PM2.5) and ozone damage lungs and hearts. Policies that reduce coal and oil use often improve air quality quickly, helping communities long before the climate benefits appear.",
+      "citations": [
+        {
+          "title": "Air pollution (World Health Organization)",
+          "url": "https://www.who.int/health-topics/air-pollution"
+        },
+        {
+          "title": "Co-benefits of climate change mitigation (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Co-benefits_of_climate_change_mitigation"
+        }
+      ]
+    },
+    {
+      "id": "climate-change-log",
+      "word": "log",
+      "partOfSpeech": "noun",
+      "definition": "record of a voyage or flight; record of day-to-day activities",
+      "sentence": "Scientists reconstruct early ocean temperatures partly from ship's logs, handwritten records of voyages that include weather and sea-surface readings.",
+      "explanation": "Datasets such as ICOADS compile millions of marine observations. The Old Weather project has used volunteers to transcribe old logs, extending the record back into the 1800s.",
+      "citations": [
+        {
+          "title": "International Comprehensive Ocean–Atmosphere Data Set (NOAA)",
+          "url": "https://icoads.noaa.gov/"
+        },
+        {
+          "title": "Old Weather",
+          "url": "https://www.oldweather.org/"
+        }
+      ]
+    },
+    {
+      "id": "climate-change-aggregate",
+      "word": "aggregate",
+      "partOfSpeech": "verb",
+      "definition": "gather; accumulate",
+      "sentence": "To aggregate thousands of station records into a global average, groups compute each station's anomaly from its own baseline, since anomalies are similar across large distances even when temperatures are not.",
+      "explanation": "NASA GISTEMP, NOAA, the UK's HadCRUT and Berkeley Earth each use different methods but produce closely matching long-term trends.",
+      "citations": [
+        {
+          "title": "GISS Surface Temperature Analysis (NASA)",
+          "url": "https://data.giss.nasa.gov/gistemp/"
+        },
+        {
+          "title": "Instrumental temperature record (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Instrumental_temperature_record"
+        }
+      ]
+    },
+    {
+      "id": "climate-change-meticulous",
+      "word": "meticulous",
+      "partOfSpeech": "adjective",
+      "definition": "excessively careful; painstaking; scrupulous",
+      "sentence": "Climate records require meticulous adjustment for station moves, new instruments and changes in observation time, because such non-climatic jumps could be mistaken for real trends.",
+      "explanation": "Hausfather et al. (2017) found that adjustments to sea-surface temperatures actually reduce the long-term global warming trend. Independent groups using different methods get similar results.",
+      "citations": [
+        {
+          "title": "Assessing recent warming using instrumentally homogeneous sea surface temperature records (Hausfather et al., 2017)",
+          "url": "https://doi.org/10.1126/sciadv.1601207"
+        },
+        {
+          "title": "Temperature record homogenization (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Homogenization_(climate)"
+        }
+      ]
+    },
+    {
+      "id": "climate-change-discrepancy",
+      "word": "discrepancy",
+      "partOfSpeech": "noun",
+      "definition": "lack of consistency; difference",
+      "sentence": "A discrepancy between satellite and surface temperature trends in the 1990s was resolved when scientists found errors in the satellite data from orbital drift.",
+      "explanation": "Mears and Wentz (2005) corrected a diurnal drift effect that had hidden warming in the satellite record. The episode shows science working: disagreement leads to checking, then to a better dataset.",
+      "citations": [
+        {
+          "title": "The effect of diurnal correction on satellite-derived lower tropospheric temperature (Mears & Wentz, 2005)",
+          "url": "https://doi.org/10.1126/science.1114772"
+        },
+        {
+          "title": "Satellite temperature measurements (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Satellite_temperature_measurements"
+        }
+      ]
+    },
+    {
+      "id": "climate-change-anomalous",
+      "word": "anomalous",
+      "partOfSpeech": "adjective",
+      "definition": "abnormal; irregular",
+      "sentence": "The anomalous heat of 2023 and 2024 was striking: the WMO confirmed 2024 as the warmest year on record, at about 1.55 degrees Celsius above the pre-industrial level.",
+      "explanation": "A single year above 1.5 degrees does not mean the Paris Agreement goal has been broken, because that goal refers to long-term warming, typically averaged over about 20 years. El Niño contributed to the spike.",
+      "citations": [
+        {
+          "title": "WMO confirms 2024 as warmest year on record",
+          "url": "https://wmo.int/media/news/wmo-confirms-2024-warmest-year-record-about-155degc-above-pre-industrial-level"
+        }
+      ]
+    },
+    {
+      "id": "climate-change-oscillate",
+      "word": "oscillate",
+      "partOfSpeech": "verb",
+      "definition": "vibrate; waver",
+      "sentence": "Without any human influence, climate still varies: El Niño and La Niña oscillate every two to seven years, shifting rainfall and boosting or reducing global temperature.",
+      "explanation": "The El Niño–Southern Oscillation is driven by interactions between ocean and atmosphere in the tropical Pacific. Strong El Niño years, such as 1998 and 2016, added to the global temperature and caused extreme weather around the world.",
+      "citations": [
+        {
+          "title": "El Niño–Southern Oscillation (NOAA Climate.gov)",
+          "url": "https://www.climate.gov/enso"
+        },
+        {
+          "title": "El Niño–Southern Oscillation (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/El_Ni%C3%B1o%E2%80%93Southern_Oscillation"
+        }
+      ]
+    },
+    {
+      "id": "climate-change-converge",
+      "word": "converge",
+      "partOfSpeech": "verb",
+      "definition": "approach; tend to meet; come together",
+      "sentence": "Near the equator, the trade winds from both hemispheres converge in the Intertropical Convergence Zone, where air rises and produces heavy rain.",
+      "explanation": "The rising air releases latent heat and flows poleward at high altitude. The ITCZ moves seasonally, which governs monsoons and the wet and dry seasons of the tropics.",
+      "citations": [
+        {
+          "title": "Intertropical Convergence Zone (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Intertropical_Convergence_Zone"
+        },
+        {
+          "title": "Hadley cell (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Hadley_cell"
+        }
+      ]
+    },
+    {
+      "id": "climate-change-subside",
+      "word": "subside",
+      "partOfSpeech": "verb",
+      "definition": "settle down; descend; grow quiet",
+      "sentence": "Dry air from the tropics subsides near 30 degrees latitude, which creates high pressure and clear skies and explains why many of the world's great deserts lie there.",
+      "explanation": "Earth's rotation and the circulation of the Hadley cells organize weather into belts. Observations indicate that the tropical belt has widened, shifting dry zones poleward.",
+      "citations": [
+        {
+          "title": "Hadley cell (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Hadley_cell"
+        },
+        {
+          "title": "Desert (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Desert"
+        }
+      ]
+    },
+    {
+      "id": "climate-change-intractable",
+      "word": "intractable",
+      "partOfSpeech": "adjective",
+      "definition": "unruly; stubborn; unyielding",
+      "sentence": "Climate change is often called a wicked problem, an intractable one with many stakeholders, no single solution and a deadline that is getting closer.",
+      "explanation": "Rittel and Webber described wicked problems in 1973. Levin and colleagues (2012) argued that climate change is a super wicked problem because those who cause it are also those seeking to solve it, and time is running out.",
+      "citations": [
+        {
+          "title": "Overcoming the tragedy of super wicked problems (Levin et al., 2012)",
+          "url": "https://doi.org/10.1007/s11077-012-9151-0"
+        },
+        {
+          "title": "Wicked problem (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Wicked_problem"
+        }
+      ]
+    },
+    {
+      "id": "climate-change-ameliorate",
+      "word": "ameliorate",
+      "partOfSpeech": "verb",
+      "definition": "improve",
+      "sentence": "Adaptation measures such as heat action plans, sea walls and drought-resistant crops can ameliorate the impacts of warming that mitigation cannot prevent.",
+      "explanation": "Mitigation reduces the cause of climate change, while adaptation reduces the harm. Adaptation needs vary by place, and limits arise when the changes exceed what societies and ecosystems can adjust to.",
+      "citations": [
+        {
+          "title": "IPCC AR6 WGII: Impacts, Adaptation and Vulnerability",
+          "url": "https://www.ipcc.ch/report/ar6/wg2/"
+        },
+        {
+          "title": "Climate change adaptation (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Climate_change_adaptation"
+        }
+      ]
+    },
+    {
+      "id": "climate-change-indigence",
+      "word": "indigence",
+      "partOfSpeech": "noun",
+      "definition": "poverty",
+      "sentence": "Hurricane Katrina in 2005 showed how indigence raises vulnerability: many poor residents of New Orleans had no car or money to evacuate.",
+      "explanation": "The IPCC finds that people with low incomes and marginalized groups are often hit hardest by climate impacts and have the fewest resources to recover. Wealth shapes both exposure and the ability to adapt.",
+      "citations": [
+        {
+          "title": "Effects of Hurricane Katrina on New Orleans (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Effects_of_Hurricane_Katrina_in_New_Orleans"
+        },
+        {
+          "title": "IPCC AR6 WGII Summary for Policymakers",
+          "url": "https://www.ipcc.ch/report/ar6/wg2/chapter/summary-for-policymakers/"
+        }
+      ]
+    },
+    {
+      "id": "climate-change-magnanimity",
+      "word": "magnanimity",
+      "partOfSpeech": "noun",
+      "definition": "Generosity",
+      "sentence": "Wealthy countries' climate finance is better described as an obligation than as magnanimity, since they emitted most of the carbon dioxide now in the atmosphere.",
+      "explanation": "In 2009 developed countries pledged 100 billion dollars a year by 2020, and in 2024 the COP29 agreement set a new goal of at least 300 billion dollars a year by 2035. Debates continue about the amounts, the form of finance and who should pay.",
+      "citations": [
+        {
+          "title": "Climate finance (UNFCCC)",
+          "url": "https://unfccc.int/topics/climate-finance/the-big-picture/climate-finance-in-the-negotiations/the-new-collective-quantified-goal-on-climate-finance"
+        },
+        {
+          "title": "Climate finance (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Climate_finance"
+        }
+      ]
+    },
+    {
+      "id": "climate-change-dissonance",
+      "word": "dissonance",
+      "partOfSpeech": "noun",
+      "definition": "discord; opposite of harmony",
+      "sentence": "Cognitive dissonance, the discomfort of holding conflicting beliefs and behaviors, can lead people who care about the climate but fly often to downplay the problem or their own role.",
+      "explanation": "Leon Festinger proposed the theory in 1957. Messages that make people feel guilty without offering a feasible action can backfire, so climate communication often pairs concern with concrete steps.",
+      "citations": [
+        {
+          "title": "Cognitive dissonance (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Cognitive_dissonance"
+        },
+        {
+          "title": "Climate change communication (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Climate_communication"
+        }
+      ]
+    },
+    {
+      "id": "climate-change-discredit",
+      "word": "discredit",
+      "partOfSpeech": "verb",
+      "definition": "defame; destroy confidence in; disbelieve",
+      "sentence": "After hacked emails from the University of East Anglia surfaced in 2009, critics tried to discredit climate science, but multiple independent inquiries found no fraud or scientific misconduct.",
+      "explanation": "The episode was called \"Climategate.\" The reviews criticized the researchers' openness about data and methods but upheld the integrity of the underlying science.",
+      "citations": [
+        {
+          "title": "Climatic Research Unit email controversy (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Climatic_Research_Unit_email_controversy"
+        }
+      ]
+    },
+    {
+      "id": "climate-change-disingenuous",
+      "word": "disingenuous",
+      "partOfSpeech": "adjective",
+      "definition": "lacking genuine candor; insincere",
+      "sentence": "Supran, Rahmstorf and Oreskes (2023) concluded that ExxonMobil's own scientists projected global warming accurately, a contrast with public messaging that critics call disingenuous.",
+      "explanation": "The study compared internal documents and academic papers from 1977 to 2003 with the company's public statements. ExxonMobil has rejected accusations that it misled the public.",
+      "citations": [
+        {
+          "title": "Assessing ExxonMobil's global warming projections (Supran et al., 2023)",
+          "url": "https://doi.org/10.1126/science.abk0063"
+        }
+      ]
+    },
+    {
+      "id": "climate-change-daunt",
+      "word": "daunt",
+      "partOfSpeech": "verb",
+      "definition": "intimidate; frighten",
+      "sentence": "The scale of the energy transition can daunt planners: fossil fuels still supply about four-fifths of the world's primary energy.",
+      "explanation": "Energy infrastructure such as power plants, pipelines and buildings lasts for decades. Replacing it means changing supply, grids, transportation and the way energy is used at the same time.",
+      "citations": [
+        {
+          "title": "Global energy mix (Our World in Data)",
+          "url": "https://ourworldindata.org/energy-mix"
+        },
+        {
+          "title": "Statistical Review of World Energy (Energy Institute)",
+          "url": "https://www.energyinst.org/statistical-review"
+        }
+      ]
+    },
+    {
+      "id": "climate-change-viable",
+      "word": "viable",
+      "partOfSpeech": "adjective",
+      "definition": "practical or workable",
+      "sentence": "Solar power has become economically viable in much of the world because the cost of electricity from solar panels has fallen by roughly 90 percent since 2010.",
+      "explanation": "IRENA reports that new solar and onshore wind are now often cheaper than new fossil-fuel power. Barriers remain, including grid upgrades, storage, permitting and financing in poorer countries.",
+      "citations": [
+        {
+          "title": "Renewable Power Generation Costs in 2023 (IRENA)",
+          "url": "https://www.irena.org/Publications/2024/Sep/Renewable-Power-Generation-Costs-in-2023"
+        },
+        {
+          "title": "Solar power (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Solar_power"
+        }
+      ]
+    },
+    {
+      "id": "climate-change-ambiguous",
+      "word": "ambiguous",
+      "partOfSpeech": "adjective",
+      "definition": "unclear or doubtful in meaning",
+      "sentence": "The UN climate treaty aims to prevent \"dangerous anthropogenic interference with the climate system,\" but the word \"dangerous\" was left ambiguous, a gap that later negotiations tried to fill.",
+      "explanation": "Article 2 of the UNFCCC (1992) calls for stabilizing greenhouse gas concentrations. The Paris Agreement later set a temperature goal of well below 2 degrees Celsius, pursuing 1.5.",
+      "citations": [
+        {
+          "title": "United Nations Framework Convention on Climate Change (text)",
+          "url": "https://unfccc.int/resource/docs/convkp/conveng.pdf"
+        },
+        {
+          "title": "UNFCCC (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/United_Nations_Framework_Convention_on_Climate_Change"
+        }
+      ]
+    },
+    {
+      "id": "climate-change-preamble",
+      "word": "preamble",
+      "partOfSpeech": "noun",
+      "definition": "introductory statement",
+      "sentence": "The preamble of the Paris Agreement notes the importance of ensuring the integrity of all ecosystems and, for some, the concept of climate justice.",
+      "explanation": "Preambles do not create binding duties, but they shape how the text is interpreted and signal shared values. The agreement was adopted in December 2015 and entered into force in November 2016.",
+      "citations": [
+        {
+          "title": "Paris Agreement (UNFCCC)",
+          "url": "https://unfccc.int/sites/default/files/english_paris_agreement.pdf"
+        },
+        {
+          "title": "Paris Agreement (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Paris_Agreement"
+        }
+      ]
+    },
+    {
+      "id": "climate-change-conciliatory",
+      "word": "conciliatory",
+      "partOfSpeech": "adjective",
+      "definition": "reconciling; soothing",
+      "sentence": "The Paris Agreement took a conciliatory approach: instead of binding targets imposed from above, each country sets its own pledge, called a nationally determined contribution, and reports on progress.",
+      "explanation": "The Kyoto Protocol (1997) set binding targets only for developed countries, and the United States never ratified it. Paris trades enforceability for broad participation, using transparency and periodic ratcheting of ambition.",
+      "citations": [
+        {
+          "title": "Paris Agreement (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Paris_Agreement"
+        },
+        {
+          "title": "Kyoto Protocol (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Kyoto_Protocol"
+        }
+      ]
+    },
+    {
+      "id": "climate-change-repudiate",
+      "word": "repudiate",
+      "partOfSpeech": "verb",
+      "definition": "disown; disavow",
+      "sentence": "The United States has twice moved to repudiate the Paris Agreement, and its second withdrawal, notified in January 2025, took effect on January 27, 2026.",
+      "explanation": "The first withdrawal took effect in November 2020, and the country rejoined in February 2021. States, cities and companies in the US continue to set their own climate goals, a sub-national response.",
+      "citations": [
+        {
+          "title": "So long, Paris: US officially leaves landmark climate pact (E&E News)",
+          "url": "https://www.eenews.net/articles/so-long-paris-us-officially-leaves-landmark-climate-pact/"
+        },
+        {
+          "title": "Paris Climate Agreement tracker (Harvard EELP)",
+          "url": "https://eelp.law.harvard.edu/tracker/paris-climate-agreement"
+        }
+      ]
+    },
+    {
+      "id": "climate-change-audacious",
+      "word": "audacious",
+      "partOfSpeech": "adjective",
+      "definition": "daring; bold",
+      "sentence": "Stratospheric aerosol injection is an audacious idea in which aircraft would spray reflective particles to cool the planet, but it would not stop CO2 from building up or ocean acidification.",
+      "explanation": "A 2021 U.S. National Academies report called for a research program with strong governance but no deployment. Critics worry about uneven regional effects, a sudden jump in warming if it stopped, and reduced pressure to cut emissions.",
+      "citations": [
+        {
+          "title": "Reflecting Sunlight: Recommendations for Solar Geoengineering Research (National Academies, 2021)",
+          "url": "https://nap.nationalacademies.org/catalog/25762"
+        },
+        {
+          "title": "Stratospheric aerosol injection (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Stratospheric_aerosol_injection"
+        }
+      ]
+    },
+    {
+      "id": "climate-change-efficacy",
+      "word": "efficacy",
+      "partOfSpeech": "noun",
+      "definition": "power to produce desired effect",
+      "sentence": "The efficacy of carbon dioxide removal at scale is still unproven: direct air capture plants remove only a tiny fraction of the roughly 37 billion tonnes of CO2 that fossil fuels emit each year.",
+      "explanation": "The IPCC finds that some removal is needed in most pathways that limit warming to 1.5 degrees. Cutting emissions remains the main route, with removal for the hardest-to-abate remainder.",
+      "citations": [
+        {
+          "title": "Global Carbon Budget",
+          "url": "https://globalcarbonbudget.org/"
+        },
+        {
+          "title": "Direct air capture (IEA)",
+          "url": "https://www.iea.org/energy-system/carbon-capture-utilisation-and-storage/direct-air-capture"
+        }
+      ]
+    },
+    {
+      "id": "climate-change-secrete",
+      "word": "secrete",
+      "partOfSpeech": "verb",
+      "definition": "hide away or cache; produce and release a substance into an organism",
+      "sentence": "Oysters, corals and other shellfish secrete shells of calcium carbonate, and acidified seawater makes that harder; on the U.S. Pacific coast, corrosive upwelling killed oyster larvae in hatcheries in the late 2000s.",
+      "explanation": "Ocean pH has fallen by about 0.1 units since the Industrial Revolution, a roughly 30 percent rise in acidity. Barton et al. (2012) linked hatchery failures in Oregon and Washington to low carbonate saturation.",
+      "citations": [
+        {
+          "title": "What is ocean acidification? (NOAA)",
+          "url": "https://oceanservice.noaa.gov/facts/acidification.html"
+        },
+        {
+          "title": "The Pacific oyster industry and ocean acidification (Barton et al., 2012)",
+          "url": "https://doi.org/10.5670/oceanog.2012.86"
+        }
+      ]
+    },
+    {
+      "id": "climate-change-dissolution",
+      "word": "dissolution",
+      "partOfSpeech": "noun",
+      "definition": "disintegration; looseness in morals",
+      "sentence": "Dissolution of the thin shells of pteropods, tiny swimming snails, has been observed in the California Current, where acidified water now reaches the surface.",
+      "explanation": "Bednaršek et al. (2014) found severe shell damage in many pteropods along the U.S. West Coast. Pteropods are food for salmon and other fish, so damage can spread through the food web.",
+      "citations": [
+        {
+          "title": "Limacina helicina shell dissolution as an indicator of declining habitat suitability owing to ocean acidification (Bednaršek et al., 2014)",
+          "url": "https://doi.org/10.1098/rspb.2014.0123"
+        },
+        {
+          "title": "Ocean acidification (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Ocean_acidification"
+        }
+      ]
+    }
+  ]
+}

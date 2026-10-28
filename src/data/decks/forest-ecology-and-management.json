@@ -1,0 +1,734 @@
+{
+  "id": "forest-ecology-and-management",
+  "title": "Forest Ecology and Management",
+  "category": "Environment and Sustainability",
+  "description": "Learn GRE words through forest ecosystems, soils, disturbance, succession, restoration, deforestation, climate change and sustainable management.",
+  "cards": [
+    {
+      "id": "forest-ecology-and-management-impervious",
+      "word": "impervious",
+      "partOfSpeech": "adjective",
+      "definition": "impenetrable; incapable of being damaged or distressed",
+      "sentence": "Boreal forests often grow over permafrost, an impervious frozen layer that keeps meltwater near the surface and leaves the soil cold and wet, so spruce and larch roots stay shallow.",
+      "explanation": "Boreal, or taiga, forests form a belt of mostly conifers across northern North America, Europe and Asia. When permafrost thaws, ground can collapse, drainage changes and some stands die or turn to wetland.",
+      "citations": [
+        {
+          "title": "Taiga (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Taiga"
+        },
+        {
+          "title": "Permafrost (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Permafrost"
+        }
+      ]
+    },
+    {
+      "id": "forest-ecology-and-management-endemic",
+      "word": "endemic",
+      "partOfSpeech": "adjective",
+      "definition": "prevailing among a specific group of people or in a specific area or country; by extension, found naturally in only one region",
+      "sentence": "Isolated tropical forests such as Madagascar's are rich in endemic species, and most of the island's native plants and mammals are found nowhere else.",
+      "explanation": "Myers et al. (2000) named Madagascar one of the world's biodiversity hotspots, places with many endemic species and severe habitat loss. Tropical forests hold a large share of the planet's species.",
+      "citations": [
+        {
+          "title": "Biodiversity hotspots for conservation priorities (Myers et al., 2000)",
+          "url": "https://doi.org/10.1038/35002501"
+        },
+        {
+          "title": "Madagascar (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Madagascar"
+        }
+      ]
+    },
+    {
+      "id": "forest-ecology-and-management-torpor",
+      "word": "torpor",
+      "partOfSpeech": "noun",
+      "definition": "lethargy; sluggishness; dormancy; by extension, a slowing of activity in cold",
+      "sentence": "In the long boreal winter, cold soil leaves roots and microbes in a torpor, so decomposition slows and nutrients build up in a thick organic layer.",
+      "explanation": "Low temperatures limit biological activity. Because decay is slow, boreal soils store large amounts of carbon, which is released when they warm, burn or thaw.",
+      "citations": [
+        {
+          "title": "Taiga: soils (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Taiga"
+        },
+        {
+          "title": "Soil carbon (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Soil_carbon"
+        }
+      ]
+    },
+    {
+      "id": "forest-ecology-and-management-desultory",
+      "word": "desultory",
+      "partOfSpeech": "adjective",
+      "definition": "aimless; haphazard; digressing at random",
+      "sentence": "A desultory choice of sample plots, such as places near roads or where the trees look best, biases estimates, while random or systematic sampling with a random start gives defensible numbers.",
+      "explanation": "Sampling design determines which statistics are valid. Stratified designs improve precision by sampling more heavily in the most variable parts of the forest.",
+      "citations": [
+        {
+          "title": "Forest inventory (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Forest_inventory"
+        },
+        {
+          "title": "Systematic sampling (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Systematic_sampling"
+        }
+      ]
+    },
+    {
+      "id": "forest-ecology-and-management-disinterested",
+      "word": "disinterested",
+      "partOfSpeech": "adjective",
+      "definition": "unprejudiced; by extension, unbiased",
+      "sentence": "A forest inventory must be disinterested: plot locations come from a randomized design, not from the surveyor's preferences, so that the estimates are unbiased.",
+      "explanation": "The U.S. Forest Inventory and Analysis program measures permanent plots across all ownerships, about one plot for every 6,000 acres. Repeated measurement shows how forests change over time.",
+      "citations": [
+        {
+          "title": "Forest Inventory and Analysis (U.S. Forest Service)",
+          "url": "https://www.fs.usda.gov/research/programs/fia"
+        },
+        {
+          "title": "Forest inventory (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Forest_inventory"
+        }
+      ]
+    },
+    {
+      "id": "forest-ecology-and-management-resolution",
+      "word": "resolution",
+      "partOfSpeech": "noun",
+      "definition": "Determination; by extension, the level of detail in an image",
+      "sentence": "Landsat satellites image the land at 30-meter resolution, fine enough to detect clearcuts and many disturbances across entire countries.",
+      "explanation": "Hansen et al. (2013) used Landsat time series to map global forest loss and gain from 2000 to 2012. Airborne lidar adds three-dimensional measurements of canopy height and structure.",
+      "citations": [
+        {
+          "title": "High-resolution global maps of 21st-century forest cover change (Hansen et al., 2013)",
+          "url": "https://doi.org/10.1126/science.1244693"
+        },
+        {
+          "title": "Landsat program (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Landsat_program"
+        }
+      ]
+    },
+    {
+      "id": "forest-ecology-and-management-beneficent",
+      "word": "beneficent",
+      "partOfSpeech": "adjective",
+      "definition": "kindly; doing good",
+      "sentence": "Mycorrhizal fungi are beneficent partners of trees: they extend the reach of roots for water and phosphorus in exchange for sugars.",
+      "explanation": "Simard et al. (1997) showed carbon moving between tree species through fungal links. Later reviews caution that claims about forests acting as a cooperative \"wood wide web\" go beyond the evidence.",
+      "citations": [
+        {
+          "title": "Net transfer of carbon between ectomycorrhizal tree species in the field (Simard et al., 1997)",
+          "url": "https://doi.org/10.1038/41557"
+        },
+        {
+          "title": "Mycorrhiza (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Mycorrhiza"
+        }
+      ]
+    },
+    {
+      "id": "forest-ecology-and-management-recalcitrant",
+      "word": "recalcitrant",
+      "partOfSpeech": "adjective",
+      "definition": "obstinately stubborn; determined to resist authority; unruly",
+      "sentence": "Lignin makes wood and conifer needles recalcitrant to decay, and white-rot fungi are among the few organisms able to break it down.",
+      "explanation": "Slowly decomposing litter builds up soil organic matter and also ties up nutrients. Decomposition rate depends on litter chemistry, moisture, temperature and the decomposer community.",
+      "citations": [
+        {
+          "title": "Lignin (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Lignin"
+        },
+        {
+          "title": "White rot (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/White_rot"
+        }
+      ]
+    },
+    {
+      "id": "forest-ecology-and-management-incorporate",
+      "word": "incorporate",
+      "partOfSpeech": "verb",
+      "definition": "introduce something into a larger whole; combine; unite; by extension, to mix into the soil",
+      "sentence": "Soil animals incorporate fallen leaves into the mineral soil, but where invasive earthworms colonize northern forests that had none, the thick forest floor layer can disappear.",
+      "explanation": "Glaciers removed native earthworms from much of the northern United States and Canada. European and Asian worms, spread by people and by fishing bait, can change soil structure and harm understory plants.",
+      "citations": [
+        {
+          "title": "Great Lakes Worm Watch (University of Minnesota)",
+          "url": "https://www.greatlakeswormwatch.org/"
+        },
+        {
+          "title": "Earthworm (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Earthworm"
+        }
+      ]
+    },
+    {
+      "id": "forest-ecology-and-management-penury",
+      "word": "penury",
+      "partOfSpeech": "noun",
+      "definition": "severe poverty; stinginess; by extension, a severe lack of nutrients",
+      "sentence": "Decades of acid rain left some Northeastern forest soils in penury of calcium, and sugar maples and red spruce declined where the soil nutrient was depleted.",
+      "explanation": "Research at Hubbard Brook in New Hampshire, led by Gene Likens, showed that acid deposition leached calcium and other nutrients from soils. Likens et al. (1996) described the forest's response and slow recovery.",
+      "citations": [
+        {
+          "title": "Long-term effects of acid rain: response and recovery of a forest ecosystem (Likens et al., 1996)",
+          "url": "https://doi.org/10.1126/science.272.5259.244"
+        },
+        {
+          "title": "Hubbard Brook Experimental Forest (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Hubbard_Brook_Experimental_Forest"
+        }
+      ]
+    },
+    {
+      "id": "forest-ecology-and-management-alleviate",
+      "word": "alleviate",
+      "partOfSpeech": "verb",
+      "definition": "relieve",
+      "sentence": "Adding calcium can alleviate soil acidity, and at Hubbard Brook a whole-watershed treatment helped restore tree growth that acid rain had impaired.",
+      "explanation": "Battles et al. (2014) reported that restoring soil calcium reversed the decline of sugar maple. Liming is a repair, though, and cutting sulfur and nitrogen emissions addresses the cause.",
+      "citations": [
+        {
+          "title": "Restoring soil calcium reverses forest decline (Battles et al., 2014)",
+          "url": "https://doi.org/10.1021/ez400033d"
+        }
+      ]
+    },
+    {
+      "id": "forest-ecology-and-management-frugality",
+      "word": "frugality",
+      "partOfSpeech": "noun",
+      "definition": "thrift; economy",
+      "sentence": "Trees show frugality with nutrients: before their leaves drop in autumn, they pull back roughly 60 percent of the nitrogen and phosphorus into the branches for reuse.",
+      "explanation": "Vergutz et al. (2012) analyzed global data on this resorption. Nutrient cycling within the plant means less depends on what the soil can supply in a year.",
+      "citations": [
+        {
+          "title": "Global resorption efficiencies and concentrations of carbon and nutrients in leaves (Vergutz et al., 2012)",
+          "url": "https://doi.org/10.1890/11-0749.1"
+        },
+        {
+          "title": "Nutrient cycle (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Nutrient_cycle"
+        }
+      ]
+    },
+    {
+      "id": "forest-ecology-and-management-diffuse",
+      "word": "diffuse",
+      "partOfSpeech": "adjective",
+      "definition": "wordy, rambling, spread out (like a gas); by extension, scattered rather than direct",
+      "sentence": "Diffuse light reaches leaves in the shade more easily than direct sunbeams, so hazy skies can raise a forest's photosynthesis.",
+      "explanation": "Gu et al. (2003) found that a deciduous forest took up more carbon after the 1991 Mount Pinatubo eruption scattered sunlight. Light that comes from many directions penetrates deeper into the canopy.",
+      "citations": [
+        {
+          "title": "Response of a deciduous forest to the Mount Pinatubo eruption: enhanced photosynthesis (Gu et al., 2003)",
+          "url": "https://doi.org/10.1126/science.1078366"
+        },
+        {
+          "title": "Photosynthesis (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Photosynthesis"
+        }
+      ]
+    },
+    {
+      "id": "forest-ecology-and-management-enervate",
+      "word": "enervate",
+      "partOfSpeech": "verb",
+      "definition": "weaken",
+      "sentence": "Drought can enervate conifers, cutting the resin they use to repel beetles, so that bark beetle outbreaks spread more easily.",
+      "explanation": "A mountain pine beetle outbreak that began in the 1990s killed trees over more than ten million hectares of western Canada. Kurz et al. (2008) estimated that the outbreak turned forests from a carbon sink to a source.",
+      "citations": [
+        {
+          "title": "Mountain pine beetle and forest carbon feedback to climate change (Kurz et al., 2008)",
+          "url": "https://doi.org/10.1038/nature06777"
+        },
+        {
+          "title": "Mountain pine beetle (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Mountain_pine_beetle"
+        }
+      ]
+    },
+    {
+      "id": "forest-ecology-and-management-inadvertently",
+      "word": "inadvertently",
+      "partOfSpeech": "adverb",
+      "definition": "unintentionally; by oversight; carelessly",
+      "sentence": "The emerald ash borer arrived inadvertently in wood packing material from Asia and was first identified in 2002 near Detroit.",
+      "explanation": "The beetle has killed hundreds of millions of ash trees in North America. Herms and McCullough (2014) reviewed its spread, and its path follows people who move firewood.",
+      "citations": [
+        {
+          "title": "Emerald ash borer invasion of North America (Herms & McCullough, 2014)",
+          "url": "https://doi.org/10.1146/annurev-ento-011613-162051"
+        },
+        {
+          "title": "Emerald ash borer (USDA APHIS)",
+          "url": "https://www.aphis.usda.gov/plant-pests-diseases/eab"
+        }
+      ]
+    },
+    {
+      "id": "forest-ecology-and-management-whimsical",
+      "word": "whimsical",
+      "partOfSpeech": "adjective",
+      "definition": "capricious; fanciful; by extension, unpredictable",
+      "sentence": "Wind disturbance can seem whimsical, flattening one stand and sparing its neighbor: the 1999 derecho that crossed the Boundary Waters flattened hundreds of thousands of acres of forest in a few hours, yet most years bring nothing like it.",
+      "explanation": "Rare, intense events leave large patches of downed trees, which later become habitat and fuel. Windthrow creates pits and mounds that diversify the forest floor.",
+      "citations": [
+        {
+          "title": "1999 Boundary Waters–Canadian derecho (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/1999_Boundary_Waters%E2%80%93Canadian_derecho"
+        },
+        {
+          "title": "Windthrow (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Windthrow"
+        }
+      ]
+    },
+    {
+      "id": "forest-ecology-and-management-inured",
+      "word": "inured",
+      "partOfSpeech": "adjective",
+      "definition": "accustomed; hardened",
+      "sentence": "Longleaf pine is inured to fire: its seedlings stay in a protected grass stage and its bark is thick, and the ecosystem depends on frequent low-intensity burns.",
+      "explanation": "Longleaf pine once covered tens of millions of acres of the Southeast, and only a small share remains. Fire suppression allowed other trees to invade, and prescribed burning is now a main restoration tool.",
+      "citations": [
+        {
+          "title": "Longleaf pine (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Pinus_palustris"
+        },
+        {
+          "title": "Fire ecology (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Fire_ecology"
+        }
+      ]
+    },
+    {
+      "id": "forest-ecology-and-management-deterrent",
+      "word": "deterrent",
+      "partOfSpeech": "noun",
+      "definition": "Something that discourages; hindrance",
+      "sentence": "Tannins, resins and thorns are deterrents to browsing animals, though overabundant deer can still eat out the understory of a forest.",
+      "explanation": "Côté et al. (2004) reviewed how deer overabundance changes forest plant communities and the animals that depend on them. Managing deer is often a prerequisite for natural regeneration.",
+      "citations": [
+        {
+          "title": "Ecological impacts of deer overabundance (Côté et al., 2004)",
+          "url": "https://doi.org/10.1146/annurev.ecolsys.35.021103.105725"
+        },
+        {
+          "title": "Plant defense against herbivory (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Plant_defense_against_herbivory"
+        }
+      ]
+    },
+    {
+      "id": "forest-ecology-and-management-insinuate",
+      "word": "insinuate",
+      "partOfSpeech": "verb",
+      "definition": "hint; imply; creep in",
+      "sentence": "Garlic mustard insinuates itself into forest understories and releases chemicals that disrupt the mycorrhizal fungi that native tree seedlings rely on.",
+      "explanation": "Stinson et al. (2006) showed that the invader suppressed the growth of native tree seedlings by disrupting these underground partnerships. This is one reason invasives can alter forests quietly.",
+      "citations": [
+        {
+          "title": "Invasive plant suppresses the growth of native tree seedlings by disrupting belowground mutualisms (Stinson et al., 2006)",
+          "url": "https://doi.org/10.1371/journal.pbio.0040140"
+        },
+        {
+          "title": "Garlic mustard (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Alliaria_petiolata"
+        }
+      ]
+    },
+    {
+      "id": "forest-ecology-and-management-facilitate",
+      "word": "facilitate",
+      "partOfSpeech": "verb",
+      "definition": "help bring about; make less difficult",
+      "sentence": "In one model of succession, early colonizers facilitate later species by enriching the soil or shading the site, as proposed by Connell and Slatyer (1977).",
+      "explanation": "That paper also described \"tolerance\" and \"inhibition\" models, in which later species either coexist with early ones or are held back by them. Real forests show a mix of all three.",
+      "citations": [
+        {
+          "title": "Mechanisms of succession in natural communities (Connell & Slatyer, 1977)",
+          "url": "https://doi.org/10.1086/283241"
+        },
+        {
+          "title": "Ecological succession (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Ecological_succession"
+        }
+      ]
+    },
+    {
+      "id": "forest-ecology-and-management-diverge",
+      "word": "diverge",
+      "partOfSpeech": "verb",
+      "definition": "vary; go in different directions from the same point",
+      "sentence": "Depending on seed sources, browsing and timing, successional pathways after a disturbance can diverge toward different kinds of forest.",
+      "explanation": "The same fire or harvest can lead to different outcomes. This is why managers who set a target forest need to account for what will actually regenerate on a site.",
+      "citations": [
+        {
+          "title": "Ecological succession (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Ecological_succession"
+        },
+        {
+          "title": "Alternative stable state (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Alternative_stable_state"
+        }
+      ]
+    },
+    {
+      "id": "forest-ecology-and-management-relegate",
+      "word": "relegate",
+      "partOfSpeech": "verb",
+      "definition": "banish to an inferior position; delegate; assign",
+      "sentence": "In a dense, shaded forest, shade-intolerant trees such as aspen and tulip poplar are relegated to canopy gaps opened when large trees fall.",
+      "explanation": "Runkle (1981) studied gap formation in old-growth forests of the eastern United States. Gap size and frequency affect which species regenerate, helping many species coexist.",
+      "citations": [
+        {
+          "title": "Gap regeneration in some old-growth forests of the eastern United States (Runkle, 1981)",
+          "url": "https://doi.org/10.2307/1937009"
+        },
+        {
+          "title": "Ecological succession (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Ecological_succession"
+        }
+      ]
+    },
+    {
+      "id": "forest-ecology-and-management-abeyance",
+      "word": "abeyance",
+      "partOfSpeech": "noun",
+      "definition": "suspended action",
+      "sentence": "Pin cherry seeds can lie in abeyance in forest soil for decades, germinating only when a disturbance exposes them to light and warmth.",
+      "explanation": "A seed bank is a store of living seeds in the soil. It lets a forest rebuild after a disturbance even when no seed-bearing trees survive nearby.",
+      "citations": [
+        {
+          "title": "Prunus pensylvanica (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Prunus_pensylvanica"
+        },
+        {
+          "title": "Soil seed bank (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Soil_seed_bank"
+        }
+      ]
+    },
+    {
+      "id": "forest-ecology-and-management-neophyte",
+      "word": "neophyte",
+      "partOfSpeech": "noun",
+      "definition": "recent convert; beginner; by extension, a newcomer",
+      "sentence": "Pioneer species such as fireweed and aspen are the neophytes of a burned area, colonizing bare ground quickly with light seeds carried by wind.",
+      "explanation": "Pioneers are usually short-lived, fast-growing and shade intolerant. They modify the site and give way to longer-lived species as succession proceeds.",
+      "citations": [
+        {
+          "title": "Pioneer species (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Pioneer_species"
+        }
+      ]
+    },
+    {
+      "id": "forest-ecology-and-management-emulate",
+      "word": "emulate",
+      "partOfSpeech": "verb",
+      "definition": "imitate; rival",
+      "sentence": "Natural-disturbance-based management tries to emulate the size, severity and frequency of events like fire and windstorms in how and where trees are harvested.",
+      "explanation": "Franklin et al. (2002) described how natural forests develop structure after disturbance and how silviculture can retain legacies such as large live trees and dead wood. Variable retention harvesting is an example.",
+      "citations": [
+        {
+          "title": "Disturbances and structural development of natural forest ecosystems with silvicultural implications (Franklin et al., 2002)",
+          "url": "https://doi.org/10.1016/S0378-1127(01)00575-8"
+        },
+        {
+          "title": "Silviculture (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Silviculture"
+        }
+      ]
+    },
+    {
+      "id": "forest-ecology-and-management-contentious",
+      "word": "contentious",
+      "partOfSpeech": "adjective",
+      "definition": "quarrelsome",
+      "sentence": "Salvage logging after fires and storms is contentious: removing dead trees recovers timber value, but it may harm habitat and slow natural regeneration.",
+      "explanation": "Burned forests contain standing dead trees, called snags, that many species use. Policy debates weigh economic recovery, safety and fuel reduction against ecological effects.",
+      "citations": [
+        {
+          "title": "Salvage logging (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Salvage_logging"
+        }
+      ]
+    },
+    {
+      "id": "forest-ecology-and-management-dismiss",
+      "word": "dismiss",
+      "partOfSpeech": "verb",
+      "definition": "eliminate from consideration; reject",
+      "sentence": "Managers once dismissed snags and fallen logs as waste, but dead wood is habitat for a large share of forest species, including cavity-nesting birds, beetles and fungi.",
+      "explanation": "Stokland, Siitonen and Jonsson (2012) reviewed the biodiversity of dead wood. Retaining some dead trees is now a standard part of sustainable harvest in many places.",
+      "citations": [
+        {
+          "title": "Biodiversity in Dead Wood (Stokland et al., 2012)",
+          "url": "https://doi.org/10.1017/CBO9781139025843"
+        },
+        {
+          "title": "Dead wood (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Dead_wood"
+        }
+      ]
+    },
+    {
+      "id": "forest-ecology-and-management-recondite",
+      "word": "recondite",
+      "partOfSpeech": "adjective",
+      "definition": "abstruse; profound; secret",
+      "sentence": "Many groups that matter most to forest health, such as soil fungi and beetles, are recondite, known to only a few specialists, so monitoring programs often rely on easier-to-survey indicators.",
+      "explanation": "Indicator species such as birds, lichens or plants can signal changes in ecosystem condition. Lindenmayer et al. (2000) discussed how indicators of biodiversity can be chosen and tested for sustainable forest management.",
+      "citations": [
+        {
+          "title": "Indicators of biodiversity for ecologically sustainable forest management (Lindenmayer et al., 2000)",
+          "url": "https://doi.org/10.1046/j.1523-1739.2000.98533.x"
+        },
+        {
+          "title": "Indicator species (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Indicator_species"
+        }
+      ]
+    },
+    {
+      "id": "forest-ecology-and-management-precarious",
+      "word": "precarious",
+      "partOfSpeech": "adjective",
+      "definition": "uncertain; risky",
+      "sentence": "The Amazon's stability may be precarious: Lovejoy and Nobre (2018) argued that the forest could begin to tip toward savanna at 20 to 25 percent deforestation.",
+      "explanation": "The forest creates much of its own rainfall by recycling moisture. Clearing, fire and drought together could reduce rainfall enough to prevent forest recovery in some regions.",
+      "citations": [
+        {
+          "title": "Amazon tipping point (Lovejoy & Nobre, 2018)",
+          "url": "https://doi.org/10.1126/sciadv.aat2340"
+        },
+        {
+          "title": "Amazon rainforest (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Amazon_rainforest"
+        }
+      ]
+    },
+    {
+      "id": "forest-ecology-and-management-compliant",
+      "word": "compliant",
+      "partOfSpeech": "adjective",
+      "definition": "yielding; conforming to requirements",
+      "sentence": "Certification systems such as the Forest Stewardship Council audit forest managers to confirm they are compliant with standards covering ecology, workers and local communities.",
+      "explanation": "Wood from certified forests can carry a label, letting buyers choose it. Certification is voluntary, and critics note that standards and enforcement differ between schemes.",
+      "citations": [
+        {
+          "title": "Forest Stewardship Council",
+          "url": "https://fsc.org/en"
+        },
+        {
+          "title": "Forest certification (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Forest_certification"
+        }
+      ]
+    },
+    {
+      "id": "forest-ecology-and-management-pragmatic",
+      "word": "pragmatic",
+      "partOfSpeech": "adjective",
+      "definition": "practical (as opposed to idealistic); concerned with the practical worth or impact of something",
+      "sentence": "Sustainable forest management is a pragmatic compromise: it aims to harvest timber at rates that do not exceed growth while maintaining biodiversity, soils, water and the benefits communities receive.",
+      "explanation": "The Montréal Process set criteria and indicators for temperate and boreal forests in 1994. The core idea of sustained yield goes back to German forestry in the 1700s.",
+      "citations": [
+        {
+          "title": "The Montréal Process",
+          "url": "https://www.montrealprocess.org/"
+        },
+        {
+          "title": "Sustainable forest management (FAO)",
+          "url": "https://www.fao.org/forestry/sfm/en/"
+        }
+      ]
+    },
+    {
+      "id": "forest-ecology-and-management-propensity",
+      "word": "propensity",
+      "partOfSpeech": "noun",
+      "definition": "natural inclination",
+      "sentence": "Quaking aspen has a propensity to sprout from its roots after fire or logging, producing genetically identical clones such as Pando in Utah, a single clone of about 47,000 stems.",
+      "explanation": "Regeneration after harvest may come from seed, stump sprouts, root suckers or planted seedlings. Silvicultural systems are chosen to match how each species reproduces.",
+      "citations": [
+        {
+          "title": "Pando (tree) (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Pando_(tree)"
+        },
+        {
+          "title": "Natural regeneration (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Natural_regeneration"
+        }
+      ]
+    },
+    {
+      "id": "forest-ecology-and-management-fledgling",
+      "word": "fledgling",
+      "partOfSpeech": "adjective",
+      "definition": "inexperienced; by extension, newly established",
+      "sentence": "A fledgling seedling under a closed canopy faces browsing, drought and competition for light, so only a small fraction of the seedlings that sprout survive to become trees.",
+      "explanation": "Natural regeneration after harvesting depends on a seed source, a suitable seedbed and enough light. Foresters choose harvest patterns that supply these conditions.",
+      "citations": [
+        {
+          "title": "Natural regeneration (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Natural_regeneration"
+        },
+        {
+          "title": "Silviculture (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Silviculture"
+        }
+      ]
+    },
+    {
+      "id": "forest-ecology-and-management-conundrum",
+      "word": "conundrum",
+      "partOfSpeech": "noun",
+      "definition": "riddle; difficult problem",
+      "sentence": "Restoration poses a conundrum when the climate is changing: the historical reference conditions that once guided a project may no longer be attainable.",
+      "explanation": "The Society for Ecological Restoration's standards define restoration as assisting recovery of a degraded ecosystem. The Bonn Challenge aims to restore 350 million hectares by 2030.",
+      "citations": [
+        {
+          "title": "International principles and standards for the practice of ecological restoration (Gann et al., 2019)",
+          "url": "https://doi.org/10.1111/rec.13035"
+        },
+        {
+          "title": "Bonn Challenge",
+          "url": "https://en.wikipedia.org/wiki/Bonn_Challenge"
+        }
+      ]
+    },
+    {
+      "id": "forest-ecology-and-management-desiccate",
+      "word": "desiccate",
+      "partOfSpeech": "verb",
+      "definition": "dry up",
+      "sentence": "Forest edges desiccate: trees at the edge of a fragment face hotter, drier and windier conditions that raise mortality, especially within about 100 meters.",
+      "explanation": "Laurance et al. (2011) summarized 32 years of the Biological Dynamics of Forest Fragments Project near Manaus, Brazil. Edge effects also increase fire risk and invasions by non-forest species.",
+      "citations": [
+        {
+          "title": "The fate of Amazonian forest fragments: a 32-year investigation (Laurance et al., 2011)",
+          "url": "https://doi.org/10.1016/j.biocon.2010.09.021"
+        },
+        {
+          "title": "Edge effects (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Edge_effects"
+        }
+      ]
+    },
+    {
+      "id": "forest-ecology-and-management-disjointed",
+      "word": "disjointed",
+      "partOfSpeech": "adjective",
+      "definition": "lacking coherence; separated at the joints",
+      "sentence": "Roads, farms and clearcuts leave forest in a disjointed mosaic, and Haddad et al. (2015) found that about 70 percent of the world's remaining forest lies within one kilometer of an edge.",
+      "explanation": "Isolated patches hold fewer species and can no longer be reached by animals that cannot cross open ground. Corridors and larger blocks of intact forest help connect populations.",
+      "citations": [
+        {
+          "title": "Habitat fragmentation and its lasting impact on Earth's ecosystems (Haddad et al., 2015)",
+          "url": "https://doi.org/10.1126/sciadv.1500052"
+        },
+        {
+          "title": "Habitat fragmentation (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Habitat_fragmentation"
+        }
+      ]
+    },
+    {
+      "id": "forest-ecology-and-management-plummet",
+      "word": "plummet",
+      "partOfSpeech": "verb",
+      "definition": "fall sharply",
+      "sentence": "Deforestation in the Brazilian Amazon plummeted by roughly 80 percent between 2004 and 2012, after stronger enforcement and supply-chain agreements such as the soy moratorium.",
+      "explanation": "Nepstad et al. (2014) credited policy changes and interventions in beef and soy supply chains. Rates have risen and fallen since then, depending on political priorities and enforcement.",
+      "citations": [
+        {
+          "title": "Slowing Amazon deforestation through public policy and interventions in beef and soy supply chains (Nepstad et al., 2014)",
+          "url": "https://doi.org/10.1126/science.1248525"
+        },
+        {
+          "title": "Deforestation in Brazil (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Deforestation_in_Brazil"
+        }
+      ]
+    },
+    {
+      "id": "forest-ecology-and-management-problematic",
+      "word": "problematic",
+      "partOfSpeech": "adjective",
+      "definition": "doubtful; unsettled; questionable; perplexing",
+      "sentence": "REDD+ carbon credits have proved problematic, since West et al. (2023) found that many credits from forest conservation projects overstated the emissions they avoided.",
+      "explanation": "REDD+ pays developing countries to reduce deforestation and forest degradation and to conserve and enhance forest carbon. Challenges include setting baselines, preventing leakage to other areas and ensuring that benefits reach local people.",
+      "citations": [
+        {
+          "title": "Action needed to make carbon offsets from forest conservation work for climate change mitigation (West et al., 2023)",
+          "url": "https://doi.org/10.1126/science.ade3535"
+        },
+        {
+          "title": "UN-REDD Programme",
+          "url": "https://www.un-redd.org/"
+        }
+      ]
+    },
+    {
+      "id": "forest-ecology-and-management-aesthetic",
+      "word": "aesthetic",
+      "partOfSpeech": "adjective",
+      "definition": "artistic; dealing with or capable of appreciating the beautiful",
+      "sentence": "Beyond their aesthetic appeal, street trees shade pavement, intercept stormwater and cool neighborhoods that would otherwise be urban heat islands.",
+      "explanation": "Tools such as i-Tree, developed by the U.S. Forest Service and partners, estimate the benefits of urban trees. Shade is often least available in lower-income neighborhoods.",
+      "citations": [
+        {
+          "title": "i-Tree tools",
+          "url": "https://www.itreetools.org/"
+        },
+        {
+          "title": "Urban forest (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Urban_forest"
+        }
+      ]
+    },
+    {
+      "id": "forest-ecology-and-management-mundane",
+      "word": "mundane",
+      "partOfSpeech": "adjective",
+      "definition": "worldly as opposed to spiritual; everyday",
+      "sentence": "A row of identical street trees looks mundane until a pest strikes, as Dutch elm disease did to elm-lined streets across North America, so planners follow diversity guidelines such as the 10-20-30 rule.",
+      "explanation": "The rule suggests no more than 10 percent of one species, 20 percent of one genus and 30 percent of one family. The emerald ash borer repeated the lesson for ash trees.",
+      "citations": [
+        {
+          "title": "Dutch elm disease (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Dutch_elm_disease"
+        },
+        {
+          "title": "Urban forest (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Urban_forest"
+        }
+      ]
+    },
+    {
+      "id": "forest-ecology-and-management-distill",
+      "word": "distill",
+      "partOfSpeech": "verb",
+      "definition": "purify; refine; concentrate",
+      "sentence": "LANDIS-II distills ecological knowledge into rules for seed dispersal, growth, succession, disturbance and harvest, then simulates a landscape on a map grid over decades to centuries.",
+      "explanation": "Scheller et al. (2007) described the model's design. Managers use it to compare scenarios, such as how fire, climate and harvest together affect forest composition and carbon.",
+      "citations": [
+        {
+          "title": "Design, development, and application of LANDIS-II (Scheller et al., 2007)",
+          "url": "https://doi.org/10.1016/j.ecolmodel.2006.09.011"
+        },
+        {
+          "title": "LANDIS-II",
+          "url": "http://www.landis-ii.org/"
+        }
+      ]
+    }
+  ]
+}
