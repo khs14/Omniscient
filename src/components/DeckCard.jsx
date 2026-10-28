@@ -1,4 +1,5 @@
 import { Link } from 'react-router';
+import ExternalBadge from './ExternalBadge.jsx';
 import './DeckCard.css';
 
 /**
@@ -22,6 +23,11 @@ export default function DeckCard({ deck, stats }) {
           {stats.dueToday} due today
         </li>
         {stats.newToday > 0 && <li className="deck-card__stat">{stats.newToday} new</li>}
+        {deck.externalTool && (
+          <li className="deck-card__external">
+            <ExternalBadge />
+          </li>
+        )}
       </ul>
     </article>
   );

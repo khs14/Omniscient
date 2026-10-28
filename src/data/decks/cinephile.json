@@ -1,0 +1,1688 @@
+{
+  "id": "cinephile",
+  "title": "PlayPhrase.me",
+  "category": "Cinephile",
+  "description": "Learn each meaning, then hear it spoken in movie and TV clips.",
+  "externalTool": "playphrase",
+  "cards": [
+    {
+      "id": "cinephile-abate",
+      "word": "abate",
+      "definition": "subside, or moderate"
+    },
+    {
+      "id": "cinephile-aberrant",
+      "word": "aberrant",
+      "definition": "abnormal, or deviant"
+    },
+    {
+      "id": "cinephile-abeyance",
+      "word": "abeyance",
+      "definition": "suspended action"
+    },
+    {
+      "id": "cinephile-abscond",
+      "word": "abscond",
+      "definition": "depart secretly and hide"
+    },
+    {
+      "id": "cinephile-abstemious",
+      "word": "abstemious",
+      "definition": "sparing in eating and drinking; temperate"
+    },
+    {
+      "id": "cinephile-admonish",
+      "word": "admonish",
+      "definition": "warn; reprove"
+    },
+    {
+      "id": "cinephile-adulterate",
+      "word": "adulterate",
+      "definition": "make impure by adding inferior or tainted substances"
+    },
+    {
+      "id": "cinephile-aesthetic",
+      "word": "aesthetic",
+      "definition": "artistic; dealing with or capable of appreciating the beautiful"
+    },
+    {
+      "id": "cinephile-aggregate",
+      "word": "aggregate",
+      "definition": "gather; accumulate"
+    },
+    {
+      "id": "cinephile-alacrity",
+      "word": "alacrity",
+      "definition": "cheerful promptness; eagerness"
+    },
+    {
+      "id": "cinephile-alleviate",
+      "word": "alleviate",
+      "definition": "relieve"
+    },
+    {
+      "id": "cinephile-amalgamate",
+      "word": "amalgamate",
+      "definition": "combine; unite in one body"
+    },
+    {
+      "id": "cinephile-ambiguous",
+      "word": "ambiguous",
+      "definition": "unclear or doubtful in meaning"
+    },
+    {
+      "id": "cinephile-ambivalence",
+      "word": "ambivalence",
+      "definition": "the state of having contradictory or conflicting emotional attitudes"
+    },
+    {
+      "id": "cinephile-ameliorate",
+      "word": "ameliorate",
+      "definition": "improve"
+    },
+    {
+      "id": "cinephile-anachronism",
+      "word": "anachronism",
+      "definition": "something or someone misplaced in time"
+    },
+    {
+      "id": "cinephile-analogous",
+      "word": "analogous",
+      "definition": "comparable"
+    },
+    {
+      "id": "cinephile-anarchy",
+      "word": "anarchy",
+      "definition": "absence of governing body; state of disorder"
+    },
+    {
+      "id": "cinephile-anomalous",
+      "word": "anomalous",
+      "definition": "abnormal; irregular"
+    },
+    {
+      "id": "cinephile-antipathy",
+      "word": "antipathy",
+      "definition": "aversion; dislike"
+    },
+    {
+      "id": "cinephile-apathy",
+      "word": "apathy",
+      "definition": "lack of caring; indifference"
+    },
+    {
+      "id": "cinephile-appease",
+      "word": "appease",
+      "definition": "pacify or soothe; relieve"
+    },
+    {
+      "id": "cinephile-apprise",
+      "word": "apprise",
+      "definition": "inform"
+    },
+    {
+      "id": "cinephile-approbation",
+      "word": "approbation",
+      "definition": "approval"
+    },
+    {
+      "id": "cinephile-appropriate",
+      "word": "appropriate",
+      "partOfSpeech": "verb",
+      "definition": "acquire; take possession of for one’s own use"
+    },
+    {
+      "id": "cinephile-arduous",
+      "word": "arduous",
+      "definition": "hard; strenuous"
+    },
+    {
+      "id": "cinephile-artless",
+      "word": "artless",
+      "definition": "without guile; open and honest"
+    },
+    {
+      "id": "cinephile-ascetic",
+      "word": "ascetic",
+      "definition": "practicing self-denial; austere"
+    },
+    {
+      "id": "cinephile-assiduous",
+      "word": "assiduous",
+      "definition": "diligent"
+    },
+    {
+      "id": "cinephile-assuage",
+      "word": "assuage",
+      "partOfSpeech": "verb",
+      "definition": "ease or lessen (pain); satisfy (hunger); soothe (anger)"
+    },
+    {
+      "id": "cinephile-attenuate",
+      "word": "attenuate",
+      "definition": "make thinner"
+    },
+    {
+      "id": "cinephile-audacious",
+      "word": "audacious",
+      "definition": "daring; bold"
+    },
+    {
+      "id": "cinephile-austere",
+      "word": "austere",
+      "definition": "forbiddingly stern; severely simple and unornamented"
+    },
+    {
+      "id": "cinephile-autonomous",
+      "word": "autonomous",
+      "definition": "self-governing; independent"
+    },
+    {
+      "id": "cinephile-aver",
+      "word": "aver",
+      "definition": "assert confidently or declare; as used in law, state formally as a fact"
+    },
+    {
+      "id": "cinephile-banal",
+      "word": "banal",
+      "definition": "hackneyed; commonplace; trite; lacking originality"
+    },
+    {
+      "id": "cinephile-belie",
+      "word": "belie",
+      "definition": "contradict; give a false impression"
+    },
+    {
+      "id": "cinephile-beneficent",
+      "word": "beneficent",
+      "definition": "kindly; doing good"
+    },
+    {
+      "id": "cinephile-bolster",
+      "word": "bolster",
+      "definition": "support; reinforce"
+    },
+    {
+      "id": "cinephile-bombastic",
+      "word": "bombastic",
+      "definition": "pompous; using inflated language"
+    },
+    {
+      "id": "cinephile-boorish",
+      "word": "boorish",
+      "definition": "rude; insensitive"
+    },
+    {
+      "id": "cinephile-burgeon",
+      "word": "burgeon",
+      "definition": "grow forth; send out buds"
+    },
+    {
+      "id": "cinephile-burnish",
+      "word": "burnish",
+      "definition": "make shiny by rubbing; polish"
+    },
+    {
+      "id": "cinephile-buttress",
+      "word": "buttress",
+      "partOfSpeech": "verb",
+      "definition": "support; prop up"
+    },
+    {
+      "id": "cinephile-capricious",
+      "word": "capricious",
+      "definition": "unpredictable; fickle"
+    },
+    {
+      "id": "cinephile-castigation",
+      "word": "castigation",
+      "definition": "punishment; severe criticism"
+    },
+    {
+      "id": "cinephile-catalyst",
+      "word": "catalyst",
+      "definition": "agent that increases the pace of a chemical action"
+    },
+    {
+      "id": "cinephile-caustic",
+      "word": "caustic",
+      "definition": "burning; sarcastically biting"
+    },
+    {
+      "id": "cinephile-chicanery",
+      "word": "chicanery",
+      "definition": "trickery; deception"
+    },
+    {
+      "id": "cinephile-coagulate",
+      "word": "coagulate",
+      "definition": "thicken; congeal; clot"
+    },
+    {
+      "id": "cinephile-coda",
+      "word": "coda",
+      "definition": "concluding section of a musical or literary composition; summarizes or concludes"
+    },
+    {
+      "id": "cinephile-cogent",
+      "word": "cogent",
+      "definition": "convincing"
+    },
+    {
+      "id": "cinephile-commensurate",
+      "word": "commensurate",
+      "partOfSpeech": "adjective",
+      "definition": "corresponding in extent, degree, etc.; proportionate"
+    },
+    {
+      "id": "cinephile-compendium",
+      "word": "compendium",
+      "definition": "brief, comprehensive summary"
+    },
+    {
+      "id": "cinephile-complaisant",
+      "word": "complaisant",
+      "definition": "trying to please; overly polite; obliging"
+    },
+    {
+      "id": "cinephile-compliant",
+      "word": "compliant",
+      "definition": "yielding; conforming to requirements"
+    },
+    {
+      "id": "cinephile-conciliatory",
+      "word": "conciliatory",
+      "definition": "reconciling; soothing"
+    },
+    {
+      "id": "cinephile-condone",
+      "word": "condone",
+      "definition": "overlook; forgive; give tacit approval; excuse"
+    },
+    {
+      "id": "cinephile-confound",
+      "word": "confound",
+      "definition": "confuse; puzzle"
+    },
+    {
+      "id": "cinephile-connoisseur",
+      "word": "connoisseur",
+      "definition": "person competent to act as a judge of art; a lover of art"
+    },
+    {
+      "id": "cinephile-contention",
+      "word": "contention",
+      "definition": "claim; thesis"
+    },
+    {
+      "id": "cinephile-contentious",
+      "word": "contentious",
+      "definition": "quarrelsome"
+    },
+    {
+      "id": "cinephile-contrite",
+      "word": "contrite",
+      "definition": "penitent"
+    },
+    {
+      "id": "cinephile-conundrum",
+      "word": "conundrum",
+      "definition": "riddle; difficult problem"
+    },
+    {
+      "id": "cinephile-converge",
+      "word": "converge",
+      "definition": "approach; tend to meet; come together"
+    },
+    {
+      "id": "cinephile-convoluted",
+      "word": "convoluted",
+      "definition": "coiled around; involved; intricate"
+    },
+    {
+      "id": "cinephile-craven",
+      "word": "craven",
+      "definition": "cowardly"
+    },
+    {
+      "id": "cinephile-daunt",
+      "word": "daunt",
+      "definition": "intimidate; frighten"
+    },
+    {
+      "id": "cinephile-decorum",
+      "word": "decorum",
+      "definition": "propriety; orderliness and good taste in manners"
+    },
+    {
+      "id": "cinephile-default",
+      "word": "default",
+      "definition": "failure to act"
+    },
+    {
+      "id": "cinephile-deference",
+      "word": "deference",
+      "definition": "courteous regard for another’s wishes"
+    },
+    {
+      "id": "cinephile-delineate",
+      "word": "delineate",
+      "definition": "portray; depict; sketch"
+    },
+    {
+      "id": "cinephile-denigrate",
+      "word": "denigrate",
+      "definition": "blacken"
+    },
+    {
+      "id": "cinephile-deride",
+      "word": "deride",
+      "definition": "ridicule; make fun of"
+    },
+    {
+      "id": "cinephile-derivative",
+      "word": "derivative",
+      "definition": "unoriginal; obtained from another source"
+    },
+    {
+      "id": "cinephile-desiccate",
+      "word": "desiccate",
+      "definition": "dry up"
+    },
+    {
+      "id": "cinephile-desultory",
+      "word": "desultory",
+      "definition": "aimless; haphazard; digressing at random"
+    },
+    {
+      "id": "cinephile-deterrent",
+      "word": "deterrent",
+      "definition": "something that discourages; hindrance"
+    },
+    {
+      "id": "cinephile-diatribe",
+      "word": "diatribe",
+      "partOfSpeech": "noun",
+      "definition": "bitter scolding; invective"
+    },
+    {
+      "id": "cinephile-dichotomy",
+      "word": "dichotomy",
+      "definition": "split; branching into two parts (especially contradictory ones)"
+    },
+    {
+      "id": "cinephile-diffidence",
+      "word": "diffidence",
+      "definition": "shyness"
+    },
+    {
+      "id": "cinephile-diffuse",
+      "word": "diffuse",
+      "partOfSpeech": "adjective",
+      "definition": "wordy, rambling, spread out (like a gas)"
+    },
+    {
+      "id": "cinephile-digression",
+      "word": "digression",
+      "definition": "wandering away from the subject"
+    },
+    {
+      "id": "cinephile-dirge",
+      "word": "dirge",
+      "definition": "lament with music"
+    },
+    {
+      "id": "cinephile-disabuse",
+      "word": "disabuse",
+      "definition": "correct a false impression; undeceive"
+    },
+    {
+      "id": "cinephile-discerning",
+      "word": "discerning",
+      "definition": "mentally quick and observant; having insight"
+    },
+    {
+      "id": "cinephile-discordant",
+      "word": "discordant",
+      "definition": "not harmonious; conflicting"
+    },
+    {
+      "id": "cinephile-discredit",
+      "word": "discredit",
+      "definition": "defame; destroy confidence in; disbelieve"
+    },
+    {
+      "id": "cinephile-discrepancy",
+      "word": "discrepancy",
+      "definition": "lack of consistency; difference"
+    },
+    {
+      "id": "cinephile-discrete",
+      "word": "discrete",
+      "partOfSpeech": "adjective",
+      "definition": "separate; unconnected; consisting of distinct parts"
+    },
+    {
+      "id": "cinephile-disingenuous",
+      "word": "disingenuous",
+      "definition": "lacking genuine candor; insincere"
+    },
+    {
+      "id": "cinephile-disinterested",
+      "word": "disinterested",
+      "definition": "unprejudiced"
+    },
+    {
+      "id": "cinephile-disjointed",
+      "word": "disjointed",
+      "definition": "lacking coherence; separated at the joints"
+    },
+    {
+      "id": "cinephile-dismiss",
+      "word": "dismiss",
+      "definition": "eliminate from consideration; reject"
+    },
+    {
+      "id": "cinephile-disparage",
+      "word": "disparage",
+      "definition": "belittle"
+    },
+    {
+      "id": "cinephile-disparate",
+      "word": "disparate",
+      "partOfSpeech": "adjective",
+      "definition": "basically different; unrelated"
+    },
+    {
+      "id": "cinephile-dissemble",
+      "word": "dissemble",
+      "partOfSpeech": "verb",
+      "definition": "disguise; pretend"
+    },
+    {
+      "id": "cinephile-disseminate",
+      "word": "disseminate",
+      "definition": "distribute; spread; scatter (like seeds)"
+    },
+    {
+      "id": "cinephile-dissolution",
+      "word": "dissolution",
+      "definition": "disintegration; looseness in morals"
+    },
+    {
+      "id": "cinephile-dissonance",
+      "word": "dissonance",
+      "definition": "discord; opposite of harmony"
+    },
+    {
+      "id": "cinephile-distend",
+      "word": "distend",
+      "definition": "expand; swell out"
+    },
+    {
+      "id": "cinephile-distill",
+      "word": "distill",
+      "definition": "purify; refine; concentrate"
+    },
+    {
+      "id": "cinephile-diverge",
+      "word": "diverge",
+      "definition": "vary; go in different directions from the same point"
+    },
+    {
+      "id": "cinephile-divest",
+      "word": "divest",
+      "definition": "strip; deprive"
+    },
+    {
+      "id": "cinephile-document",
+      "word": "document",
+      "definition": "provide written evidence"
+    },
+    {
+      "id": "cinephile-dogmatic",
+      "word": "dogmatic",
+      "definition": "opinionated; arbitrary; doctrinal"
+    },
+    {
+      "id": "cinephile-dormant",
+      "word": "dormant",
+      "definition": "sleeping; lethargic; latent"
+    },
+    {
+      "id": "cinephile-dupe",
+      "word": "dupe",
+      "definition": "someone easily fooled"
+    },
+    {
+      "id": "cinephile-ebullient",
+      "word": "ebullient",
+      "definition": "showing excitement; overflowing with enthusiasm"
+    },
+    {
+      "id": "cinephile-eclectic",
+      "word": "eclectic",
+      "definition": "selective; composed of elements drawn from disparate sources"
+    },
+    {
+      "id": "cinephile-efficacy",
+      "word": "efficacy",
+      "definition": "power to produce desired effect"
+    },
+    {
+      "id": "cinephile-effrontery",
+      "word": "effrontery",
+      "definition": "impudence; shameless boldness; sheer nerve; presumptuousness"
+    },
+    {
+      "id": "cinephile-elegy",
+      "word": "elegy",
+      "definition": "poem or song expressing lamentation"
+    },
+    {
+      "id": "cinephile-elicit",
+      "word": "elicit",
+      "definition": "draw out by discussion"
+    },
+    {
+      "id": "cinephile-embellish",
+      "word": "embellish",
+      "definition": "adorn; ornament; enhance, as a story"
+    },
+    {
+      "id": "cinephile-empirical",
+      "word": "empirical",
+      "definition": "based on experience"
+    },
+    {
+      "id": "cinephile-emulate",
+      "word": "emulate",
+      "definition": "imitate; rival"
+    },
+    {
+      "id": "cinephile-endemic",
+      "word": "endemic",
+      "definition": "prevailing among a specific group of people or in a specific area or country"
+    },
+    {
+      "id": "cinephile-enervate",
+      "word": "enervate",
+      "definition": "weaken"
+    },
+    {
+      "id": "cinephile-engender",
+      "word": "engender",
+      "definition": "cause; produce"
+    },
+    {
+      "id": "cinephile-enhance",
+      "word": "enhance",
+      "definition": "increase; improve"
+    },
+    {
+      "id": "cinephile-ephemeral",
+      "word": "ephemeral",
+      "definition": "short-lived; fleeting"
+    },
+    {
+      "id": "cinephile-equanimity",
+      "word": "equanimity",
+      "definition": "calmness of temperament; composure"
+    },
+    {
+      "id": "cinephile-equivocate",
+      "word": "equivocate",
+      "definition": "lie; mislead; attempt to conceal the truth"
+    },
+    {
+      "id": "cinephile-erudite",
+      "word": "erudite",
+      "definition": "learned; scholarly"
+    },
+    {
+      "id": "cinephile-esoteric",
+      "word": "esoteric",
+      "definition": "hard to understand; known only to the chosen few"
+    },
+    {
+      "id": "cinephile-eulogy",
+      "word": "eulogy",
+      "definition": "expression of praise, often on the occasion of someone’s death"
+    },
+    {
+      "id": "cinephile-euphemism",
+      "word": "euphemism",
+      "definition": "mild expression in place of an unpleasant one"
+    },
+    {
+      "id": "cinephile-exacerbate",
+      "word": "exacerbate",
+      "definition": "worsen; embitter"
+    },
+    {
+      "id": "cinephile-exculpate",
+      "word": "exculpate",
+      "definition": "clear from blame"
+    },
+    {
+      "id": "cinephile-exigency",
+      "word": "exigency",
+      "definition": "urgent situation; pressing needs or demands; state of requiring immediate attention"
+    },
+    {
+      "id": "cinephile-extrapolation",
+      "word": "extrapolation",
+      "definition": "projection; conjecture"
+    },
+    {
+      "id": "cinephile-facetious",
+      "word": "facetious",
+      "definition": "joking (often inappropriately); humorous"
+    },
+    {
+      "id": "cinephile-facilitate",
+      "word": "facilitate",
+      "definition": "help bring about; make less difficult"
+    },
+    {
+      "id": "cinephile-fallacious",
+      "word": "fallacious",
+      "definition": "false; misleading"
+    },
+    {
+      "id": "cinephile-fatuous",
+      "word": "fatuous",
+      "definition": "brainless; inane; foolish, yet smug"
+    },
+    {
+      "id": "cinephile-fawning",
+      "word": "fawning",
+      "definition": "trying to please by behaving obsequiously, flattering, or cringing"
+    },
+    {
+      "id": "cinephile-felicitous",
+      "word": "felicitous",
+      "definition": "apt; suitably expressed; well chosen"
+    },
+    {
+      "id": "cinephile-fervor",
+      "word": "fervor",
+      "definition": "glowing ardor; intensity of feeling"
+    },
+    {
+      "id": "cinephile-flag",
+      "word": "flag",
+      "definition": "droop; grow feeble"
+    },
+    {
+      "id": "cinephile-fledgling",
+      "word": "fledgling",
+      "definition": "inexperienced"
+    },
+    {
+      "id": "cinephile-flout",
+      "word": "flout",
+      "definition": "reject; mock; show contempt for"
+    },
+    {
+      "id": "cinephile-foment",
+      "word": "foment",
+      "definition": "stir up; instigate"
+    },
+    {
+      "id": "cinephile-forestall",
+      "word": "forestall",
+      "definition": "prevent by taking action in advance"
+    },
+    {
+      "id": "cinephile-frugality",
+      "word": "frugality",
+      "definition": "thrift; economy"
+    },
+    {
+      "id": "cinephile-futile",
+      "word": "futile",
+      "definition": "useless; hopeless; ineffectual"
+    },
+    {
+      "id": "cinephile-gainsay",
+      "word": "gainsay",
+      "definition": "deny"
+    },
+    {
+      "id": "cinephile-garrulous",
+      "word": "garrulous",
+      "definition": "loquacious; talkative; wordy"
+    },
+    {
+      "id": "cinephile-goad",
+      "word": "goad",
+      "definition": "urge on"
+    },
+    {
+      "id": "cinephile-gouge",
+      "word": "gouge",
+      "definition": "overcharge"
+    },
+    {
+      "id": "cinephile-grandiloquent",
+      "word": "grandiloquent",
+      "definition": "pompous; bombastic; using high-sounding language"
+    },
+    {
+      "id": "cinephile-gregarious",
+      "word": "gregarious",
+      "definition": "sociable"
+    },
+    {
+      "id": "cinephile-guileless",
+      "word": "guileless",
+      "definition": "without deceit"
+    },
+    {
+      "id": "cinephile-gullible",
+      "word": "gullible",
+      "definition": "easily deceived"
+    },
+    {
+      "id": "cinephile-harangue",
+      "word": "harangue",
+      "definition": "long, passionate, and vehement speech"
+    },
+    {
+      "id": "cinephile-homogeneous",
+      "word": "homogeneous",
+      "definition": "of the same kind"
+    },
+    {
+      "id": "cinephile-hyperbole",
+      "word": "hyperbole",
+      "definition": "exaggeration; overstatement"
+    },
+    {
+      "id": "cinephile-iconoclastic",
+      "word": "iconoclastic",
+      "definition": "attacking cherished traditions"
+    },
+    {
+      "id": "cinephile-idolatry",
+      "word": "idolatry",
+      "definition": "worship of idols; excessive admiration"
+    },
+    {
+      "id": "cinephile-immutable",
+      "word": "immutable",
+      "definition": "unchangeable"
+    },
+    {
+      "id": "cinephile-impair",
+      "word": "impair",
+      "definition": "injure; hurt"
+    },
+    {
+      "id": "cinephile-impassive",
+      "word": "impassive",
+      "definition": "without feeling; imperturbable; stoical"
+    },
+    {
+      "id": "cinephile-impede",
+      "word": "impede",
+      "definition": "hinder; block"
+    },
+    {
+      "id": "cinephile-impermeable",
+      "word": "impermeable",
+      "definition": "impervious; not permitting passage through its substance"
+    },
+    {
+      "id": "cinephile-imperturbable",
+      "word": "imperturbable",
+      "definition": "calm; placid"
+    },
+    {
+      "id": "cinephile-impervious",
+      "word": "impervious",
+      "definition": "impenetrable; incapable of being damaged or distressed"
+    },
+    {
+      "id": "cinephile-implacable",
+      "word": "implacable",
+      "definition": "incapable of being pacified"
+    },
+    {
+      "id": "cinephile-implicit",
+      "word": "implicit",
+      "definition": "understood but not stated"
+    },
+    {
+      "id": "cinephile-implode",
+      "word": "implode",
+      "definition": "burst inward"
+    },
+    {
+      "id": "cinephile-inadvertently",
+      "word": "inadvertently",
+      "definition": "unintentionally; by oversight; carelessly"
+    },
+    {
+      "id": "cinephile-inchoate",
+      "word": "inchoate",
+      "partOfSpeech": "adjective",
+      "definition": "recently begun; rudimentary; elementary"
+    },
+    {
+      "id": "cinephile-incongruity",
+      "word": "incongruity",
+      "definition": "lack of harmony; absurdity"
+    },
+    {
+      "id": "cinephile-inconsequential",
+      "word": "inconsequential",
+      "definition": "insignificant; unimportant"
+    },
+    {
+      "id": "cinephile-incorporate",
+      "word": "incorporate",
+      "definition": "introduce something into a larger whole; combine; unite"
+    },
+    {
+      "id": "cinephile-indeterminate",
+      "word": "indeterminate",
+      "definition": "uncertain; not clearly fixed; indefinite"
+    },
+    {
+      "id": "cinephile-indigence",
+      "word": "indigence",
+      "definition": "poverty"
+    },
+    {
+      "id": "cinephile-indolent",
+      "word": "indolent",
+      "definition": "lazy"
+    },
+    {
+      "id": "cinephile-inert",
+      "word": "inert",
+      "definition": "inactive; lacking power to move"
+    },
+    {
+      "id": "cinephile-ingenuous",
+      "word": "ingenuous",
+      "definition": "naive and trusting; young; unsophisticated"
+    },
+    {
+      "id": "cinephile-inherent",
+      "word": "inherent",
+      "definition": "firmly established by nature or habit"
+    },
+    {
+      "id": "cinephile-innocuous",
+      "word": "innocuous",
+      "definition": "harmless"
+    },
+    {
+      "id": "cinephile-insensible",
+      "word": "insensible",
+      "definition": "unconscious; unresponsive"
+    },
+    {
+      "id": "cinephile-insinuate",
+      "word": "insinuate",
+      "definition": "hint; imply; creep in"
+    },
+    {
+      "id": "cinephile-insipid",
+      "word": "insipid",
+      "definition": "lacking in flavor; dull"
+    },
+    {
+      "id": "cinephile-insularity",
+      "word": "insularity",
+      "definition": "narrow-mindedness; isolation"
+    },
+    {
+      "id": "cinephile-intractable",
+      "word": "intractable",
+      "definition": "unruly; stubborn; unyielding"
+    },
+    {
+      "id": "cinephile-intransigence",
+      "word": "intransigence",
+      "partOfSpeech": "noun",
+      "definition": "refusal of any compromise; stubbornness"
+    },
+    {
+      "id": "cinephile-inundate",
+      "word": "inundate",
+      "definition": "overwhelm; flood; submerge"
+    },
+    {
+      "id": "cinephile-inured",
+      "word": "inured",
+      "partOfSpeech": "adjective",
+      "definition": "accustomed; hardened"
+    },
+    {
+      "id": "cinephile-invective",
+      "word": "invective",
+      "partOfSpeech": "noun",
+      "definition": "abuse"
+    },
+    {
+      "id": "cinephile-irascible",
+      "word": "irascible",
+      "definition": "irritable; easily angered"
+    },
+    {
+      "id": "cinephile-irresolute",
+      "word": "irresolute",
+      "definition": "uncertain how to act; weak"
+    },
+    {
+      "id": "cinephile-itinerary",
+      "word": "itinerary",
+      "definition": "plan of a trip"
+    },
+    {
+      "id": "cinephile-laconic",
+      "word": "laconic",
+      "definition": "brief and to the point"
+    },
+    {
+      "id": "cinephile-lassitude",
+      "word": "lassitude",
+      "definition": "languor; weariness"
+    },
+    {
+      "id": "cinephile-latent",
+      "word": "latent",
+      "definition": "potential but undeveloped; dormant; hidden"
+    },
+    {
+      "id": "cinephile-laud",
+      "word": "laud",
+      "partOfSpeech": "verb",
+      "definition": "praise"
+    },
+    {
+      "id": "cinephile-lethargic",
+      "word": "lethargic",
+      "definition": "drowsy; dull"
+    },
+    {
+      "id": "cinephile-levee",
+      "word": "levee",
+      "definition": "stone embankment to prevent flooding"
+    },
+    {
+      "id": "cinephile-levity",
+      "word": "levity",
+      "definition": "lack of seriousness or steadiness; frivolity"
+    },
+    {
+      "id": "cinephile-log",
+      "word": "log",
+      "definition": "record of a voyage or flight; record of day-to-day activities"
+    },
+    {
+      "id": "cinephile-loquacious",
+      "word": "loquacious",
+      "definition": "talkative"
+    },
+    {
+      "id": "cinephile-lucid",
+      "word": "lucid",
+      "definition": "easily understood; clear; intelligible"
+    },
+    {
+      "id": "cinephile-luminous",
+      "word": "luminous",
+      "definition": "shining; issuing light"
+    },
+    {
+      "id": "cinephile-magnanimity",
+      "word": "magnanimity",
+      "definition": "generosity"
+    },
+    {
+      "id": "cinephile-malingerer",
+      "word": "malingerer",
+      "definition": "one who feigns illness to escape duty"
+    },
+    {
+      "id": "cinephile-malleable",
+      "word": "malleable",
+      "definition": "capable of being shaped by pounding; impressionable"
+    },
+    {
+      "id": "cinephile-maverick",
+      "word": "maverick",
+      "definition": "rebel; nonconformist"
+    },
+    {
+      "id": "cinephile-mendacious",
+      "word": "mendacious",
+      "definition": "lying; habitually dishonest"
+    },
+    {
+      "id": "cinephile-metamorphosis",
+      "word": "metamorphosis",
+      "definition": "change of form"
+    },
+    {
+      "id": "cinephile-meticulous",
+      "word": "meticulous",
+      "definition": "excessively careful; painstaking; scrupulous"
+    },
+    {
+      "id": "cinephile-misanthrope",
+      "word": "misanthrope",
+      "definition": "one who hates mankind"
+    },
+    {
+      "id": "cinephile-mitigate",
+      "word": "mitigate",
+      "definition": "appease; moderate"
+    },
+    {
+      "id": "cinephile-mollify",
+      "word": "mollify",
+      "definition": "soothe"
+    },
+    {
+      "id": "cinephile-morose",
+      "word": "morose",
+      "definition": "ill-humored; sullen; melancholy"
+    },
+    {
+      "id": "cinephile-mundane",
+      "word": "mundane",
+      "definition": "worldly as opposed to spiritual; everyday"
+    },
+    {
+      "id": "cinephile-negate",
+      "word": "negate",
+      "definition": "cancel out; nullify; deny"
+    },
+    {
+      "id": "cinephile-neophyte",
+      "word": "neophyte",
+      "definition": "recent convert; beginner"
+    },
+    {
+      "id": "cinephile-obdurate",
+      "word": "obdurate",
+      "partOfSpeech": "adjective",
+      "definition": "stubborn"
+    },
+    {
+      "id": "cinephile-obsequious",
+      "word": "obsequious",
+      "definition": "lavishly attentive; servile; sycophantic"
+    },
+    {
+      "id": "cinephile-obviate",
+      "word": "obviate",
+      "definition": "make unnecessary; get rid of"
+    },
+    {
+      "id": "cinephile-occlude",
+      "word": "occlude",
+      "definition": "shut; close"
+    },
+    {
+      "id": "cinephile-officious",
+      "word": "officious",
+      "definition": "meddlesome; excessively pushy in offering one’s services"
+    },
+    {
+      "id": "cinephile-onerous",
+      "word": "onerous",
+      "definition": "burdensome"
+    },
+    {
+      "id": "cinephile-opprobrium",
+      "word": "opprobrium",
+      "definition": "infamy; vilification"
+    },
+    {
+      "id": "cinephile-oscillate",
+      "word": "oscillate",
+      "definition": "vibrate; waver"
+    },
+    {
+      "id": "cinephile-ostentatious",
+      "word": "ostentatious",
+      "definition": "showy; pretentious; trying to attract attention"
+    },
+    {
+      "id": "cinephile-paragon",
+      "word": "paragon",
+      "definition": "model of perfection"
+    },
+    {
+      "id": "cinephile-partisan",
+      "word": "partisan",
+      "definition": "one-sided; prejudiced; committed to a party"
+    },
+    {
+      "id": "cinephile-pathological",
+      "word": "pathological",
+      "definition": "pertaining to disease"
+    },
+    {
+      "id": "cinephile-paucity",
+      "word": "paucity",
+      "definition": "scarcity"
+    },
+    {
+      "id": "cinephile-pedantic",
+      "word": "pedantic",
+      "definition": "showing off learning; bookish"
+    },
+    {
+      "id": "cinephile-penchant",
+      "word": "penchant",
+      "definition": "strong inclination; liking"
+    },
+    {
+      "id": "cinephile-penury",
+      "word": "penury",
+      "definition": "severe poverty; stinginess"
+    },
+    {
+      "id": "cinephile-perennial",
+      "word": "perennial",
+      "definition": "something long-lasting"
+    },
+    {
+      "id": "cinephile-perfidious",
+      "word": "perfidious",
+      "definition": "treacherous; disloyal"
+    },
+    {
+      "id": "cinephile-perfunctory",
+      "word": "perfunctory",
+      "definition": "superficial; not thorough; lacking interest, care, or enthusiasm"
+    },
+    {
+      "id": "cinephile-permeable",
+      "word": "permeable",
+      "definition": "penetrable; porous; allowing liquids or gas to pass through"
+    },
+    {
+      "id": "cinephile-pervasive",
+      "word": "pervasive",
+      "definition": "spread throughout"
+    },
+    {
+      "id": "cinephile-phlegmatic",
+      "word": "phlegmatic",
+      "definition": "calm; not easily disturbed"
+    },
+    {
+      "id": "cinephile-piety",
+      "word": "piety",
+      "definition": "devoutness; reverence for God"
+    },
+    {
+      "id": "cinephile-placate",
+      "word": "placate",
+      "definition": "pacify; conciliate"
+    },
+    {
+      "id": "cinephile-plasticity",
+      "word": "plasticity",
+      "definition": "ability to be molded"
+    },
+    {
+      "id": "cinephile-platitude",
+      "word": "platitude",
+      "partOfSpeech": "noun",
+      "definition": "trite remark; commonplace statement"
+    },
+    {
+      "id": "cinephile-plethora",
+      "word": "plethora",
+      "definition": "excess; overabundance"
+    },
+    {
+      "id": "cinephile-plummet",
+      "word": "plummet",
+      "definition": "fall sharply"
+    },
+    {
+      "id": "cinephile-porous",
+      "word": "porous",
+      "definition": "full of pores; like a sieve"
+    },
+    {
+      "id": "cinephile-pragmatic",
+      "word": "pragmatic",
+      "definition": "practical (as opposed to idealistic); concerned with the practical worth or impact of something"
+    },
+    {
+      "id": "cinephile-preamble",
+      "word": "preamble",
+      "definition": "introductory statement"
+    },
+    {
+      "id": "cinephile-precarious",
+      "word": "precarious",
+      "definition": "uncertain; risky"
+    },
+    {
+      "id": "cinephile-precipitate",
+      "word": "precipitate",
+      "partOfSpeech": "adjective",
+      "definition": "rash, premature, hasty, sudden"
+    },
+    {
+      "id": "cinephile-precursor",
+      "word": "precursor",
+      "definition": "forerunner"
+    },
+    {
+      "id": "cinephile-presumptuous",
+      "word": "presumptuous",
+      "definition": "arrogant; taking liberties"
+    },
+    {
+      "id": "cinephile-prevaricate",
+      "word": "prevaricate",
+      "definition": "lie"
+    },
+    {
+      "id": "cinephile-pristine",
+      "word": "pristine",
+      "definition": "characteristic of earlier times; primitive; unspoiled"
+    },
+    {
+      "id": "cinephile-probity",
+      "word": "probity",
+      "definition": "uprightness; incorruptibility"
+    },
+    {
+      "id": "cinephile-problematic",
+      "word": "problematic",
+      "definition": "doubtful; unsettled; questionable; perplexing"
+    },
+    {
+      "id": "cinephile-prodigal",
+      "word": "prodigal",
+      "definition": "wasteful; reckless with money"
+    },
+    {
+      "id": "cinephile-profound",
+      "word": "profound",
+      "definition": "deep; not superficial; complete"
+    },
+    {
+      "id": "cinephile-prohibitive",
+      "word": "prohibitive",
+      "definition": "tending to prevent the purchase or use of something; inclined to prevent or forbid"
+    },
+    {
+      "id": "cinephile-proliferate",
+      "word": "proliferate",
+      "definition": "grow rapidly; spread; multiply"
+    },
+    {
+      "id": "cinephile-propensity",
+      "word": "propensity",
+      "definition": "natural inclination"
+    },
+    {
+      "id": "cinephile-propitiate",
+      "word": "propitiate",
+      "definition": "appease"
+    },
+    {
+      "id": "cinephile-propriety",
+      "word": "propriety",
+      "definition": "fitness; correct conduct"
+    },
+    {
+      "id": "cinephile-proscribe",
+      "word": "proscribe",
+      "definition": "ostracize; banish; outlaw"
+    },
+    {
+      "id": "cinephile-pungent",
+      "word": "pungent",
+      "definition": "stinging; sharp in taste or smell; caustic"
+    },
+    {
+      "id": "cinephile-qualified",
+      "word": "qualified",
+      "definition": "limited; restricted"
+    },
+    {
+      "id": "cinephile-quibble",
+      "word": "quibble",
+      "definition": "minor objection or complaint"
+    },
+    {
+      "id": "cinephile-quiescent",
+      "word": "quiescent",
+      "definition": "at rest; dormant; temporarily inactive"
+    },
+    {
+      "id": "cinephile-rarefied",
+      "word": "rarefied",
+      "definition": "made less dense (of a gas)"
+    },
+    {
+      "id": "cinephile-recalcitrant",
+      "word": "recalcitrant",
+      "definition": "obstinately stubborn; determined to resist authority; unruly"
+    },
+    {
+      "id": "cinephile-recant",
+      "word": "recant",
+      "definition": "disclaim or disavow; retract a previous statement; openly confess error"
+    },
+    {
+      "id": "cinephile-recluse",
+      "word": "recluse",
+      "definition": "hermit; loner"
+    },
+    {
+      "id": "cinephile-recondite",
+      "word": "recondite",
+      "definition": "abstruse; profound; secret"
+    },
+    {
+      "id": "cinephile-refractory",
+      "word": "refractory",
+      "definition": "stubborn; unmanageable"
+    },
+    {
+      "id": "cinephile-refute",
+      "word": "refute",
+      "definition": "disprove"
+    },
+    {
+      "id": "cinephile-relegate",
+      "word": "relegate",
+      "definition": "banish to an inferior position; delegate; assign"
+    },
+    {
+      "id": "cinephile-reproach",
+      "word": "reproach",
+      "definition": "express disapproval or disappointment"
+    },
+    {
+      "id": "cinephile-reprobate",
+      "word": "reprobate",
+      "definition": "person hardened in sin; devoid of a sense of decency"
+    },
+    {
+      "id": "cinephile-repudiate",
+      "word": "repudiate",
+      "definition": "disown; disavow"
+    },
+    {
+      "id": "cinephile-rescind",
+      "word": "rescind",
+      "definition": "cancel"
+    },
+    {
+      "id": "cinephile-resolution",
+      "word": "resolution",
+      "definition": "determination"
+    },
+    {
+      "id": "cinephile-resolve",
+      "word": "resolve",
+      "definition": "determination; firmness of purpose"
+    },
+    {
+      "id": "cinephile-reticent",
+      "word": "reticent",
+      "definition": "reserved; uncommunicative; inclined to silence"
+    },
+    {
+      "id": "cinephile-reverent",
+      "word": "reverent",
+      "definition": "respectful; worshipful"
+    },
+    {
+      "id": "cinephile-sage",
+      "word": "sage",
+      "definition": "person celebrated for wisdom"
+    },
+    {
+      "id": "cinephile-salubrious",
+      "word": "salubrious",
+      "definition": "healthful"
+    },
+    {
+      "id": "cinephile-sanction",
+      "word": "sanction",
+      "definition": "approve; ratify"
+    },
+    {
+      "id": "cinephile-satiate",
+      "word": "satiate",
+      "definition": "satisfy fully"
+    },
+    {
+      "id": "cinephile-saturate",
+      "word": "saturate",
+      "definition": "soak thoroughly"
+    },
+    {
+      "id": "cinephile-savor",
+      "word": "savor",
+      "definition": "enjoy; have a distinctive flavor, smell, or quality"
+    },
+    {
+      "id": "cinephile-secrete",
+      "word": "secrete",
+      "definition": "hide away or cache; produce and release a substance into an organism"
+    },
+    {
+      "id": "cinephile-shard",
+      "word": "shard",
+      "definition": "fragment, generally of pottery"
+    },
+    {
+      "id": "cinephile-skeptic",
+      "word": "skeptic",
+      "definition": "doubter; person who suspends judgment until having examined evidence supporting a point of view"
+    },
+    {
+      "id": "cinephile-solicitous",
+      "word": "solicitous",
+      "definition": "worried; concerned"
+    },
+    {
+      "id": "cinephile-soporific",
+      "word": "soporific",
+      "definition": "sleep-causing; marked by sleepiness"
+    },
+    {
+      "id": "cinephile-specious",
+      "word": "specious",
+      "definition": "seemingly reasonable but incorrect; misleading (often intentionally)"
+    },
+    {
+      "id": "cinephile-spectrum",
+      "word": "spectrum",
+      "definition": "colored band produced when a beam of light passes through a prism"
+    },
+    {
+      "id": "cinephile-sporadic",
+      "word": "sporadic",
+      "definition": "occurring irregularly"
+    },
+    {
+      "id": "cinephile-stigma",
+      "word": "stigma",
+      "definition": "token of disgrace; brand"
+    },
+    {
+      "id": "cinephile-stint",
+      "word": "stint",
+      "partOfSpeech": "verb",
+      "definition": "be thrifty; set limits"
+    },
+    {
+      "id": "cinephile-stipulate",
+      "word": "stipulate",
+      "definition": "make express conditions; specify"
+    },
+    {
+      "id": "cinephile-stolid",
+      "word": "stolid",
+      "definition": "dull; impassive"
+    },
+    {
+      "id": "cinephile-striated",
+      "word": "striated",
+      "definition": "marked with parallel bands; grooved"
+    },
+    {
+      "id": "cinephile-strut",
+      "word": "strut",
+      "definition": "pompous walk; supporting bar"
+    },
+    {
+      "id": "cinephile-subpoena",
+      "word": "subpoena",
+      "definition": "writ summoning a witness to appear"
+    },
+    {
+      "id": "cinephile-subside",
+      "word": "subside",
+      "definition": "settle down; descend; grow quiet"
+    },
+    {
+      "id": "cinephile-substantiate",
+      "word": "substantiate",
+      "definition": "establish by evidence; verify; support"
+    },
+    {
+      "id": "cinephile-supersede",
+      "word": "supersede",
+      "definition": "cause to be set aside; replace; make obsolete"
+    },
+    {
+      "id": "cinephile-supposition",
+      "word": "supposition",
+      "definition": "hypothesis; surmise"
+    },
+    {
+      "id": "cinephile-tacit",
+      "word": "tacit",
+      "definition": "understood; not put into words"
+    },
+    {
+      "id": "cinephile-tangential",
+      "word": "tangential",
+      "definition": "peripheral; only slightly connected; digressing"
+    },
+    {
+      "id": "cinephile-tenuous",
+      "word": "tenuous",
+      "definition": "thin; rare; slim"
+    },
+    {
+      "id": "cinephile-tirade",
+      "word": "tirade",
+      "definition": "extended scolding; denunciation; harangue"
+    },
+    {
+      "id": "cinephile-torpor",
+      "word": "torpor",
+      "definition": "lethargy; sluggishness; dormancy"
+    },
+    {
+      "id": "cinephile-tortuous",
+      "word": "tortuous",
+      "definition": "winding; full of curves"
+    },
+    {
+      "id": "cinephile-tractable",
+      "word": "tractable",
+      "definition": "docile; easily managed"
+    },
+    {
+      "id": "cinephile-transgression",
+      "word": "transgression",
+      "definition": "violation of a law; sin"
+    },
+    {
+      "id": "cinephile-truculence",
+      "word": "truculence",
+      "definition": "aggressiveness; ferocity"
+    },
+    {
+      "id": "cinephile-vacillate",
+      "word": "vacillate",
+      "definition": "waver; fluctuate"
+    },
+    {
+      "id": "cinephile-venerate",
+      "word": "venerate",
+      "definition": "revere"
+    },
+    {
+      "id": "cinephile-veracious",
+      "word": "veracious",
+      "definition": "truthful"
+    },
+    {
+      "id": "cinephile-verbose",
+      "word": "verbose",
+      "definition": "wordy"
+    },
+    {
+      "id": "cinephile-viable",
+      "word": "viable",
+      "definition": "practical or workable"
+    },
+    {
+      "id": "cinephile-viscous",
+      "word": "viscous",
+      "definition": "sticky, gluey"
+    },
+    {
+      "id": "cinephile-vituperative",
+      "word": "vituperative",
+      "partOfSpeech": "adjective",
+      "definition": "abusive; scolding"
+    },
+    {
+      "id": "cinephile-volatile",
+      "word": "volatile",
+      "definition": "changeable; explosive; evaporation rapidly"
+    },
+    {
+      "id": "cinephile-warranted",
+      "word": "warranted",
+      "definition": "justified; authorized"
+    },
+    {
+      "id": "cinephile-wary",
+      "word": "wary",
+      "definition": "very cautious"
+    },
+    {
+      "id": "cinephile-welter",
+      "word": "welter",
+      "definition": "turmoil; bewildering jumble"
+    },
+    {
+      "id": "cinephile-whimsical",
+      "word": "whimsical",
+      "definition": "capricious; fanciful"
+    },
+    {
+      "id": "cinephile-zealot",
+      "word": "zealot",
+      "definition": "fanatic; person who shows excessive zeal"
+    }
+  ]
+}

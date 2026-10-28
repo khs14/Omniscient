@@ -72,3 +72,8 @@
   background: var(--color-accent-soft);
   color: var(--color-accent);
 }
+
+.deck-card__external {
+  display: flex;
+  align-items: center;
+}

@@ -5,7 +5,17 @@
  * automatically with import.meta.glob, so adding a deck needs no code changes.
  * Decks and cards are validated at load time: a malformed card is logged and
  * skipped, a malformed deck (bad id/title/etc.) is logged and skipped as a whole.
+ *
+ * There are two kinds of deck:
+ * - Topic decks (the default): every card has a part of speech, a topic
+ *   sentence, an explanation and at least one citation.
+ * - External-tool decks ("externalTool" set, e.g. "playphrase"): cards only
+ *   need a word and a definition, and each card links to that third-party tool
+ *   (see externalTools.js). partOfSpeech, sentence, explanation and citations
+ *   are optional and shown when present.
  */
+
+import { EXTERNAL_TOOLS } from './externalTools.js';
 
 /**
  * A source backing a card's sentence or explanation.
@@ -16,15 +26,19 @@
 
 /**
  * One flashcard: a GRE word used in a sentence about a real topic concept.
+ * Fields marked "topic decks" are required in topic decks and optional in
+ * external-tool decks; after loading, missing strings are "" and missing
+ * citations are [].
  * @typedef {Object} Card
  * @property {string} id            Globally unique, stable id (e.g. "security-ephemeral").
  *                                  Progress is stored against this id, so never rename it.
  * @property {string} word          The GRE word, e.g. "ephemeral".
- * @property {string} partOfSpeech  e.g. "adjective", "noun", "verb".
+ * @property {string} partOfSpeech  (topic decks) e.g. "adjective", "noun", "verb".
  * @property {string} definition    Short dictionary-style definition.
- * @property {string} sentence      Sentence about a topic concept that uses the word.
- * @property {string} explanation   Explains the concept and how the word fits it.
- * @property {Citation[]} citations At least one source.
+ * @property {string} sentence      (topic decks) Sentence about a topic concept that uses the word.
+ * @property {string} explanation   (topic decks) Explains the concept and how the word fits it.
+ * @property {Citation[]} citations (topic decks) At least one source.
+ * @property {string | null} externalTool  Set from the deck after loading; not written in JSON.
  */
 
 /**
@@ -34,6 +48,7 @@
  * @property {string} title        Display title, e.g. "Security".
  * @property {string} category     Grouping on the home page, e.g. "Computer Science".
  * @property {string} description  One-sentence description.
+ * @property {string | null} [externalTool]  Optional id from EXTERNAL_TOOLS, e.g. "playphrase".
  * @property {Card[]} cards        Valid cards only (malformed ones are dropped).
  */
 
@@ -51,18 +66,28 @@ function isHttpUrl(value) {
   }
 }
 
+const TOPIC_FIELDS = ['partOfSpeech', 'sentence', 'explanation'];
+
 /**
  * Returns a list of problems with a card; an empty list means it is valid.
  * @param {unknown} card
+ * @param {{ externalTool?: string | null }} [options]  Relaxed rules for external-tool decks.
  * @returns {string[]}
  */
-export function validateCard(card) {
+export function validateCard(card, { externalTool = null } = {}) {
   if (!card || typeof card !== 'object' || Array.isArray(card)) return ['card is not an object'];
   const errors = [];
-  for (const field of ['id', 'word', 'partOfSpeech', 'definition', 'sentence', 'explanation']) {
+  for (const field of ['id', 'word', 'definition']) {
     if (!isNonEmptyString(card[field])) errors.push(`"${field}" must be a non-empty string`);
   }
-  if (!Array.isArray(card.citations) || card.citations.length === 0) {
+  for (const field of TOPIC_FIELDS) {
+    const missing = card[field] === undefined;
+    if (externalTool && missing) continue;
+    if (!isNonEmptyString(card[field])) errors.push(`"${field}" must be a non-empty string`);
+  }
+  if (externalTool && card.citations === undefined) {
+    // Optional in external-tool decks.
+  } else if (!Array.isArray(card.citations) || card.citations.length === 0) {
     errors.push('"citations" must be a non-empty array');
   } else {
     card.citations.forEach((citation, i) => {
@@ -92,17 +117,21 @@ export function validateDeckFields(deck) {
     if (!isNonEmptyString(deck[field])) errors.push(`"${field}" must be a non-empty string`);
   }
   if (!Array.isArray(deck.cards)) errors.push('"cards" must be an array');
+  if (deck.externalTool !== undefined && !Object.hasOwn(EXTERNAL_TOOLS, deck.externalTool)) {
+    errors.push(`"externalTool" must be one of: ${Object.keys(EXTERNAL_TOOLS).join(', ')}`);
+  }
   return errors;
 }
 
-const trimCard = (card) => ({
+const trimCard = (card, externalTool) => ({
   id: card.id.trim(),
   word: card.word.trim(),
-  partOfSpeech: card.partOfSpeech.trim(),
+  partOfSpeech: card.partOfSpeech?.trim() ?? '',
   definition: card.definition.trim(),
-  sentence: card.sentence.trim(),
-  explanation: card.explanation.trim(),
-  citations: card.citations.map((c) => ({ title: c.title.trim(), url: c.url.trim() })),
+  sentence: card.sentence?.trim() ?? '',
+  explanation: card.explanation?.trim() ?? '',
+  citations: (card.citations ?? []).map((c) => ({ title: c.title.trim(), url: c.url.trim() })),
+  externalTool,
 });
 
 /**
@@ -127,10 +156,11 @@ export function buildDecks(modules) {
       continue;
     }
     deckIds.add(raw.id);
+    const externalTool = raw.externalTool ?? null;
 
     const cards = [];
     raw.cards.forEach((card, index) => {
-      const errors = validateCard(card);
+      const errors = validateCard(card, { externalTool });
       if (errors.length === 0 && cardIds.has(card.id.trim())) {
         errors.push(`duplicate card id "${card.id}"`);
       }
@@ -140,7 +170,7 @@ export function buildDecks(modules) {
         return;
       }
       cardIds.add(card.id.trim());
-      cards.push(trimCard(card));
+      cards.push(trimCard(card, externalTool));
     });
 
     decks.push({
@@ -148,6 +178,7 @@ export function buildDecks(modules) {
       title: raw.title.trim(),
       category: raw.category.trim(),
       description: raw.description.trim(),
+      externalTool,
       cards,
     });
   }

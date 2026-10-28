@@ -26,7 +26,7 @@ export default function Flashcard({ card, flipped, onFlip }) {
       <div className="flashcard__inner">
         <div className="flashcard__face flashcard__front" inert={flipped}>
           <h2 className="flashcard__word">{card.word}</h2>
-          <p className="flashcard__pos">{card.partOfSpeech}</p>
+          {card.partOfSpeech && <p className="flashcard__pos">{card.partOfSpeech}</p>}
           <button
             ref={revealRef}
             type="button"
@@ -50,7 +50,7 @@ export default function Flashcard({ card, flipped, onFlip }) {
         >
           <header className="flashcard__back-header">
             <h2 className="flashcard__back-word">{card.word}</h2>
-            <p className="flashcard__pos">{card.partOfSpeech}</p>
+            {card.partOfSpeech && <p className="flashcard__pos">{card.partOfSpeech}</p>}
           </header>
           <CardDetails card={card} />
         </div>

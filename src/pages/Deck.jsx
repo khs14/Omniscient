@@ -1,5 +1,7 @@
 import { Link, useParams } from 'react-router';
+import ExternalToolNotice from '../components/ExternalToolNotice.jsx';
 import { getDeck, wordKey } from '../lib/decks.js';
+import { getExternalTool } from '../lib/externalTools.js';
 import { formatInterval, getDeckStats, isDueToday, isLearning, isNew } from '../lib/scheduler.js';
 import { getCardState } from '../lib/storage.js';
 import { useNow, useProgress } from '../lib/useProgress.js';
@@ -22,6 +24,7 @@ export default function Deck() {
   if (!deck) return <NotFound message="There is no deck with that address." />;
 
   const stats = getDeckStats(deck, progress, now);
+  const tool = getExternalTool(deck.externalTool);
   const toStudy = stats.dueToday + stats.newToday;
 
   return (
@@ -35,6 +38,7 @@ export default function Deck() {
         <p className="deck__category">{deck.category}</p>
         <h1>{deck.title}</h1>
         <p className="deck__description">{deck.description}</p>
+        {tool && <ExternalToolNotice tool={tool} />}
       </header>
 
       <section className="deck__overview" aria-label="Progress">
@@ -82,7 +86,7 @@ export default function Deck() {
                   <Link className="deck__item-word" to={`/words/${encodeURIComponent(wordKey(card.word))}`}>
                     {card.word}
                   </Link>
-                  <span className="deck__item-pos">{card.partOfSpeech}</span>
+                  {card.partOfSpeech && <span className="deck__item-pos">{card.partOfSpeech}</span>}
                   <p className="deck__item-definition">{card.definition}</p>
                 </div>
                 <span className={`deck__badge deck__badge--${status.modifier}`}>{status.label}</span>

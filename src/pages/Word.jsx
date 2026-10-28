@@ -12,7 +12,7 @@ export default function Word() {
 
   if (!entry) return <NotFound message="That word isn't in any deck." />;
 
-  const partsOfSpeech = [...new Set(entry.entries.map(({ card }) => card.partOfSpeech))];
+  const partsOfSpeech = [...new Set(entry.entries.map(({ card }) => card.partOfSpeech).filter(Boolean))];
   const topicCount = new Set(entry.entries.map(({ deck }) => deck.id)).size;
 
   return (
@@ -23,7 +23,7 @@ export default function Word() {
       </Link>
       <header className="word__header">
         <h1 className="word__title">{entry.word}</h1>
-        <p className="word__pos">{partsOfSpeech.join(', ')}</p>
+        {partsOfSpeech.length > 0 && <p className="word__pos">{partsOfSpeech.join(', ')}</p>}
       </header>
       <p className="word__summary">
         {entry.entries.length === 1 ? '1 card' : `${entry.entries.length} cards`} in{' '}
